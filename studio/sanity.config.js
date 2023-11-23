@@ -5,9 +5,9 @@ import {schemaTypes} from './schemas'
 
 export default defineConfig({
   name: 'default',
-  title: 'Tinykitelab',
+  title: 'Minimal Botany',
 
-  projectId: '47qkwxva',
+  projectId: '8j54nmz1',
   dataset: 'production',
 
   plugins: [deskTool(), visionTool()],
