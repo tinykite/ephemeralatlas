@@ -71,3 +71,5 @@ yarn.lock
 .env.development
 
 /node_modules
+
+.env
