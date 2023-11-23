@@ -7,7 +7,7 @@ export default defineConfig({
   name: 'default',
   title: 'Minimal Botany',
 
-  projectId: '8j54nmz1',
+  projectId: '8p4r3cva',
   dataset: 'production',
 
   plugins: [deskTool(), visionTool()],
