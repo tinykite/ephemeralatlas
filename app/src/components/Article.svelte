@@ -5,25 +5,14 @@
 	import { urlFor } from '$lib/utils/image';
 	import { formatDate } from '$lib/utils';
 	export let data: any;
-
-	type ArticleType = 'caseStudy' | 'blog';
-	export let articleType: ArticleType;
-	let titleClasses =
-		articleType === 'caseStudy' ? 'article__title article__title--emphasis' : 'article__title';
 </script>
 
 <main class="wrapper">
 	<article class="article">
-		{#if articleType === 'blog'}
-			<p class="article__date">
-				{formatDate(data._createdAt)}
-			</p>
-		{/if}
-		<h1 class={titleClasses}>{data.title}</h1>
-
-		{#if articleType === 'caseStudy'}
-			<p class="article__description">{data.description}</p>
-		{/if}
+		<p class="article__date">
+			{formatDate(data._createdAt)}
+		</p>
+		<h1 class="article__title">{data.title}</h1>
 
 		{#if data.mainImage}
 			<img
@@ -88,11 +77,6 @@
 		font-size: 2.5rem;
 	}
 
-	.article__title--emphasis {
-		font-size: 4rem;
-		text-align: center;
-	}
-
 	.article__button {
 		display: block;
 		background: var(--c-inverseBackground);
@@ -111,12 +95,6 @@
 		color: var(--c-primaryText);
 		border: 2px solid var(--c-primaryText);
 		outline: none;
-	}
-
-	.article__description {
-		font-size: 1.5rem;
-		margin-top: 1rem;
-		text-align: center;
 	}
 
 	.article__date {
