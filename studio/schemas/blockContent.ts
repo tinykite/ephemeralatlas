@@ -68,11 +68,6 @@ export default defineType({
           title: 'Alt Text',
           validation: (Rule) => Rule.required().error('Alt text is required'),
         }),
-        defineField({
-          name: 'caption',
-          type: 'string',
-          title: 'Caption',
-        }),
       ],
       options: {hotspot: true},
     }),
