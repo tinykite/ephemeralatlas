@@ -16,6 +16,11 @@ export default defineType({
       type: 'string',
     }),
     defineField({
+      name: 'eyebrow',
+      title: 'Eyebrow',
+      type: 'string',
+    }),
+    defineField({
       name: 'slug',
       title: 'Slug',
       type: 'slug',
@@ -29,11 +34,11 @@ export default defineType({
       title: 'Main image',
       type: 'image',
       fields: [
-        {
+        defineField({
           name: 'alt',
           type: 'string',
           title: 'Alt Text',
-        },
+        }),
       ],
       options: {
         hotspot: true,
