@@ -1,0 +1,199 @@
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+* {
+	margin: 0;
+}
+body {
+	line-height: 1.5;
+	-webkit-font-smoothing: antialiased;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+	display: block;
+	max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	overflow-wrap: break-word;
+}
+#root {
+	isolation: isolate;
+}
+
+@font-face {
+	font-family: 'Termina Demi';
+	src: url('/fonts/Termina-Demi.woff2') format('woff2'),
+		url('/fonts/Termina-Demi.woff') format('woff');
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Termina Regular';
+	src: url('/fonts/Termina-Regular.woff2') format('woff2'),
+		url('/fonts/Termina-Regular.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+:root {
+	--c-background-color: #ffe9dc;
+	--f-headings: 'Termina Demi', 'Adjusted Georgia Fallback';
+	--f-subheadings: 'Termina Regular', 'Adjusted Baskerville Fallback';
+}
+
+.wrapper {
+	width: 85%;
+	max-width: 65rem;
+	margin: 0 auto;
+}
+
+body {
+	font-family: 'freight-text-pro', serif;
+	line-height: 1.5;
+	/* A bit controversial  */
+	/* More info: https://www.joshwcomeau.com/css/custom-css-reset/#digit-font-smoothing */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+a,
+a:visited,
+a:active {
+	color: inherit;
+}
+
+a:hover {
+	background-color: var(--c-primaryAccent);
+}
+
+p,
+ul,
+ol,
+pre {
+	font-size: 1rem;
+	line-height: 1.5;
+	font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+	font-weight: normal;
+}
+
+@media (min-width: 31.25rem) {
+	p,
+	ul,
+	ol,
+	pre {
+		font-size: 1.25rem;
+	}
+}
+
+nav,
+h1,
+h2,
+h3 {
+	font-family: var(--f-subheadings);
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.125;
+}
+
+h1 {
+	color: var(--c-primaryText);
+}
+
+h2 {
+	font-size: 1.5rem;
+}
+
+h2,
+figure,
+img + p {
+	margin-top: 2.125rem;
+}
+
+strong {
+	display: block;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.5rem;
+}
+
+ol {
+	padding-left: 1rem;
+}
+
+ul {
+	padding-left: 1rem;
+}
+
+p,
+ul,
+ol {
+	margin-top: 1rem;
+}
+
+li {
+	margin-top: 0.25rem;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background-color: var(--c-background-color);
+	color: var(--c-primaryText);
+	font-feature-settings: 'liga', 'kern';
+}
+
+img {
+	max-width: 100%;
+	display: block;
+}
+
+pre {
+	margin-top: 1rem;
+}
+
+iframe {
+	margin: 1rem auto 0;
+}
+
+iframe + p {
+	margin-top: 1rem;
+}
+
+.u-visually-hidden {
+	position: absolute;
+	left: -10000px;
+	top: auto;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	white-space: nowrap;
+}

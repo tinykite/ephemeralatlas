@@ -2,6 +2,7 @@
 	import { formatDate } from '$lib/utils';
 	import type { PageData } from './$types';
 	import classNames from 'classnames';
+
 	export let data: any;
 	const { posts } = data;
 
@@ -9,6 +10,10 @@
 </script>
 
 <main class="wrapper">
+	<p class="intro">
+		Minimal Botany is an experiment in documenting the intersection of community, nature, and art.
+	</p>
+
 	<ul class="articleList">
 		{#each posts as post, i}
 			<li class="articleList__item">
@@ -20,7 +25,7 @@
 					{post.title}
 				</a>
 				{#if post.description}
-					<p>{post.description}</p>
+					<p class="articleList__description">{post.description}</p>
 				{/if}
 			</li>
 		{/each}
@@ -48,7 +53,6 @@
 	.articleList__item + * {
 		margin-top: 2rem;
 		padding-top: 2rem;
-		border-top: 1px solid #ccc;
 	}
 
 	@media (min-width: 43.75rem) {
@@ -61,8 +65,8 @@
 		display: block;
 		margin: 0.25rem 0 0 0;
 		text-decoration: none;
-		font-size: 1.5rem;
-		font-family: 'Canela Deck Web', serif;
+		font-size: 2rem;
+		font-family: var(--f-headings);
 		font-weight: 400;
 		font-style: normal;
 		font-stretch: normal;
@@ -83,6 +87,11 @@
 		}
 	}
 
+	.articleList__description {
+		font-family: var(--f-subheadings);
+		margin-block-start: 1rem;
+	}
+
 	time {
 		margin: 0;
 		font-family: monospace;
@@ -91,5 +100,14 @@
 
 	p {
 		margin-top: 0.5rem;
+	}
+
+	.intro {
+		font-family: var(--f-subheadings);
+		text-align: center;
+		font-size: 1.5rem;
+		max-width: 40ch;
+		margin-inline: auto;
+		margin-block: 3.5rem;
 	}
 </style>

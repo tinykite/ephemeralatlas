@@ -9,10 +9,8 @@
 
 <main class="wrapper">
 	<article class="article">
-		<p class="article__date">
-			{formatDate(data._createdAt)}
-		</p>
 		<h1 class="article__title">{data.title}</h1>
+		<p class="article__description">{data.description}</p>
 
 		{#if data.mainImage}
 			<img
@@ -36,6 +34,10 @@
 				}
 			}}
 		/>
+		<p class="article__date">
+			{formatDate(data._createdAt)}
+		</p>
+
 		<a href="/" class="article__button">Return</a>
 	</article>
 </main>
@@ -44,29 +46,26 @@
 	.article {
 		margin: 1.5rem auto;
 		display: grid;
-		grid-template-columns: 1fr 70ch 1fr;
+		justify-items: center;
 	}
 
 	@media (min-width: 43.75rem) {
 		.article {
-			margin-top: 3rem;
+			margin-top: 4rem;
 		}
 	}
 
-	/* TODO: Refactor more elegantly */
-	:global(.article :not(figure)) {
-		grid-column: 2/2;
+	:global(p) {
+		width: 100%;
+		max-width: 60ch;
 	}
 
-	:global(figure),
-	.article img {
-		grid-column: 1/-1;
-		max-width: 100%;
-		justify-self: center;
+	:global(p:nth-of-type(2)) {
+		margin-block-start: 2.5rem;
 	}
 
 	:global(figure) {
-		margin: 2.5rem 0;
+		margin-inline: auto;
 	}
 
 	.article__cover {
@@ -74,30 +73,18 @@
 	}
 
 	.article__title {
-		font-size: 2.5rem;
+		font-size: 3.75rem;
+		line-height: 1;
+		text-align: center;
+		font-family: var(--f-headings);
+		max-width: 65%;
 	}
 
-	.article__button {
-		display: block;
-		background: var(--c-inverseBackground);
-		color: var(--c-inverseText);
-		border: 2px solid var(--c-inverseText);
-		outline: none;
-		max-width: max-content;
-		padding: 1rem 3rem;
-		margin-top: 3rem;
-		text-decoration: none;
+	.article__description {
+		text-align: center;
 		font-size: 1.25rem;
-	}
-
-	.article__button:hover {
-		background: var(--c-Background);
-		color: var(--c-primaryText);
-		border: 2px solid var(--c-primaryText);
-		outline: none;
-	}
-
-	.article__date {
-		font-family: 'Nimbus Mono PS', 'Courier New', monospace;
+		margin-block-start: 1.5rem;
+		max-width: 40ch;
+		font-family: var(--f-subheadings);
 	}
 </style>
