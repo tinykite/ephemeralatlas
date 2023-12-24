@@ -38,7 +38,6 @@
 			{formatDate(data._createdAt)}
 		</p>
 
-		<a href="/" class="article__button">Return</a>
 	</article>
 </main>
 
@@ -87,4 +86,5 @@
 		max-width: 40ch;
 		font-family: var(--f-subheadings);
 	}
+
 </style>
