@@ -35,7 +35,7 @@
 			}}
 		/>
 		<p class="article__date">
-			{formatDate(data._createdAt)}
+			{formatDate(data.publishedAt)}
 		</p>
 
 	</article>
