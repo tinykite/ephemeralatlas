@@ -5,8 +5,6 @@
 	import { urlFor } from '$lib/utils/image';
 	import { formatDate } from '$lib/utils';
 	export let data: any;
-
-	console.log(data)
 </script>
 
 <main class="wrapper">
