@@ -5,6 +5,8 @@
 	import { urlFor } from '$lib/utils/image';
 	import { formatDate } from '$lib/utils';
 	export let data: any;
+
+	console.log(data)
 </script>
 
 <main class="wrapper">
@@ -16,7 +18,7 @@
 			<img
 				class="article__cover"
 				src={urlFor(data.mainImage).url()}
-				alt="Cover image for {data.title}"
+				alt={data.mainImage.alt}
 			/>
 		{/if}
 
