@@ -1,6 +1,4 @@
 <script lang="ts">
-	import { formatDate } from '$lib/utils';
-	import type { PageData } from './$types';
 	import classNames from 'classnames';
 	import { urlFor } from '$lib/utils/image';
 
@@ -12,18 +10,12 @@
 
 <main class="wrapper">
 	<p class="intro">
-		Minimal Botany is an experiment in documenting the intersection of community, nature, and art.
+		Minimal Botany celebrates the intersection of community, nature, and art from a queer, disabled, and neurodivergent perspective.
 	</p>
 
 	<ul class="articleList">
 		{#each posts as post, i}
 			<li class={i === 0 ? 'articleList__hero' : 'articleList__item'}>
-				<!-- <a href={`/${post.slug.current}`} class="grid__imageLink">
-					<span class="u-visually-hidden">{post.title}</span>
-					<figure class="articleList__figure">
-		
-					</figure>
-				</a> -->
 				<img
 					class="articleList__image"
 					loading="lazy"
@@ -34,7 +26,7 @@
 				/>
 
 				<div class="articleList__text">
-					<p class="articleList__eyebrow">{post.eyebrow}</p>
+					{#if i !== 0}<p class="articleList__eyebrow">{post.eyebrow}</p>{/if}
 					<a
 						class={classNames('articleList__link', { 'articleList__link--emphasis': i === 0 })}
 						href={`/${post.slug.current}`}
