@@ -66,10 +66,6 @@
 	}
 
 	.article__cover,
-	:global(svg) {
-		margin-top: 3rem;
-	}
-
 	.article__title {
 		font-size: 3.75rem;
 		line-height: 1;
