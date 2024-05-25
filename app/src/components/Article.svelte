@@ -61,10 +61,6 @@
 		margin-block-start: 2.5rem;
 	}
 
-	:global(figure) {
-		margin-inline: auto;
-	}
-
 	.article__cover,
 	.article__title {
 		font-size: 3.75rem;
