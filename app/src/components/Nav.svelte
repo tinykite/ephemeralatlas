@@ -1,10 +1,30 @@
-<script>
+<script lang="ts">
+	import { onMount, onDestroy } from 'svelte';
 	import Logo from '$components/Logo.svelte';
 	import { navItems } from '$lib/utils/consts';
+
+	let mediaQuery: MediaQueryList;
+	let isMinDesktop: boolean | undefined;
+
+	const setMatches = () => {
+		isMinDesktop = mediaQuery.matches;
+	};
+
+	onMount(() => {
+		mediaQuery = window.matchMedia('(min-width: 800px)');
+		setMatches();
+		mediaQuery.addEventListener('change', () => setMatches());
+	});
+
+	onDestroy(() => {
+		mediaQuery && mediaQuery.removeEventListener('change', () => setMatches());
+	});
 </script>
 
 <header class="header">
-	<p class="header__tagline">Creative Explorations of Nature</p>
+	<p class="header__tagline" hidden={isMinDesktop ? undefined : true}>
+		Creative Explorations of Nature
+	</p>
 	<Logo />
 	<nav class="nav">
 		<ul class="navList">
@@ -22,28 +42,27 @@
 <style>
 	.header {
 		display: grid;
-		grid-template-columns: 1fr 4.6875rem 1fr;
+		grid-template-columns: 4.6875rem 1fr;
 		justify-content: space-between;
 		align-items: center;
-		margin-block-start: 3.125rem;
-		margin-inline: 5rem;
-	}
-	.header__tagline,
-	.nav {
-		font-family: 'Nimbus Mono PS', 'Courier New', monospace;
-	}
+		margin: 2rem;
 
-	.nav {
-		justify-self: end;
+		@media (min-width: 50rem) {
+			grid-template-columns: 1fr 4.6875rem 1fr;
+			margin-inline: 5rem;
+			margin-block-start: 3.125rem;
+		}
 	}
 
 	.header__tagline,
 	.navList {
 		font-size: 1rem;
+		font-family: 'Nimbus Mono PS', 'Courier New', monospace;
 	}
 
 	.navList {
 		display: flex;
+		justify-content: flex-end;
 		list-style: none;
 		margin: 0;
 		font-family: 'Nimbus Mono PS', 'Courier New', monospace;
