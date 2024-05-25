@@ -4,6 +4,7 @@
 	import ImageBlock from '$components/ImageBlock.svelte';
 	import { urlFor } from '$lib/utils/image';
 	import { formatDate } from '$lib/utils';
+	import Illustration from './Illustration.svelte';
 	export let data: any;
 </script>
 
@@ -12,12 +13,10 @@
 		<h1 class="article__title">{data.title}</h1>
 		<p class="article__description">{data.description}</p>
 
-		{#if data.mainImage}
-			<img
-				class="article__cover"
-				src={urlFor(data.mainImage).url()}
-				alt={data.mainImage.alt}
-			/>
+		{#if data.mainIllustration}
+			<Illustration name={data.mainIllustration} />
+		{:else if data.mainImage}
+			<img class="article__cover" src={urlFor(data.mainImage).url()} alt={data.mainImage.alt} />
 		{/if}
 
 		<PortableText
@@ -37,7 +36,6 @@
 		<p class="article__date">
 			{formatDate(data.publishedAt)}
 		</p>
-
 	</article>
 </main>
 
@@ -86,5 +84,4 @@
 		max-width: 40ch;
 		font-family: var(--f-subheadings);
 	}
-
 </style>

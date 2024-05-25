@@ -1,6 +1,7 @@
 <script lang="ts">
 	import classNames from 'classnames';
 	import { urlFor } from '$lib/utils/image';
+	import Illustration from '$components/Illustration.svelte';
 
 	export let data: any;
 	const { posts } = data;
@@ -10,20 +11,25 @@
 
 <main class="wrapper">
 	<p class="intro">
-		Minimal Botany celebrates the intersection of community, nature, and art from a queer, disabled, and neurodivergent perspective.
+		Minimal Botany celebrates the intersection of community, nature, and art from a queer, disabled,
+		and neurodivergent perspective.
 	</p>
 
 	<ul class="articleList">
 		{#each posts as post, i}
 			<li class={i === 0 ? 'articleList__hero' : 'articleList__item'}>
-				<img
-					class="articleList__image"
-					loading="lazy"
-					src={urlFor(post.mainImage).width(600).height(400).fit('min').auto('format').url()}
-					alt="Cover image for {post.title}"
-					width="600"
-					height="400"
-				/>
+				{#if post.mainIllustration}
+					<Illustration name={post.mainIllustration} />
+				{:else if post.mainImage}
+					<img
+						class="articleList__image"
+						loading="lazy"
+						src={urlFor(post.mainImage).width(600).height(400).quality(100).auto('format').url()}
+						alt="Cover image for {post.title}"
+						width="600"
+						height="400"
+					/>
+				{/if}
 
 				<div class="articleList__text">
 					{#if i !== 0}<p class="articleList__eyebrow">{post.eyebrow}</p>{/if}
