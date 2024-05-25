@@ -65,7 +65,8 @@
 		margin-inline: auto;
 	}
 
-	.article__cover {
+	.article__cover,
+	:global(svg) {
 		margin-top: 3rem;
 	}
 
