@@ -11,8 +11,6 @@
 <main class="wrapper">
 	<article class="article">
 		<h1 class="article__title">{data.title}</h1>
-		<p class="article__description">{data.description}</p>
-
 		{#if data.mainIllustration}
 			<Illustration name={data.mainIllustration} />
 		{:else if data.mainImage}
@@ -52,14 +50,14 @@
 		}
 	}
 
-	:global(p) {
+	/* :global(p) {
 		width: 100%;
 		max-width: 60ch;
 	}
 
 	:global(p:nth-of-type(2)) {
 		margin-block-start: 2.5rem;
-	}
+	} */
 
 	.article__cover,
 	.article__title {
