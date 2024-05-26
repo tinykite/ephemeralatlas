@@ -4,7 +4,7 @@
 	import { navItems } from '$lib/utils/consts';
 
 	let mediaQuery: MediaQueryList;
-	let isMinDesktop: boolean | undefined;
+	let isMinDesktop: boolean | undefined = true;
 
 	const setMatches = () => {
 		isMinDesktop = mediaQuery.matches;
