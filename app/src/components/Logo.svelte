@@ -1,6 +1,7 @@
 <a href="/" class="header__logo">
 	<span class="u-visually-hidden">Minimal Botany</span>
 	<svg
+		class="header__image"
 		width="76"
 		aria-hidden="true"
 		height="75"
@@ -123,3 +124,9 @@
 		<path d="M38.0096 17.3564L26.2776 29.683H49.7416L38.0096 17.3564Z" fill="black" />
 	</svg>
 </a>
+
+<style>
+	.header__logo {
+		display: block;
+	}
+</style>

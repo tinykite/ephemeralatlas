@@ -30,7 +30,7 @@
 		<ul class="navList">
 			{#each navItems as navItem}
 				<li class="navList__item">
-					<a href={navItem.url}>
+					<a class="navList__link" href={navItem.url}>
 						{navItem.name}
 					</a>
 				</li>
@@ -68,8 +68,12 @@
 		font-family: 'Nimbus Mono PS', 'Courier New', monospace;
 	}
 
-	.navList__item {
+	.navList__link {
 		text-decoration: none;
+
+		&:hover {
+			border-bottom: 1px solid;
+		}
 	}
 
 	.navList__item:not(:last-child) {
