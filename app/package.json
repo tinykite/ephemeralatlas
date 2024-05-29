@@ -15,6 +15,9 @@
 		"format": "prettier --write ."
 	},
 	"devDependencies": {
+		"@cobalt-ui/cli": "^1.11.2",
+		"@cobalt-ui/plugin-css": "^1.7.4",
+		"@cobalt-ui/plugin-js": "^1.4.4",
 		"@portabletext/svelte": "^2.0.0",
 		"@portabletext/types": "^2.0.2",
 		"@sanity/types": "^3.7.1",
