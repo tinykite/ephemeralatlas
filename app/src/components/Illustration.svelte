@@ -1,6 +1,6 @@
 <script lang="ts">
 	export let name: String;
-	export let className: string | null | undefined;
+	export let className = '';
 	import { mapleLeafGrid } from '../illustrations/main';
 </script>
 
