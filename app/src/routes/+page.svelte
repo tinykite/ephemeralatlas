@@ -50,7 +50,13 @@
 						<img
 							class="articleList__image"
 							loading="lazy"
-							src={urlFor(post.mainImage).width(600).height(400).quality(100).auto('format').url()}
+							src={urlFor(post.mainImage)
+								.width(600)
+								.height(400)
+								.quality(100)
+								.auto('format')
+								.fit('fill')
+								.url()}
 							alt={post.mainImage.alt}
 							width="600"
 							height="400"
@@ -130,14 +136,13 @@
 		@media (min-width: 45rem) {
 			grid-auto-flow: column;
 			column-gap: var(--spacing-60);
+			align-items: start;
 			max-width: 70rem;
 		}
 	}
 
 	.articleList__item {
-		display: flex;
-		flex-direction: column;
-		text-align: center;
+		margin: 0;
 
 		@media (min-width: 45rem) {
 			text-align: unset;
@@ -167,12 +172,19 @@
 		}
 	}
 
-	.articleList__link:hover {
-		text-decoration: underline;
+	/* This is not as elegant as I'd like */
+	.articleList__image {
+		min-width: 9.375rem;
+		height: auto;
+		aspect-ratio: 6/4;
+
+		@media (min-width: 75rem) {
+			min-width: 18.75rem;
+		}
 	}
 
-	.articleList__image {
-		height: auto;
+	.articleList__link:hover {
+		text-decoration: underline;
 	}
 
 	.intro {
