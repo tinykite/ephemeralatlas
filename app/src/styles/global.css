@@ -111,16 +111,15 @@ h3 {
 
 h2 {
 	font-size: var(--font-size-100);
+	margin-block-start: var(--spacing-36);
 
 	@media (min-width: 31.25rem) {
 		font-size: var(--font-size-500);
 	}
 }
 
-h2,
-figure,
-img + p {
-	margin-block-start: var(--spacing-36);
+figure {
+	margin-block: var(--spacing-36);
 }
 
 strong {
