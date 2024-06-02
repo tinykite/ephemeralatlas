@@ -1,10 +1,14 @@
 <script lang="ts">
 	import { PortableText } from '@portabletext/svelte';
-	import CustomDefaultListItem from '$components/CustomDefaultListItem.svelte';
+	import UnorderedListItem from './UnorderedListItem.svelte';
+	import UnorderedListWrapper from './UnorderedListWrapper.svelte';
+	import ParagraphBlock from '$components/ParagraphBlock.svelte';
 	import ImageBlock from '$components/ImageBlock.svelte';
 	import { urlFor } from '$lib/utils/image';
 	import { formatDate } from '$lib/utils';
 	import Illustration from './Illustration.svelte';
+	import CentralizedText from './CentralizedText.svelte';
+	import CustomHeading from './CustomHeading.svelte';
 	export let data: any;
 </script>
 
@@ -12,7 +16,7 @@
 	<article class="article">
 		<h1 class="article__title">{data.title}</h1>
 		{#if data.mainIllustration}
-			<Illustration name={data.mainIllustration} />
+			<Illustration name={data.mainIllustration} className="article__illustration" />
 		{:else if data.mainImage}
 			<img class="article__cover" src={urlFor(data.mainImage).url()} alt={data.mainImage.alt} />
 		{/if}
@@ -20,14 +24,22 @@
 		<PortableText
 			value={data.body}
 			components={{
-				listItem: {
-					bullet: CustomDefaultListItem,
-					number: CustomDefaultListItem,
-					normal: CustomDefaultListItem //<-- Adding "normal" as key and defaultListItem as value will supress the warning
-				},
 				types: {
-					// block-level components
 					image: ImageBlock
+				},
+				block: {
+					normal: ParagraphBlock,
+					textCenter: CentralizedText /* Svelte throws a compiler warning if this isn't defined */,
+					h1: CustomHeading,
+					h2: CustomHeading,
+					h3: CustomHeading
+				},
+				list: {
+					bullet: UnorderedListWrapper
+				},
+				listItem: {
+					bullet: UnorderedListItem,
+					checklist: UnorderedListItem
 				}
 			}}
 		/>
@@ -39,40 +51,34 @@
 
 <style>
 	.article {
-		margin: 1.5rem auto;
+		margin: var(--spacing-24) auto;
 		display: grid;
 		justify-items: center;
 	}
 
-	@media (min-width: 43.75rem) {
+	@media (min-width: 45rem) {
 		.article {
-			margin-top: 4rem;
+			margin-block-start: var(--spacing-64);
 		}
 	}
 
-	/* :global(p) {
-		width: 100%;
-		max-width: 60ch;
+	.article__cover {
+		margin-block-start: var(--spacing-32);
 	}
 
-	:global(p:nth-of-type(2)) {
-		margin-block-start: 2.5rem;
-	} */
-
-	.article__cover,
-	.article__title {
-		font-size: 3.75rem;
-		line-height: 1;
-		text-align: center;
-		font-family: var(--f-headings);
+	.article__cover {
 		max-width: 65%;
 	}
 
-	.article__description {
+	.article__title {
+		font-size: var(--font-size-500);
+		line-height: 1.25;
 		text-align: center;
-		font-size: 1.25rem;
-		margin-block-start: 1.5rem;
-		max-width: 40ch;
-		font-family: var(--f-subheadings);
+		font-family: var(--font-stack-headings);
+
+		@media (min-width: 50rem) {
+			max-width: 65%;
+			font-size: var(--font-size-900);
+		}
 	}
 </style>
