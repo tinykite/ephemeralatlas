@@ -6,7 +6,7 @@
 		max-width: 60ch;
 	}
 
-	.article__text:nth-of-type(2) {
+	.article__text:first-of-type {
 		margin-block-start: 2.5rem;
 	}
 </style>
