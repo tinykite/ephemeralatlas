@@ -114,6 +114,7 @@
 		display: grid;
 		justify-items: center;
 		margin-block-start: var(--spacing-24);
+		margin-inline: var(--spacing-16);
 
 		@media (min-width: 45rem) {
 			justify-items: unset;
@@ -134,10 +135,16 @@
 		margin-inline: auto;
 
 		@media (min-width: 45rem) {
-			grid-auto-flow: column;
-			column-gap: var(--spacing-60);
+			grid-template-columns: 1fr 1fr;
 			align-items: start;
 			max-width: 70rem;
+			gap: var(--spacing-24);
+		}
+
+		@media (min-width: 70rem) {
+			grid-template-columns: unset;
+			grid-auto-flow: column;
+			column-gap: var(--spacing-52);
 		}
 	}
 
@@ -160,15 +167,19 @@
 	.articleList__link {
 		display: block;
 		margin-block-start: var(--spacing-16);
+		padding-inline: var(--spacing-16);
 		text-decoration: none;
 		font-family: var(--font-stack-headings);
 		font-weight: 400;
 		font-style: normal;
 		font-stretch: normal;
 		line-height: 1.125;
+		text-align: center;
 
 		@media (min-width: 45rem) {
+			padding-inline: unset;
 			font-size: var(--font-size-300);
+			text-align: left;
 		}
 	}
 
@@ -219,9 +230,13 @@
 	}
 
 	.intro__content {
-		padding: var(--spacing-64);
+		padding: var(--spacing-32);
 		font-family: var(--font-stack-subheadings);
 		text-align: center;
+
+		@media (min-width: 35rem) {
+			padding: var(--spacing-64);
+		}
 
 		@media (min-width: 45rem) {
 			padding-block: 8rem;
