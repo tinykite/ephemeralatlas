@@ -118,6 +118,7 @@
 
 		@media (min-width: 45rem) {
 			justify-items: unset;
+			margin-inline: 0;
 			margin-block-start: var(--spacing-64);
 		}
 	}
