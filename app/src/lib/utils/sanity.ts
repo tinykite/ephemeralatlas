@@ -16,6 +16,12 @@ export const client = createClient({
 	apiVersion: '2023-11-23' // date of setup
 });
 
+export async function getPage(query: string): Promise<Post[]> {
+	return await client.fetch(
+		groq`${query}`
+	);
+}
+
 export async function getPosts(): Promise<Post[]> {
 	return await client.fetch(
 		groq`*[_type == "post" && defined(slug.current)] | order(_createdAt desc)`
