@@ -34,8 +34,8 @@
 
 	<aside class="intro">
 		<p class="intro__content">
-			Minimal Botany celebrates the intersection of community, nature, and art from a queer,
-			disabled, and neurodivergent perspective.
+			Ephemeral Atlas is a creative exploration of art, nature, and herbalism from a queer &
+			disabled perspective.
 		</p>
 	</aside>
 
