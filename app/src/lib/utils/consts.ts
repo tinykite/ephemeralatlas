@@ -7,8 +7,4 @@ export const navItems = [
         name: "About", 
         url: "/about"
     },
-    {
-        name: "Donate", 
-        url: "/donate"
-    }
 ]
