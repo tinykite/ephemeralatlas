@@ -5,7 +5,7 @@ import {schemaTypes} from './schemas'
 
 export default defineConfig({
   name: 'default',
-  title: 'Minimal Botany',
+  title: 'Ephemeral Atlas',
 
   projectId: '8p4r3cva',
   dataset: 'production',
