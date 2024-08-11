@@ -173,12 +173,12 @@
 		font-weight: 400;
 		font-style: normal;
 		font-stretch: normal;
-		line-height: 1.125;
+		line-height: 1.4;
 		text-align: center;
 
 		@media (min-width: 45rem) {
 			padding-inline: unset;
-			font-size: var(--font-size-300);
+			font-size: var(--font-size-200);
 			text-align: left;
 		}
 	}
@@ -241,7 +241,7 @@
 		@media (min-width: 45rem) {
 			padding-block: 8rem;
 			padding-inline: 9.5rem;
-			font-size: var(--font-size-500);
+			font-size: var(--font-size-400);
 		}
 	}
 </style>
