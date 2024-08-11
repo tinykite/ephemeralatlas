@@ -6,9 +6,9 @@
 </script>
 
 {#if post.mainIllustration}
-	<Illustration name={post.mainIllustration} />
+	<Illustration name={post.mainIllustration} className="article__illustration" />
 {:else if post.mainImage}
-	<img class="hero__cover" src={urlFor(post.mainImage).url()} alt={post.mainImage.alt} />
+	<img src={urlFor(post.mainImage).url()} alt={post.mainImage.alt} />
 {/if}
 <div class="hero__contentWrapper">
 	<h2 class="hero__title">
@@ -39,10 +39,17 @@
 		font-family: 'Courier New', Courier, monospace;
 		font-size: var(--font-size-100);
 		margin-block-start: 0.5rem;
+		margin-inline: auto;
+		max-width: 45rem;
 	}
 
 	.hero__title {
 		margin-block-start: var(--spacing-16);
 		margin-inline: var(--spacing-8);
+	}
+
+	.hero__title,
+	.hero__description {
+		text-align: center;
 	}
 </style>

@@ -4,22 +4,18 @@
 	import UnorderedListWrapper from './UnorderedListWrapper.svelte';
 	import ParagraphBlock from '$components/ParagraphBlock.svelte';
 	import ImageBlock from '$components/ImageBlock.svelte';
-	import { urlFor } from '$lib/utils/image';
 	import { formatDate } from '$lib/utils';
-	import Illustration from './Illustration.svelte';
+	import Hero from './Hero.svelte';
 	import CentralizedText from './CentralizedText.svelte';
 	import CustomHeading from './CustomHeading.svelte';
 	export let data: any;
+
+	console.log(data);
 </script>
 
 <main class="wrapper">
 	<article class="article">
-		<h1 class="article__title">{data.title}</h1>
-		{#if data.mainIllustration}
-			<Illustration name={data.mainIllustration} className="article__illustration" />
-		{:else if data.mainImage}
-			<img class="article__cover" src={urlFor(data.mainImage).url()} alt={data.mainImage.alt} />
-		{/if}
+		<Hero post={data} />
 
 		<PortableText
 			value={data.body}
@@ -56,12 +52,6 @@
 		margin: var(--spacing-24) auto;
 		display: grid;
 		justify-items: center;
-	}
-
-	@media (min-width: 45rem) {
-		.article {
-			margin-block-start: var(--spacing-64);
-		}
 	}
 
 	.article__cover {
