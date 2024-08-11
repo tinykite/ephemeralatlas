@@ -37,14 +37,14 @@
 
 	.hero__description {
 		font-family: 'Courier New', Courier, monospace;
-		font-size: var(--font-size-100);
+		font-size: var(--font-size-200);
 		margin-block-start: 0.5rem;
 		margin-inline: auto;
 		max-width: 45rem;
 	}
 
 	.hero__title {
-		margin-block-start: var(--spacing-16);
+		margin-block-start: var(--spacing-24);
 		margin-inline: var(--spacing-8);
 	}
 
