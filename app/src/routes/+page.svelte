@@ -143,8 +143,7 @@
 		}
 
 		@media (min-width: 70rem) {
-			grid-template-columns: unset;
-			grid-auto-flow: column;
+			grid-template-columns: 1fr 1fr 1fr;
 			column-gap: var(--spacing-52);
 		}
 	}
