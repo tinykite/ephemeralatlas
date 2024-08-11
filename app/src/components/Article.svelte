@@ -37,11 +37,6 @@
 				}
 			}}
 		/>
-		{#if data.date}
-			<p class="article__date">
-				{formatDate(data.publishedAt)}
-			</p>
-		{/if}
 	</article>
 </main>
 
