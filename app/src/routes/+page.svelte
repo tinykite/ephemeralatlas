@@ -67,7 +67,7 @@
 
 	.latestArticle {
 		text-align: center;
-		margin: var(--spacing-36) auto;
+		margin-block-end: var(--spacing-36) auto;
 	}
 
 	.archives {
