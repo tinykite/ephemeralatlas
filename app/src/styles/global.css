@@ -163,6 +163,11 @@ img {
 	display: block;
 }
 
+svg, img {
+	max-height: 65vh;
+	margin-inline: auto;
+}
+
 pre {
 	margin-block-start: var(--spacing-16);
 }
