@@ -11,7 +11,7 @@
 	$$restProps;
 </script>
 
-<main class="homepageWrapper">
+<div class="homepageContainer">
 	<div class="latestArticle">
 		<Hero post={latestPost} showLink={true} />
 	</div>
@@ -56,11 +56,11 @@
 			{/each}
 		</ul>
 	</div>
-</main>
+</div>
 
 <!-- In the process of being converted to design tokens -->
 <style>
-	.homepageWrapper {
+	.homepageContainer {
 		max-width: 70rem;
 		margin-block-start: 5rem;
 		margin-inline: auto;

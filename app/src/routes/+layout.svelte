@@ -4,8 +4,17 @@
 	import '../styles/global.css';
 	import Nav from '../components/Nav.svelte';
 	import Footer from '$components/Footer.svelte';
+	import Article from '$components/Article.svelte';
 </script>
 
 <Nav />
-<slot />
+<main class="wrapper">
+	<slot />
+</main>
 <Footer />
+
+<style>
+	.wrapper {
+		margin-block-start: 5rem;
+	}
+</style>
