@@ -47,28 +47,8 @@
 
 <style>
 	.article {
-		margin: var(--spacing-24) auto;
+		margin-inline: auto;
 		display: grid;
 		justify-items: center;
-	}
-
-	.article__cover {
-		margin-block-start: var(--spacing-32);
-	}
-
-	.article__cover {
-		max-width: 65%;
-	}
-
-	.article__title {
-		font-size: var(--font-size-500);
-		line-height: 1.25;
-		text-align: center;
-		font-family: var(--font-stack-headings);
-
-		@media (min-width: 50rem) {
-			max-width: 65%;
-			font-size: var(--font-size-900);
-		}
 	}
 </style>
