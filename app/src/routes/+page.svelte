@@ -23,12 +23,12 @@
 			/>
 		{/if}
 		<div class="latestArticle__contentWrapper">
-			<p class="latestArticle__date">{formatDate(latestPost.publishedAt)}</p>
 			<h2 class="latestArticle__title">
 				<a class="latestArticle__link" href={`/${latestPost.slug.current}`}>
 					{latestPost.title}
 				</a>
 			</h2>
+			<p class="latestArticle__description">{latestPost.description}</p>
 		</div>
 	</div>
 
@@ -101,12 +101,14 @@
 		}
 	}
 
-	.latestArticle__date {
+	.latestArticle__description {
 		font-family: 'Courier New', Courier, monospace;
+		font-size: var(--font-size-100);
+		margin-block-start: 0.5rem;
 	}
 
 	.latestArticle__title {
-		margin-block-start: var(--spacing-8);
+		margin-block-start: var(--spacing-16);
 		margin-inline: var(--spacing-8);
 	}
 
