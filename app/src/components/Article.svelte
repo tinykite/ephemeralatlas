@@ -46,4 +46,8 @@
 		display: grid;
 		justify-items: center;
 	}
+
+	.wrapper {
+		margin-block-start: 5rem;
+	}
 </style>

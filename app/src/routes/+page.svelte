@@ -62,6 +62,7 @@
 <style>
 	.homepageWrapper {
 		max-width: 70rem;
+		margin-block-start: 5rem;
 		margin-inline: auto;
 	}
 
