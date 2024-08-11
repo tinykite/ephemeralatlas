@@ -1,15 +1,16 @@
 <script lang="ts">
 	export let name: String;
 	export let className = '';
-	import { mapleLeafGrid, sunTryptych } from '../illustrations/main';
+	import { mapleLeafGrid, sunTriptych } from '../illustrations/main';
 </script>
 
 <div class={!!className ? className : ''}>
 	{#if name === 'mapleLeafGrid'}
 		{@html mapleLeafGrid}
 	{/if}
-	{#if name === 'sunTryptych'}
-		{@html sunTryptych}
+	{#if name === 'sunTriptych'}
+		<h2>illustration</h2>
+		{@html sunTriptych}
 	{/if}
 </div>
 
