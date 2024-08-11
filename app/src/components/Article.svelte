@@ -4,7 +4,6 @@
 	import UnorderedListWrapper from './UnorderedListWrapper.svelte';
 	import ParagraphBlock from '$components/ParagraphBlock.svelte';
 	import ImageBlock from '$components/ImageBlock.svelte';
-	import { formatDate } from '$lib/utils';
 	import Hero from './Hero.svelte';
 	import CentralizedText from './CentralizedText.svelte';
 	import CustomHeading from './CustomHeading.svelte';
@@ -13,7 +12,7 @@
 
 <main class="wrapper">
 	<article class="article">
-		<Hero post={data} />
+		<Hero post={data} showLink={false} />
 
 		<PortableText
 			value={data.body}

@@ -13,7 +13,7 @@
 
 <main class="homepageWrapper">
 	<div class="latestArticle">
-		<Hero post={latestPost} />
+		<Hero post={latestPost} showLink={true} />
 	</div>
 
 	<aside class="intro">

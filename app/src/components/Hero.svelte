@@ -3,6 +3,7 @@
 	import Illustration from '$components/Illustration.svelte';
 
 	export let post: any;
+	export let showLink: boolean;
 </script>
 
 {#if post.mainIllustration}
@@ -12,11 +13,17 @@
 {/if}
 <div class="hero__contentWrapper">
 	<h2 class="hero__title">
-		<a class="hero__link" href={`/${post.slug.current}`}>
+		{#if showLink}
+			<a class="hero__link" href={`/${post.slug.current}`}>
+				{post.title}
+			</a>
+		{:else}
 			{post.title}
-		</a>
+		{/if}
 	</h2>
-	<p class="hero__description">{post.description}</p>
+	{#if post.description}
+		<p class="hero__description">{post.description}</p>
+	{/if}
 </div>
 
 <style>
