@@ -9,7 +9,6 @@
 		{@html mapleLeafGrid}
 	{/if}
 	{#if name === 'sunTriptych'}
-		<h2>illustration</h2>
 		{@html sunTriptych}
 	{/if}
 </div>
