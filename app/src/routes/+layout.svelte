@@ -15,6 +15,8 @@
 
 <style>
 	.wrapper {
+		max-width: 70rem;
+		margin-inline: auto;
 		margin-block-start: 5rem;
 	}
 </style>

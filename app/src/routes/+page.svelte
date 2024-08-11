@@ -11,61 +11,53 @@
 	$$restProps;
 </script>
 
-<div class="homepageContainer">
-	<div class="latestArticle">
-		<Hero post={latestPost} showLink={true} />
-	</div>
+<div class="latestArticle">
+	<Hero post={latestPost} showLink={true} />
+</div>
 
-	<aside class="intro">
-		<p class="intro__content">
-			Ephemeral Atlas is a creative exploration of art, nature, and herbalism from a queer &
-			disabled perspective.
-		</p>
-	</aside>
+<aside class="intro">
+	<p class="intro__content">
+		Ephemeral Atlas is a creative exploration of art, nature, and herbalism from a queer & disabled
+		perspective.
+	</p>
+</aside>
 
-	<div class="archives">
-		<h2 class="archives__heading">Archives</h2>
-		<ul class="articleList">
-			{#each archive as post, i}
-				<li class="articleList__item">
-					{#if post.mainIllustration}
-						<Illustration name={post.mainIllustration} />
-					{:else if post.mainImage}
-						<img
-							class="articleList__image"
-							loading="lazy"
-							src={urlFor(post.mainImage)
-								.width(600)
-								.height(400)
-								.quality(100)
-								.auto('format')
-								.fit('fill')
-								.url()}
-							alt={post.mainImage.alt}
-							width="600"
-							height="400"
-						/>
-					{/if}
+<div class="archives">
+	<h2 class="archives__heading">Archives</h2>
+	<ul class="articleList">
+		{#each archive as post, i}
+			<li class="articleList__item">
+				{#if post.mainIllustration}
+					<Illustration name={post.mainIllustration} />
+				{:else if post.mainImage}
+					<img
+						class="articleList__image"
+						loading="lazy"
+						src={urlFor(post.mainImage)
+							.width(600)
+							.height(400)
+							.quality(100)
+							.auto('format')
+							.fit('fill')
+							.url()}
+						alt={post.mainImage.alt}
+						width="600"
+						height="400"
+					/>
+				{/if}
 
-					<div class="articleList__text">
-						<a class="articleList__link" href={`/${post.slug.current}`}>
-							{post.title}
-						</a>
-					</div>
-				</li>
-			{/each}
-		</ul>
-	</div>
+				<div class="articleList__text">
+					<a class="articleList__link" href={`/${post.slug.current}`}>
+						{post.title}
+					</a>
+				</div>
+			</li>
+		{/each}
+	</ul>
 </div>
 
 <!-- In the process of being converted to design tokens -->
 <style>
-	.homepageContainer {
-		max-width: 70rem;
-		margin-block-start: 5rem;
-		margin-inline: auto;
-	}
-
 	.latestArticle {
 		text-align: center;
 		margin-block-end: var(--spacing-36) auto;
