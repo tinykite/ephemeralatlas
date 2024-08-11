@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { urlFor } from '$lib/utils/image';
 	import Illustration from '$components/Illustration.svelte';
-	import { formatDate } from '$lib/utils';
+	import Hero from '$components/Hero.svelte';
 
 	export let data: any;
 	const { posts } = data;
@@ -13,23 +13,7 @@
 
 <main class="homepageWrapper">
 	<div class="latestArticle">
-		{#if latestPost.mainIllustration}
-			<Illustration name={latestPost.mainIllustration} />
-		{:else if data.mainImage}
-			<img
-				class="latestArticle__cover"
-				src={urlFor(latestPost.mainImage).url()}
-				alt={latestPost.mainImage.alt}
-			/>
-		{/if}
-		<div class="latestArticle__contentWrapper">
-			<h2 class="latestArticle__title">
-				<a class="latestArticle__link" href={`/${latestPost.slug.current}`}>
-					{latestPost.title}
-				</a>
-			</h2>
-			<p class="latestArticle__description">{latestPost.description}</p>
-		</div>
+		<Hero post={latestPost} />
 	</div>
 
 	<aside class="intro">
@@ -84,32 +68,6 @@
 	.latestArticle {
 		text-align: center;
 		margin: var(--spacing-36) auto;
-	}
-
-	.latestArticle__contentWrapper {
-		max-width: 55rem;
-		margin-inline: auto;
-	}
-
-	.latestArticle__link {
-		text-decoration: none;
-		font-family: var(--font-stack-headings);
-		font-weight: 600;
-
-		&:hover {
-			text-decoration: underline;
-		}
-	}
-
-	.latestArticle__description {
-		font-family: 'Courier New', Courier, monospace;
-		font-size: var(--font-size-100);
-		margin-block-start: 0.5rem;
-	}
-
-	.latestArticle__title {
-		margin-block-start: var(--spacing-16);
-		margin-inline: var(--spacing-8);
 	}
 
 	.archives {
