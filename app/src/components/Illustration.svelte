@@ -16,6 +16,5 @@
 <style>
 	.article__illustration {
 		width: 100%;
-		margin-block-start: var(--spacing-16);
 	}
 </style>
