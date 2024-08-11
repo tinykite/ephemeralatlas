@@ -9,8 +9,6 @@
 	import CentralizedText from './CentralizedText.svelte';
 	import CustomHeading from './CustomHeading.svelte';
 	export let data: any;
-
-	console.log(data);
 </script>
 
 <main class="wrapper">
