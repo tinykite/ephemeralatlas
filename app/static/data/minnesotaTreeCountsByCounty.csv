@@ -1,0 +1,2001 @@
+rowid,SPCD,COUNTYCD,COUNT,FIA Code,Common Name,Genus,Species
+1,12.0,1,3958,12,balsam fir,Abies,balsamea
+2,12.0,3,1,12,balsam fir,Abies,balsamea
+3,12.0,5,1218,12,balsam fir,Abies,balsamea
+4,12.0,7,5571,12,balsam fir,Abies,balsamea
+5,12.0,17,3414,12,balsam fir,Abies,balsamea
+6,12.0,21,3631,12,balsam fir,Abies,balsamea
+7,12.0,29,1526,12,balsam fir,Abies,balsamea
+8,12.0,31,15579,12,balsam fir,Abies,balsamea
+9,12.0,35,742,12,balsam fir,Abies,balsamea
+10,12.0,57,1325,12,balsam fir,Abies,balsamea
+11,12.0,61,17087,12,balsam fir,Abies,balsamea
+12,12.0,65,43,12,balsam fir,Abies,balsamea
+13,12.0,71,22408,12,balsam fir,Abies,balsamea
+14,12.0,75,19671,12,balsam fir,Abies,balsamea
+15,12.0,77,4010,12,balsam fir,Abies,balsamea
+16,12.0,87,140,12,balsam fir,Abies,balsamea
+17,12.0,89,260,12,balsam fir,Abies,balsamea
+18,12.0,95,10,12,balsam fir,Abies,balsamea
+19,12.0,97,2,12,balsam fir,Abies,balsamea
+20,12.0,111,38,12,balsam fir,Abies,balsamea
+21,12.0,115,1185,12,balsam fir,Abies,balsamea
+22,12.0,119,11,12,balsam fir,Abies,balsamea
+23,12.0,135,993,12,balsam fir,Abies,balsamea
+24,12.0,137,44006,12,balsam fir,Abies,balsamea
+25,12.0,153,22,12,balsam fir,Abies,balsamea
+26,12.0,159,87,12,balsam fir,Abies,balsamea
+27,12.0,163,12,12,balsam fir,Abies,balsamea
+28,16.0,163,1,16,Fraser fir,Abies,fraseri
+29,68.0,1,8,68,eastern redcedar,Juniperus,virginiana
+30,68.0,3,17,68,eastern redcedar,Juniperus,virginiana
+31,68.0,9,25,68,eastern redcedar,Juniperus,virginiana
+32,68.0,13,84,68,eastern redcedar,Juniperus,virginiana
+33,68.0,15,8,68,eastern redcedar,Juniperus,virginiana
+34,68.0,19,71,68,eastern redcedar,Juniperus,virginiana
+35,68.0,25,63,68,eastern redcedar,Juniperus,virginiana
+36,68.0,37,26,68,eastern redcedar,Juniperus,virginiana
+37,68.0,39,4,68,eastern redcedar,Juniperus,virginiana
+38,68.0,45,129,68,eastern redcedar,Juniperus,virginiana
+39,68.0,49,155,68,eastern redcedar,Juniperus,virginiana
+40,68.0,53,29,68,eastern redcedar,Juniperus,virginiana
+41,68.0,55,374,68,eastern redcedar,Juniperus,virginiana
+42,68.0,59,35,68,eastern redcedar,Juniperus,virginiana
+43,68.0,67,135,68,eastern redcedar,Juniperus,virginiana
+44,68.0,79,19,68,eastern redcedar,Juniperus,virginiana
+45,68.0,85,5,68,eastern redcedar,Juniperus,virginiana
+46,68.0,95,3,68,eastern redcedar,Juniperus,virginiana
+47,68.0,97,161,68,eastern redcedar,Juniperus,virginiana
+48,68.0,109,89,68,eastern redcedar,Juniperus,virginiana
+49,68.0,121,3,68,eastern redcedar,Juniperus,virginiana
+50,68.0,127,230,68,eastern redcedar,Juniperus,virginiana
+51,68.0,131,7,68,eastern redcedar,Juniperus,virginiana
+52,68.0,137,9,68,eastern redcedar,Juniperus,virginiana
+53,68.0,139,31,68,eastern redcedar,Juniperus,virginiana
+54,68.0,141,46,68,eastern redcedar,Juniperus,virginiana
+55,68.0,143,10,68,eastern redcedar,Juniperus,virginiana
+56,68.0,145,57,68,eastern redcedar,Juniperus,virginiana
+57,68.0,151,18,68,eastern redcedar,Juniperus,virginiana
+58,68.0,153,2,68,eastern redcedar,Juniperus,virginiana
+59,68.0,157,91,68,eastern redcedar,Juniperus,virginiana
+60,68.0,163,87,68,eastern redcedar,Juniperus,virginiana
+61,68.0,169,88,68,eastern redcedar,Juniperus,virginiana
+62,68.0,171,64,68,eastern redcedar,Juniperus,virginiana
+63,68.0,173,56,68,eastern redcedar,Juniperus,virginiana
+64,70.0,1,1,70,larch spp.,Larix,spp.
+65,70.0,7,1,70,larch spp.,Larix,spp.
+66,70.0,61,1,70,larch spp.,Larix,spp.
+67,70.0,75,1,70,larch spp.,Larix,spp.
+68,71.0,1,6780,71,tamarack,Larix,laricina
+69,71.0,3,89,71,tamarack,Larix,laricina
+70,71.0,5,1526,71,tamarack,Larix,laricina
+71,71.0,7,6662,71,tamarack,Larix,laricina
+72,71.0,17,1402,71,tamarack,Larix,laricina
+73,71.0,19,2,71,tamarack,Larix,laricina
+74,71.0,21,3146,71,tamarack,Larix,laricina
+75,71.0,25,110,71,tamarack,Larix,laricina
+76,71.0,29,832,71,tamarack,Larix,laricina
+77,71.0,31,275,71,tamarack,Larix,laricina
+78,71.0,35,743,71,tamarack,Larix,laricina
+79,71.0,41,79,71,tamarack,Larix,laricina
+80,71.0,57,534,71,tamarack,Larix,laricina
+81,71.0,59,221,71,tamarack,Larix,laricina
+82,71.0,61,5901,71,tamarack,Larix,laricina
+83,71.0,65,123,71,tamarack,Larix,laricina
+84,71.0,71,14150,71,tamarack,Larix,laricina
+85,71.0,75,1564,71,tamarack,Larix,laricina
+86,71.0,77,7863,71,tamarack,Larix,laricina
+87,71.0,87,104,71,tamarack,Larix,laricina
+88,71.0,89,158,71,tamarack,Larix,laricina
+89,71.0,95,264,71,tamarack,Larix,laricina
+90,71.0,97,487,71,tamarack,Larix,laricina
+91,71.0,111,526,71,tamarack,Larix,laricina
+92,71.0,115,917,71,tamarack,Larix,laricina
+93,71.0,119,120,71,tamarack,Larix,laricina
+94,71.0,135,1657,71,tamarack,Larix,laricina
+95,71.0,137,11873,71,tamarack,Larix,laricina
+96,71.0,145,137,71,tamarack,Larix,laricina
+97,71.0,153,215,71,tamarack,Larix,laricina
+98,71.0,159,158,71,tamarack,Larix,laricina
+99,71.0,163,8,71,tamarack,Larix,laricina
+100,91.0,157,24,91,Norway spruce,Picea,abies
+101,91.0,163,1,91,Norway spruce,Picea,abies
+102,94.0,1,417,94,white spruce,Picea,glauca
+103,94.0,3,20,94,white spruce,Picea,glauca
+104,94.0,5,257,94,white spruce,Picea,glauca
+105,94.0,7,997,94,white spruce,Picea,glauca
+106,94.0,9,18,94,white spruce,Picea,glauca
+107,94.0,15,2,94,white spruce,Picea,glauca
+108,94.0,17,504,94,white spruce,Picea,glauca
+109,94.0,21,535,94,white spruce,Picea,glauca
+110,94.0,29,314,94,white spruce,Picea,glauca
+111,94.0,31,3829,94,white spruce,Picea,glauca
+112,94.0,35,91,94,white spruce,Picea,glauca
+113,94.0,37,12,94,white spruce,Picea,glauca
+114,94.0,41,9,94,white spruce,Picea,glauca
+115,94.0,49,21,94,white spruce,Picea,glauca
+116,94.0,51,21,94,white spruce,Picea,glauca
+117,94.0,57,248,94,white spruce,Picea,glauca
+118,94.0,59,59,94,white spruce,Picea,glauca
+119,94.0,61,1710,94,white spruce,Picea,glauca
+120,94.0,65,80,94,white spruce,Picea,glauca
+121,94.0,67,38,94,white spruce,Picea,glauca
+122,94.0,71,2933,94,white spruce,Picea,glauca
+123,94.0,75,3143,94,white spruce,Picea,glauca
+124,94.0,77,374,94,white spruce,Picea,glauca
+125,94.0,79,2,94,white spruce,Picea,glauca
+126,94.0,85,3,94,white spruce,Picea,glauca
+127,94.0,87,97,94,white spruce,Picea,glauca
+128,94.0,89,24,94,white spruce,Picea,glauca
+129,94.0,95,15,94,white spruce,Picea,glauca
+130,94.0,97,45,94,white spruce,Picea,glauca
+131,94.0,99,86,94,white spruce,Picea,glauca
+132,94.0,111,153,94,white spruce,Picea,glauca
+133,94.0,115,191,94,white spruce,Picea,glauca
+134,94.0,119,5,94,white spruce,Picea,glauca
+135,94.0,135,370,94,white spruce,Picea,glauca
+136,94.0,137,4282,94,white spruce,Picea,glauca
+137,94.0,141,22,94,white spruce,Picea,glauca
+138,94.0,145,15,94,white spruce,Picea,glauca
+139,94.0,153,16,94,white spruce,Picea,glauca
+140,94.0,157,51,94,white spruce,Picea,glauca
+141,94.0,159,32,94,white spruce,Picea,glauca
+142,94.0,163,2,94,white spruce,Picea,glauca
+143,94.0,169,11,94,white spruce,Picea,glauca
+144,95.0,1,5548,95,black spruce,Picea,mariana
+145,95.0,5,408,95,black spruce,Picea,mariana
+146,95.0,7,5011,95,black spruce,Picea,mariana
+147,95.0,17,1612,95,black spruce,Picea,mariana
+148,95.0,21,1412,95,black spruce,Picea,mariana
+149,95.0,29,334,95,black spruce,Picea,mariana
+150,95.0,31,6723,95,black spruce,Picea,mariana
+151,95.0,35,325,95,black spruce,Picea,mariana
+152,95.0,41,4,95,black spruce,Picea,mariana
+153,95.0,57,447,95,black spruce,Picea,mariana
+154,95.0,59,199,95,black spruce,Picea,mariana
+155,95.0,61,10589,95,black spruce,Picea,mariana
+156,95.0,65,49,95,black spruce,Picea,mariana
+157,95.0,71,36733,95,black spruce,Picea,mariana
+158,95.0,75,16955,95,black spruce,Picea,mariana
+159,95.0,77,8662,95,black spruce,Picea,mariana
+160,95.0,87,9,95,black spruce,Picea,mariana
+161,95.0,89,312,95,black spruce,Picea,mariana
+162,95.0,95,170,95,black spruce,Picea,mariana
+163,95.0,97,2,95,black spruce,Picea,mariana
+164,95.0,111,10,95,black spruce,Picea,mariana
+165,95.0,115,1733,95,black spruce,Picea,mariana
+166,95.0,135,1033,95,black spruce,Picea,mariana
+167,95.0,137,39245,95,black spruce,Picea,mariana
+168,95.0,159,52,95,black spruce,Picea,mariana
+169,96.0,41,2,96,blue spruce,Picea,pungens
+170,96.0,49,3,96,blue spruce,Picea,pungens
+171,96.0,85,5,96,blue spruce,Picea,pungens
+172,96.0,137,1,96,blue spruce,Picea,pungens
+173,96.0,141,4,96,blue spruce,Picea,pungens
+174,105.0,1,209,105,jack pine,Pinus,banksiana
+175,105.0,3,6,105,jack pine,Pinus,banksiana
+176,105.0,5,1120,105,jack pine,Pinus,banksiana
+177,105.0,7,2853,105,jack pine,Pinus,banksiana
+178,105.0,9,18,105,jack pine,Pinus,banksiana
+179,105.0,17,80,105,jack pine,Pinus,banksiana
+180,105.0,21,4266,105,jack pine,Pinus,banksiana
+181,105.0,29,505,105,jack pine,Pinus,banksiana
+182,105.0,31,2064,105,jack pine,Pinus,banksiana
+183,105.0,35,2026,105,jack pine,Pinus,banksiana
+184,105.0,37,96,105,jack pine,Pinus,banksiana
+185,105.0,49,4,105,jack pine,Pinus,banksiana
+186,105.0,57,4606,105,jack pine,Pinus,banksiana
+187,105.0,59,5,105,jack pine,Pinus,banksiana
+188,105.0,61,2639,105,jack pine,Pinus,banksiana
+189,105.0,65,4,105,jack pine,Pinus,banksiana
+190,105.0,71,2098,105,jack pine,Pinus,banksiana
+191,105.0,75,3723,105,jack pine,Pinus,banksiana
+192,105.0,77,2259,105,jack pine,Pinus,banksiana
+193,105.0,87,130,105,jack pine,Pinus,banksiana
+194,105.0,95,157,105,jack pine,Pinus,banksiana
+195,105.0,97,124,105,jack pine,Pinus,banksiana
+196,105.0,111,25,105,jack pine,Pinus,banksiana
+197,105.0,115,654,105,jack pine,Pinus,banksiana
+198,105.0,119,8,105,jack pine,Pinus,banksiana
+199,105.0,135,1169,105,jack pine,Pinus,banksiana
+200,105.0,137,8062,105,jack pine,Pinus,banksiana
+201,105.0,141,12,105,jack pine,Pinus,banksiana
+202,105.0,153,168,105,jack pine,Pinus,banksiana
+203,105.0,159,2290,105,jack pine,Pinus,banksiana
+204,122.0,9,30,122,ponderosa pine,Pinus,ponderosa
+205,122.0,59,11,122,ponderosa pine,Pinus,ponderosa
+206,125.0,1,755,125,red pine,Pinus,resinosa
+207,125.0,3,228,125,red pine,Pinus,resinosa
+208,125.0,5,568,125,red pine,Pinus,resinosa
+209,125.0,7,1807,125,red pine,Pinus,resinosa
+210,125.0,9,251,125,red pine,Pinus,resinosa
+211,125.0,17,930,125,red pine,Pinus,resinosa
+212,125.0,21,4291,125,red pine,Pinus,resinosa
+213,125.0,25,186,125,red pine,Pinus,resinosa
+214,125.0,29,445,125,red pine,Pinus,resinosa
+215,125.0,31,1650,125,red pine,Pinus,resinosa
+216,125.0,35,1772,125,red pine,Pinus,resinosa
+217,125.0,37,40,125,red pine,Pinus,resinosa
+218,125.0,45,28,125,red pine,Pinus,resinosa
+219,125.0,49,16,125,red pine,Pinus,resinosa
+220,125.0,51,26,125,red pine,Pinus,resinosa
+221,125.0,55,143,125,red pine,Pinus,resinosa
+222,125.0,57,2753,125,red pine,Pinus,resinosa
+223,125.0,59,262,125,red pine,Pinus,resinosa
+224,125.0,61,5673,125,red pine,Pinus,resinosa
+225,125.0,65,50,125,red pine,Pinus,resinosa
+226,125.0,67,20,125,red pine,Pinus,resinosa
+227,125.0,71,1698,125,red pine,Pinus,resinosa
+228,125.0,75,2331,125,red pine,Pinus,resinosa
+229,125.0,77,400,125,red pine,Pinus,resinosa
+230,125.0,87,250,125,red pine,Pinus,resinosa
+231,125.0,89,4,125,red pine,Pinus,resinosa
+232,125.0,95,13,125,red pine,Pinus,resinosa
+233,125.0,97,642,125,red pine,Pinus,resinosa
+234,125.0,109,18,125,red pine,Pinus,resinosa
+235,125.0,111,353,125,red pine,Pinus,resinosa
+236,125.0,115,1172,125,red pine,Pinus,resinosa
+237,125.0,119,18,125,red pine,Pinus,resinosa
+238,125.0,121,122,125,red pine,Pinus,resinosa
+239,125.0,135,701,125,red pine,Pinus,resinosa
+240,125.0,137,6529,125,red pine,Pinus,resinosa
+241,125.0,141,594,125,red pine,Pinus,resinosa
+242,125.0,153,98,125,red pine,Pinus,resinosa
+243,125.0,157,46,125,red pine,Pinus,resinosa
+244,125.0,159,1073,125,red pine,Pinus,resinosa
+245,125.0,163,217,125,red pine,Pinus,resinosa
+246,125.0,169,26,125,red pine,Pinus,resinosa
+247,129.0,1,207,129,eastern white pine,Pinus,strobus
+248,129.0,3,38,129,eastern white pine,Pinus,strobus
+249,129.0,5,231,129,eastern white pine,Pinus,strobus
+250,129.0,7,550,129,eastern white pine,Pinus,strobus
+251,129.0,17,242,129,eastern white pine,Pinus,strobus
+252,129.0,21,1253,129,eastern white pine,Pinus,strobus
+253,129.0,25,92,129,eastern white pine,Pinus,strobus
+254,129.0,29,188,129,eastern white pine,Pinus,strobus
+255,129.0,31,722,129,eastern white pine,Pinus,strobus
+256,129.0,35,299,129,eastern white pine,Pinus,strobus
+257,129.0,37,20,129,eastern white pine,Pinus,strobus
+258,129.0,45,30,129,eastern white pine,Pinus,strobus
+259,129.0,49,31,129,eastern white pine,Pinus,strobus
+260,129.0,51,26,129,eastern white pine,Pinus,strobus
+261,129.0,55,11,129,eastern white pine,Pinus,strobus
+262,129.0,57,381,129,eastern white pine,Pinus,strobus
+263,129.0,59,32,129,eastern white pine,Pinus,strobus
+264,129.0,61,850,129,eastern white pine,Pinus,strobus
+265,129.0,65,47,129,eastern white pine,Pinus,strobus
+266,129.0,71,348,129,eastern white pine,Pinus,strobus
+267,129.0,75,780,129,eastern white pine,Pinus,strobus
+268,129.0,77,18,129,eastern white pine,Pinus,strobus
+269,129.0,87,23,129,eastern white pine,Pinus,strobus
+270,129.0,95,10,129,eastern white pine,Pinus,strobus
+271,129.0,97,319,129,eastern white pine,Pinus,strobus
+272,129.0,99,3,129,eastern white pine,Pinus,strobus
+273,129.0,109,11,129,eastern white pine,Pinus,strobus
+274,129.0,111,81,129,eastern white pine,Pinus,strobus
+275,129.0,115,381,129,eastern white pine,Pinus,strobus
+276,129.0,119,6,129,eastern white pine,Pinus,strobus
+277,129.0,135,1,129,eastern white pine,Pinus,strobus
+278,129.0,137,3807,129,eastern white pine,Pinus,strobus
+279,129.0,139,1,129,eastern white pine,Pinus,strobus
+280,129.0,141,67,129,eastern white pine,Pinus,strobus
+281,129.0,145,24,129,eastern white pine,Pinus,strobus
+282,129.0,153,7,129,eastern white pine,Pinus,strobus
+283,129.0,157,200,129,eastern white pine,Pinus,strobus
+284,129.0,159,207,129,eastern white pine,Pinus,strobus
+285,129.0,163,51,129,eastern white pine,Pinus,strobus
+286,129.0,169,195,129,eastern white pine,Pinus,strobus
+287,130.0,3,5,130,Scotch pine,Pinus,sylvestris
+288,130.0,9,84,130,Scotch pine,Pinus,sylvestris
+289,130.0,17,3,130,Scotch pine,Pinus,sylvestris
+290,130.0,25,25,130,Scotch pine,Pinus,sylvestris
+291,130.0,35,1,130,Scotch pine,Pinus,sylvestris
+292,130.0,55,2,130,Scotch pine,Pinus,sylvestris
+293,130.0,57,15,130,Scotch pine,Pinus,sylvestris
+294,130.0,59,8,130,Scotch pine,Pinus,sylvestris
+295,130.0,61,18,130,Scotch pine,Pinus,sylvestris
+296,130.0,67,47,130,Scotch pine,Pinus,sylvestris
+297,130.0,77,1,130,Scotch pine,Pinus,sylvestris
+298,130.0,97,27,130,Scotch pine,Pinus,sylvestris
+299,130.0,109,7,130,Scotch pine,Pinus,sylvestris
+300,130.0,111,28,130,Scotch pine,Pinus,sylvestris
+301,130.0,115,65,130,Scotch pine,Pinus,sylvestris
+302,130.0,121,1,130,Scotch pine,Pinus,sylvestris
+303,130.0,135,6,130,Scotch pine,Pinus,sylvestris
+304,130.0,137,40,130,Scotch pine,Pinus,sylvestris
+305,130.0,141,123,130,Scotch pine,Pinus,sylvestris
+306,130.0,145,6,130,Scotch pine,Pinus,sylvestris
+307,130.0,163,1,130,Scotch pine,Pinus,sylvestris
+308,130.0,169,10,130,Scotch pine,Pinus,sylvestris
+309,136.0,19,25,136,Austrian pine,Pinus,nigra
+310,136.0,45,4,136,Austrian pine,Pinus,nigra
+311,241.0,1,1438,241,northern white-cedar,Thuja,occidentalis
+312,241.0,7,9868,241,northern white-cedar,Thuja,occidentalis
+313,241.0,17,602,241,northern white-cedar,Thuja,occidentalis
+314,241.0,19,377,241,northern white-cedar,Thuja,occidentalis
+315,241.0,21,4087,241,northern white-cedar,Thuja,occidentalis
+316,241.0,25,2,241,northern white-cedar,Thuja,occidentalis
+317,241.0,29,563,241,northern white-cedar,Thuja,occidentalis
+318,241.0,31,5128,241,northern white-cedar,Thuja,occidentalis
+319,241.0,35,319,241,northern white-cedar,Thuja,occidentalis
+320,241.0,57,108,241,northern white-cedar,Thuja,occidentalis
+321,241.0,61,8433,241,northern white-cedar,Thuja,occidentalis
+322,241.0,71,29025,241,northern white-cedar,Thuja,occidentalis
+323,241.0,75,5797,241,northern white-cedar,Thuja,occidentalis
+324,241.0,77,5004,241,northern white-cedar,Thuja,occidentalis
+325,241.0,79,18,241,northern white-cedar,Thuja,occidentalis
+326,241.0,115,1,241,northern white-cedar,Thuja,occidentalis
+327,241.0,135,430,241,northern white-cedar,Thuja,occidentalis
+328,241.0,137,11716,241,northern white-cedar,Thuja,occidentalis
+329,241.0,169,4,241,northern white-cedar,Thuja,occidentalis
+330,299.0,35,2,299,unknown dead conifer,Tree,evergreen
+331,299.0,61,2,299,unknown dead conifer,Tree,evergreen
+332,313.0,1,135,313,boxelder,Acer,negundo
+333,313.0,3,115,313,boxelder,Acer,negundo
+334,313.0,5,313,313,boxelder,Acer,negundo
+335,313.0,7,326,313,boxelder,Acer,negundo
+336,313.0,9,133,313,boxelder,Acer,negundo
+337,313.0,11,19,313,boxelder,Acer,negundo
+338,313.0,13,152,313,boxelder,Acer,negundo
+339,313.0,15,90,313,boxelder,Acer,negundo
+340,313.0,17,12,313,boxelder,Acer,negundo
+341,313.0,19,183,313,boxelder,Acer,negundo
+342,313.0,21,173,313,boxelder,Acer,negundo
+343,313.0,23,123,313,boxelder,Acer,negundo
+344,313.0,25,160,313,boxelder,Acer,negundo
+345,313.0,27,252,313,boxelder,Acer,negundo
+346,313.0,29,79,313,boxelder,Acer,negundo
+347,313.0,33,129,313,boxelder,Acer,negundo
+348,313.0,35,56,313,boxelder,Acer,negundo
+349,313.0,37,279,313,boxelder,Acer,negundo
+350,313.0,39,135,313,boxelder,Acer,negundo
+351,313.0,41,158,313,boxelder,Acer,negundo
+352,313.0,43,37,313,boxelder,Acer,negundo
+353,313.0,45,642,313,boxelder,Acer,negundo
+354,313.0,47,5,313,boxelder,Acer,negundo
+355,313.0,49,653,313,boxelder,Acer,negundo
+356,313.0,51,40,313,boxelder,Acer,negundo
+357,313.0,53,153,313,boxelder,Acer,negundo
+358,313.0,55,351,313,boxelder,Acer,negundo
+359,313.0,57,4,313,boxelder,Acer,negundo
+360,313.0,59,163,313,boxelder,Acer,negundo
+361,313.0,61,46,313,boxelder,Acer,negundo
+362,313.0,63,22,313,boxelder,Acer,negundo
+363,313.0,65,29,313,boxelder,Acer,negundo
+364,313.0,67,221,313,boxelder,Acer,negundo
+365,313.0,69,222,313,boxelder,Acer,negundo
+366,313.0,71,335,313,boxelder,Acer,negundo
+367,313.0,73,170,313,boxelder,Acer,negundo
+368,313.0,77,12,313,boxelder,Acer,negundo
+369,313.0,79,393,313,boxelder,Acer,negundo
+370,313.0,81,4,313,boxelder,Acer,negundo
+371,313.0,83,94,313,boxelder,Acer,negundo
+372,313.0,85,144,313,boxelder,Acer,negundo
+373,313.0,87,165,313,boxelder,Acer,negundo
+374,313.0,89,360,313,boxelder,Acer,negundo
+375,313.0,91,42,313,boxelder,Acer,negundo
+376,313.0,93,279,313,boxelder,Acer,negundo
+377,313.0,95,57,313,boxelder,Acer,negundo
+378,313.0,97,191,313,boxelder,Acer,negundo
+379,313.0,99,15,313,boxelder,Acer,negundo
+380,313.0,101,76,313,boxelder,Acer,negundo
+381,313.0,103,152,313,boxelder,Acer,negundo
+382,313.0,107,309,313,boxelder,Acer,negundo
+383,313.0,109,612,313,boxelder,Acer,negundo
+384,313.0,111,574,313,boxelder,Acer,negundo
+385,313.0,113,63,313,boxelder,Acer,negundo
+386,313.0,115,28,313,boxelder,Acer,negundo
+387,313.0,119,663,313,boxelder,Acer,negundo
+388,313.0,121,175,313,boxelder,Acer,negundo
+389,313.0,125,49,313,boxelder,Acer,negundo
+390,313.0,127,58,313,boxelder,Acer,negundo
+391,313.0,129,174,313,boxelder,Acer,negundo
+392,313.0,131,382,313,boxelder,Acer,negundo
+393,313.0,135,134,313,boxelder,Acer,negundo
+394,313.0,137,213,313,boxelder,Acer,negundo
+395,313.0,139,241,313,boxelder,Acer,negundo
+396,313.0,141,45,313,boxelder,Acer,negundo
+397,313.0,143,215,313,boxelder,Acer,negundo
+398,313.0,145,382,313,boxelder,Acer,negundo
+399,313.0,147,67,313,boxelder,Acer,negundo
+400,313.0,149,19,313,boxelder,Acer,negundo
+401,313.0,151,148,313,boxelder,Acer,negundo
+402,313.0,153,147,313,boxelder,Acer,negundo
+403,313.0,155,3,313,boxelder,Acer,negundo
+404,313.0,157,494,313,boxelder,Acer,negundo
+405,313.0,159,23,313,boxelder,Acer,negundo
+406,313.0,161,16,313,boxelder,Acer,negundo
+407,313.0,163,116,313,boxelder,Acer,negundo
+408,313.0,165,15,313,boxelder,Acer,negundo
+409,313.0,167,29,313,boxelder,Acer,negundo
+410,313.0,169,645,313,boxelder,Acer,negundo
+411,313.0,171,255,313,boxelder,Acer,negundo
+412,313.0,173,20,313,boxelder,Acer,negundo
+413,314.0,13,5,314,black maple,Acer,nigrum
+414,314.0,19,1,314,black maple,Acer,nigrum
+415,314.0,45,9,314,black maple,Acer,nigrum
+416,314.0,55,4,314,black maple,Acer,nigrum
+417,314.0,79,2,314,black maple,Acer,nigrum
+418,314.0,103,1,314,black maple,Acer,nigrum
+419,314.0,137,1,314,black maple,Acer,nigrum
+420,314.0,157,1,314,black maple,Acer,nigrum
+421,314.0,169,2,314,black maple,Acer,nigrum
+422,314.0,171,3,314,black maple,Acer,nigrum
+423,315.0,1,1,315,striped maple,Acer,pensylvanicum
+424,315.0,17,1,315,striped maple,Acer,pensylvanicum
+425,315.0,31,1,315,striped maple,Acer,pensylvanicum
+426,315.0,61,1,315,striped maple,Acer,pensylvanicum
+427,315.0,71,1,315,striped maple,Acer,pensylvanicum
+428,315.0,111,1,315,striped maple,Acer,pensylvanicum
+429,315.0,137,5,315,striped maple,Acer,pensylvanicum
+430,316.0,1,5770,316,red maple,Acer,rubrum
+431,316.0,3,349,316,red maple,Acer,rubrum
+432,316.0,5,515,316,red maple,Acer,rubrum
+433,316.0,7,954,316,red maple,Acer,rubrum
+434,316.0,9,65,316,red maple,Acer,rubrum
+435,316.0,13,5,316,red maple,Acer,rubrum
+436,316.0,15,9,316,red maple,Acer,rubrum
+437,316.0,17,2007,316,red maple,Acer,rubrum
+438,316.0,21,3940,316,red maple,Acer,rubrum
+439,316.0,25,421,316,red maple,Acer,rubrum
+440,316.0,29,439,316,red maple,Acer,rubrum
+441,316.0,31,906,316,red maple,Acer,rubrum
+442,316.0,35,1991,316,red maple,Acer,rubrum
+443,316.0,41,2,316,red maple,Acer,rubrum
+444,316.0,45,1,316,red maple,Acer,rubrum
+445,316.0,49,8,316,red maple,Acer,rubrum
+446,316.0,53,1,316,red maple,Acer,rubrum
+447,316.0,55,2,316,red maple,Acer,rubrum
+448,316.0,57,909,316,red maple,Acer,rubrum
+449,316.0,59,126,316,red maple,Acer,rubrum
+450,316.0,61,4243,316,red maple,Acer,rubrum
+451,316.0,63,1,316,red maple,Acer,rubrum
+452,316.0,65,1053,316,red maple,Acer,rubrum
+453,316.0,71,1240,316,red maple,Acer,rubrum
+454,316.0,75,2526,316,red maple,Acer,rubrum
+455,316.0,77,1,316,red maple,Acer,rubrum
+456,316.0,79,6,316,red maple,Acer,rubrum
+457,316.0,87,20,316,red maple,Acer,rubrum
+458,316.0,93,8,316,red maple,Acer,rubrum
+459,316.0,95,1040,316,red maple,Acer,rubrum
+460,316.0,97,923,316,red maple,Acer,rubrum
+461,316.0,111,16,316,red maple,Acer,rubrum
+462,316.0,115,6144,316,red maple,Acer,rubrum
+463,316.0,119,16,316,red maple,Acer,rubrum
+464,316.0,127,2,316,red maple,Acer,rubrum
+465,316.0,137,16015,316,red maple,Acer,rubrum
+466,316.0,139,10,316,red maple,Acer,rubrum
+467,316.0,141,3,316,red maple,Acer,rubrum
+468,316.0,145,151,316,red maple,Acer,rubrum
+469,316.0,153,147,316,red maple,Acer,rubrum
+470,316.0,157,16,316,red maple,Acer,rubrum
+471,316.0,159,108,316,red maple,Acer,rubrum
+472,316.0,163,150,316,red maple,Acer,rubrum
+473,316.0,165,2,316,red maple,Acer,rubrum
+474,316.0,169,2,316,red maple,Acer,rubrum
+475,316.0,171,42,316,red maple,Acer,rubrum
+476,317.0,1,328,317,silver maple,Acer,saccharinum
+477,317.0,3,27,317,silver maple,Acer,saccharinum
+478,317.0,7,65,317,silver maple,Acer,saccharinum
+479,317.0,13,164,317,silver maple,Acer,saccharinum
+480,317.0,15,83,317,silver maple,Acer,saccharinum
+481,317.0,19,19,317,silver maple,Acer,saccharinum
+482,317.0,23,65,317,silver maple,Acer,saccharinum
+483,317.0,25,12,317,silver maple,Acer,saccharinum
+484,317.0,29,41,317,silver maple,Acer,saccharinum
+485,317.0,35,20,317,silver maple,Acer,saccharinum
+486,317.0,37,88,317,silver maple,Acer,saccharinum
+487,317.0,39,8,317,silver maple,Acer,saccharinum
+488,317.0,43,148,317,silver maple,Acer,saccharinum
+489,317.0,45,18,317,silver maple,Acer,saccharinum
+490,317.0,49,238,317,silver maple,Acer,saccharinum
+491,317.0,55,392,317,silver maple,Acer,saccharinum
+492,317.0,57,14,317,silver maple,Acer,saccharinum
+493,317.0,59,461,317,silver maple,Acer,saccharinum
+494,317.0,61,244,317,silver maple,Acer,saccharinum
+495,317.0,63,2,317,silver maple,Acer,saccharinum
+496,317.0,65,81,317,silver maple,Acer,saccharinum
+497,317.0,67,122,317,silver maple,Acer,saccharinum
+498,317.0,71,96,317,silver maple,Acer,saccharinum
+499,317.0,73,4,317,silver maple,Acer,saccharinum
+500,317.0,75,1,317,silver maple,Acer,saccharinum
+501,317.0,79,26,317,silver maple,Acer,saccharinum
+502,317.0,93,34,317,silver maple,Acer,saccharinum
+503,317.0,95,8,317,silver maple,Acer,saccharinum
+504,317.0,97,18,317,silver maple,Acer,saccharinum
+505,317.0,99,57,317,silver maple,Acer,saccharinum
+506,317.0,101,21,317,silver maple,Acer,saccharinum
+507,317.0,103,33,317,silver maple,Acer,saccharinum
+508,317.0,109,37,317,silver maple,Acer,saccharinum
+509,317.0,115,40,317,silver maple,Acer,saccharinum
+510,317.0,129,145,317,silver maple,Acer,saccharinum
+511,317.0,131,4,317,silver maple,Acer,saccharinum
+512,317.0,137,117,317,silver maple,Acer,saccharinum
+513,317.0,139,55,317,silver maple,Acer,saccharinum
+514,317.0,141,86,317,silver maple,Acer,saccharinum
+515,317.0,145,33,317,silver maple,Acer,saccharinum
+516,317.0,147,38,317,silver maple,Acer,saccharinum
+517,317.0,151,84,317,silver maple,Acer,saccharinum
+518,317.0,157,112,317,silver maple,Acer,saccharinum
+519,317.0,159,61,317,silver maple,Acer,saccharinum
+520,317.0,163,130,317,silver maple,Acer,saccharinum
+521,317.0,165,43,317,silver maple,Acer,saccharinum
+522,317.0,169,67,317,silver maple,Acer,saccharinum
+523,317.0,171,219,317,silver maple,Acer,saccharinum
+524,317.0,173,2,317,silver maple,Acer,saccharinum
+525,318.0,1,5314,318,sugar maple,Acer,saccharum
+526,318.0,3,4,318,sugar maple,Acer,saccharum
+527,318.0,5,2599,318,sugar maple,Acer,saccharum
+528,318.0,7,2226,318,sugar maple,Acer,saccharum
+529,318.0,9,35,318,sugar maple,Acer,saccharum
+530,318.0,13,135,318,sugar maple,Acer,saccharum
+531,318.0,15,115,318,sugar maple,Acer,saccharum
+532,318.0,17,1630,318,sugar maple,Acer,saccharum
+533,318.0,19,86,318,sugar maple,Acer,saccharum
+534,318.0,21,2507,318,sugar maple,Acer,saccharum
+535,318.0,25,186,318,sugar maple,Acer,saccharum
+536,318.0,27,137,318,sugar maple,Acer,saccharum
+537,318.0,29,1804,318,sugar maple,Acer,saccharum
+538,318.0,31,3462,318,sugar maple,Acer,saccharum
+539,318.0,35,1258,318,sugar maple,Acer,saccharum
+540,318.0,37,48,318,sugar maple,Acer,saccharum
+541,318.0,39,74,318,sugar maple,Acer,saccharum
+542,318.0,41,353,318,sugar maple,Acer,saccharum
+543,318.0,45,435,318,sugar maple,Acer,saccharum
+544,318.0,47,22,318,sugar maple,Acer,saccharum
+545,318.0,49,49,318,sugar maple,Acer,saccharum
+546,318.0,53,251,318,sugar maple,Acer,saccharum
+547,318.0,55,173,318,sugar maple,Acer,saccharum
+548,318.0,57,606,318,sugar maple,Acer,saccharum
+549,318.0,59,43,318,sugar maple,Acer,saccharum
+550,318.0,61,4848,318,sugar maple,Acer,saccharum
+551,318.0,65,559,318,sugar maple,Acer,saccharum
+552,318.0,67,1,318,sugar maple,Acer,saccharum
+553,318.0,71,485,318,sugar maple,Acer,saccharum
+554,318.0,75,5548,318,sugar maple,Acer,saccharum
+555,318.0,79,155,318,sugar maple,Acer,saccharum
+556,318.0,85,37,318,sugar maple,Acer,saccharum
+557,318.0,87,758,318,sugar maple,Acer,saccharum
+558,318.0,95,799,318,sugar maple,Acer,saccharum
+559,318.0,97,255,318,sugar maple,Acer,saccharum
+560,318.0,103,83,318,sugar maple,Acer,saccharum
+561,318.0,107,4,318,sugar maple,Acer,saccharum
+562,318.0,109,90,318,sugar maple,Acer,saccharum
+563,318.0,111,990,318,sugar maple,Acer,saccharum
+564,318.0,115,2259,318,sugar maple,Acer,saccharum
+565,318.0,119,266,318,sugar maple,Acer,saccharum
+566,318.0,121,30,318,sugar maple,Acer,saccharum
+567,318.0,131,423,318,sugar maple,Acer,saccharum
+568,318.0,135,2,318,sugar maple,Acer,saccharum
+569,318.0,137,3862,318,sugar maple,Acer,saccharum
+570,318.0,139,94,318,sugar maple,Acer,saccharum
+571,318.0,143,85,318,sugar maple,Acer,saccharum
+572,318.0,145,202,318,sugar maple,Acer,saccharum
+573,318.0,153,261,318,sugar maple,Acer,saccharum
+574,318.0,157,40,318,sugar maple,Acer,saccharum
+575,318.0,159,17,318,sugar maple,Acer,saccharum
+576,318.0,161,97,318,sugar maple,Acer,saccharum
+577,318.0,163,1,318,sugar maple,Acer,saccharum
+578,318.0,169,474,318,sugar maple,Acer,saccharum
+579,318.0,171,137,318,sugar maple,Acer,saccharum
+580,319.0,1,81,319,mountain maple,Acer,spicatum
+581,319.0,5,29,319,mountain maple,Acer,spicatum
+582,319.0,7,339,319,mountain maple,Acer,spicatum
+583,319.0,17,117,319,mountain maple,Acer,spicatum
+584,319.0,21,476,319,mountain maple,Acer,spicatum
+585,319.0,29,40,319,mountain maple,Acer,spicatum
+586,319.0,31,3046,319,mountain maple,Acer,spicatum
+587,319.0,35,59,319,mountain maple,Acer,spicatum
+588,319.0,37,1,319,mountain maple,Acer,spicatum
+589,319.0,57,147,319,mountain maple,Acer,spicatum
+590,319.0,61,823,319,mountain maple,Acer,spicatum
+591,319.0,65,1,319,mountain maple,Acer,spicatum
+592,319.0,71,298,319,mountain maple,Acer,spicatum
+593,319.0,75,2439,319,mountain maple,Acer,spicatum
+594,319.0,77,85,319,mountain maple,Acer,spicatum
+595,319.0,87,22,319,mountain maple,Acer,spicatum
+596,319.0,115,15,319,mountain maple,Acer,spicatum
+597,319.0,135,15,319,mountain maple,Acer,spicatum
+598,319.0,137,1907,319,mountain maple,Acer,spicatum
+599,319.0,147,1,319,mountain maple,Acer,spicatum
+600,320.0,25,2,320,Norway maple,Acer,platanoides
+601,320.0,137,9,320,Norway maple,Acer,platanoides
+602,341.0,17,1,341,ailanthus,Ailanthus,altissima
+603,341.0,31,1,341,ailanthus,Ailanthus,altissima
+604,356.0,1,79,356,serviceberry spp.,Amelanchier,spp.
+605,356.0,3,35,356,serviceberry spp.,Amelanchier,spp.
+606,356.0,5,28,356,serviceberry spp.,Amelanchier,spp.
+607,356.0,7,74,356,serviceberry spp.,Amelanchier,spp.
+608,356.0,9,3,356,serviceberry spp.,Amelanchier,spp.
+609,356.0,17,5,356,serviceberry spp.,Amelanchier,spp.
+610,356.0,21,25,356,serviceberry spp.,Amelanchier,spp.
+611,356.0,25,6,356,serviceberry spp.,Amelanchier,spp.
+612,356.0,29,11,356,serviceberry spp.,Amelanchier,spp.
+613,356.0,31,111,356,serviceberry spp.,Amelanchier,spp.
+614,356.0,35,57,356,serviceberry spp.,Amelanchier,spp.
+615,356.0,41,3,356,serviceberry spp.,Amelanchier,spp.
+616,356.0,57,12,356,serviceberry spp.,Amelanchier,spp.
+617,356.0,59,12,356,serviceberry spp.,Amelanchier,spp.
+618,356.0,61,80,356,serviceberry spp.,Amelanchier,spp.
+619,356.0,65,9,356,serviceberry spp.,Amelanchier,spp.
+620,356.0,69,4,356,serviceberry spp.,Amelanchier,spp.
+621,356.0,71,85,356,serviceberry spp.,Amelanchier,spp.
+622,356.0,75,160,356,serviceberry spp.,Amelanchier,spp.
+623,356.0,77,39,356,serviceberry spp.,Amelanchier,spp.
+624,356.0,87,15,356,serviceberry spp.,Amelanchier,spp.
+625,356.0,89,2,356,serviceberry spp.,Amelanchier,spp.
+626,356.0,95,2,356,serviceberry spp.,Amelanchier,spp.
+627,356.0,97,12,356,serviceberry spp.,Amelanchier,spp.
+628,356.0,111,9,356,serviceberry spp.,Amelanchier,spp.
+629,356.0,113,9,356,serviceberry spp.,Amelanchier,spp.
+630,356.0,115,98,356,serviceberry spp.,Amelanchier,spp.
+631,356.0,119,2,356,serviceberry spp.,Amelanchier,spp.
+632,356.0,121,2,356,serviceberry spp.,Amelanchier,spp.
+633,356.0,135,57,356,serviceberry spp.,Amelanchier,spp.
+634,356.0,137,148,356,serviceberry spp.,Amelanchier,spp.
+635,356.0,141,3,356,serviceberry spp.,Amelanchier,spp.
+636,356.0,145,5,356,serviceberry spp.,Amelanchier,spp.
+637,356.0,153,8,356,serviceberry spp.,Amelanchier,spp.
+638,356.0,157,6,356,serviceberry spp.,Amelanchier,spp.
+639,356.0,159,6,356,serviceberry spp.,Amelanchier,spp.
+640,356.0,161,1,356,serviceberry spp.,Amelanchier,spp.
+641,357.0,3,2,357,common serviceberry,Amelanchier,arborea
+642,357.0,7,2,357,common serviceberry,Amelanchier,arborea
+643,357.0,31,2,357,common serviceberry,Amelanchier,arborea
+644,357.0,57,2,357,common serviceberry,Amelanchier,arborea
+645,357.0,137,1,357,common serviceberry,Amelanchier,arborea
+646,371.0,1,387,371,yellow birch,Betula,alleghaniensis
+647,371.0,3,12,371,yellow birch,Betula,alleghaniensis
+648,371.0,5,18,371,yellow birch,Betula,alleghaniensis
+649,371.0,7,9,371,yellow birch,Betula,alleghaniensis
+650,371.0,17,90,371,yellow birch,Betula,alleghaniensis
+651,371.0,21,89,371,yellow birch,Betula,alleghaniensis
+652,371.0,25,18,371,yellow birch,Betula,alleghaniensis
+653,371.0,29,3,371,yellow birch,Betula,alleghaniensis
+654,371.0,31,359,371,yellow birch,Betula,alleghaniensis
+655,371.0,35,113,371,yellow birch,Betula,alleghaniensis
+656,371.0,55,2,371,yellow birch,Betula,alleghaniensis
+657,371.0,57,3,371,yellow birch,Betula,alleghaniensis
+658,371.0,61,472,371,yellow birch,Betula,alleghaniensis
+659,371.0,65,52,371,yellow birch,Betula,alleghaniensis
+660,371.0,71,30,371,yellow birch,Betula,alleghaniensis
+661,371.0,75,832,371,yellow birch,Betula,alleghaniensis
+662,371.0,77,2,371,yellow birch,Betula,alleghaniensis
+663,371.0,95,98,371,yellow birch,Betula,alleghaniensis
+664,371.0,115,37,371,yellow birch,Betula,alleghaniensis
+665,371.0,137,559,371,yellow birch,Betula,alleghaniensis
+666,371.0,143,21,371,yellow birch,Betula,alleghaniensis
+667,371.0,145,85,371,yellow birch,Betula,alleghaniensis
+668,371.0,153,89,371,yellow birch,Betula,alleghaniensis
+669,372.0,25,5,372,sweet birch,Betula,lenta
+670,373.0,25,2,373,river birch,Betula,nigra
+671,373.0,61,2,373,river birch,Betula,nigra
+672,373.0,157,5,373,river birch,Betula,nigra
+673,373.0,163,4,373,river birch,Betula,nigra
+674,373.0,169,2,373,river birch,Betula,nigra
+675,375.0,1,4712,375,paper birch,Betula,papyrifera
+676,375.0,3,196,375,paper birch,Betula,papyrifera
+677,375.0,5,2338,375,paper birch,Betula,papyrifera
+678,375.0,7,4362,375,paper birch,Betula,papyrifera
+679,375.0,9,44,375,paper birch,Betula,papyrifera
+680,375.0,13,14,375,paper birch,Betula,papyrifera
+681,375.0,17,2728,375,paper birch,Betula,papyrifera
+682,375.0,21,7556,375,paper birch,Betula,papyrifera
+683,375.0,25,243,375,paper birch,Betula,papyrifera
+684,375.0,27,1,375,paper birch,Betula,papyrifera
+685,375.0,29,2118,375,paper birch,Betula,papyrifera
+686,375.0,31,13014,375,paper birch,Betula,papyrifera
+687,375.0,35,3172,375,paper birch,Betula,papyrifera
+688,375.0,37,74,375,paper birch,Betula,papyrifera
+689,375.0,41,42,375,paper birch,Betula,papyrifera
+690,375.0,45,138,375,paper birch,Betula,papyrifera
+691,375.0,49,183,375,paper birch,Betula,papyrifera
+692,375.0,51,1,375,paper birch,Betula,papyrifera
+693,375.0,53,21,375,paper birch,Betula,papyrifera
+694,375.0,55,438,375,paper birch,Betula,papyrifera
+695,375.0,57,2935,375,paper birch,Betula,papyrifera
+696,375.0,59,214,375,paper birch,Betula,papyrifera
+697,375.0,61,11839,375,paper birch,Betula,papyrifera
+698,375.0,65,692,375,paper birch,Betula,papyrifera
+699,375.0,71,7657,375,paper birch,Betula,papyrifera
+700,375.0,75,14356,375,paper birch,Betula,papyrifera
+701,375.0,77,2002,375,paper birch,Betula,papyrifera
+702,375.0,87,312,375,paper birch,Betula,papyrifera
+703,375.0,89,20,375,paper birch,Betula,papyrifera
+704,375.0,95,658,375,paper birch,Betula,papyrifera
+705,375.0,97,1060,375,paper birch,Betula,papyrifera
+706,375.0,103,9,375,paper birch,Betula,papyrifera
+707,375.0,107,7,375,paper birch,Betula,papyrifera
+708,375.0,109,10,375,paper birch,Betula,papyrifera
+709,375.0,111,545,375,paper birch,Betula,papyrifera
+710,375.0,113,10,375,paper birch,Betula,papyrifera
+711,375.0,115,4015,375,paper birch,Betula,papyrifera
+712,375.0,119,65,375,paper birch,Betula,papyrifera
+713,375.0,121,8,375,paper birch,Betula,papyrifera
+714,375.0,135,723,375,paper birch,Betula,papyrifera
+715,375.0,137,26997,375,paper birch,Betula,papyrifera
+716,375.0,139,39,375,paper birch,Betula,papyrifera
+717,375.0,141,68,375,paper birch,Betula,papyrifera
+718,375.0,143,25,375,paper birch,Betula,papyrifera
+719,375.0,145,220,375,paper birch,Betula,papyrifera
+720,375.0,153,325,375,paper birch,Betula,papyrifera
+721,375.0,157,309,375,paper birch,Betula,papyrifera
+722,375.0,159,268,375,paper birch,Betula,papyrifera
+723,375.0,163,167,375,paper birch,Betula,papyrifera
+724,375.0,169,619,375,paper birch,Betula,papyrifera
+725,375.0,171,12,375,paper birch,Betula,papyrifera
+726,391.0,1,119,391,"American hornbeam, musclewood",Carpinus,caroliniana
+727,391.0,5,222,391,"American hornbeam, musclewood",Carpinus,caroliniana
+728,391.0,7,50,391,"American hornbeam, musclewood",Carpinus,caroliniana
+729,391.0,17,14,391,"American hornbeam, musclewood",Carpinus,caroliniana
+730,391.0,21,67,391,"American hornbeam, musclewood",Carpinus,caroliniana
+731,391.0,25,2,391,"American hornbeam, musclewood",Carpinus,caroliniana
+732,391.0,29,21,391,"American hornbeam, musclewood",Carpinus,caroliniana
+733,391.0,35,31,391,"American hornbeam, musclewood",Carpinus,caroliniana
+734,391.0,37,12,391,"American hornbeam, musclewood",Carpinus,caroliniana
+735,391.0,45,3,391,"American hornbeam, musclewood",Carpinus,caroliniana
+736,391.0,49,1,391,"American hornbeam, musclewood",Carpinus,caroliniana
+737,391.0,55,3,391,"American hornbeam, musclewood",Carpinus,caroliniana
+738,391.0,57,1,391,"American hornbeam, musclewood",Carpinus,caroliniana
+739,391.0,61,9,391,"American hornbeam, musclewood",Carpinus,caroliniana
+740,391.0,65,71,391,"American hornbeam, musclewood",Carpinus,caroliniana
+741,391.0,71,2,391,"American hornbeam, musclewood",Carpinus,caroliniana
+742,391.0,87,10,391,"American hornbeam, musclewood",Carpinus,caroliniana
+743,391.0,91,1,391,"American hornbeam, musclewood",Carpinus,caroliniana
+744,391.0,95,76,391,"American hornbeam, musclewood",Carpinus,caroliniana
+745,391.0,97,29,391,"American hornbeam, musclewood",Carpinus,caroliniana
+746,391.0,103,8,391,"American hornbeam, musclewood",Carpinus,caroliniana
+747,391.0,111,8,391,"American hornbeam, musclewood",Carpinus,caroliniana
+748,391.0,115,131,391,"American hornbeam, musclewood",Carpinus,caroliniana
+749,391.0,119,12,391,"American hornbeam, musclewood",Carpinus,caroliniana
+750,391.0,137,11,391,"American hornbeam, musclewood",Carpinus,caroliniana
+751,391.0,145,12,391,"American hornbeam, musclewood",Carpinus,caroliniana
+752,391.0,153,15,391,"American hornbeam, musclewood",Carpinus,caroliniana
+753,391.0,159,47,391,"American hornbeam, musclewood",Carpinus,caroliniana
+754,391.0,169,1,391,"American hornbeam, musclewood",Carpinus,caroliniana
+755,402.0,1,29,402,bitternut hickory,Carya,cordiformis
+756,402.0,13,16,402,bitternut hickory,Carya,cordiformis
+757,402.0,19,5,402,bitternut hickory,Carya,cordiformis
+758,402.0,25,36,402,bitternut hickory,Carya,cordiformis
+759,402.0,35,10,402,bitternut hickory,Carya,cordiformis
+760,402.0,37,20,402,bitternut hickory,Carya,cordiformis
+761,402.0,39,10,402,bitternut hickory,Carya,cordiformis
+762,402.0,43,8,402,bitternut hickory,Carya,cordiformis
+763,402.0,45,128,402,bitternut hickory,Carya,cordiformis
+764,402.0,49,140,402,bitternut hickory,Carya,cordiformis
+765,402.0,53,24,402,bitternut hickory,Carya,cordiformis
+766,402.0,55,114,402,bitternut hickory,Carya,cordiformis
+767,402.0,59,22,402,bitternut hickory,Carya,cordiformis
+768,402.0,63,4,402,bitternut hickory,Carya,cordiformis
+769,402.0,65,19,402,bitternut hickory,Carya,cordiformis
+770,402.0,79,11,402,bitternut hickory,Carya,cordiformis
+771,402.0,85,5,402,bitternut hickory,Carya,cordiformis
+772,402.0,93,5,402,bitternut hickory,Carya,cordiformis
+773,402.0,95,20,402,bitternut hickory,Carya,cordiformis
+774,402.0,99,9,402,bitternut hickory,Carya,cordiformis
+775,402.0,103,23,402,bitternut hickory,Carya,cordiformis
+776,402.0,109,158,402,bitternut hickory,Carya,cordiformis
+777,402.0,115,75,402,bitternut hickory,Carya,cordiformis
+778,402.0,131,27,402,bitternut hickory,Carya,cordiformis
+779,402.0,139,34,402,bitternut hickory,Carya,cordiformis
+780,402.0,143,34,402,bitternut hickory,Carya,cordiformis
+781,402.0,147,5,402,bitternut hickory,Carya,cordiformis
+782,402.0,157,60,402,bitternut hickory,Carya,cordiformis
+783,402.0,161,3,402,bitternut hickory,Carya,cordiformis
+784,402.0,163,24,402,bitternut hickory,Carya,cordiformis
+785,402.0,169,142,402,bitternut hickory,Carya,cordiformis
+786,402.0,171,6,402,bitternut hickory,Carya,cordiformis
+787,407.0,43,1,407,shagbark hickory,Carya,ovata
+788,407.0,45,75,407,shagbark hickory,Carya,ovata
+789,407.0,49,1,407,shagbark hickory,Carya,ovata
+790,407.0,55,966,407,shagbark hickory,Carya,ovata
+791,407.0,99,2,407,shagbark hickory,Carya,ovata
+792,407.0,103,6,407,shagbark hickory,Carya,ovata
+793,407.0,109,7,407,shagbark hickory,Carya,ovata
+794,407.0,131,3,407,shagbark hickory,Carya,ovata
+795,407.0,139,2,407,shagbark hickory,Carya,ovata
+796,407.0,157,5,407,shagbark hickory,Carya,ovata
+797,407.0,169,474,407,shagbark hickory,Carya,ovata
+798,462.0,1,2,462,hackberry,Celtis,occidentalis
+799,462.0,3,4,462,hackberry,Celtis,occidentalis
+800,462.0,7,3,462,hackberry,Celtis,occidentalis
+801,462.0,11,8,462,hackberry,Celtis,occidentalis
+802,462.0,13,128,462,hackberry,Celtis,occidentalis
+803,462.0,15,10,462,hackberry,Celtis,occidentalis
+804,462.0,19,20,462,hackberry,Celtis,occidentalis
+805,462.0,23,3,462,hackberry,Celtis,occidentalis
+806,462.0,25,2,462,hackberry,Celtis,occidentalis
+807,462.0,27,5,462,hackberry,Celtis,occidentalis
+808,462.0,33,4,462,hackberry,Celtis,occidentalis
+809,462.0,37,32,462,hackberry,Celtis,occidentalis
+810,462.0,39,10,462,hackberry,Celtis,occidentalis
+811,462.0,41,1,462,hackberry,Celtis,occidentalis
+812,462.0,43,59,462,hackberry,Celtis,occidentalis
+813,462.0,45,106,462,hackberry,Celtis,occidentalis
+814,462.0,47,8,462,hackberry,Celtis,occidentalis
+815,462.0,49,162,462,hackberry,Celtis,occidentalis
+816,462.0,53,17,462,hackberry,Celtis,occidentalis
+817,462.0,55,342,462,hackberry,Celtis,occidentalis
+818,462.0,59,17,462,hackberry,Celtis,occidentalis
+819,462.0,63,10,462,hackberry,Celtis,occidentalis
+820,462.0,67,78,462,hackberry,Celtis,occidentalis
+821,462.0,73,77,462,hackberry,Celtis,occidentalis
+822,462.0,79,29,462,hackberry,Celtis,occidentalis
+823,462.0,85,49,462,hackberry,Celtis,occidentalis
+824,462.0,91,19,462,hackberry,Celtis,occidentalis
+825,462.0,93,44,462,hackberry,Celtis,occidentalis
+826,462.0,95,1,462,hackberry,Celtis,occidentalis
+827,462.0,97,3,462,hackberry,Celtis,occidentalis
+828,462.0,101,40,462,hackberry,Celtis,occidentalis
+829,462.0,103,56,462,hackberry,Celtis,occidentalis
+830,462.0,107,1,462,hackberry,Celtis,occidentalis
+831,462.0,109,59,462,hackberry,Celtis,occidentalis
+832,462.0,111,12,462,hackberry,Celtis,occidentalis
+833,462.0,119,11,462,hackberry,Celtis,occidentalis
+834,462.0,127,5,462,hackberry,Celtis,occidentalis
+835,462.0,129,19,462,hackberry,Celtis,occidentalis
+836,462.0,131,47,462,hackberry,Celtis,occidentalis
+837,462.0,139,7,462,hackberry,Celtis,occidentalis
+838,462.0,141,5,462,hackberry,Celtis,occidentalis
+839,462.0,143,6,462,hackberry,Celtis,occidentalis
+840,462.0,145,37,462,hackberry,Celtis,occidentalis
+841,462.0,147,3,462,hackberry,Celtis,occidentalis
+842,462.0,149,13,462,hackberry,Celtis,occidentalis
+843,462.0,151,119,462,hackberry,Celtis,occidentalis
+844,462.0,157,186,462,hackberry,Celtis,occidentalis
+845,462.0,161,7,462,hackberry,Celtis,occidentalis
+846,462.0,163,10,462,hackberry,Celtis,occidentalis
+847,462.0,165,1,462,hackberry,Celtis,occidentalis
+848,462.0,169,204,462,hackberry,Celtis,occidentalis
+849,462.0,171,40,462,hackberry,Celtis,occidentalis
+850,462.0,173,38,462,hackberry,Celtis,occidentalis
+851,491.0,13,2,491,flowering dogwood,Cornus,florida
+852,491.0,37,2,491,flowering dogwood,Cornus,florida
+853,500.0,1,11,500,hawthorn spp.,Crataegus,spp.
+854,500.0,5,15,500,hawthorn spp.,Crataegus,spp.
+855,500.0,7,3,500,hawthorn spp.,Crataegus,spp.
+856,500.0,9,16,500,hawthorn spp.,Crataegus,spp.
+857,500.0,17,4,500,hawthorn spp.,Crataegus,spp.
+858,500.0,21,5,500,hawthorn spp.,Crataegus,spp.
+859,500.0,27,5,500,hawthorn spp.,Crataegus,spp.
+860,500.0,29,21,500,hawthorn spp.,Crataegus,spp.
+861,500.0,35,18,500,hawthorn spp.,Crataegus,spp.
+862,500.0,39,1,500,hawthorn spp.,Crataegus,spp.
+863,500.0,41,1,500,hawthorn spp.,Crataegus,spp.
+864,500.0,43,9,500,hawthorn spp.,Crataegus,spp.
+865,500.0,45,14,500,hawthorn spp.,Crataegus,spp.
+866,500.0,49,16,500,hawthorn spp.,Crataegus,spp.
+867,500.0,51,6,500,hawthorn spp.,Crataegus,spp.
+868,500.0,53,33,500,hawthorn spp.,Crataegus,spp.
+869,500.0,55,22,500,hawthorn spp.,Crataegus,spp.
+870,500.0,57,12,500,hawthorn spp.,Crataegus,spp.
+871,500.0,59,20,500,hawthorn spp.,Crataegus,spp.
+872,500.0,61,15,500,hawthorn spp.,Crataegus,spp.
+873,500.0,63,15,500,hawthorn spp.,Crataegus,spp.
+874,500.0,65,13,500,hawthorn spp.,Crataegus,spp.
+875,500.0,71,6,500,hawthorn spp.,Crataegus,spp.
+876,500.0,85,6,500,hawthorn spp.,Crataegus,spp.
+877,500.0,87,4,500,hawthorn spp.,Crataegus,spp.
+878,500.0,89,4,500,hawthorn spp.,Crataegus,spp.
+879,500.0,91,48,500,hawthorn spp.,Crataegus,spp.
+880,500.0,95,18,500,hawthorn spp.,Crataegus,spp.
+881,500.0,97,4,500,hawthorn spp.,Crataegus,spp.
+882,500.0,99,6,500,hawthorn spp.,Crataegus,spp.
+883,500.0,107,16,500,hawthorn spp.,Crataegus,spp.
+884,500.0,109,108,500,hawthorn spp.,Crataegus,spp.
+885,500.0,111,42,500,hawthorn spp.,Crataegus,spp.
+886,500.0,115,15,500,hawthorn spp.,Crataegus,spp.
+887,500.0,119,12,500,hawthorn spp.,Crataegus,spp.
+888,500.0,125,4,500,hawthorn spp.,Crataegus,spp.
+889,500.0,131,2,500,hawthorn spp.,Crataegus,spp.
+890,500.0,135,11,500,hawthorn spp.,Crataegus,spp.
+891,500.0,137,12,500,hawthorn spp.,Crataegus,spp.
+892,500.0,141,1,500,hawthorn spp.,Crataegus,spp.
+893,500.0,145,5,500,hawthorn spp.,Crataegus,spp.
+894,500.0,147,2,500,hawthorn spp.,Crataegus,spp.
+895,500.0,153,31,500,hawthorn spp.,Crataegus,spp.
+896,500.0,157,2,500,hawthorn spp.,Crataegus,spp.
+897,500.0,159,26,500,hawthorn spp.,Crataegus,spp.
+898,500.0,161,2,500,hawthorn spp.,Crataegus,spp.
+899,500.0,165,68,500,hawthorn spp.,Crataegus,spp.
+900,500.0,169,25,500,hawthorn spp.,Crataegus,spp.
+901,501.0,137,1,501,cockspur hawthorn,Crataegus,crus-galli
+902,531.0,139,1,531,American beech,Fagus,grandifolia
+903,541.0,1,14,541,white ash,Fraxinus,americana
+904,541.0,3,4,541,white ash,Fraxinus,americana
+905,541.0,9,10,541,white ash,Fraxinus,americana
+906,541.0,13,6,541,white ash,Fraxinus,americana
+907,541.0,21,21,541,white ash,Fraxinus,americana
+908,541.0,29,2,541,white ash,Fraxinus,americana
+909,541.0,31,1,541,white ash,Fraxinus,americana
+910,541.0,35,5,541,white ash,Fraxinus,americana
+911,541.0,37,2,541,white ash,Fraxinus,americana
+912,541.0,39,7,541,white ash,Fraxinus,americana
+913,541.0,45,64,541,white ash,Fraxinus,americana
+914,541.0,49,15,541,white ash,Fraxinus,americana
+915,541.0,51,1,541,white ash,Fraxinus,americana
+916,541.0,53,4,541,white ash,Fraxinus,americana
+917,541.0,55,48,541,white ash,Fraxinus,americana
+918,541.0,59,2,541,white ash,Fraxinus,americana
+919,541.0,61,3,541,white ash,Fraxinus,americana
+920,541.0,65,13,541,white ash,Fraxinus,americana
+921,541.0,71,5,541,white ash,Fraxinus,americana
+922,541.0,81,12,541,white ash,Fraxinus,americana
+923,541.0,91,14,541,white ash,Fraxinus,americana
+924,541.0,95,4,541,white ash,Fraxinus,americana
+925,541.0,97,7,541,white ash,Fraxinus,americana
+926,541.0,99,2,541,white ash,Fraxinus,americana
+927,541.0,103,4,541,white ash,Fraxinus,americana
+928,541.0,109,40,541,white ash,Fraxinus,americana
+929,541.0,111,1,541,white ash,Fraxinus,americana
+930,541.0,115,30,541,white ash,Fraxinus,americana
+931,541.0,131,3,541,white ash,Fraxinus,americana
+932,541.0,137,1,541,white ash,Fraxinus,americana
+933,541.0,143,1,541,white ash,Fraxinus,americana
+934,541.0,145,4,541,white ash,Fraxinus,americana
+935,541.0,157,21,541,white ash,Fraxinus,americana
+936,541.0,159,5,541,white ash,Fraxinus,americana
+937,541.0,161,5,541,white ash,Fraxinus,americana
+938,541.0,163,12,541,white ash,Fraxinus,americana
+939,541.0,169,4,541,white ash,Fraxinus,americana
+940,541.0,171,1,541,white ash,Fraxinus,americana
+941,543.0,1,8105,543,black ash,Fraxinus,nigra
+942,543.0,3,67,543,black ash,Fraxinus,nigra
+943,543.0,5,1255,543,black ash,Fraxinus,nigra
+944,543.0,7,7134,543,black ash,Fraxinus,nigra
+945,543.0,9,152,543,black ash,Fraxinus,nigra
+946,543.0,11,9,543,black ash,Fraxinus,nigra
+947,543.0,13,16,543,black ash,Fraxinus,nigra
+948,543.0,15,4,543,black ash,Fraxinus,nigra
+949,543.0,17,3466,543,black ash,Fraxinus,nigra
+950,543.0,19,5,543,black ash,Fraxinus,nigra
+951,543.0,21,4719,543,black ash,Fraxinus,nigra
+952,543.0,25,323,543,black ash,Fraxinus,nigra
+953,543.0,27,7,543,black ash,Fraxinus,nigra
+954,543.0,29,1951,543,black ash,Fraxinus,nigra
+955,543.0,31,1608,543,black ash,Fraxinus,nigra
+956,543.0,35,1921,543,black ash,Fraxinus,nigra
+957,543.0,37,2,543,black ash,Fraxinus,nigra
+958,543.0,39,20,543,black ash,Fraxinus,nigra
+959,543.0,41,172,543,black ash,Fraxinus,nigra
+960,543.0,45,35,543,black ash,Fraxinus,nigra
+961,543.0,49,95,543,black ash,Fraxinus,nigra
+962,543.0,51,2,543,black ash,Fraxinus,nigra
+963,543.0,53,34,543,black ash,Fraxinus,nigra
+964,543.0,55,19,543,black ash,Fraxinus,nigra
+965,543.0,57,566,543,black ash,Fraxinus,nigra
+966,543.0,59,404,543,black ash,Fraxinus,nigra
+967,543.0,61,11718,543,black ash,Fraxinus,nigra
+968,543.0,65,1065,543,black ash,Fraxinus,nigra
+969,543.0,67,12,543,black ash,Fraxinus,nigra
+970,543.0,69,110,543,black ash,Fraxinus,nigra
+971,543.0,71,12390,543,black ash,Fraxinus,nigra
+972,543.0,75,3635,543,black ash,Fraxinus,nigra
+973,543.0,77,1858,543,black ash,Fraxinus,nigra
+974,543.0,79,3,543,black ash,Fraxinus,nigra
+975,543.0,87,647,543,black ash,Fraxinus,nigra
+976,543.0,89,320,543,black ash,Fraxinus,nigra
+977,543.0,95,1792,543,black ash,Fraxinus,nigra
+978,543.0,97,684,543,black ash,Fraxinus,nigra
+979,543.0,103,2,543,black ash,Fraxinus,nigra
+980,543.0,107,46,543,black ash,Fraxinus,nigra
+981,543.0,109,32,543,black ash,Fraxinus,nigra
+982,543.0,111,875,543,black ash,Fraxinus,nigra
+983,543.0,113,25,543,black ash,Fraxinus,nigra
+984,543.0,115,2412,543,black ash,Fraxinus,nigra
+985,543.0,119,153,543,black ash,Fraxinus,nigra
+986,543.0,121,21,543,black ash,Fraxinus,nigra
+987,543.0,125,1,543,black ash,Fraxinus,nigra
+988,543.0,127,3,543,black ash,Fraxinus,nigra
+989,543.0,131,12,543,black ash,Fraxinus,nigra
+990,543.0,135,1098,543,black ash,Fraxinus,nigra
+991,543.0,137,13505,543,black ash,Fraxinus,nigra
+992,543.0,139,4,543,black ash,Fraxinus,nigra
+993,543.0,141,15,543,black ash,Fraxinus,nigra
+994,543.0,143,19,543,black ash,Fraxinus,nigra
+995,543.0,145,376,543,black ash,Fraxinus,nigra
+996,543.0,149,18,543,black ash,Fraxinus,nigra
+997,543.0,151,2,543,black ash,Fraxinus,nigra
+998,543.0,153,550,543,black ash,Fraxinus,nigra
+999,543.0,157,46,543,black ash,Fraxinus,nigra
+1000,543.0,159,276,543,black ash,Fraxinus,nigra
+1001,543.0,161,6,543,black ash,Fraxinus,nigra
+1002,543.0,163,27,543,black ash,Fraxinus,nigra
+1003,543.0,169,68,543,black ash,Fraxinus,nigra
+1004,543.0,171,36,543,black ash,Fraxinus,nigra
+1005,544.0,1,1475,544,green ash,Fraxinus,pennsylvanica
+1006,544.0,3,153,544,green ash,Fraxinus,pennsylvanica
+1007,544.0,5,720,544,green ash,Fraxinus,pennsylvanica
+1008,544.0,7,1466,544,green ash,Fraxinus,pennsylvanica
+1009,544.0,9,196,544,green ash,Fraxinus,pennsylvanica
+1010,544.0,11,52,544,green ash,Fraxinus,pennsylvanica
+1011,544.0,13,162,544,green ash,Fraxinus,pennsylvanica
+1012,544.0,15,129,544,green ash,Fraxinus,pennsylvanica
+1013,544.0,17,273,544,green ash,Fraxinus,pennsylvanica
+1014,544.0,19,129,544,green ash,Fraxinus,pennsylvanica
+1015,544.0,21,1327,544,green ash,Fraxinus,pennsylvanica
+1016,544.0,23,68,544,green ash,Fraxinus,pennsylvanica
+1017,544.0,25,248,544,green ash,Fraxinus,pennsylvanica
+1018,544.0,27,193,544,green ash,Fraxinus,pennsylvanica
+1019,544.0,29,626,544,green ash,Fraxinus,pennsylvanica
+1020,544.0,31,16,544,green ash,Fraxinus,pennsylvanica
+1021,544.0,33,164,544,green ash,Fraxinus,pennsylvanica
+1022,544.0,35,513,544,green ash,Fraxinus,pennsylvanica
+1023,544.0,37,164,544,green ash,Fraxinus,pennsylvanica
+1024,544.0,39,50,544,green ash,Fraxinus,pennsylvanica
+1025,544.0,41,334,544,green ash,Fraxinus,pennsylvanica
+1026,544.0,43,65,544,green ash,Fraxinus,pennsylvanica
+1027,544.0,45,126,544,green ash,Fraxinus,pennsylvanica
+1028,544.0,47,38,544,green ash,Fraxinus,pennsylvanica
+1029,544.0,49,191,544,green ash,Fraxinus,pennsylvanica
+1030,544.0,51,72,544,green ash,Fraxinus,pennsylvanica
+1031,544.0,53,207,544,green ash,Fraxinus,pennsylvanica
+1032,544.0,55,125,544,green ash,Fraxinus,pennsylvanica
+1033,544.0,57,339,544,green ash,Fraxinus,pennsylvanica
+1034,544.0,59,226,544,green ash,Fraxinus,pennsylvanica
+1035,544.0,61,822,544,green ash,Fraxinus,pennsylvanica
+1036,544.0,63,17,544,green ash,Fraxinus,pennsylvanica
+1037,544.0,65,641,544,green ash,Fraxinus,pennsylvanica
+1038,544.0,67,392,544,green ash,Fraxinus,pennsylvanica
+1039,544.0,69,442,544,green ash,Fraxinus,pennsylvanica
+1040,544.0,71,802,544,green ash,Fraxinus,pennsylvanica
+1041,544.0,73,169,544,green ash,Fraxinus,pennsylvanica
+1042,544.0,75,75,544,green ash,Fraxinus,pennsylvanica
+1043,544.0,77,182,544,green ash,Fraxinus,pennsylvanica
+1044,544.0,79,179,544,green ash,Fraxinus,pennsylvanica
+1045,544.0,81,32,544,green ash,Fraxinus,pennsylvanica
+1046,544.0,83,44,544,green ash,Fraxinus,pennsylvanica
+1047,544.0,85,62,544,green ash,Fraxinus,pennsylvanica
+1048,544.0,87,349,544,green ash,Fraxinus,pennsylvanica
+1049,544.0,89,331,544,green ash,Fraxinus,pennsylvanica
+1050,544.0,91,88,544,green ash,Fraxinus,pennsylvanica
+1051,544.0,93,195,544,green ash,Fraxinus,pennsylvanica
+1052,544.0,95,766,544,green ash,Fraxinus,pennsylvanica
+1053,544.0,97,517,544,green ash,Fraxinus,pennsylvanica
+1054,544.0,99,38,544,green ash,Fraxinus,pennsylvanica
+1055,544.0,101,49,544,green ash,Fraxinus,pennsylvanica
+1056,544.0,103,91,544,green ash,Fraxinus,pennsylvanica
+1057,544.0,107,328,544,green ash,Fraxinus,pennsylvanica
+1058,544.0,109,83,544,green ash,Fraxinus,pennsylvanica
+1059,544.0,111,1084,544,green ash,Fraxinus,pennsylvanica
+1060,544.0,113,61,544,green ash,Fraxinus,pennsylvanica
+1061,544.0,115,719,544,green ash,Fraxinus,pennsylvanica
+1062,544.0,117,54,544,green ash,Fraxinus,pennsylvanica
+1063,544.0,119,469,544,green ash,Fraxinus,pennsylvanica
+1064,544.0,121,215,544,green ash,Fraxinus,pennsylvanica
+1065,544.0,125,96,544,green ash,Fraxinus,pennsylvanica
+1066,544.0,127,63,544,green ash,Fraxinus,pennsylvanica
+1067,544.0,129,39,544,green ash,Fraxinus,pennsylvanica
+1068,544.0,131,241,544,green ash,Fraxinus,pennsylvanica
+1069,544.0,135,352,544,green ash,Fraxinus,pennsylvanica
+1070,544.0,137,631,544,green ash,Fraxinus,pennsylvanica
+1071,544.0,139,102,544,green ash,Fraxinus,pennsylvanica
+1072,544.0,141,144,544,green ash,Fraxinus,pennsylvanica
+1073,544.0,143,161,544,green ash,Fraxinus,pennsylvanica
+1074,544.0,145,505,544,green ash,Fraxinus,pennsylvanica
+1075,544.0,147,14,544,green ash,Fraxinus,pennsylvanica
+1076,544.0,149,40,544,green ash,Fraxinus,pennsylvanica
+1077,544.0,151,150,544,green ash,Fraxinus,pennsylvanica
+1078,544.0,153,483,544,green ash,Fraxinus,pennsylvanica
+1079,544.0,155,4,544,green ash,Fraxinus,pennsylvanica
+1080,544.0,157,140,544,green ash,Fraxinus,pennsylvanica
+1081,544.0,159,170,544,green ash,Fraxinus,pennsylvanica
+1082,544.0,161,55,544,green ash,Fraxinus,pennsylvanica
+1083,544.0,163,69,544,green ash,Fraxinus,pennsylvanica
+1084,544.0,165,140,544,green ash,Fraxinus,pennsylvanica
+1085,544.0,167,114,544,green ash,Fraxinus,pennsylvanica
+1086,544.0,169,121,544,green ash,Fraxinus,pennsylvanica
+1087,544.0,171,472,544,green ash,Fraxinus,pennsylvanica
+1088,544.0,173,10,544,green ash,Fraxinus,pennsylvanica
+1089,552.0,13,3,552,honeylocust,Gleditsia,triacanthos
+1090,571.0,13,11,571,Kentucky coffeetree,Gymnocladus,dioicus
+1091,571.0,15,1,571,Kentucky coffeetree,Gymnocladus,dioicus
+1092,571.0,71,4,571,Kentucky coffeetree,Gymnocladus,dioicus
+1093,571.0,129,15,571,Kentucky coffeetree,Gymnocladus,dioicus
+1094,571.0,135,1,571,Kentucky coffeetree,Gymnocladus,dioicus
+1095,601.0,1,56,601,butternut,Juglans,cinerea
+1096,601.0,9,2,601,butternut,Juglans,cinerea
+1097,601.0,13,3,601,butternut,Juglans,cinerea
+1098,601.0,15,4,601,butternut,Juglans,cinerea
+1099,601.0,19,23,601,butternut,Juglans,cinerea
+1100,601.0,25,7,601,butternut,Juglans,cinerea
+1101,601.0,35,73,601,butternut,Juglans,cinerea
+1102,601.0,37,11,601,butternut,Juglans,cinerea
+1103,601.0,39,34,601,butternut,Juglans,cinerea
+1104,601.0,45,37,601,butternut,Juglans,cinerea
+1105,601.0,49,42,601,butternut,Juglans,cinerea
+1106,601.0,53,4,601,butternut,Juglans,cinerea
+1107,601.0,55,127,601,butternut,Juglans,cinerea
+1108,601.0,59,35,601,butternut,Juglans,cinerea
+1109,601.0,61,2,601,butternut,Juglans,cinerea
+1110,601.0,65,69,601,butternut,Juglans,cinerea
+1111,601.0,79,3,601,butternut,Juglans,cinerea
+1112,601.0,85,16,601,butternut,Juglans,cinerea
+1113,601.0,95,68,601,butternut,Juglans,cinerea
+1114,601.0,97,34,601,butternut,Juglans,cinerea
+1115,601.0,103,4,601,butternut,Juglans,cinerea
+1116,601.0,109,7,601,butternut,Juglans,cinerea
+1117,601.0,115,47,601,butternut,Juglans,cinerea
+1118,601.0,131,2,601,butternut,Juglans,cinerea
+1119,601.0,139,3,601,butternut,Juglans,cinerea
+1120,601.0,143,10,601,butternut,Juglans,cinerea
+1121,601.0,145,2,601,butternut,Juglans,cinerea
+1122,601.0,157,94,601,butternut,Juglans,cinerea
+1123,601.0,161,6,601,butternut,Juglans,cinerea
+1124,601.0,163,8,601,butternut,Juglans,cinerea
+1125,601.0,169,164,601,butternut,Juglans,cinerea
+1126,601.0,171,2,601,butternut,Juglans,cinerea
+1127,602.0,5,3,602,black walnut,Juglans,nigra
+1128,602.0,13,65,602,black walnut,Juglans,nigra
+1129,602.0,15,1,602,black walnut,Juglans,nigra
+1130,602.0,37,7,602,black walnut,Juglans,nigra
+1131,602.0,39,58,602,black walnut,Juglans,nigra
+1132,602.0,43,4,602,black walnut,Juglans,nigra
+1133,602.0,45,277,602,black walnut,Juglans,nigra
+1134,602.0,47,2,602,black walnut,Juglans,nigra
+1135,602.0,49,178,602,black walnut,Juglans,nigra
+1136,602.0,53,4,602,black walnut,Juglans,nigra
+1137,602.0,55,200,602,black walnut,Juglans,nigra
+1138,602.0,59,6,602,black walnut,Juglans,nigra
+1139,602.0,61,1,602,black walnut,Juglans,nigra
+1140,602.0,63,22,602,black walnut,Juglans,nigra
+1141,602.0,67,18,602,black walnut,Juglans,nigra
+1142,602.0,79,4,602,black walnut,Juglans,nigra
+1143,602.0,91,5,602,black walnut,Juglans,nigra
+1144,602.0,95,2,602,black walnut,Juglans,nigra
+1145,602.0,109,25,602,black walnut,Juglans,nigra
+1146,602.0,115,6,602,black walnut,Juglans,nigra
+1147,602.0,127,13,602,black walnut,Juglans,nigra
+1148,602.0,129,1,602,black walnut,Juglans,nigra
+1149,602.0,139,7,602,black walnut,Juglans,nigra
+1150,602.0,143,11,602,black walnut,Juglans,nigra
+1151,602.0,147,4,602,black walnut,Juglans,nigra
+1152,602.0,157,100,602,black walnut,Juglans,nigra
+1153,602.0,161,31,602,black walnut,Juglans,nigra
+1154,602.0,163,19,602,black walnut,Juglans,nigra
+1155,602.0,169,153,602,black walnut,Juglans,nigra
+1156,602.0,171,2,602,black walnut,Juglans,nigra
+1157,660.0,3,3,660,apple spp.,Malus,spp.
+1158,660.0,7,4,660,apple spp.,Malus,spp.
+1159,660.0,9,10,660,apple spp.,Malus,spp.
+1160,660.0,17,4,660,apple spp.,Malus,spp.
+1161,660.0,21,1,660,apple spp.,Malus,spp.
+1162,660.0,29,1,660,apple spp.,Malus,spp.
+1163,660.0,45,8,660,apple spp.,Malus,spp.
+1164,660.0,49,4,660,apple spp.,Malus,spp.
+1165,660.0,53,3,660,apple spp.,Malus,spp.
+1166,660.0,55,56,660,apple spp.,Malus,spp.
+1167,660.0,63,3,660,apple spp.,Malus,spp.
+1168,660.0,71,1,660,apple spp.,Malus,spp.
+1169,660.0,79,4,660,apple spp.,Malus,spp.
+1170,660.0,87,1,660,apple spp.,Malus,spp.
+1171,660.0,89,18,660,apple spp.,Malus,spp.
+1172,660.0,97,4,660,apple spp.,Malus,spp.
+1173,660.0,109,11,660,apple spp.,Malus,spp.
+1174,660.0,115,2,660,apple spp.,Malus,spp.
+1175,660.0,137,12,660,apple spp.,Malus,spp.
+1176,660.0,139,2,660,apple spp.,Malus,spp.
+1177,660.0,141,4,660,apple spp.,Malus,spp.
+1178,660.0,153,1,660,apple spp.,Malus,spp.
+1179,660.0,157,9,660,apple spp.,Malus,spp.
+1180,660.0,159,2,660,apple spp.,Malus,spp.
+1181,660.0,161,6,660,apple spp.,Malus,spp.
+1182,660.0,167,2,660,apple spp.,Malus,spp.
+1183,660.0,169,30,660,apple spp.,Malus,spp.
+1184,660.0,171,4,660,apple spp.,Malus,spp.
+1185,681.0,3,2,681,white mulberry,Morus,alba
+1186,681.0,15,8,681,white mulberry,Morus,alba
+1187,681.0,45,2,681,white mulberry,Morus,alba
+1188,681.0,55,2,681,white mulberry,Morus,alba
+1189,681.0,63,7,681,white mulberry,Morus,alba
+1190,681.0,85,2,681,white mulberry,Morus,alba
+1191,681.0,91,20,681,white mulberry,Morus,alba
+1192,681.0,151,8,681,white mulberry,Morus,alba
+1193,681.0,157,2,681,white mulberry,Morus,alba
+1194,681.0,169,4,681,white mulberry,Morus,alba
+1195,682.0,15,8,682,red mulberry,Morus,rubra
+1196,682.0,37,8,682,red mulberry,Morus,rubra
+1197,682.0,43,5,682,red mulberry,Morus,rubra
+1198,682.0,47,2,682,red mulberry,Morus,rubra
+1199,682.0,55,9,682,red mulberry,Morus,rubra
+1200,682.0,91,9,682,red mulberry,Morus,rubra
+1201,682.0,93,6,682,red mulberry,Morus,rubra
+1202,682.0,129,1,682,red mulberry,Morus,rubra
+1203,682.0,143,6,682,red mulberry,Morus,rubra
+1204,682.0,157,2,682,red mulberry,Morus,rubra
+1205,682.0,169,4,682,red mulberry,Morus,rubra
+1206,701.0,1,1151,701,eastern hophornbeam,Ostrya,virginiana
+1207,701.0,3,11,701,eastern hophornbeam,Ostrya,virginiana
+1208,701.0,5,1188,701,eastern hophornbeam,Ostrya,virginiana
+1209,701.0,7,644,701,eastern hophornbeam,Ostrya,virginiana
+1210,701.0,9,31,701,eastern hophornbeam,Ostrya,virginiana
+1211,701.0,11,64,701,eastern hophornbeam,Ostrya,virginiana
+1212,701.0,13,231,701,eastern hophornbeam,Ostrya,virginiana
+1213,701.0,15,66,701,eastern hophornbeam,Ostrya,virginiana
+1214,701.0,17,165,701,eastern hophornbeam,Ostrya,virginiana
+1215,701.0,19,54,701,eastern hophornbeam,Ostrya,virginiana
+1216,701.0,21,669,701,eastern hophornbeam,Ostrya,virginiana
+1217,701.0,25,360,701,eastern hophornbeam,Ostrya,virginiana
+1218,701.0,27,57,701,eastern hophornbeam,Ostrya,virginiana
+1219,701.0,29,427,701,eastern hophornbeam,Ostrya,virginiana
+1220,701.0,35,869,701,eastern hophornbeam,Ostrya,virginiana
+1221,701.0,37,78,701,eastern hophornbeam,Ostrya,virginiana
+1222,701.0,39,41,701,eastern hophornbeam,Ostrya,virginiana
+1223,701.0,41,102,701,eastern hophornbeam,Ostrya,virginiana
+1224,701.0,45,280,701,eastern hophornbeam,Ostrya,virginiana
+1225,701.0,47,13,701,eastern hophornbeam,Ostrya,virginiana
+1226,701.0,49,198,701,eastern hophornbeam,Ostrya,virginiana
+1227,701.0,53,144,701,eastern hophornbeam,Ostrya,virginiana
+1228,701.0,55,311,701,eastern hophornbeam,Ostrya,virginiana
+1229,701.0,57,240,701,eastern hophornbeam,Ostrya,virginiana
+1230,701.0,59,47,701,eastern hophornbeam,Ostrya,virginiana
+1231,701.0,61,521,701,eastern hophornbeam,Ostrya,virginiana
+1232,701.0,63,35,701,eastern hophornbeam,Ostrya,virginiana
+1233,701.0,65,131,701,eastern hophornbeam,Ostrya,virginiana
+1234,701.0,67,395,701,eastern hophornbeam,Ostrya,virginiana
+1235,701.0,71,28,701,eastern hophornbeam,Ostrya,virginiana
+1236,701.0,75,128,701,eastern hophornbeam,Ostrya,virginiana
+1237,701.0,77,1,701,eastern hophornbeam,Ostrya,virginiana
+1238,701.0,79,51,701,eastern hophornbeam,Ostrya,virginiana
+1239,701.0,85,72,701,eastern hophornbeam,Ostrya,virginiana
+1240,701.0,87,233,701,eastern hophornbeam,Ostrya,virginiana
+1241,701.0,89,1,701,eastern hophornbeam,Ostrya,virginiana
+1242,701.0,93,36,701,eastern hophornbeam,Ostrya,virginiana
+1243,701.0,95,202,701,eastern hophornbeam,Ostrya,virginiana
+1244,701.0,97,483,701,eastern hophornbeam,Ostrya,virginiana
+1245,701.0,99,4,701,eastern hophornbeam,Ostrya,virginiana
+1246,701.0,103,27,701,eastern hophornbeam,Ostrya,virginiana
+1247,701.0,107,25,701,eastern hophornbeam,Ostrya,virginiana
+1248,701.0,109,141,701,eastern hophornbeam,Ostrya,virginiana
+1249,701.0,111,762,701,eastern hophornbeam,Ostrya,virginiana
+1250,701.0,113,7,701,eastern hophornbeam,Ostrya,virginiana
+1251,701.0,115,629,701,eastern hophornbeam,Ostrya,virginiana
+1252,701.0,119,131,701,eastern hophornbeam,Ostrya,virginiana
+1253,701.0,121,51,701,eastern hophornbeam,Ostrya,virginiana
+1254,701.0,125,32,701,eastern hophornbeam,Ostrya,virginiana
+1255,701.0,127,13,701,eastern hophornbeam,Ostrya,virginiana
+1256,701.0,131,109,701,eastern hophornbeam,Ostrya,virginiana
+1257,701.0,137,193,701,eastern hophornbeam,Ostrya,virginiana
+1258,701.0,139,207,701,eastern hophornbeam,Ostrya,virginiana
+1259,701.0,141,94,701,eastern hophornbeam,Ostrya,virginiana
+1260,701.0,143,79,701,eastern hophornbeam,Ostrya,virginiana
+1261,701.0,145,561,701,eastern hophornbeam,Ostrya,virginiana
+1262,701.0,147,5,701,eastern hophornbeam,Ostrya,virginiana
+1263,701.0,153,683,701,eastern hophornbeam,Ostrya,virginiana
+1264,701.0,157,122,701,eastern hophornbeam,Ostrya,virginiana
+1265,701.0,159,48,701,eastern hophornbeam,Ostrya,virginiana
+1266,701.0,161,4,701,eastern hophornbeam,Ostrya,virginiana
+1267,701.0,163,67,701,eastern hophornbeam,Ostrya,virginiana
+1268,701.0,169,223,701,eastern hophornbeam,Ostrya,virginiana
+1269,701.0,171,237,701,eastern hophornbeam,Ostrya,virginiana
+1270,701.0,173,52,701,eastern hophornbeam,Ostrya,virginiana
+1271,741.0,1,1414,741,balsam poplar,Populus,balsamifera
+1272,741.0,3,1,741,balsam poplar,Populus,balsamifera
+1273,741.0,5,548,741,balsam poplar,Populus,balsamifera
+1274,741.0,7,7253,741,balsam poplar,Populus,balsamifera
+1275,741.0,17,837,741,balsam poplar,Populus,balsamifera
+1276,741.0,21,1461,741,balsam poplar,Populus,balsamifera
+1277,741.0,27,18,741,balsam poplar,Populus,balsamifera
+1278,741.0,29,1837,741,balsam poplar,Populus,balsamifera
+1279,741.0,31,440,741,balsam poplar,Populus,balsamifera
+1280,741.0,35,92,741,balsam poplar,Populus,balsamifera
+1281,741.0,41,76,741,balsam poplar,Populus,balsamifera
+1282,741.0,49,2,741,balsam poplar,Populus,balsamifera
+1283,741.0,57,881,741,balsam poplar,Populus,balsamifera
+1284,741.0,61,6367,741,balsam poplar,Populus,balsamifera
+1285,741.0,65,23,741,balsam poplar,Populus,balsamifera
+1286,741.0,69,796,741,balsam poplar,Populus,balsamifera
+1287,741.0,71,8938,741,balsam poplar,Populus,balsamifera
+1288,741.0,75,1801,741,balsam poplar,Populus,balsamifera
+1289,741.0,77,4006,741,balsam poplar,Populus,balsamifera
+1290,741.0,87,422,741,balsam poplar,Populus,balsamifera
+1291,741.0,89,2041,741,balsam poplar,Populus,balsamifera
+1292,741.0,95,20,741,balsam poplar,Populus,balsamifera
+1293,741.0,97,44,741,balsam poplar,Populus,balsamifera
+1294,741.0,101,8,741,balsam poplar,Populus,balsamifera
+1295,741.0,107,52,741,balsam poplar,Populus,balsamifera
+1296,741.0,111,313,741,balsam poplar,Populus,balsamifera
+1297,741.0,113,475,741,balsam poplar,Populus,balsamifera
+1298,741.0,115,386,741,balsam poplar,Populus,balsamifera
+1299,741.0,119,341,741,balsam poplar,Populus,balsamifera
+1300,741.0,125,179,741,balsam poplar,Populus,balsamifera
+1301,741.0,135,3210,741,balsam poplar,Populus,balsamifera
+1302,741.0,137,7935,741,balsam poplar,Populus,balsamifera
+1303,741.0,145,36,741,balsam poplar,Populus,balsamifera
+1304,741.0,153,127,741,balsam poplar,Populus,balsamifera
+1305,741.0,157,2,741,balsam poplar,Populus,balsamifera
+1306,741.0,159,170,741,balsam poplar,Populus,balsamifera
+1307,742.0,3,3,742,eastern cottonwood,Populus,deltoides
+1308,742.0,5,1,742,eastern cottonwood,Populus,deltoides
+1309,742.0,11,28,742,eastern cottonwood,Populus,deltoides
+1310,742.0,13,77,742,eastern cottonwood,Populus,deltoides
+1311,742.0,15,35,742,eastern cottonwood,Populus,deltoides
+1312,742.0,17,8,742,eastern cottonwood,Populus,deltoides
+1313,742.0,19,21,742,eastern cottonwood,Populus,deltoides
+1314,742.0,21,3,742,eastern cottonwood,Populus,deltoides
+1315,742.0,23,31,742,eastern cottonwood,Populus,deltoides
+1316,742.0,27,60,742,eastern cottonwood,Populus,deltoides
+1317,742.0,31,1,742,eastern cottonwood,Populus,deltoides
+1318,742.0,33,1,742,eastern cottonwood,Populus,deltoides
+1319,742.0,35,31,742,eastern cottonwood,Populus,deltoides
+1320,742.0,37,218,742,eastern cottonwood,Populus,deltoides
+1321,742.0,39,10,742,eastern cottonwood,Populus,deltoides
+1322,742.0,45,30,742,eastern cottonwood,Populus,deltoides
+1323,742.0,47,44,742,eastern cottonwood,Populus,deltoides
+1324,742.0,49,88,742,eastern cottonwood,Populus,deltoides
+1325,742.0,51,11,742,eastern cottonwood,Populus,deltoides
+1326,742.0,53,98,742,eastern cottonwood,Populus,deltoides
+1327,742.0,55,92,742,eastern cottonwood,Populus,deltoides
+1328,742.0,61,4,742,eastern cottonwood,Populus,deltoides
+1329,742.0,63,7,742,eastern cottonwood,Populus,deltoides
+1330,742.0,67,81,742,eastern cottonwood,Populus,deltoides
+1331,742.0,69,6,742,eastern cottonwood,Populus,deltoides
+1332,742.0,71,4,742,eastern cottonwood,Populus,deltoides
+1333,742.0,73,32,742,eastern cottonwood,Populus,deltoides
+1334,742.0,75,1,742,eastern cottonwood,Populus,deltoides
+1335,742.0,79,16,742,eastern cottonwood,Populus,deltoides
+1336,742.0,83,46,742,eastern cottonwood,Populus,deltoides
+1337,742.0,87,1,742,eastern cottonwood,Populus,deltoides
+1338,742.0,89,39,742,eastern cottonwood,Populus,deltoides
+1339,742.0,91,9,742,eastern cottonwood,Populus,deltoides
+1340,742.0,93,7,742,eastern cottonwood,Populus,deltoides
+1341,742.0,95,4,742,eastern cottonwood,Populus,deltoides
+1342,742.0,97,4,742,eastern cottonwood,Populus,deltoides
+1343,742.0,101,12,742,eastern cottonwood,Populus,deltoides
+1344,742.0,103,164,742,eastern cottonwood,Populus,deltoides
+1345,742.0,107,14,742,eastern cottonwood,Populus,deltoides
+1346,742.0,109,6,742,eastern cottonwood,Populus,deltoides
+1347,742.0,111,9,742,eastern cottonwood,Populus,deltoides
+1348,742.0,113,9,742,eastern cottonwood,Populus,deltoides
+1349,742.0,115,34,742,eastern cottonwood,Populus,deltoides
+1350,742.0,119,59,742,eastern cottonwood,Populus,deltoides
+1351,742.0,121,22,742,eastern cottonwood,Populus,deltoides
+1352,742.0,127,18,742,eastern cottonwood,Populus,deltoides
+1353,742.0,129,193,742,eastern cottonwood,Populus,deltoides
+1354,742.0,131,16,742,eastern cottonwood,Populus,deltoides
+1355,742.0,137,5,742,eastern cottonwood,Populus,deltoides
+1356,742.0,139,85,742,eastern cottonwood,Populus,deltoides
+1357,742.0,141,68,742,eastern cottonwood,Populus,deltoides
+1358,742.0,143,128,742,eastern cottonwood,Populus,deltoides
+1359,742.0,145,9,742,eastern cottonwood,Populus,deltoides
+1360,742.0,147,52,742,eastern cottonwood,Populus,deltoides
+1361,742.0,149,34,742,eastern cottonwood,Populus,deltoides
+1362,742.0,151,18,742,eastern cottonwood,Populus,deltoides
+1363,742.0,153,247,742,eastern cottonwood,Populus,deltoides
+1364,742.0,157,101,742,eastern cottonwood,Populus,deltoides
+1365,742.0,159,25,742,eastern cottonwood,Populus,deltoides
+1366,742.0,161,1,742,eastern cottonwood,Populus,deltoides
+1367,742.0,163,31,742,eastern cottonwood,Populus,deltoides
+1368,742.0,165,1,742,eastern cottonwood,Populus,deltoides
+1369,742.0,167,11,742,eastern cottonwood,Populus,deltoides
+1370,742.0,169,136,742,eastern cottonwood,Populus,deltoides
+1371,742.0,171,4,742,eastern cottonwood,Populus,deltoides
+1372,742.0,173,17,742,eastern cottonwood,Populus,deltoides
+1373,743.0,1,962,743,bigtooth aspen,Populus,grandidentata
+1374,743.0,3,7,743,bigtooth aspen,Populus,grandidentata
+1375,743.0,5,983,743,bigtooth aspen,Populus,grandidentata
+1376,743.0,7,544,743,bigtooth aspen,Populus,grandidentata
+1377,743.0,9,2,743,bigtooth aspen,Populus,grandidentata
+1378,743.0,15,3,743,bigtooth aspen,Populus,grandidentata
+1379,743.0,17,249,743,bigtooth aspen,Populus,grandidentata
+1380,743.0,21,2679,743,bigtooth aspen,Populus,grandidentata
+1381,743.0,25,64,743,bigtooth aspen,Populus,grandidentata
+1382,743.0,29,508,743,bigtooth aspen,Populus,grandidentata
+1383,743.0,31,19,743,bigtooth aspen,Populus,grandidentata
+1384,743.0,35,1854,743,bigtooth aspen,Populus,grandidentata
+1385,743.0,39,32,743,bigtooth aspen,Populus,grandidentata
+1386,743.0,41,219,743,bigtooth aspen,Populus,grandidentata
+1387,743.0,45,19,743,bigtooth aspen,Populus,grandidentata
+1388,743.0,49,44,743,bigtooth aspen,Populus,grandidentata
+1389,743.0,53,3,743,bigtooth aspen,Populus,grandidentata
+1390,743.0,55,92,743,bigtooth aspen,Populus,grandidentata
+1391,743.0,57,1639,743,bigtooth aspen,Populus,grandidentata
+1392,743.0,59,64,743,bigtooth aspen,Populus,grandidentata
+1393,743.0,61,2447,743,bigtooth aspen,Populus,grandidentata
+1394,743.0,65,150,743,bigtooth aspen,Populus,grandidentata
+1395,743.0,69,4,743,bigtooth aspen,Populus,grandidentata
+1396,743.0,71,74,743,bigtooth aspen,Populus,grandidentata
+1397,743.0,75,170,743,bigtooth aspen,Populus,grandidentata
+1398,743.0,77,54,743,bigtooth aspen,Populus,grandidentata
+1399,743.0,87,137,743,bigtooth aspen,Populus,grandidentata
+1400,743.0,89,4,743,bigtooth aspen,Populus,grandidentata
+1401,743.0,95,254,743,bigtooth aspen,Populus,grandidentata
+1402,743.0,97,772,743,bigtooth aspen,Populus,grandidentata
+1403,743.0,111,411,743,bigtooth aspen,Populus,grandidentata
+1404,743.0,115,1749,743,bigtooth aspen,Populus,grandidentata
+1405,743.0,135,2,743,bigtooth aspen,Populus,grandidentata
+1406,743.0,137,3050,743,bigtooth aspen,Populus,grandidentata
+1407,743.0,139,3,743,bigtooth aspen,Populus,grandidentata
+1408,743.0,141,34,743,bigtooth aspen,Populus,grandidentata
+1409,743.0,145,57,743,bigtooth aspen,Populus,grandidentata
+1410,743.0,147,7,743,bigtooth aspen,Populus,grandidentata
+1411,743.0,153,345,743,bigtooth aspen,Populus,grandidentata
+1412,743.0,157,33,743,bigtooth aspen,Populus,grandidentata
+1413,743.0,159,110,743,bigtooth aspen,Populus,grandidentata
+1414,743.0,163,1,743,bigtooth aspen,Populus,grandidentata
+1415,743.0,169,96,743,bigtooth aspen,Populus,grandidentata
+1416,743.0,171,8,743,bigtooth aspen,Populus,grandidentata
+1417,746.0,1,16970,746,quaking aspen,Populus,tremuloides
+1418,746.0,3,615,746,quaking aspen,Populus,tremuloides
+1419,746.0,5,9241,746,quaking aspen,Populus,tremuloides
+1420,746.0,7,27011,746,quaking aspen,Populus,tremuloides
+1421,746.0,9,490,746,quaking aspen,Populus,tremuloides
+1422,746.0,13,52,746,quaking aspen,Populus,tremuloides
+1423,746.0,17,10345,746,quaking aspen,Populus,tremuloides
+1424,746.0,19,2,746,quaking aspen,Populus,tremuloides
+1425,746.0,21,27636,746,quaking aspen,Populus,tremuloides
+1426,746.0,23,4,746,quaking aspen,Populus,tremuloides
+1427,746.0,25,465,746,quaking aspen,Populus,tremuloides
+1428,746.0,27,229,746,quaking aspen,Populus,tremuloides
+1429,746.0,29,9679,746,quaking aspen,Populus,tremuloides
+1430,746.0,31,13919,746,quaking aspen,Populus,tremuloides
+1431,746.0,35,8837,746,quaking aspen,Populus,tremuloides
+1432,746.0,37,179,746,quaking aspen,Populus,tremuloides
+1433,746.0,39,36,746,quaking aspen,Populus,tremuloides
+1434,746.0,41,326,746,quaking aspen,Populus,tremuloides
+1435,746.0,45,197,746,quaking aspen,Populus,tremuloides
+1436,746.0,49,332,746,quaking aspen,Populus,tremuloides
+1437,746.0,51,16,746,quaking aspen,Populus,tremuloides
+1438,746.0,53,30,746,quaking aspen,Populus,tremuloides
+1439,746.0,55,335,746,quaking aspen,Populus,tremuloides
+1440,746.0,57,15919,746,quaking aspen,Populus,tremuloides
+1441,746.0,59,563,746,quaking aspen,Populus,tremuloides
+1442,746.0,61,42468,746,quaking aspen,Populus,tremuloides
+1443,746.0,65,4232,746,quaking aspen,Populus,tremuloides
+1444,746.0,67,80,746,quaking aspen,Populus,tremuloides
+1445,746.0,69,5438,746,quaking aspen,Populus,tremuloides
+1446,746.0,71,33009,746,quaking aspen,Populus,tremuloides
+1447,746.0,75,16684,746,quaking aspen,Populus,tremuloides
+1448,746.0,77,8920,746,quaking aspen,Populus,tremuloides
+1449,746.0,85,10,746,quaking aspen,Populus,tremuloides
+1450,746.0,87,3691,746,quaking aspen,Populus,tremuloides
+1451,746.0,89,8359,746,quaking aspen,Populus,tremuloides
+1452,746.0,93,34,746,quaking aspen,Populus,tremuloides
+1453,746.0,95,2684,746,quaking aspen,Populus,tremuloides
+1454,746.0,97,4540,746,quaking aspen,Populus,tremuloides
+1455,746.0,99,2,746,quaking aspen,Populus,tremuloides
+1456,746.0,103,2,746,quaking aspen,Populus,tremuloides
+1457,746.0,107,877,746,quaking aspen,Populus,tremuloides
+1458,746.0,109,187,746,quaking aspen,Populus,tremuloides
+1459,746.0,111,2350,746,quaking aspen,Populus,tremuloides
+1460,746.0,113,2011,746,quaking aspen,Populus,tremuloides
+1461,746.0,115,14964,746,quaking aspen,Populus,tremuloides
+1462,746.0,119,1651,746,quaking aspen,Populus,tremuloides
+1463,746.0,121,109,746,quaking aspen,Populus,tremuloides
+1464,746.0,123,100,746,quaking aspen,Populus,tremuloides
+1465,746.0,125,1556,746,quaking aspen,Populus,tremuloides
+1466,746.0,131,54,746,quaking aspen,Populus,tremuloides
+1467,746.0,135,8423,746,quaking aspen,Populus,tremuloides
+1468,746.0,137,75692,746,quaking aspen,Populus,tremuloides
+1469,746.0,139,92,746,quaking aspen,Populus,tremuloides
+1470,746.0,141,453,746,quaking aspen,Populus,tremuloides
+1471,746.0,143,11,746,quaking aspen,Populus,tremuloides
+1472,746.0,145,363,746,quaking aspen,Populus,tremuloides
+1473,746.0,147,46,746,quaking aspen,Populus,tremuloides
+1474,746.0,153,1833,746,quaking aspen,Populus,tremuloides
+1475,746.0,157,294,746,quaking aspen,Populus,tremuloides
+1476,746.0,159,2777,746,quaking aspen,Populus,tremuloides
+1477,746.0,161,9,746,quaking aspen,Populus,tremuloides
+1478,746.0,163,223,746,quaking aspen,Populus,tremuloides
+1479,746.0,169,315,746,quaking aspen,Populus,tremuloides
+1480,746.0,171,143,746,quaking aspen,Populus,tremuloides
+1481,753.0,73,13,753,Lombardy poplar,Populus,nigra
+1482,753.0,89,59,753,Lombardy poplar,Populus,nigra
+1483,753.0,111,12,753,Lombardy poplar,Populus,nigra
+1484,760.0,5,2,760,cherry and plum spp.,Prunus,spp.
+1485,760.0,21,9,760,cherry and plum spp.,Prunus,spp.
+1486,760.0,31,2,760,cherry and plum spp.,Prunus,spp.
+1487,760.0,35,1,760,cherry and plum spp.,Prunus,spp.
+1488,760.0,49,11,760,cherry and plum spp.,Prunus,spp.
+1489,760.0,67,2,760,cherry and plum spp.,Prunus,spp.
+1490,760.0,79,2,760,cherry and plum spp.,Prunus,spp.
+1491,760.0,81,17,760,cherry and plum spp.,Prunus,spp.
+1492,760.0,97,1,760,cherry and plum spp.,Prunus,spp.
+1493,760.0,113,12,760,cherry and plum spp.,Prunus,spp.
+1494,760.0,119,14,760,cherry and plum spp.,Prunus,spp.
+1495,760.0,137,6,760,cherry and plum spp.,Prunus,spp.
+1496,760.0,139,10,760,cherry and plum spp.,Prunus,spp.
+1497,760.0,157,6,760,cherry and plum spp.,Prunus,spp.
+1498,761.0,1,64,761,pin cherry,Prunus,pensylvanica
+1499,761.0,3,2,761,pin cherry,Prunus,pensylvanica
+1500,761.0,5,35,761,pin cherry,Prunus,pensylvanica
+1501,761.0,7,69,761,pin cherry,Prunus,pensylvanica
+1502,761.0,17,37,761,pin cherry,Prunus,pensylvanica
+1503,761.0,19,1,761,pin cherry,Prunus,pensylvanica
+1504,761.0,21,154,761,pin cherry,Prunus,pensylvanica
+1505,761.0,25,13,761,pin cherry,Prunus,pensylvanica
+1506,761.0,29,29,761,pin cherry,Prunus,pensylvanica
+1507,761.0,31,235,761,pin cherry,Prunus,pensylvanica
+1508,761.0,35,23,761,pin cherry,Prunus,pensylvanica
+1509,761.0,45,3,761,pin cherry,Prunus,pensylvanica
+1510,761.0,49,6,761,pin cherry,Prunus,pensylvanica
+1511,761.0,55,1,761,pin cherry,Prunus,pensylvanica
+1512,761.0,57,77,761,pin cherry,Prunus,pensylvanica
+1513,761.0,59,5,761,pin cherry,Prunus,pensylvanica
+1514,761.0,61,141,761,pin cherry,Prunus,pensylvanica
+1515,761.0,65,4,761,pin cherry,Prunus,pensylvanica
+1516,761.0,69,1,761,pin cherry,Prunus,pensylvanica
+1517,761.0,71,28,761,pin cherry,Prunus,pensylvanica
+1518,761.0,75,184,761,pin cherry,Prunus,pensylvanica
+1519,761.0,77,7,761,pin cherry,Prunus,pensylvanica
+1520,761.0,87,7,761,pin cherry,Prunus,pensylvanica
+1521,761.0,89,1,761,pin cherry,Prunus,pensylvanica
+1522,761.0,95,15,761,pin cherry,Prunus,pensylvanica
+1523,761.0,97,15,761,pin cherry,Prunus,pensylvanica
+1524,761.0,103,20,761,pin cherry,Prunus,pensylvanica
+1525,761.0,111,6,761,pin cherry,Prunus,pensylvanica
+1526,761.0,113,6,761,pin cherry,Prunus,pensylvanica
+1527,761.0,115,45,761,pin cherry,Prunus,pensylvanica
+1528,761.0,125,1,761,pin cherry,Prunus,pensylvanica
+1529,761.0,135,8,761,pin cherry,Prunus,pensylvanica
+1530,761.0,137,194,761,pin cherry,Prunus,pensylvanica
+1531,761.0,141,2,761,pin cherry,Prunus,pensylvanica
+1532,761.0,143,2,761,pin cherry,Prunus,pensylvanica
+1533,761.0,145,4,761,pin cherry,Prunus,pensylvanica
+1534,761.0,147,1,761,pin cherry,Prunus,pensylvanica
+1535,761.0,153,4,761,pin cherry,Prunus,pensylvanica
+1536,761.0,157,2,761,pin cherry,Prunus,pensylvanica
+1537,761.0,159,20,761,pin cherry,Prunus,pensylvanica
+1538,761.0,161,1,761,pin cherry,Prunus,pensylvanica
+1539,761.0,171,10,761,pin cherry,Prunus,pensylvanica
+1540,762.0,1,30,762,black cherry,Prunus,serotina
+1541,762.0,3,142,762,black cherry,Prunus,serotina
+1542,762.0,5,151,762,black cherry,Prunus,serotina
+1543,762.0,7,46,762,black cherry,Prunus,serotina
+1544,762.0,9,32,762,black cherry,Prunus,serotina
+1545,762.0,13,38,762,black cherry,Prunus,serotina
+1546,762.0,17,16,762,black cherry,Prunus,serotina
+1547,762.0,19,5,762,black cherry,Prunus,serotina
+1548,762.0,21,253,762,black cherry,Prunus,serotina
+1549,762.0,25,91,762,black cherry,Prunus,serotina
+1550,762.0,27,6,762,black cherry,Prunus,serotina
+1551,762.0,29,67,762,black cherry,Prunus,serotina
+1552,762.0,31,21,762,black cherry,Prunus,serotina
+1553,762.0,35,121,762,black cherry,Prunus,serotina
+1554,762.0,37,90,762,black cherry,Prunus,serotina
+1555,762.0,39,53,762,black cherry,Prunus,serotina
+1556,762.0,41,11,762,black cherry,Prunus,serotina
+1557,762.0,43,10,762,black cherry,Prunus,serotina
+1558,762.0,45,359,762,black cherry,Prunus,serotina
+1559,762.0,47,29,762,black cherry,Prunus,serotina
+1560,762.0,49,153,762,black cherry,Prunus,serotina
+1561,762.0,53,76,762,black cherry,Prunus,serotina
+1562,762.0,55,289,762,black cherry,Prunus,serotina
+1563,762.0,57,135,762,black cherry,Prunus,serotina
+1564,762.0,59,88,762,black cherry,Prunus,serotina
+1565,762.0,61,39,762,black cherry,Prunus,serotina
+1566,762.0,65,43,762,black cherry,Prunus,serotina
+1567,762.0,67,13,762,black cherry,Prunus,serotina
+1568,762.0,69,6,762,black cherry,Prunus,serotina
+1569,762.0,71,40,762,black cherry,Prunus,serotina
+1570,762.0,75,74,762,black cherry,Prunus,serotina
+1571,762.0,77,1,762,black cherry,Prunus,serotina
+1572,762.0,79,8,762,black cherry,Prunus,serotina
+1573,762.0,85,28,762,black cherry,Prunus,serotina
+1574,762.0,87,73,762,black cherry,Prunus,serotina
+1575,762.0,89,19,762,black cherry,Prunus,serotina
+1576,762.0,93,37,762,black cherry,Prunus,serotina
+1577,762.0,95,23,762,black cherry,Prunus,serotina
+1578,762.0,97,123,762,black cherry,Prunus,serotina
+1579,762.0,99,17,762,black cherry,Prunus,serotina
+1580,762.0,101,4,762,black cherry,Prunus,serotina
+1581,762.0,103,9,762,black cherry,Prunus,serotina
+1582,762.0,107,5,762,black cherry,Prunus,serotina
+1583,762.0,109,148,762,black cherry,Prunus,serotina
+1584,762.0,111,83,762,black cherry,Prunus,serotina
+1585,762.0,113,2,762,black cherry,Prunus,serotina
+1586,762.0,115,207,762,black cherry,Prunus,serotina
+1587,762.0,119,38,762,black cherry,Prunus,serotina
+1588,762.0,121,4,762,black cherry,Prunus,serotina
+1589,762.0,123,1,762,black cherry,Prunus,serotina
+1590,762.0,125,7,762,black cherry,Prunus,serotina
+1591,762.0,131,44,762,black cherry,Prunus,serotina
+1592,762.0,135,2,762,black cherry,Prunus,serotina
+1593,762.0,137,40,762,black cherry,Prunus,serotina
+1594,762.0,139,59,762,black cherry,Prunus,serotina
+1595,762.0,141,130,762,black cherry,Prunus,serotina
+1596,762.0,143,4,762,black cherry,Prunus,serotina
+1597,762.0,145,66,762,black cherry,Prunus,serotina
+1598,762.0,147,94,762,black cherry,Prunus,serotina
+1599,762.0,153,70,762,black cherry,Prunus,serotina
+1600,762.0,157,206,762,black cherry,Prunus,serotina
+1601,762.0,159,72,762,black cherry,Prunus,serotina
+1602,762.0,161,1,762,black cherry,Prunus,serotina
+1603,762.0,163,108,762,black cherry,Prunus,serotina
+1604,762.0,169,312,762,black cherry,Prunus,serotina
+1605,762.0,171,34,762,black cherry,Prunus,serotina
+1606,762.0,173,1,762,black cherry,Prunus,serotina
+1607,763.0,1,191,763,chokecherry,Prunus,virginiana
+1608,763.0,3,7,763,chokecherry,Prunus,virginiana
+1609,763.0,5,82,763,chokecherry,Prunus,virginiana
+1610,763.0,7,177,763,chokecherry,Prunus,virginiana
+1611,763.0,9,11,763,chokecherry,Prunus,virginiana
+1612,763.0,11,1,763,chokecherry,Prunus,virginiana
+1613,763.0,15,1,763,chokecherry,Prunus,virginiana
+1614,763.0,17,77,763,chokecherry,Prunus,virginiana
+1615,763.0,19,1,763,chokecherry,Prunus,virginiana
+1616,763.0,21,320,763,chokecherry,Prunus,virginiana
+1617,763.0,25,3,763,chokecherry,Prunus,virginiana
+1618,763.0,27,4,763,chokecherry,Prunus,virginiana
+1619,763.0,29,61,763,chokecherry,Prunus,virginiana
+1620,763.0,31,203,763,chokecherry,Prunus,virginiana
+1621,763.0,35,61,763,chokecherry,Prunus,virginiana
+1622,763.0,37,14,763,chokecherry,Prunus,virginiana
+1623,763.0,39,8,763,chokecherry,Prunus,virginiana
+1624,763.0,41,2,763,chokecherry,Prunus,virginiana
+1625,763.0,45,44,763,chokecherry,Prunus,virginiana
+1626,763.0,47,1,763,chokecherry,Prunus,virginiana
+1627,763.0,49,11,763,chokecherry,Prunus,virginiana
+1628,763.0,51,6,763,chokecherry,Prunus,virginiana
+1629,763.0,53,1,763,chokecherry,Prunus,virginiana
+1630,763.0,55,19,763,chokecherry,Prunus,virginiana
+1631,763.0,57,147,763,chokecherry,Prunus,virginiana
+1632,763.0,59,35,763,chokecherry,Prunus,virginiana
+1633,763.0,61,252,763,chokecherry,Prunus,virginiana
+1634,763.0,65,44,763,chokecherry,Prunus,virginiana
+1635,763.0,67,11,763,chokecherry,Prunus,virginiana
+1636,763.0,69,40,763,chokecherry,Prunus,virginiana
+1637,763.0,71,164,763,chokecherry,Prunus,virginiana
+1638,763.0,73,2,763,chokecherry,Prunus,virginiana
+1639,763.0,75,193,763,chokecherry,Prunus,virginiana
+1640,763.0,77,79,763,chokecherry,Prunus,virginiana
+1641,763.0,79,1,763,chokecherry,Prunus,virginiana
+1642,763.0,85,9,763,chokecherry,Prunus,virginiana
+1643,763.0,87,45,763,chokecherry,Prunus,virginiana
+1644,763.0,89,95,763,chokecherry,Prunus,virginiana
+1645,763.0,91,7,763,chokecherry,Prunus,virginiana
+1646,763.0,93,10,763,chokecherry,Prunus,virginiana
+1647,763.0,95,24,763,chokecherry,Prunus,virginiana
+1648,763.0,97,79,763,chokecherry,Prunus,virginiana
+1649,763.0,107,20,763,chokecherry,Prunus,virginiana
+1650,763.0,109,15,763,chokecherry,Prunus,virginiana
+1651,763.0,111,48,763,chokecherry,Prunus,virginiana
+1652,763.0,113,26,763,chokecherry,Prunus,virginiana
+1653,763.0,115,88,763,chokecherry,Prunus,virginiana
+1654,763.0,119,45,763,chokecherry,Prunus,virginiana
+1655,763.0,121,2,763,chokecherry,Prunus,virginiana
+1656,763.0,125,6,763,chokecherry,Prunus,virginiana
+1657,763.0,131,12,763,chokecherry,Prunus,virginiana
+1658,763.0,135,95,763,chokecherry,Prunus,virginiana
+1659,763.0,137,292,763,chokecherry,Prunus,virginiana
+1660,763.0,139,5,763,chokecherry,Prunus,virginiana
+1661,763.0,141,10,763,chokecherry,Prunus,virginiana
+1662,763.0,145,12,763,chokecherry,Prunus,virginiana
+1663,763.0,151,4,763,chokecherry,Prunus,virginiana
+1664,763.0,153,23,763,chokecherry,Prunus,virginiana
+1665,763.0,157,11,763,chokecherry,Prunus,virginiana
+1666,763.0,159,60,763,chokecherry,Prunus,virginiana
+1667,763.0,161,2,763,chokecherry,Prunus,virginiana
+1668,763.0,163,2,763,chokecherry,Prunus,virginiana
+1669,763.0,167,14,763,chokecherry,Prunus,virginiana
+1670,763.0,169,36,763,chokecherry,Prunus,virginiana
+1671,763.0,171,7,763,chokecherry,Prunus,virginiana
+1672,765.0,7,1,765,Canada plum,Prunus,nigra
+1673,765.0,71,6,765,Canada plum,Prunus,nigra
+1674,765.0,97,2,765,Canada plum,Prunus,nigra
+1675,765.0,109,7,765,Canada plum,Prunus,nigra
+1676,765.0,135,2,765,Canada plum,Prunus,nigra
+1677,766.0,3,2,766,American plum,Prunus,americana
+1678,766.0,5,2,766,American plum,Prunus,americana
+1679,766.0,9,6,766,American plum,Prunus,americana
+1680,766.0,13,9,766,American plum,Prunus,americana
+1681,766.0,15,2,766,American plum,Prunus,americana
+1682,766.0,19,24,766,American plum,Prunus,americana
+1683,766.0,33,1,766,American plum,Prunus,americana
+1684,766.0,37,8,766,American plum,Prunus,americana
+1685,766.0,41,3,766,American plum,Prunus,americana
+1686,766.0,43,2,766,American plum,Prunus,americana
+1687,766.0,45,27,766,American plum,Prunus,americana
+1688,766.0,49,11,766,American plum,Prunus,americana
+1689,766.0,55,27,766,American plum,Prunus,americana
+1690,766.0,59,1,766,American plum,Prunus,americana
+1691,766.0,61,2,766,American plum,Prunus,americana
+1692,766.0,63,2,766,American plum,Prunus,americana
+1693,766.0,71,3,766,American plum,Prunus,americana
+1694,766.0,73,11,766,American plum,Prunus,americana
+1695,766.0,75,3,766,American plum,Prunus,americana
+1696,766.0,85,1,766,American plum,Prunus,americana
+1697,766.0,87,1,766,American plum,Prunus,americana
+1698,766.0,95,1,766,American plum,Prunus,americana
+1699,766.0,97,11,766,American plum,Prunus,americana
+1700,766.0,99,16,766,American plum,Prunus,americana
+1701,766.0,103,10,766,American plum,Prunus,americana
+1702,766.0,109,1,766,American plum,Prunus,americana
+1703,766.0,111,12,766,American plum,Prunus,americana
+1704,766.0,115,24,766,American plum,Prunus,americana
+1705,766.0,125,2,766,American plum,Prunus,americana
+1706,766.0,129,28,766,American plum,Prunus,americana
+1707,766.0,137,2,766,American plum,Prunus,americana
+1708,766.0,141,3,766,American plum,Prunus,americana
+1709,766.0,143,8,766,American plum,Prunus,americana
+1710,766.0,147,10,766,American plum,Prunus,americana
+1711,766.0,151,4,766,American plum,Prunus,americana
+1712,766.0,153,6,766,American plum,Prunus,americana
+1713,766.0,157,18,766,American plum,Prunus,americana
+1714,766.0,163,19,766,American plum,Prunus,americana
+1715,766.0,165,32,766,American plum,Prunus,americana
+1716,766.0,169,24,766,American plum,Prunus,americana
+1717,766.0,171,11,766,American plum,Prunus,americana
+1718,802.0,1,56,802,white oak,Quercus,alba
+1719,802.0,3,120,802,white oak,Quercus,alba
+1720,802.0,5,2,802,white oak,Quercus,alba
+1721,802.0,7,25,802,white oak,Quercus,alba
+1722,802.0,9,2,802,white oak,Quercus,alba
+1723,802.0,15,9,802,white oak,Quercus,alba
+1724,802.0,17,4,802,white oak,Quercus,alba
+1725,802.0,19,1,802,white oak,Quercus,alba
+1726,802.0,21,85,802,white oak,Quercus,alba
+1727,802.0,25,147,802,white oak,Quercus,alba
+1728,802.0,29,11,802,white oak,Quercus,alba
+1729,802.0,35,36,802,white oak,Quercus,alba
+1730,802.0,37,53,802,white oak,Quercus,alba
+1731,802.0,39,29,802,white oak,Quercus,alba
+1732,802.0,41,4,802,white oak,Quercus,alba
+1733,802.0,45,415,802,white oak,Quercus,alba
+1734,802.0,49,105,802,white oak,Quercus,alba
+1735,802.0,51,10,802,white oak,Quercus,alba
+1736,802.0,53,2,802,white oak,Quercus,alba
+1737,802.0,55,718,802,white oak,Quercus,alba
+1738,802.0,57,4,802,white oak,Quercus,alba
+1739,802.0,59,46,802,white oak,Quercus,alba
+1740,802.0,61,10,802,white oak,Quercus,alba
+1741,802.0,63,1,802,white oak,Quercus,alba
+1742,802.0,65,97,802,white oak,Quercus,alba
+1743,802.0,67,4,802,white oak,Quercus,alba
+1744,802.0,71,4,802,white oak,Quercus,alba
+1745,802.0,85,1,802,white oak,Quercus,alba
+1746,802.0,87,5,802,white oak,Quercus,alba
+1747,802.0,95,29,802,white oak,Quercus,alba
+1748,802.0,97,38,802,white oak,Quercus,alba
+1749,802.0,99,6,802,white oak,Quercus,alba
+1750,802.0,103,2,802,white oak,Quercus,alba
+1751,802.0,109,116,802,white oak,Quercus,alba
+1752,802.0,111,29,802,white oak,Quercus,alba
+1753,802.0,113,1,802,white oak,Quercus,alba
+1754,802.0,115,75,802,white oak,Quercus,alba
+1755,802.0,119,4,802,white oak,Quercus,alba
+1756,802.0,127,4,802,white oak,Quercus,alba
+1757,802.0,129,2,802,white oak,Quercus,alba
+1758,802.0,131,9,802,white oak,Quercus,alba
+1759,802.0,135,2,802,white oak,Quercus,alba
+1760,802.0,139,8,802,white oak,Quercus,alba
+1761,802.0,141,167,802,white oak,Quercus,alba
+1762,802.0,143,9,802,white oak,Quercus,alba
+1763,802.0,145,24,802,white oak,Quercus,alba
+1764,802.0,147,6,802,white oak,Quercus,alba
+1765,802.0,153,2,802,white oak,Quercus,alba
+1766,802.0,157,131,802,white oak,Quercus,alba
+1767,802.0,161,4,802,white oak,Quercus,alba
+1768,802.0,163,137,802,white oak,Quercus,alba
+1769,802.0,169,569,802,white oak,Quercus,alba
+1770,802.0,171,31,802,white oak,Quercus,alba
+1771,804.0,21,8,804,swamp white oak,Quercus,bicolor
+1772,804.0,37,2,804,swamp white oak,Quercus,bicolor
+1773,804.0,49,3,804,swamp white oak,Quercus,bicolor
+1774,804.0,55,6,804,swamp white oak,Quercus,bicolor
+1775,804.0,71,2,804,swamp white oak,Quercus,bicolor
+1776,804.0,91,2,804,swamp white oak,Quercus,bicolor
+1777,804.0,103,1,804,swamp white oak,Quercus,bicolor
+1778,804.0,157,2,804,swamp white oak,Quercus,bicolor
+1779,809.0,1,35,809,northern pin oak,Quercus,ellipsoidalis
+1780,809.0,3,265,809,northern pin oak,Quercus,ellipsoidalis
+1781,809.0,5,60,809,northern pin oak,Quercus,ellipsoidalis
+1782,809.0,7,89,809,northern pin oak,Quercus,ellipsoidalis
+1783,809.0,9,60,809,northern pin oak,Quercus,ellipsoidalis
+1784,809.0,19,10,809,northern pin oak,Quercus,ellipsoidalis
+1785,809.0,21,458,809,northern pin oak,Quercus,ellipsoidalis
+1786,809.0,25,123,809,northern pin oak,Quercus,ellipsoidalis
+1787,809.0,29,26,809,northern pin oak,Quercus,ellipsoidalis
+1788,809.0,35,470,809,northern pin oak,Quercus,ellipsoidalis
+1789,809.0,37,37,809,northern pin oak,Quercus,ellipsoidalis
+1790,809.0,39,1,809,northern pin oak,Quercus,ellipsoidalis
+1791,809.0,41,1,809,northern pin oak,Quercus,ellipsoidalis
+1792,809.0,45,20,809,northern pin oak,Quercus,ellipsoidalis
+1793,809.0,47,4,809,northern pin oak,Quercus,ellipsoidalis
+1794,809.0,49,70,809,northern pin oak,Quercus,ellipsoidalis
+1795,809.0,53,11,809,northern pin oak,Quercus,ellipsoidalis
+1796,809.0,55,83,809,northern pin oak,Quercus,ellipsoidalis
+1797,809.0,57,326,809,northern pin oak,Quercus,ellipsoidalis
+1798,809.0,59,273,809,northern pin oak,Quercus,ellipsoidalis
+1799,809.0,61,25,809,northern pin oak,Quercus,ellipsoidalis
+1800,809.0,65,4,809,northern pin oak,Quercus,ellipsoidalis
+1801,809.0,67,1,809,northern pin oak,Quercus,ellipsoidalis
+1802,809.0,87,25,809,northern pin oak,Quercus,ellipsoidalis
+1803,809.0,95,14,809,northern pin oak,Quercus,ellipsoidalis
+1804,809.0,97,182,809,northern pin oak,Quercus,ellipsoidalis
+1805,809.0,99,4,809,northern pin oak,Quercus,ellipsoidalis
+1806,809.0,103,2,809,northern pin oak,Quercus,ellipsoidalis
+1807,809.0,109,16,809,northern pin oak,Quercus,ellipsoidalis
+1808,809.0,111,196,809,northern pin oak,Quercus,ellipsoidalis
+1809,809.0,115,70,809,northern pin oak,Quercus,ellipsoidalis
+1810,809.0,119,6,809,northern pin oak,Quercus,ellipsoidalis
+1811,809.0,123,3,809,northern pin oak,Quercus,ellipsoidalis
+1812,809.0,131,33,809,northern pin oak,Quercus,ellipsoidalis
+1813,809.0,137,199,809,northern pin oak,Quercus,ellipsoidalis
+1814,809.0,139,27,809,northern pin oak,Quercus,ellipsoidalis
+1815,809.0,141,436,809,northern pin oak,Quercus,ellipsoidalis
+1816,809.0,145,31,809,northern pin oak,Quercus,ellipsoidalis
+1817,809.0,147,13,809,northern pin oak,Quercus,ellipsoidalis
+1818,809.0,153,198,809,northern pin oak,Quercus,ellipsoidalis
+1819,809.0,157,57,809,northern pin oak,Quercus,ellipsoidalis
+1820,809.0,159,165,809,northern pin oak,Quercus,ellipsoidalis
+1821,809.0,163,103,809,northern pin oak,Quercus,ellipsoidalis
+1822,809.0,169,146,809,northern pin oak,Quercus,ellipsoidalis
+1823,809.0,171,6,809,northern pin oak,Quercus,ellipsoidalis
+1824,822.0,95,1,822,overcup oak,Quercus,lyrata
+1825,823.0,1,1687,823,bur oak,Quercus,macrocarpa
+1826,823.0,3,93,823,bur oak,Quercus,macrocarpa
+1827,823.0,5,3274,823,bur oak,Quercus,macrocarpa
+1828,823.0,7,2729,823,bur oak,Quercus,macrocarpa
+1829,823.0,9,260,823,bur oak,Quercus,macrocarpa
+1830,823.0,11,35,823,bur oak,Quercus,macrocarpa
+1831,823.0,13,164,823,bur oak,Quercus,macrocarpa
+1832,823.0,15,64,823,bur oak,Quercus,macrocarpa
+1833,823.0,17,342,823,bur oak,Quercus,macrocarpa
+1834,823.0,19,69,823,bur oak,Quercus,macrocarpa
+1835,823.0,21,3319,823,bur oak,Quercus,macrocarpa
+1836,823.0,25,348,823,bur oak,Quercus,macrocarpa
+1837,823.0,27,701,823,bur oak,Quercus,macrocarpa
+1838,823.0,29,1525,823,bur oak,Quercus,macrocarpa
+1839,823.0,35,2284,823,bur oak,Quercus,macrocarpa
+1840,823.0,37,159,823,bur oak,Quercus,macrocarpa
+1841,823.0,39,45,823,bur oak,Quercus,macrocarpa
+1842,823.0,41,460,823,bur oak,Quercus,macrocarpa
+1843,823.0,43,44,823,bur oak,Quercus,macrocarpa
+1844,823.0,45,527,823,bur oak,Quercus,macrocarpa
+1845,823.0,47,200,823,bur oak,Quercus,macrocarpa
+1846,823.0,49,470,823,bur oak,Quercus,macrocarpa
+1847,823.0,51,90,823,bur oak,Quercus,macrocarpa
+1848,823.0,53,31,823,bur oak,Quercus,macrocarpa
+1849,823.0,55,805,823,bur oak,Quercus,macrocarpa
+1850,823.0,57,2568,823,bur oak,Quercus,macrocarpa
+1851,823.0,59,240,823,bur oak,Quercus,macrocarpa
+1852,823.0,61,965,823,bur oak,Quercus,macrocarpa
+1853,823.0,63,50,823,bur oak,Quercus,macrocarpa
+1854,823.0,65,915,823,bur oak,Quercus,macrocarpa
+1855,823.0,67,210,823,bur oak,Quercus,macrocarpa
+1856,823.0,69,478,823,bur oak,Quercus,macrocarpa
+1857,823.0,71,361,823,bur oak,Quercus,macrocarpa
+1858,823.0,73,10,823,bur oak,Quercus,macrocarpa
+1859,823.0,75,26,823,bur oak,Quercus,macrocarpa
+1860,823.0,77,95,823,bur oak,Quercus,macrocarpa
+1861,823.0,79,67,823,bur oak,Quercus,macrocarpa
+1862,823.0,85,20,823,bur oak,Quercus,macrocarpa
+1863,823.0,87,1544,823,bur oak,Quercus,macrocarpa
+1864,823.0,89,1326,823,bur oak,Quercus,macrocarpa
+1865,823.0,91,25,823,bur oak,Quercus,macrocarpa
+1866,823.0,93,171,823,bur oak,Quercus,macrocarpa
+1867,823.0,95,883,823,bur oak,Quercus,macrocarpa
+1868,823.0,97,1695,823,bur oak,Quercus,macrocarpa
+1869,823.0,99,54,823,bur oak,Quercus,macrocarpa
+1870,823.0,101,17,823,bur oak,Quercus,macrocarpa
+1871,823.0,103,30,823,bur oak,Quercus,macrocarpa
+1872,823.0,107,193,823,bur oak,Quercus,macrocarpa
+1873,823.0,109,564,823,bur oak,Quercus,macrocarpa
+1874,823.0,111,1798,823,bur oak,Quercus,macrocarpa
+1875,823.0,113,579,823,bur oak,Quercus,macrocarpa
+1876,823.0,115,1195,823,bur oak,Quercus,macrocarpa
+1877,823.0,119,1046,823,bur oak,Quercus,macrocarpa
+1878,823.0,121,159,823,bur oak,Quercus,macrocarpa
+1879,823.0,123,8,823,bur oak,Quercus,macrocarpa
+1880,823.0,125,347,823,bur oak,Quercus,macrocarpa
+1881,823.0,127,57,823,bur oak,Quercus,macrocarpa
+1882,823.0,129,74,823,bur oak,Quercus,macrocarpa
+1883,823.0,131,172,823,bur oak,Quercus,macrocarpa
+1884,823.0,135,920,823,bur oak,Quercus,macrocarpa
+1885,823.0,137,173,823,bur oak,Quercus,macrocarpa
+1886,823.0,139,75,823,bur oak,Quercus,macrocarpa
+1887,823.0,141,620,823,bur oak,Quercus,macrocarpa
+1888,823.0,143,34,823,bur oak,Quercus,macrocarpa
+1889,823.0,145,336,823,bur oak,Quercus,macrocarpa
+1890,823.0,147,96,823,bur oak,Quercus,macrocarpa
+1891,823.0,149,2,823,bur oak,Quercus,macrocarpa
+1892,823.0,151,15,823,bur oak,Quercus,macrocarpa
+1893,823.0,153,1317,823,bur oak,Quercus,macrocarpa
+1894,823.0,155,8,823,bur oak,Quercus,macrocarpa
+1895,823.0,157,591,823,bur oak,Quercus,macrocarpa
+1896,823.0,159,902,823,bur oak,Quercus,macrocarpa
+1897,823.0,161,89,823,bur oak,Quercus,macrocarpa
+1898,823.0,163,98,823,bur oak,Quercus,macrocarpa
+1899,823.0,169,823,823,bur oak,Quercus,macrocarpa
+1900,823.0,171,139,823,bur oak,Quercus,macrocarpa
+1901,823.0,173,31,823,bur oak,Quercus,macrocarpa
+1902,830.0,45,1,830,pin oak,Quercus,palustris
+1903,832.0,57,1,832,chestnut oak,Quercus,prinus
+1904,833.0,1,2058,833,northern red oak,Quercus,rubra
+1905,833.0,3,315,833,northern red oak,Quercus,rubra
+1906,833.0,5,1838,833,northern red oak,Quercus,rubra
+1907,833.0,7,722,833,northern red oak,Quercus,rubra
+1908,833.0,9,248,833,northern red oak,Quercus,rubra
+1909,833.0,13,72,833,northern red oak,Quercus,rubra
+1910,833.0,15,182,833,northern red oak,Quercus,rubra
+1911,833.0,17,386,833,northern red oak,Quercus,rubra
+1912,833.0,19,41,833,northern red oak,Quercus,rubra
+1913,833.0,21,3847,833,northern red oak,Quercus,rubra
+1914,833.0,25,500,833,northern red oak,Quercus,rubra
+1915,833.0,27,18,833,northern red oak,Quercus,rubra
+1916,833.0,29,697,833,northern red oak,Quercus,rubra
+1917,833.0,35,4519,833,northern red oak,Quercus,rubra
+1918,833.0,37,123,833,northern red oak,Quercus,rubra
+1919,833.0,39,120,833,northern red oak,Quercus,rubra
+1920,833.0,41,212,833,northern red oak,Quercus,rubra
+1921,833.0,43,3,833,northern red oak,Quercus,rubra
+1922,833.0,45,761,833,northern red oak,Quercus,rubra
+1923,833.0,47,62,833,northern red oak,Quercus,rubra
+1924,833.0,49,666,833,northern red oak,Quercus,rubra
+1925,833.0,51,26,833,northern red oak,Quercus,rubra
+1926,833.0,53,142,833,northern red oak,Quercus,rubra
+1927,833.0,55,1725,833,northern red oak,Quercus,rubra
+1928,833.0,57,1589,833,northern red oak,Quercus,rubra
+1929,833.0,59,447,833,northern red oak,Quercus,rubra
+1930,833.0,61,1007,833,northern red oak,Quercus,rubra
+1931,833.0,65,827,833,northern red oak,Quercus,rubra
+1932,833.0,67,19,833,northern red oak,Quercus,rubra
+1933,833.0,71,38,833,northern red oak,Quercus,rubra
+1934,833.0,75,64,833,northern red oak,Quercus,rubra
+1935,833.0,79,76,833,northern red oak,Quercus,rubra
+1936,833.0,85,63,833,northern red oak,Quercus,rubra
+1937,833.0,87,355,833,northern red oak,Quercus,rubra
+1938,833.0,89,1,833,northern red oak,Quercus,rubra
+1939,833.0,93,35,833,northern red oak,Quercus,rubra
+1940,833.0,95,1131,833,northern red oak,Quercus,rubra
+1941,833.0,97,1973,833,northern red oak,Quercus,rubra
+1942,833.0,99,6,833,northern red oak,Quercus,rubra
+1943,833.0,103,106,833,northern red oak,Quercus,rubra
+1944,833.0,109,418,833,northern red oak,Quercus,rubra
+1945,833.0,111,894,833,northern red oak,Quercus,rubra
+1946,833.0,115,2187,833,northern red oak,Quercus,rubra
+1947,833.0,119,172,833,northern red oak,Quercus,rubra
+1948,833.0,123,7,833,northern red oak,Quercus,rubra
+1949,833.0,127,15,833,northern red oak,Quercus,rubra
+1950,833.0,131,188,833,northern red oak,Quercus,rubra
+1951,833.0,135,4,833,northern red oak,Quercus,rubra
+1952,833.0,137,706,833,northern red oak,Quercus,rubra
+1953,833.0,139,95,833,northern red oak,Quercus,rubra
+1954,833.0,141,993,833,northern red oak,Quercus,rubra
+1955,833.0,143,37,833,northern red oak,Quercus,rubra
+1956,833.0,145,573,833,northern red oak,Quercus,rubra
+1957,833.0,147,19,833,northern red oak,Quercus,rubra
+1958,833.0,153,604,833,northern red oak,Quercus,rubra
+1959,833.0,157,817,833,northern red oak,Quercus,rubra
+1960,833.0,159,347,833,northern red oak,Quercus,rubra
+1961,833.0,161,34,833,northern red oak,Quercus,rubra
+1962,833.0,163,202,833,northern red oak,Quercus,rubra
+1963,833.0,169,1994,833,northern red oak,Quercus,rubra
+1964,833.0,171,104,833,northern red oak,Quercus,rubra
+1965,837.0,1,1,837,black oak,Quercus,velutina
+1966,837.0,19,1,837,black oak,Quercus,velutina
+1967,837.0,21,2,837,black oak,Quercus,velutina
+1968,837.0,45,46,837,black oak,Quercus,velutina
+1969,837.0,49,16,837,black oak,Quercus,velutina
+1970,837.0,55,84,837,black oak,Quercus,velutina
+1971,837.0,99,2,837,black oak,Quercus,velutina
+1972,837.0,109,8,837,black oak,Quercus,velutina
+1973,837.0,137,1,837,black oak,Quercus,velutina
+1974,837.0,139,3,837,black oak,Quercus,velutina
+1975,837.0,143,1,837,black oak,Quercus,velutina
+1976,837.0,157,69,837,black oak,Quercus,velutina
+1977,837.0,163,10,837,black oak,Quercus,velutina
+1978,837.0,169,104,837,black oak,Quercus,velutina
+1979,901.0,1,2,901,black locust,Robinia,pseudoacacia
+1980,901.0,21,1,901,black locust,Robinia,pseudoacacia
+1981,901.0,37,16,901,black locust,Robinia,pseudoacacia
+1982,901.0,49,14,901,black locust,Robinia,pseudoacacia
+1983,901.0,55,50,901,black locust,Robinia,pseudoacacia
+1984,901.0,65,1,901,black locust,Robinia,pseudoacacia
+1985,901.0,85,6,901,black locust,Robinia,pseudoacacia
+1986,901.0,137,1,901,black locust,Robinia,pseudoacacia
+1987,901.0,147,1,901,black locust,Robinia,pseudoacacia
+1988,901.0,163,67,901,black locust,Robinia,pseudoacacia
+1989,901.0,169,5,901,black locust,Robinia,pseudoacacia
+1990,921.0,1,47,921,peachleaf willow,Salix,amygdaloides
+1991,921.0,5,7,921,peachleaf willow,Salix,amygdaloides
+1992,921.0,7,89,921,peachleaf willow,Salix,amygdaloides
+1993,921.0,9,17,921,peachleaf willow,Salix,amygdaloides
+1994,921.0,13,12,921,peachleaf willow,Salix,amygdaloides
+1995,921.0,17,6,921,peachleaf willow,Salix,amygdaloides
+1996,921.0,21,10,921,peachleaf willow,Salix,amygdaloides
+1997,921.0,23,5,921,peachleaf willow,Salix,amygdaloides
+1998,921.0,29,18,921,peachleaf willow,Salix,amygdaloides
+1999,921.0,31,59,921,peachleaf willow,Salix,amygdaloides
+2000,921.0,35,2,921,peachleaf willow,Salix,amygdaloides
