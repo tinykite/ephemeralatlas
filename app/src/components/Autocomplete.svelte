@@ -1,29 +1,57 @@
 <script>
 	import { onMount } from 'svelte';
-
-	// import '@spectrum-web-components/button/sp-button.js';
 	let accessibleAutocomplete;
-	let spButton;
 
-	const countries = ['France', 'Germany', 'United Kingdom'];
+	const countries = [
+		'France',
+		'Germany',
+		'United Kingdom',
+		'Brazil',
+		'Something',
+		'Somethingna',
+		'Somethingnananana',
+		'Somethingnananananana',
+		'somethingnandhfhedhfhshfh',
+		'somethingsgfgfgd',
+		'somethingnananandhfhsjshfgskjfggd',
+		'somethingnananandhfhsjshfgskjfggddddddddd',
+		'somethingnananandhfhsjshfgskaaaaaa',
+		'somethingnananandhfhsjshfgskjfggsffd',
+		'somethingnananandhfhsjshfgskjfggakjfhsgwg3hrhjd',
+		'somethingnananandhfhsjshfgskjfggdj1hfd',
+		'Somethingna',
+		'Somethingnananana',
+		'Somethingnananananana',
+		'somethingnandhfhedhfhshfh',
+		'somethingsgfgfgd',
+		'somethingnananandhfhsjshfgskjfggd',
+		'somethingnananandhfhsjshfgskjfggddddddddd',
+		'somethingnananandhfhsjshfgskaaaaaa',
+		'somethingnananandhfhsjshfgskjfggsffd',
+		'somethingnananandhfhsjshfgskjfggakjfhsgwg3hrhjd',
+		'somethingnananandhfhsjshfgskjfggdj1hfd'
+	];
 
 	onMount(async () => {
-		const module = await import('accessible-autocomplete');
+		if (typeof window !== 'undefined') {
+			// Import accessible-autocomplete and initialize it
+			const module = await import('accessible-autocomplete');
+			accessibleAutocomplete = module.default;
 
-		accessibleAutocomplete = module.default;
-		accessibleAutocomplete({
-			element: document.querySelector('#my-autocomplete-container'),
-			id: 'my-autocomplete', // To match it to the existing <label>.
-			source: countries
-		});
+			accessibleAutocomplete({
+				element: document.querySelector('#my-autocomplete-container'),
+				id: 'my-autocomplete', // To match it to the existing <label>.
+				source: countries
+			});
+		}
 	});
 </script>
 
-{#if accessibleAutocomplete}{/if}
-
-<label for="my-autocomplete">Select your country</label>
+<label class="label" for="my-autocomplete">Select your country</label>
 <div id="my-autocomplete-container" />
 
-<sp-theme scale="large" color="dark">
-	<sp-button variant="primary">Submit</sp-button>
-</sp-theme>
+<style>
+	.label {
+		font-family: 'Termina Regular';
+	}
+</style>
