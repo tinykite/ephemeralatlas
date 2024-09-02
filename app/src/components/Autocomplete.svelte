@@ -1,36 +1,13 @@
 <script>
 	import { onMount } from 'svelte';
 	let accessibleAutocomplete;
+	export let label;
+	export let options;
+	export let handleChange;
 
-	const countries = [
-		'France',
-		'Germany',
-		'United Kingdom',
-		'Brazil',
-		'Something',
-		'Somethingna',
-		'Somethingnananana',
-		'Somethingnananananana',
-		'somethingnandhfhedhfhshfh',
-		'somethingsgfgfgd',
-		'somethingnananandhfhsjshfgskjfggd',
-		'somethingnananandhfhsjshfgskjfggddddddddd',
-		'somethingnananandhfhsjshfgskaaaaaa',
-		'somethingnananandhfhsjshfgskjfggsffd',
-		'somethingnananandhfhsjshfgskjfggakjfhsgwg3hrhjd',
-		'somethingnananandhfhsjshfgskjfggdj1hfd',
-		'Somethingna',
-		'Somethingnananana',
-		'Somethingnananananana',
-		'somethingnandhfhedhfhshfh',
-		'somethingsgfgfgd',
-		'somethingnananandhfhsjshfgskjfggd',
-		'somethingnananandhfhsjshfgskjfggddddddddd',
-		'somethingnananandhfhsjshfgskaaaaaa',
-		'somethingnananandhfhsjshfgskjfggsffd',
-		'somethingnananandhfhsjshfgskjfggakjfhsgwg3hrhjd',
-		'somethingnananandhfhsjshfgskjfggdj1hfd'
-	];
+	const optionLabels = options.reduce((acc, curr) => {
+		return [...acc, curr.name];
+	}, []);
 
 	onMount(async () => {
 		if (typeof window !== 'undefined') {
@@ -41,13 +18,17 @@
 			accessibleAutocomplete({
 				element: document.querySelector('#my-autocomplete-container'),
 				id: 'my-autocomplete', // To match it to the existing <label>.
-				source: countries
+				source: optionLabels,
+				onConfirm: (confirmed) => {
+					handleChange(confirmed);
+				},
+				confirmOnBlur: false
 			});
 		}
 	});
 </script>
 
-<label class="label" for="my-autocomplete">Select your country</label>
+<label class="label" for="my-autocomplete">{label}</label>
 <div id="my-autocomplete-container" />
 
 <style>

@@ -1,0 +1,2001 @@
+rowid,SPCD,COUNTYCD,COUNT,FIA Code,Common Name,Genus,Species,name
+1,12.0,001,3958,12,balsam fir,Abies,balsamea,Aitkin
+2,12.0,003,1,12,balsam fir,Abies,balsamea,Anoka
+3,12.0,005,1218,12,balsam fir,Abies,balsamea,Becker
+4,12.0,007,5571,12,balsam fir,Abies,balsamea,Beltrami
+5,12.0,017,3414,12,balsam fir,Abies,balsamea,Carlton
+6,12.0,021,3631,12,balsam fir,Abies,balsamea,Cass
+7,12.0,029,1526,12,balsam fir,Abies,balsamea,Clearwater
+8,12.0,031,15579,12,balsam fir,Abies,balsamea,Cook
+9,12.0,035,742,12,balsam fir,Abies,balsamea,Crow Wing
+10,12.0,057,1325,12,balsam fir,Abies,balsamea,Hubbard
+11,12.0,061,17087,12,balsam fir,Abies,balsamea,Itasca
+12,12.0,065,43,12,balsam fir,Abies,balsamea,Kanabec
+13,12.0,071,22408,12,balsam fir,Abies,balsamea,Koochiching
+14,12.0,075,19671,12,balsam fir,Abies,balsamea,Lake
+15,12.0,077,4010,12,balsam fir,Abies,balsamea,Lake of the Woods
+16,12.0,087,140,12,balsam fir,Abies,balsamea,Mahnomen
+17,12.0,089,260,12,balsam fir,Abies,balsamea,Marshall
+18,12.0,095,10,12,balsam fir,Abies,balsamea,Mille Lacs
+19,12.0,097,2,12,balsam fir,Abies,balsamea,Morrison
+20,12.0,111,38,12,balsam fir,Abies,balsamea,Otter Tail
+21,12.0,115,1185,12,balsam fir,Abies,balsamea,Pine
+22,12.0,119,11,12,balsam fir,Abies,balsamea,Polk
+23,12.0,135,993,12,balsam fir,Abies,balsamea,Roseau
+24,12.0,137,44006,12,balsam fir,Abies,balsamea,Saint Louis
+25,12.0,153,22,12,balsam fir,Abies,balsamea,Todd
+26,12.0,159,87,12,balsam fir,Abies,balsamea,Wadena
+27,12.0,163,12,12,balsam fir,Abies,balsamea,Washington
+28,16.0,163,1,16,Fraser fir,Abies,fraseri,Washington
+29,68.0,001,8,68,eastern redcedar,Juniperus,virginiana,Aitkin
+30,68.0,003,17,68,eastern redcedar,Juniperus,virginiana,Anoka
+31,68.0,009,25,68,eastern redcedar,Juniperus,virginiana,Benton
+32,68.0,013,84,68,eastern redcedar,Juniperus,virginiana,Blue Earth
+33,68.0,015,8,68,eastern redcedar,Juniperus,virginiana,Brown
+34,68.0,019,71,68,eastern redcedar,Juniperus,virginiana,Carver
+35,68.0,025,63,68,eastern redcedar,Juniperus,virginiana,Chisago
+36,68.0,037,26,68,eastern redcedar,Juniperus,virginiana,Dakota
+37,68.0,039,4,68,eastern redcedar,Juniperus,virginiana,Dodge
+38,68.0,045,129,68,eastern redcedar,Juniperus,virginiana,Fillmore
+39,68.0,049,155,68,eastern redcedar,Juniperus,virginiana,Goodhue
+40,68.0,053,29,68,eastern redcedar,Juniperus,virginiana,Hennepin
+41,68.0,055,374,68,eastern redcedar,Juniperus,virginiana,Houston
+42,68.0,059,35,68,eastern redcedar,Juniperus,virginiana,Isanti
+43,68.0,067,135,68,eastern redcedar,Juniperus,virginiana,Kandiyohi
+44,68.0,079,19,68,eastern redcedar,Juniperus,virginiana,Le Sueur
+45,68.0,085,5,68,eastern redcedar,Juniperus,virginiana,McLeod
+46,68.0,095,3,68,eastern redcedar,Juniperus,virginiana,Mille Lacs
+47,68.0,097,161,68,eastern redcedar,Juniperus,virginiana,Morrison
+48,68.0,109,89,68,eastern redcedar,Juniperus,virginiana,Olmsted
+49,68.0,121,3,68,eastern redcedar,Juniperus,virginiana,Pope
+50,68.0,127,230,68,eastern redcedar,Juniperus,virginiana,Redwood
+51,68.0,131,7,68,eastern redcedar,Juniperus,virginiana,Rice
+52,68.0,137,9,68,eastern redcedar,Juniperus,virginiana,Saint Louis
+53,68.0,139,31,68,eastern redcedar,Juniperus,virginiana,Scott
+54,68.0,141,46,68,eastern redcedar,Juniperus,virginiana,Sherburne
+55,68.0,143,10,68,eastern redcedar,Juniperus,virginiana,Sibley
+56,68.0,145,57,68,eastern redcedar,Juniperus,virginiana,Stearns
+57,68.0,151,18,68,eastern redcedar,Juniperus,virginiana,Swift
+58,68.0,153,2,68,eastern redcedar,Juniperus,virginiana,Todd
+59,68.0,157,91,68,eastern redcedar,Juniperus,virginiana,Wabasha
+60,68.0,163,87,68,eastern redcedar,Juniperus,virginiana,Washington
+61,68.0,169,88,68,eastern redcedar,Juniperus,virginiana,Winona
+62,68.0,171,64,68,eastern redcedar,Juniperus,virginiana,Wright
+63,68.0,173,56,68,eastern redcedar,Juniperus,virginiana,Yellow Medicine
+64,70.0,001,1,70,larch spp.,Larix,spp.,Aitkin
+65,70.0,007,1,70,larch spp.,Larix,spp.,Beltrami
+66,70.0,061,1,70,larch spp.,Larix,spp.,Itasca
+67,70.0,075,1,70,larch spp.,Larix,spp.,Lake
+68,71.0,001,6780,71,tamarack,Larix,laricina,Aitkin
+69,71.0,003,89,71,tamarack,Larix,laricina,Anoka
+70,71.0,005,1526,71,tamarack,Larix,laricina,Becker
+71,71.0,007,6662,71,tamarack,Larix,laricina,Beltrami
+72,71.0,017,1402,71,tamarack,Larix,laricina,Carlton
+73,71.0,019,2,71,tamarack,Larix,laricina,Carver
+74,71.0,021,3146,71,tamarack,Larix,laricina,Cass
+75,71.0,025,110,71,tamarack,Larix,laricina,Chisago
+76,71.0,029,832,71,tamarack,Larix,laricina,Clearwater
+77,71.0,031,275,71,tamarack,Larix,laricina,Cook
+78,71.0,035,743,71,tamarack,Larix,laricina,Crow Wing
+79,71.0,041,79,71,tamarack,Larix,laricina,Douglas
+80,71.0,057,534,71,tamarack,Larix,laricina,Hubbard
+81,71.0,059,221,71,tamarack,Larix,laricina,Isanti
+82,71.0,061,5901,71,tamarack,Larix,laricina,Itasca
+83,71.0,065,123,71,tamarack,Larix,laricina,Kanabec
+84,71.0,071,14150,71,tamarack,Larix,laricina,Koochiching
+85,71.0,075,1564,71,tamarack,Larix,laricina,Lake
+86,71.0,077,7863,71,tamarack,Larix,laricina,Lake of the Woods
+87,71.0,087,104,71,tamarack,Larix,laricina,Mahnomen
+88,71.0,089,158,71,tamarack,Larix,laricina,Marshall
+89,71.0,095,264,71,tamarack,Larix,laricina,Mille Lacs
+90,71.0,097,487,71,tamarack,Larix,laricina,Morrison
+91,71.0,111,526,71,tamarack,Larix,laricina,Otter Tail
+92,71.0,115,917,71,tamarack,Larix,laricina,Pine
+93,71.0,119,120,71,tamarack,Larix,laricina,Polk
+94,71.0,135,1657,71,tamarack,Larix,laricina,Roseau
+95,71.0,137,11873,71,tamarack,Larix,laricina,Saint Louis
+96,71.0,145,137,71,tamarack,Larix,laricina,Stearns
+97,71.0,153,215,71,tamarack,Larix,laricina,Todd
+98,71.0,159,158,71,tamarack,Larix,laricina,Wadena
+99,71.0,163,8,71,tamarack,Larix,laricina,Washington
+100,91.0,157,24,91,Norway spruce,Picea,abies,Wabasha
+101,91.0,163,1,91,Norway spruce,Picea,abies,Washington
+102,94.0,001,417,94,white spruce,Picea,glauca,Aitkin
+103,94.0,003,20,94,white spruce,Picea,glauca,Anoka
+104,94.0,005,257,94,white spruce,Picea,glauca,Becker
+105,94.0,007,997,94,white spruce,Picea,glauca,Beltrami
+106,94.0,009,18,94,white spruce,Picea,glauca,Benton
+107,94.0,015,2,94,white spruce,Picea,glauca,Brown
+108,94.0,017,504,94,white spruce,Picea,glauca,Carlton
+109,94.0,021,535,94,white spruce,Picea,glauca,Cass
+110,94.0,029,314,94,white spruce,Picea,glauca,Clearwater
+111,94.0,031,3829,94,white spruce,Picea,glauca,Cook
+112,94.0,035,91,94,white spruce,Picea,glauca,Crow Wing
+113,94.0,037,12,94,white spruce,Picea,glauca,Dakota
+114,94.0,041,9,94,white spruce,Picea,glauca,Douglas
+115,94.0,049,21,94,white spruce,Picea,glauca,Goodhue
+116,94.0,051,21,94,white spruce,Picea,glauca,Grant
+117,94.0,057,248,94,white spruce,Picea,glauca,Hubbard
+118,94.0,059,59,94,white spruce,Picea,glauca,Isanti
+119,94.0,061,1710,94,white spruce,Picea,glauca,Itasca
+120,94.0,065,80,94,white spruce,Picea,glauca,Kanabec
+121,94.0,067,38,94,white spruce,Picea,glauca,Kandiyohi
+122,94.0,071,2933,94,white spruce,Picea,glauca,Koochiching
+123,94.0,075,3143,94,white spruce,Picea,glauca,Lake
+124,94.0,077,374,94,white spruce,Picea,glauca,Lake of the Woods
+125,94.0,079,2,94,white spruce,Picea,glauca,Le Sueur
+126,94.0,085,3,94,white spruce,Picea,glauca,McLeod
+127,94.0,087,97,94,white spruce,Picea,glauca,Mahnomen
+128,94.0,089,24,94,white spruce,Picea,glauca,Marshall
+129,94.0,095,15,94,white spruce,Picea,glauca,Mille Lacs
+130,94.0,097,45,94,white spruce,Picea,glauca,Morrison
+131,94.0,099,86,94,white spruce,Picea,glauca,Mower
+132,94.0,111,153,94,white spruce,Picea,glauca,Otter Tail
+133,94.0,115,191,94,white spruce,Picea,glauca,Pine
+134,94.0,119,5,94,white spruce,Picea,glauca,Polk
+135,94.0,135,370,94,white spruce,Picea,glauca,Roseau
+136,94.0,137,4282,94,white spruce,Picea,glauca,Saint Louis
+137,94.0,141,22,94,white spruce,Picea,glauca,Sherburne
+138,94.0,145,15,94,white spruce,Picea,glauca,Stearns
+139,94.0,153,16,94,white spruce,Picea,glauca,Todd
+140,94.0,157,51,94,white spruce,Picea,glauca,Wabasha
+141,94.0,159,32,94,white spruce,Picea,glauca,Wadena
+142,94.0,163,2,94,white spruce,Picea,glauca,Washington
+143,94.0,169,11,94,white spruce,Picea,glauca,Winona
+144,95.0,001,5548,95,black spruce,Picea,mariana,Aitkin
+145,95.0,005,408,95,black spruce,Picea,mariana,Becker
+146,95.0,007,5011,95,black spruce,Picea,mariana,Beltrami
+147,95.0,017,1612,95,black spruce,Picea,mariana,Carlton
+148,95.0,021,1412,95,black spruce,Picea,mariana,Cass
+149,95.0,029,334,95,black spruce,Picea,mariana,Clearwater
+150,95.0,031,6723,95,black spruce,Picea,mariana,Cook
+151,95.0,035,325,95,black spruce,Picea,mariana,Crow Wing
+152,95.0,041,4,95,black spruce,Picea,mariana,Douglas
+153,95.0,057,447,95,black spruce,Picea,mariana,Hubbard
+154,95.0,059,199,95,black spruce,Picea,mariana,Isanti
+155,95.0,061,10589,95,black spruce,Picea,mariana,Itasca
+156,95.0,065,49,95,black spruce,Picea,mariana,Kanabec
+157,95.0,071,36733,95,black spruce,Picea,mariana,Koochiching
+158,95.0,075,16955,95,black spruce,Picea,mariana,Lake
+159,95.0,077,8662,95,black spruce,Picea,mariana,Lake of the Woods
+160,95.0,087,9,95,black spruce,Picea,mariana,Mahnomen
+161,95.0,089,312,95,black spruce,Picea,mariana,Marshall
+162,95.0,095,170,95,black spruce,Picea,mariana,Mille Lacs
+163,95.0,097,2,95,black spruce,Picea,mariana,Morrison
+164,95.0,111,10,95,black spruce,Picea,mariana,Otter Tail
+165,95.0,115,1733,95,black spruce,Picea,mariana,Pine
+166,95.0,135,1033,95,black spruce,Picea,mariana,Roseau
+167,95.0,137,39245,95,black spruce,Picea,mariana,Saint Louis
+168,95.0,159,52,95,black spruce,Picea,mariana,Wadena
+169,96.0,041,2,96,blue spruce,Picea,pungens,Douglas
+170,96.0,049,3,96,blue spruce,Picea,pungens,Goodhue
+171,96.0,085,5,96,blue spruce,Picea,pungens,McLeod
+172,96.0,137,1,96,blue spruce,Picea,pungens,Saint Louis
+173,96.0,141,4,96,blue spruce,Picea,pungens,Sherburne
+174,105.0,001,209,105,jack pine,Pinus,banksiana,Aitkin
+175,105.0,003,6,105,jack pine,Pinus,banksiana,Anoka
+176,105.0,005,1120,105,jack pine,Pinus,banksiana,Becker
+177,105.0,007,2853,105,jack pine,Pinus,banksiana,Beltrami
+178,105.0,009,18,105,jack pine,Pinus,banksiana,Benton
+179,105.0,017,80,105,jack pine,Pinus,banksiana,Carlton
+180,105.0,021,4266,105,jack pine,Pinus,banksiana,Cass
+181,105.0,029,505,105,jack pine,Pinus,banksiana,Clearwater
+182,105.0,031,2064,105,jack pine,Pinus,banksiana,Cook
+183,105.0,035,2026,105,jack pine,Pinus,banksiana,Crow Wing
+184,105.0,037,96,105,jack pine,Pinus,banksiana,Dakota
+185,105.0,049,4,105,jack pine,Pinus,banksiana,Goodhue
+186,105.0,057,4606,105,jack pine,Pinus,banksiana,Hubbard
+187,105.0,059,5,105,jack pine,Pinus,banksiana,Isanti
+188,105.0,061,2639,105,jack pine,Pinus,banksiana,Itasca
+189,105.0,065,4,105,jack pine,Pinus,banksiana,Kanabec
+190,105.0,071,2098,105,jack pine,Pinus,banksiana,Koochiching
+191,105.0,075,3723,105,jack pine,Pinus,banksiana,Lake
+192,105.0,077,2259,105,jack pine,Pinus,banksiana,Lake of the Woods
+193,105.0,087,130,105,jack pine,Pinus,banksiana,Mahnomen
+194,105.0,095,157,105,jack pine,Pinus,banksiana,Mille Lacs
+195,105.0,097,124,105,jack pine,Pinus,banksiana,Morrison
+196,105.0,111,25,105,jack pine,Pinus,banksiana,Otter Tail
+197,105.0,115,654,105,jack pine,Pinus,banksiana,Pine
+198,105.0,119,8,105,jack pine,Pinus,banksiana,Polk
+199,105.0,135,1169,105,jack pine,Pinus,banksiana,Roseau
+200,105.0,137,8062,105,jack pine,Pinus,banksiana,Saint Louis
+201,105.0,141,12,105,jack pine,Pinus,banksiana,Sherburne
+202,105.0,153,168,105,jack pine,Pinus,banksiana,Todd
+203,105.0,159,2290,105,jack pine,Pinus,banksiana,Wadena
+204,122.0,009,30,122,ponderosa pine,Pinus,ponderosa,Benton
+205,122.0,059,11,122,ponderosa pine,Pinus,ponderosa,Isanti
+206,125.0,001,755,125,red pine,Pinus,resinosa,Aitkin
+207,125.0,003,228,125,red pine,Pinus,resinosa,Anoka
+208,125.0,005,568,125,red pine,Pinus,resinosa,Becker
+209,125.0,007,1807,125,red pine,Pinus,resinosa,Beltrami
+210,125.0,009,251,125,red pine,Pinus,resinosa,Benton
+211,125.0,017,930,125,red pine,Pinus,resinosa,Carlton
+212,125.0,021,4291,125,red pine,Pinus,resinosa,Cass
+213,125.0,025,186,125,red pine,Pinus,resinosa,Chisago
+214,125.0,029,445,125,red pine,Pinus,resinosa,Clearwater
+215,125.0,031,1650,125,red pine,Pinus,resinosa,Cook
+216,125.0,035,1772,125,red pine,Pinus,resinosa,Crow Wing
+217,125.0,037,40,125,red pine,Pinus,resinosa,Dakota
+218,125.0,045,28,125,red pine,Pinus,resinosa,Fillmore
+219,125.0,049,16,125,red pine,Pinus,resinosa,Goodhue
+220,125.0,051,26,125,red pine,Pinus,resinosa,Grant
+221,125.0,055,143,125,red pine,Pinus,resinosa,Houston
+222,125.0,057,2753,125,red pine,Pinus,resinosa,Hubbard
+223,125.0,059,262,125,red pine,Pinus,resinosa,Isanti
+224,125.0,061,5673,125,red pine,Pinus,resinosa,Itasca
+225,125.0,065,50,125,red pine,Pinus,resinosa,Kanabec
+226,125.0,067,20,125,red pine,Pinus,resinosa,Kandiyohi
+227,125.0,071,1698,125,red pine,Pinus,resinosa,Koochiching
+228,125.0,075,2331,125,red pine,Pinus,resinosa,Lake
+229,125.0,077,400,125,red pine,Pinus,resinosa,Lake of the Woods
+230,125.0,087,250,125,red pine,Pinus,resinosa,Mahnomen
+231,125.0,089,4,125,red pine,Pinus,resinosa,Marshall
+232,125.0,095,13,125,red pine,Pinus,resinosa,Mille Lacs
+233,125.0,097,642,125,red pine,Pinus,resinosa,Morrison
+234,125.0,109,18,125,red pine,Pinus,resinosa,Olmsted
+235,125.0,111,353,125,red pine,Pinus,resinosa,Otter Tail
+236,125.0,115,1172,125,red pine,Pinus,resinosa,Pine
+237,125.0,119,18,125,red pine,Pinus,resinosa,Polk
+238,125.0,121,122,125,red pine,Pinus,resinosa,Pope
+239,125.0,135,701,125,red pine,Pinus,resinosa,Roseau
+240,125.0,137,6529,125,red pine,Pinus,resinosa,Saint Louis
+241,125.0,141,594,125,red pine,Pinus,resinosa,Sherburne
+242,125.0,153,98,125,red pine,Pinus,resinosa,Todd
+243,125.0,157,46,125,red pine,Pinus,resinosa,Wabasha
+244,125.0,159,1073,125,red pine,Pinus,resinosa,Wadena
+245,125.0,163,217,125,red pine,Pinus,resinosa,Washington
+246,125.0,169,26,125,red pine,Pinus,resinosa,Winona
+247,129.0,001,207,129,eastern white pine,Pinus,strobus,Aitkin
+248,129.0,003,38,129,eastern white pine,Pinus,strobus,Anoka
+249,129.0,005,231,129,eastern white pine,Pinus,strobus,Becker
+250,129.0,007,550,129,eastern white pine,Pinus,strobus,Beltrami
+251,129.0,017,242,129,eastern white pine,Pinus,strobus,Carlton
+252,129.0,021,1253,129,eastern white pine,Pinus,strobus,Cass
+253,129.0,025,92,129,eastern white pine,Pinus,strobus,Chisago
+254,129.0,029,188,129,eastern white pine,Pinus,strobus,Clearwater
+255,129.0,031,722,129,eastern white pine,Pinus,strobus,Cook
+256,129.0,035,299,129,eastern white pine,Pinus,strobus,Crow Wing
+257,129.0,037,20,129,eastern white pine,Pinus,strobus,Dakota
+258,129.0,045,30,129,eastern white pine,Pinus,strobus,Fillmore
+259,129.0,049,31,129,eastern white pine,Pinus,strobus,Goodhue
+260,129.0,051,26,129,eastern white pine,Pinus,strobus,Grant
+261,129.0,055,11,129,eastern white pine,Pinus,strobus,Houston
+262,129.0,057,381,129,eastern white pine,Pinus,strobus,Hubbard
+263,129.0,059,32,129,eastern white pine,Pinus,strobus,Isanti
+264,129.0,061,850,129,eastern white pine,Pinus,strobus,Itasca
+265,129.0,065,47,129,eastern white pine,Pinus,strobus,Kanabec
+266,129.0,071,348,129,eastern white pine,Pinus,strobus,Koochiching
+267,129.0,075,780,129,eastern white pine,Pinus,strobus,Lake
+268,129.0,077,18,129,eastern white pine,Pinus,strobus,Lake of the Woods
+269,129.0,087,23,129,eastern white pine,Pinus,strobus,Mahnomen
+270,129.0,095,10,129,eastern white pine,Pinus,strobus,Mille Lacs
+271,129.0,097,319,129,eastern white pine,Pinus,strobus,Morrison
+272,129.0,099,3,129,eastern white pine,Pinus,strobus,Mower
+273,129.0,109,11,129,eastern white pine,Pinus,strobus,Olmsted
+274,129.0,111,81,129,eastern white pine,Pinus,strobus,Otter Tail
+275,129.0,115,381,129,eastern white pine,Pinus,strobus,Pine
+276,129.0,119,6,129,eastern white pine,Pinus,strobus,Polk
+277,129.0,135,1,129,eastern white pine,Pinus,strobus,Roseau
+278,129.0,137,3807,129,eastern white pine,Pinus,strobus,Saint Louis
+279,129.0,139,1,129,eastern white pine,Pinus,strobus,Scott
+280,129.0,141,67,129,eastern white pine,Pinus,strobus,Sherburne
+281,129.0,145,24,129,eastern white pine,Pinus,strobus,Stearns
+282,129.0,153,7,129,eastern white pine,Pinus,strobus,Todd
+283,129.0,157,200,129,eastern white pine,Pinus,strobus,Wabasha
+284,129.0,159,207,129,eastern white pine,Pinus,strobus,Wadena
+285,129.0,163,51,129,eastern white pine,Pinus,strobus,Washington
+286,129.0,169,195,129,eastern white pine,Pinus,strobus,Winona
+287,130.0,003,5,130,Scotch pine,Pinus,sylvestris,Anoka
+288,130.0,009,84,130,Scotch pine,Pinus,sylvestris,Benton
+289,130.0,017,3,130,Scotch pine,Pinus,sylvestris,Carlton
+290,130.0,025,25,130,Scotch pine,Pinus,sylvestris,Chisago
+291,130.0,035,1,130,Scotch pine,Pinus,sylvestris,Crow Wing
+292,130.0,055,2,130,Scotch pine,Pinus,sylvestris,Houston
+293,130.0,057,15,130,Scotch pine,Pinus,sylvestris,Hubbard
+294,130.0,059,8,130,Scotch pine,Pinus,sylvestris,Isanti
+295,130.0,061,18,130,Scotch pine,Pinus,sylvestris,Itasca
+296,130.0,067,47,130,Scotch pine,Pinus,sylvestris,Kandiyohi
+297,130.0,077,1,130,Scotch pine,Pinus,sylvestris,Lake of the Woods
+298,130.0,097,27,130,Scotch pine,Pinus,sylvestris,Morrison
+299,130.0,109,7,130,Scotch pine,Pinus,sylvestris,Olmsted
+300,130.0,111,28,130,Scotch pine,Pinus,sylvestris,Otter Tail
+301,130.0,115,65,130,Scotch pine,Pinus,sylvestris,Pine
+302,130.0,121,1,130,Scotch pine,Pinus,sylvestris,Pope
+303,130.0,135,6,130,Scotch pine,Pinus,sylvestris,Roseau
+304,130.0,137,40,130,Scotch pine,Pinus,sylvestris,Saint Louis
+305,130.0,141,123,130,Scotch pine,Pinus,sylvestris,Sherburne
+306,130.0,145,6,130,Scotch pine,Pinus,sylvestris,Stearns
+307,130.0,163,1,130,Scotch pine,Pinus,sylvestris,Washington
+308,130.0,169,10,130,Scotch pine,Pinus,sylvestris,Winona
+309,136.0,019,25,136,Austrian pine,Pinus,nigra,Carver
+310,136.0,045,4,136,Austrian pine,Pinus,nigra,Fillmore
+311,241.0,001,1438,241,northern white-cedar,Thuja,occidentalis,Aitkin
+312,241.0,007,9868,241,northern white-cedar,Thuja,occidentalis,Beltrami
+313,241.0,017,602,241,northern white-cedar,Thuja,occidentalis,Carlton
+314,241.0,019,377,241,northern white-cedar,Thuja,occidentalis,Carver
+315,241.0,021,4087,241,northern white-cedar,Thuja,occidentalis,Cass
+316,241.0,025,2,241,northern white-cedar,Thuja,occidentalis,Chisago
+317,241.0,029,563,241,northern white-cedar,Thuja,occidentalis,Clearwater
+318,241.0,031,5128,241,northern white-cedar,Thuja,occidentalis,Cook
+319,241.0,035,319,241,northern white-cedar,Thuja,occidentalis,Crow Wing
+320,241.0,057,108,241,northern white-cedar,Thuja,occidentalis,Hubbard
+321,241.0,061,8433,241,northern white-cedar,Thuja,occidentalis,Itasca
+322,241.0,071,29025,241,northern white-cedar,Thuja,occidentalis,Koochiching
+323,241.0,075,5797,241,northern white-cedar,Thuja,occidentalis,Lake
+324,241.0,077,5004,241,northern white-cedar,Thuja,occidentalis,Lake of the Woods
+325,241.0,079,18,241,northern white-cedar,Thuja,occidentalis,Le Sueur
+326,241.0,115,1,241,northern white-cedar,Thuja,occidentalis,Pine
+327,241.0,135,430,241,northern white-cedar,Thuja,occidentalis,Roseau
+328,241.0,137,11716,241,northern white-cedar,Thuja,occidentalis,Saint Louis
+329,241.0,169,4,241,northern white-cedar,Thuja,occidentalis,Winona
+330,299.0,035,2,299,unknown dead conifer,Tree,evergreen,Crow Wing
+331,299.0,061,2,299,unknown dead conifer,Tree,evergreen,Itasca
+332,313.0,001,135,313,boxelder,Acer,negundo,Aitkin
+333,313.0,003,115,313,boxelder,Acer,negundo,Anoka
+334,313.0,005,313,313,boxelder,Acer,negundo,Becker
+335,313.0,007,326,313,boxelder,Acer,negundo,Beltrami
+336,313.0,009,133,313,boxelder,Acer,negundo,Benton
+337,313.0,011,19,313,boxelder,Acer,negundo,Big Stone
+338,313.0,013,152,313,boxelder,Acer,negundo,Blue Earth
+339,313.0,015,90,313,boxelder,Acer,negundo,Brown
+340,313.0,017,12,313,boxelder,Acer,negundo,Carlton
+341,313.0,019,183,313,boxelder,Acer,negundo,Carver
+342,313.0,021,173,313,boxelder,Acer,negundo,Cass
+343,313.0,023,123,313,boxelder,Acer,negundo,Chippewa
+344,313.0,025,160,313,boxelder,Acer,negundo,Chisago
+345,313.0,027,252,313,boxelder,Acer,negundo,Clay
+346,313.0,029,79,313,boxelder,Acer,negundo,Clearwater
+347,313.0,033,129,313,boxelder,Acer,negundo,Cottonwood
+348,313.0,035,56,313,boxelder,Acer,negundo,Crow Wing
+349,313.0,037,279,313,boxelder,Acer,negundo,Dakota
+350,313.0,039,135,313,boxelder,Acer,negundo,Dodge
+351,313.0,041,158,313,boxelder,Acer,negundo,Douglas
+352,313.0,043,37,313,boxelder,Acer,negundo,Faribault
+353,313.0,045,642,313,boxelder,Acer,negundo,Fillmore
+354,313.0,047,5,313,boxelder,Acer,negundo,Freeborn
+355,313.0,049,653,313,boxelder,Acer,negundo,Goodhue
+356,313.0,051,40,313,boxelder,Acer,negundo,Grant
+357,313.0,053,153,313,boxelder,Acer,negundo,Hennepin
+358,313.0,055,351,313,boxelder,Acer,negundo,Houston
+359,313.0,057,4,313,boxelder,Acer,negundo,Hubbard
+360,313.0,059,163,313,boxelder,Acer,negundo,Isanti
+361,313.0,061,46,313,boxelder,Acer,negundo,Itasca
+362,313.0,063,22,313,boxelder,Acer,negundo,Jackson
+363,313.0,065,29,313,boxelder,Acer,negundo,Kanabec
+364,313.0,067,221,313,boxelder,Acer,negundo,Kandiyohi
+365,313.0,069,222,313,boxelder,Acer,negundo,Kittson
+366,313.0,071,335,313,boxelder,Acer,negundo,Koochiching
+367,313.0,073,170,313,boxelder,Acer,negundo,Lac qui Parle
+368,313.0,077,12,313,boxelder,Acer,negundo,Lake of the Woods
+369,313.0,079,393,313,boxelder,Acer,negundo,Le Sueur
+370,313.0,081,4,313,boxelder,Acer,negundo,Lincoln
+371,313.0,083,94,313,boxelder,Acer,negundo,Lyon
+372,313.0,085,144,313,boxelder,Acer,negundo,McLeod
+373,313.0,087,165,313,boxelder,Acer,negundo,Mahnomen
+374,313.0,089,360,313,boxelder,Acer,negundo,Marshall
+375,313.0,091,42,313,boxelder,Acer,negundo,Martin
+376,313.0,093,279,313,boxelder,Acer,negundo,Meeker
+377,313.0,095,57,313,boxelder,Acer,negundo,Mille Lacs
+378,313.0,097,191,313,boxelder,Acer,negundo,Morrison
+379,313.0,099,15,313,boxelder,Acer,negundo,Mower
+380,313.0,101,76,313,boxelder,Acer,negundo,Murray
+381,313.0,103,152,313,boxelder,Acer,negundo,Nicollet
+382,313.0,107,309,313,boxelder,Acer,negundo,Norman
+383,313.0,109,612,313,boxelder,Acer,negundo,Olmsted
+384,313.0,111,574,313,boxelder,Acer,negundo,Otter Tail
+385,313.0,113,63,313,boxelder,Acer,negundo,Pennington
+386,313.0,115,28,313,boxelder,Acer,negundo,Pine
+387,313.0,119,663,313,boxelder,Acer,negundo,Polk
+388,313.0,121,175,313,boxelder,Acer,negundo,Pope
+389,313.0,125,49,313,boxelder,Acer,negundo,Red Lake
+390,313.0,127,58,313,boxelder,Acer,negundo,Redwood
+391,313.0,129,174,313,boxelder,Acer,negundo,Renville
+392,313.0,131,382,313,boxelder,Acer,negundo,Rice
+393,313.0,135,134,313,boxelder,Acer,negundo,Roseau
+394,313.0,137,213,313,boxelder,Acer,negundo,Saint Louis
+395,313.0,139,241,313,boxelder,Acer,negundo,Scott
+396,313.0,141,45,313,boxelder,Acer,negundo,Sherburne
+397,313.0,143,215,313,boxelder,Acer,negundo,Sibley
+398,313.0,145,382,313,boxelder,Acer,negundo,Stearns
+399,313.0,147,67,313,boxelder,Acer,negundo,Steele
+400,313.0,149,19,313,boxelder,Acer,negundo,Stevens
+401,313.0,151,148,313,boxelder,Acer,negundo,Swift
+402,313.0,153,147,313,boxelder,Acer,negundo,Todd
+403,313.0,155,3,313,boxelder,Acer,negundo,Traverse
+404,313.0,157,494,313,boxelder,Acer,negundo,Wabasha
+405,313.0,159,23,313,boxelder,Acer,negundo,Wadena
+406,313.0,161,16,313,boxelder,Acer,negundo,Waseca
+407,313.0,163,116,313,boxelder,Acer,negundo,Washington
+408,313.0,165,15,313,boxelder,Acer,negundo,Watonwan
+409,313.0,167,29,313,boxelder,Acer,negundo,Wilkin
+410,313.0,169,645,313,boxelder,Acer,negundo,Winona
+411,313.0,171,255,313,boxelder,Acer,negundo,Wright
+412,313.0,173,20,313,boxelder,Acer,negundo,Yellow Medicine
+413,314.0,013,5,314,black maple,Acer,nigrum,Blue Earth
+414,314.0,019,1,314,black maple,Acer,nigrum,Carver
+415,314.0,045,9,314,black maple,Acer,nigrum,Fillmore
+416,314.0,055,4,314,black maple,Acer,nigrum,Houston
+417,314.0,079,2,314,black maple,Acer,nigrum,Le Sueur
+418,314.0,103,1,314,black maple,Acer,nigrum,Nicollet
+419,314.0,137,1,314,black maple,Acer,nigrum,Saint Louis
+420,314.0,157,1,314,black maple,Acer,nigrum,Wabasha
+421,314.0,169,2,314,black maple,Acer,nigrum,Winona
+422,314.0,171,3,314,black maple,Acer,nigrum,Wright
+423,315.0,001,1,315,striped maple,Acer,pensylvanicum,Aitkin
+424,315.0,017,1,315,striped maple,Acer,pensylvanicum,Carlton
+425,315.0,031,1,315,striped maple,Acer,pensylvanicum,Cook
+426,315.0,061,1,315,striped maple,Acer,pensylvanicum,Itasca
+427,315.0,071,1,315,striped maple,Acer,pensylvanicum,Koochiching
+428,315.0,111,1,315,striped maple,Acer,pensylvanicum,Otter Tail
+429,315.0,137,5,315,striped maple,Acer,pensylvanicum,Saint Louis
+430,316.0,001,5770,316,red maple,Acer,rubrum,Aitkin
+431,316.0,003,349,316,red maple,Acer,rubrum,Anoka
+432,316.0,005,515,316,red maple,Acer,rubrum,Becker
+433,316.0,007,954,316,red maple,Acer,rubrum,Beltrami
+434,316.0,009,65,316,red maple,Acer,rubrum,Benton
+435,316.0,013,5,316,red maple,Acer,rubrum,Blue Earth
+436,316.0,015,9,316,red maple,Acer,rubrum,Brown
+437,316.0,017,2007,316,red maple,Acer,rubrum,Carlton
+438,316.0,021,3940,316,red maple,Acer,rubrum,Cass
+439,316.0,025,421,316,red maple,Acer,rubrum,Chisago
+440,316.0,029,439,316,red maple,Acer,rubrum,Clearwater
+441,316.0,031,906,316,red maple,Acer,rubrum,Cook
+442,316.0,035,1991,316,red maple,Acer,rubrum,Crow Wing
+443,316.0,041,2,316,red maple,Acer,rubrum,Douglas
+444,316.0,045,1,316,red maple,Acer,rubrum,Fillmore
+445,316.0,049,8,316,red maple,Acer,rubrum,Goodhue
+446,316.0,053,1,316,red maple,Acer,rubrum,Hennepin
+447,316.0,055,2,316,red maple,Acer,rubrum,Houston
+448,316.0,057,909,316,red maple,Acer,rubrum,Hubbard
+449,316.0,059,126,316,red maple,Acer,rubrum,Isanti
+450,316.0,061,4243,316,red maple,Acer,rubrum,Itasca
+451,316.0,063,1,316,red maple,Acer,rubrum,Jackson
+452,316.0,065,1053,316,red maple,Acer,rubrum,Kanabec
+453,316.0,071,1240,316,red maple,Acer,rubrum,Koochiching
+454,316.0,075,2526,316,red maple,Acer,rubrum,Lake
+455,316.0,077,1,316,red maple,Acer,rubrum,Lake of the Woods
+456,316.0,079,6,316,red maple,Acer,rubrum,Le Sueur
+457,316.0,087,20,316,red maple,Acer,rubrum,Mahnomen
+458,316.0,093,8,316,red maple,Acer,rubrum,Meeker
+459,316.0,095,1040,316,red maple,Acer,rubrum,Mille Lacs
+460,316.0,097,923,316,red maple,Acer,rubrum,Morrison
+461,316.0,111,16,316,red maple,Acer,rubrum,Otter Tail
+462,316.0,115,6144,316,red maple,Acer,rubrum,Pine
+463,316.0,119,16,316,red maple,Acer,rubrum,Polk
+464,316.0,127,2,316,red maple,Acer,rubrum,Redwood
+465,316.0,137,16015,316,red maple,Acer,rubrum,Saint Louis
+466,316.0,139,10,316,red maple,Acer,rubrum,Scott
+467,316.0,141,3,316,red maple,Acer,rubrum,Sherburne
+468,316.0,145,151,316,red maple,Acer,rubrum,Stearns
+469,316.0,153,147,316,red maple,Acer,rubrum,Todd
+470,316.0,157,16,316,red maple,Acer,rubrum,Wabasha
+471,316.0,159,108,316,red maple,Acer,rubrum,Wadena
+472,316.0,163,150,316,red maple,Acer,rubrum,Washington
+473,316.0,165,2,316,red maple,Acer,rubrum,Watonwan
+474,316.0,169,2,316,red maple,Acer,rubrum,Winona
+475,316.0,171,42,316,red maple,Acer,rubrum,Wright
+476,317.0,001,328,317,silver maple,Acer,saccharinum,Aitkin
+477,317.0,003,27,317,silver maple,Acer,saccharinum,Anoka
+478,317.0,007,65,317,silver maple,Acer,saccharinum,Beltrami
+479,317.0,013,164,317,silver maple,Acer,saccharinum,Blue Earth
+480,317.0,015,83,317,silver maple,Acer,saccharinum,Brown
+481,317.0,019,19,317,silver maple,Acer,saccharinum,Carver
+482,317.0,023,65,317,silver maple,Acer,saccharinum,Chippewa
+483,317.0,025,12,317,silver maple,Acer,saccharinum,Chisago
+484,317.0,029,41,317,silver maple,Acer,saccharinum,Clearwater
+485,317.0,035,20,317,silver maple,Acer,saccharinum,Crow Wing
+486,317.0,037,88,317,silver maple,Acer,saccharinum,Dakota
+487,317.0,039,8,317,silver maple,Acer,saccharinum,Dodge
+488,317.0,043,148,317,silver maple,Acer,saccharinum,Faribault
+489,317.0,045,18,317,silver maple,Acer,saccharinum,Fillmore
+490,317.0,049,238,317,silver maple,Acer,saccharinum,Goodhue
+491,317.0,055,392,317,silver maple,Acer,saccharinum,Houston
+492,317.0,057,14,317,silver maple,Acer,saccharinum,Hubbard
+493,317.0,059,461,317,silver maple,Acer,saccharinum,Isanti
+494,317.0,061,244,317,silver maple,Acer,saccharinum,Itasca
+495,317.0,063,2,317,silver maple,Acer,saccharinum,Jackson
+496,317.0,065,81,317,silver maple,Acer,saccharinum,Kanabec
+497,317.0,067,122,317,silver maple,Acer,saccharinum,Kandiyohi
+498,317.0,071,96,317,silver maple,Acer,saccharinum,Koochiching
+499,317.0,073,4,317,silver maple,Acer,saccharinum,Lac qui Parle
+500,317.0,075,1,317,silver maple,Acer,saccharinum,Lake
+501,317.0,079,26,317,silver maple,Acer,saccharinum,Le Sueur
+502,317.0,093,34,317,silver maple,Acer,saccharinum,Meeker
+503,317.0,095,8,317,silver maple,Acer,saccharinum,Mille Lacs
+504,317.0,097,18,317,silver maple,Acer,saccharinum,Morrison
+505,317.0,099,57,317,silver maple,Acer,saccharinum,Mower
+506,317.0,101,21,317,silver maple,Acer,saccharinum,Murray
+507,317.0,103,33,317,silver maple,Acer,saccharinum,Nicollet
+508,317.0,109,37,317,silver maple,Acer,saccharinum,Olmsted
+509,317.0,115,40,317,silver maple,Acer,saccharinum,Pine
+510,317.0,129,145,317,silver maple,Acer,saccharinum,Renville
+511,317.0,131,4,317,silver maple,Acer,saccharinum,Rice
+512,317.0,137,117,317,silver maple,Acer,saccharinum,Saint Louis
+513,317.0,139,55,317,silver maple,Acer,saccharinum,Scott
+514,317.0,141,86,317,silver maple,Acer,saccharinum,Sherburne
+515,317.0,145,33,317,silver maple,Acer,saccharinum,Stearns
+516,317.0,147,38,317,silver maple,Acer,saccharinum,Steele
+517,317.0,151,84,317,silver maple,Acer,saccharinum,Swift
+518,317.0,157,112,317,silver maple,Acer,saccharinum,Wabasha
+519,317.0,159,61,317,silver maple,Acer,saccharinum,Wadena
+520,317.0,163,130,317,silver maple,Acer,saccharinum,Washington
+521,317.0,165,43,317,silver maple,Acer,saccharinum,Watonwan
+522,317.0,169,67,317,silver maple,Acer,saccharinum,Winona
+523,317.0,171,219,317,silver maple,Acer,saccharinum,Wright
+524,317.0,173,2,317,silver maple,Acer,saccharinum,Yellow Medicine
+525,318.0,001,5314,318,sugar maple,Acer,saccharum,Aitkin
+526,318.0,003,4,318,sugar maple,Acer,saccharum,Anoka
+527,318.0,005,2599,318,sugar maple,Acer,saccharum,Becker
+528,318.0,007,2226,318,sugar maple,Acer,saccharum,Beltrami
+529,318.0,009,35,318,sugar maple,Acer,saccharum,Benton
+530,318.0,013,135,318,sugar maple,Acer,saccharum,Blue Earth
+531,318.0,015,115,318,sugar maple,Acer,saccharum,Brown
+532,318.0,017,1630,318,sugar maple,Acer,saccharum,Carlton
+533,318.0,019,86,318,sugar maple,Acer,saccharum,Carver
+534,318.0,021,2507,318,sugar maple,Acer,saccharum,Cass
+535,318.0,025,186,318,sugar maple,Acer,saccharum,Chisago
+536,318.0,027,137,318,sugar maple,Acer,saccharum,Clay
+537,318.0,029,1804,318,sugar maple,Acer,saccharum,Clearwater
+538,318.0,031,3462,318,sugar maple,Acer,saccharum,Cook
+539,318.0,035,1258,318,sugar maple,Acer,saccharum,Crow Wing
+540,318.0,037,48,318,sugar maple,Acer,saccharum,Dakota
+541,318.0,039,74,318,sugar maple,Acer,saccharum,Dodge
+542,318.0,041,353,318,sugar maple,Acer,saccharum,Douglas
+543,318.0,045,435,318,sugar maple,Acer,saccharum,Fillmore
+544,318.0,047,22,318,sugar maple,Acer,saccharum,Freeborn
+545,318.0,049,49,318,sugar maple,Acer,saccharum,Goodhue
+546,318.0,053,251,318,sugar maple,Acer,saccharum,Hennepin
+547,318.0,055,173,318,sugar maple,Acer,saccharum,Houston
+548,318.0,057,606,318,sugar maple,Acer,saccharum,Hubbard
+549,318.0,059,43,318,sugar maple,Acer,saccharum,Isanti
+550,318.0,061,4848,318,sugar maple,Acer,saccharum,Itasca
+551,318.0,065,559,318,sugar maple,Acer,saccharum,Kanabec
+552,318.0,067,1,318,sugar maple,Acer,saccharum,Kandiyohi
+553,318.0,071,485,318,sugar maple,Acer,saccharum,Koochiching
+554,318.0,075,5548,318,sugar maple,Acer,saccharum,Lake
+555,318.0,079,155,318,sugar maple,Acer,saccharum,Le Sueur
+556,318.0,085,37,318,sugar maple,Acer,saccharum,McLeod
+557,318.0,087,758,318,sugar maple,Acer,saccharum,Mahnomen
+558,318.0,095,799,318,sugar maple,Acer,saccharum,Mille Lacs
+559,318.0,097,255,318,sugar maple,Acer,saccharum,Morrison
+560,318.0,103,83,318,sugar maple,Acer,saccharum,Nicollet
+561,318.0,107,4,318,sugar maple,Acer,saccharum,Norman
+562,318.0,109,90,318,sugar maple,Acer,saccharum,Olmsted
+563,318.0,111,990,318,sugar maple,Acer,saccharum,Otter Tail
+564,318.0,115,2259,318,sugar maple,Acer,saccharum,Pine
+565,318.0,119,266,318,sugar maple,Acer,saccharum,Polk
+566,318.0,121,30,318,sugar maple,Acer,saccharum,Pope
+567,318.0,131,423,318,sugar maple,Acer,saccharum,Rice
+568,318.0,135,2,318,sugar maple,Acer,saccharum,Roseau
+569,318.0,137,3862,318,sugar maple,Acer,saccharum,Saint Louis
+570,318.0,139,94,318,sugar maple,Acer,saccharum,Scott
+571,318.0,143,85,318,sugar maple,Acer,saccharum,Sibley
+572,318.0,145,202,318,sugar maple,Acer,saccharum,Stearns
+573,318.0,153,261,318,sugar maple,Acer,saccharum,Todd
+574,318.0,157,40,318,sugar maple,Acer,saccharum,Wabasha
+575,318.0,159,17,318,sugar maple,Acer,saccharum,Wadena
+576,318.0,161,97,318,sugar maple,Acer,saccharum,Waseca
+577,318.0,163,1,318,sugar maple,Acer,saccharum,Washington
+578,318.0,169,474,318,sugar maple,Acer,saccharum,Winona
+579,318.0,171,137,318,sugar maple,Acer,saccharum,Wright
+580,319.0,001,81,319,mountain maple,Acer,spicatum,Aitkin
+581,319.0,005,29,319,mountain maple,Acer,spicatum,Becker
+582,319.0,007,339,319,mountain maple,Acer,spicatum,Beltrami
+583,319.0,017,117,319,mountain maple,Acer,spicatum,Carlton
+584,319.0,021,476,319,mountain maple,Acer,spicatum,Cass
+585,319.0,029,40,319,mountain maple,Acer,spicatum,Clearwater
+586,319.0,031,3046,319,mountain maple,Acer,spicatum,Cook
+587,319.0,035,59,319,mountain maple,Acer,spicatum,Crow Wing
+588,319.0,037,1,319,mountain maple,Acer,spicatum,Dakota
+589,319.0,057,147,319,mountain maple,Acer,spicatum,Hubbard
+590,319.0,061,823,319,mountain maple,Acer,spicatum,Itasca
+591,319.0,065,1,319,mountain maple,Acer,spicatum,Kanabec
+592,319.0,071,298,319,mountain maple,Acer,spicatum,Koochiching
+593,319.0,075,2439,319,mountain maple,Acer,spicatum,Lake
+594,319.0,077,85,319,mountain maple,Acer,spicatum,Lake of the Woods
+595,319.0,087,22,319,mountain maple,Acer,spicatum,Mahnomen
+596,319.0,115,15,319,mountain maple,Acer,spicatum,Pine
+597,319.0,135,15,319,mountain maple,Acer,spicatum,Roseau
+598,319.0,137,1907,319,mountain maple,Acer,spicatum,Saint Louis
+599,319.0,147,1,319,mountain maple,Acer,spicatum,Steele
+600,320.0,025,2,320,Norway maple,Acer,platanoides,Chisago
+601,320.0,137,9,320,Norway maple,Acer,platanoides,Saint Louis
+602,341.0,017,1,341,ailanthus,Ailanthus,altissima,Carlton
+603,341.0,031,1,341,ailanthus,Ailanthus,altissima,Cook
+604,356.0,001,79,356,serviceberry spp.,Amelanchier,spp.,Aitkin
+605,356.0,003,35,356,serviceberry spp.,Amelanchier,spp.,Anoka
+606,356.0,005,28,356,serviceberry spp.,Amelanchier,spp.,Becker
+607,356.0,007,74,356,serviceberry spp.,Amelanchier,spp.,Beltrami
+608,356.0,009,3,356,serviceberry spp.,Amelanchier,spp.,Benton
+609,356.0,017,5,356,serviceberry spp.,Amelanchier,spp.,Carlton
+610,356.0,021,25,356,serviceberry spp.,Amelanchier,spp.,Cass
+611,356.0,025,6,356,serviceberry spp.,Amelanchier,spp.,Chisago
+612,356.0,029,11,356,serviceberry spp.,Amelanchier,spp.,Clearwater
+613,356.0,031,111,356,serviceberry spp.,Amelanchier,spp.,Cook
+614,356.0,035,57,356,serviceberry spp.,Amelanchier,spp.,Crow Wing
+615,356.0,041,3,356,serviceberry spp.,Amelanchier,spp.,Douglas
+616,356.0,057,12,356,serviceberry spp.,Amelanchier,spp.,Hubbard
+617,356.0,059,12,356,serviceberry spp.,Amelanchier,spp.,Isanti
+618,356.0,061,80,356,serviceberry spp.,Amelanchier,spp.,Itasca
+619,356.0,065,9,356,serviceberry spp.,Amelanchier,spp.,Kanabec
+620,356.0,069,4,356,serviceberry spp.,Amelanchier,spp.,Kittson
+621,356.0,071,85,356,serviceberry spp.,Amelanchier,spp.,Koochiching
+622,356.0,075,160,356,serviceberry spp.,Amelanchier,spp.,Lake
+623,356.0,077,39,356,serviceberry spp.,Amelanchier,spp.,Lake of the Woods
+624,356.0,087,15,356,serviceberry spp.,Amelanchier,spp.,Mahnomen
+625,356.0,089,2,356,serviceberry spp.,Amelanchier,spp.,Marshall
+626,356.0,095,2,356,serviceberry spp.,Amelanchier,spp.,Mille Lacs
+627,356.0,097,12,356,serviceberry spp.,Amelanchier,spp.,Morrison
+628,356.0,111,9,356,serviceberry spp.,Amelanchier,spp.,Otter Tail
+629,356.0,113,9,356,serviceberry spp.,Amelanchier,spp.,Pennington
+630,356.0,115,98,356,serviceberry spp.,Amelanchier,spp.,Pine
+631,356.0,119,2,356,serviceberry spp.,Amelanchier,spp.,Polk
+632,356.0,121,2,356,serviceberry spp.,Amelanchier,spp.,Pope
+633,356.0,135,57,356,serviceberry spp.,Amelanchier,spp.,Roseau
+634,356.0,137,148,356,serviceberry spp.,Amelanchier,spp.,Saint Louis
+635,356.0,141,3,356,serviceberry spp.,Amelanchier,spp.,Sherburne
+636,356.0,145,5,356,serviceberry spp.,Amelanchier,spp.,Stearns
+637,356.0,153,8,356,serviceberry spp.,Amelanchier,spp.,Todd
+638,356.0,157,6,356,serviceberry spp.,Amelanchier,spp.,Wabasha
+639,356.0,159,6,356,serviceberry spp.,Amelanchier,spp.,Wadena
+640,356.0,161,1,356,serviceberry spp.,Amelanchier,spp.,Waseca
+641,357.0,003,2,357,common serviceberry,Amelanchier,arborea,Anoka
+642,357.0,007,2,357,common serviceberry,Amelanchier,arborea,Beltrami
+643,357.0,031,2,357,common serviceberry,Amelanchier,arborea,Cook
+644,357.0,057,2,357,common serviceberry,Amelanchier,arborea,Hubbard
+645,357.0,137,1,357,common serviceberry,Amelanchier,arborea,Saint Louis
+646,371.0,001,387,371,yellow birch,Betula,alleghaniensis,Aitkin
+647,371.0,003,12,371,yellow birch,Betula,alleghaniensis,Anoka
+648,371.0,005,18,371,yellow birch,Betula,alleghaniensis,Becker
+649,371.0,007,9,371,yellow birch,Betula,alleghaniensis,Beltrami
+650,371.0,017,90,371,yellow birch,Betula,alleghaniensis,Carlton
+651,371.0,021,89,371,yellow birch,Betula,alleghaniensis,Cass
+652,371.0,025,18,371,yellow birch,Betula,alleghaniensis,Chisago
+653,371.0,029,3,371,yellow birch,Betula,alleghaniensis,Clearwater
+654,371.0,031,359,371,yellow birch,Betula,alleghaniensis,Cook
+655,371.0,035,113,371,yellow birch,Betula,alleghaniensis,Crow Wing
+656,371.0,055,2,371,yellow birch,Betula,alleghaniensis,Houston
+657,371.0,057,3,371,yellow birch,Betula,alleghaniensis,Hubbard
+658,371.0,061,472,371,yellow birch,Betula,alleghaniensis,Itasca
+659,371.0,065,52,371,yellow birch,Betula,alleghaniensis,Kanabec
+660,371.0,071,30,371,yellow birch,Betula,alleghaniensis,Koochiching
+661,371.0,075,832,371,yellow birch,Betula,alleghaniensis,Lake
+662,371.0,077,2,371,yellow birch,Betula,alleghaniensis,Lake of the Woods
+663,371.0,095,98,371,yellow birch,Betula,alleghaniensis,Mille Lacs
+664,371.0,115,37,371,yellow birch,Betula,alleghaniensis,Pine
+665,371.0,137,559,371,yellow birch,Betula,alleghaniensis,Saint Louis
+666,371.0,143,21,371,yellow birch,Betula,alleghaniensis,Sibley
+667,371.0,145,85,371,yellow birch,Betula,alleghaniensis,Stearns
+668,371.0,153,89,371,yellow birch,Betula,alleghaniensis,Todd
+669,372.0,025,5,372,sweet birch,Betula,lenta,Chisago
+670,373.0,025,2,373,river birch,Betula,nigra,Chisago
+671,373.0,061,2,373,river birch,Betula,nigra,Itasca
+672,373.0,157,5,373,river birch,Betula,nigra,Wabasha
+673,373.0,163,4,373,river birch,Betula,nigra,Washington
+674,373.0,169,2,373,river birch,Betula,nigra,Winona
+675,375.0,001,4712,375,paper birch,Betula,papyrifera,Aitkin
+676,375.0,003,196,375,paper birch,Betula,papyrifera,Anoka
+677,375.0,005,2338,375,paper birch,Betula,papyrifera,Becker
+678,375.0,007,4362,375,paper birch,Betula,papyrifera,Beltrami
+679,375.0,009,44,375,paper birch,Betula,papyrifera,Benton
+680,375.0,013,14,375,paper birch,Betula,papyrifera,Blue Earth
+681,375.0,017,2728,375,paper birch,Betula,papyrifera,Carlton
+682,375.0,021,7556,375,paper birch,Betula,papyrifera,Cass
+683,375.0,025,243,375,paper birch,Betula,papyrifera,Chisago
+684,375.0,027,1,375,paper birch,Betula,papyrifera,Clay
+685,375.0,029,2118,375,paper birch,Betula,papyrifera,Clearwater
+686,375.0,031,13014,375,paper birch,Betula,papyrifera,Cook
+687,375.0,035,3172,375,paper birch,Betula,papyrifera,Crow Wing
+688,375.0,037,74,375,paper birch,Betula,papyrifera,Dakota
+689,375.0,041,42,375,paper birch,Betula,papyrifera,Douglas
+690,375.0,045,138,375,paper birch,Betula,papyrifera,Fillmore
+691,375.0,049,183,375,paper birch,Betula,papyrifera,Goodhue
+692,375.0,051,1,375,paper birch,Betula,papyrifera,Grant
+693,375.0,053,21,375,paper birch,Betula,papyrifera,Hennepin
+694,375.0,055,438,375,paper birch,Betula,papyrifera,Houston
+695,375.0,057,2935,375,paper birch,Betula,papyrifera,Hubbard
+696,375.0,059,214,375,paper birch,Betula,papyrifera,Isanti
+697,375.0,061,11839,375,paper birch,Betula,papyrifera,Itasca
+698,375.0,065,692,375,paper birch,Betula,papyrifera,Kanabec
+699,375.0,071,7657,375,paper birch,Betula,papyrifera,Koochiching
+700,375.0,075,14356,375,paper birch,Betula,papyrifera,Lake
+701,375.0,077,2002,375,paper birch,Betula,papyrifera,Lake of the Woods
+702,375.0,087,312,375,paper birch,Betula,papyrifera,Mahnomen
+703,375.0,089,20,375,paper birch,Betula,papyrifera,Marshall
+704,375.0,095,658,375,paper birch,Betula,papyrifera,Mille Lacs
+705,375.0,097,1060,375,paper birch,Betula,papyrifera,Morrison
+706,375.0,103,9,375,paper birch,Betula,papyrifera,Nicollet
+707,375.0,107,7,375,paper birch,Betula,papyrifera,Norman
+708,375.0,109,10,375,paper birch,Betula,papyrifera,Olmsted
+709,375.0,111,545,375,paper birch,Betula,papyrifera,Otter Tail
+710,375.0,113,10,375,paper birch,Betula,papyrifera,Pennington
+711,375.0,115,4015,375,paper birch,Betula,papyrifera,Pine
+712,375.0,119,65,375,paper birch,Betula,papyrifera,Polk
+713,375.0,121,8,375,paper birch,Betula,papyrifera,Pope
+714,375.0,135,723,375,paper birch,Betula,papyrifera,Roseau
+715,375.0,137,26997,375,paper birch,Betula,papyrifera,Saint Louis
+716,375.0,139,39,375,paper birch,Betula,papyrifera,Scott
+717,375.0,141,68,375,paper birch,Betula,papyrifera,Sherburne
+718,375.0,143,25,375,paper birch,Betula,papyrifera,Sibley
+719,375.0,145,220,375,paper birch,Betula,papyrifera,Stearns
+720,375.0,153,325,375,paper birch,Betula,papyrifera,Todd
+721,375.0,157,309,375,paper birch,Betula,papyrifera,Wabasha
+722,375.0,159,268,375,paper birch,Betula,papyrifera,Wadena
+723,375.0,163,167,375,paper birch,Betula,papyrifera,Washington
+724,375.0,169,619,375,paper birch,Betula,papyrifera,Winona
+725,375.0,171,12,375,paper birch,Betula,papyrifera,Wright
+726,391.0,001,119,391,"American hornbeam, musclewood",Carpinus,caroliniana,Aitkin
+727,391.0,005,222,391,"American hornbeam, musclewood",Carpinus,caroliniana,Becker
+728,391.0,007,50,391,"American hornbeam, musclewood",Carpinus,caroliniana,Beltrami
+729,391.0,017,14,391,"American hornbeam, musclewood",Carpinus,caroliniana,Carlton
+730,391.0,021,67,391,"American hornbeam, musclewood",Carpinus,caroliniana,Cass
+731,391.0,025,2,391,"American hornbeam, musclewood",Carpinus,caroliniana,Chisago
+732,391.0,029,21,391,"American hornbeam, musclewood",Carpinus,caroliniana,Clearwater
+733,391.0,035,31,391,"American hornbeam, musclewood",Carpinus,caroliniana,Crow Wing
+734,391.0,037,12,391,"American hornbeam, musclewood",Carpinus,caroliniana,Dakota
+735,391.0,045,3,391,"American hornbeam, musclewood",Carpinus,caroliniana,Fillmore
+736,391.0,049,1,391,"American hornbeam, musclewood",Carpinus,caroliniana,Goodhue
+737,391.0,055,3,391,"American hornbeam, musclewood",Carpinus,caroliniana,Houston
+738,391.0,057,1,391,"American hornbeam, musclewood",Carpinus,caroliniana,Hubbard
+739,391.0,061,9,391,"American hornbeam, musclewood",Carpinus,caroliniana,Itasca
+740,391.0,065,71,391,"American hornbeam, musclewood",Carpinus,caroliniana,Kanabec
+741,391.0,071,2,391,"American hornbeam, musclewood",Carpinus,caroliniana,Koochiching
+742,391.0,087,10,391,"American hornbeam, musclewood",Carpinus,caroliniana,Mahnomen
+743,391.0,091,1,391,"American hornbeam, musclewood",Carpinus,caroliniana,Martin
+744,391.0,095,76,391,"American hornbeam, musclewood",Carpinus,caroliniana,Mille Lacs
+745,391.0,097,29,391,"American hornbeam, musclewood",Carpinus,caroliniana,Morrison
+746,391.0,103,8,391,"American hornbeam, musclewood",Carpinus,caroliniana,Nicollet
+747,391.0,111,8,391,"American hornbeam, musclewood",Carpinus,caroliniana,Otter Tail
+748,391.0,115,131,391,"American hornbeam, musclewood",Carpinus,caroliniana,Pine
+749,391.0,119,12,391,"American hornbeam, musclewood",Carpinus,caroliniana,Polk
+750,391.0,137,11,391,"American hornbeam, musclewood",Carpinus,caroliniana,Saint Louis
+751,391.0,145,12,391,"American hornbeam, musclewood",Carpinus,caroliniana,Stearns
+752,391.0,153,15,391,"American hornbeam, musclewood",Carpinus,caroliniana,Todd
+753,391.0,159,47,391,"American hornbeam, musclewood",Carpinus,caroliniana,Wadena
+754,391.0,169,1,391,"American hornbeam, musclewood",Carpinus,caroliniana,Winona
+755,402.0,001,29,402,bitternut hickory,Carya,cordiformis,Aitkin
+756,402.0,013,16,402,bitternut hickory,Carya,cordiformis,Blue Earth
+757,402.0,019,5,402,bitternut hickory,Carya,cordiformis,Carver
+758,402.0,025,36,402,bitternut hickory,Carya,cordiformis,Chisago
+759,402.0,035,10,402,bitternut hickory,Carya,cordiformis,Crow Wing
+760,402.0,037,20,402,bitternut hickory,Carya,cordiformis,Dakota
+761,402.0,039,10,402,bitternut hickory,Carya,cordiformis,Dodge
+762,402.0,043,8,402,bitternut hickory,Carya,cordiformis,Faribault
+763,402.0,045,128,402,bitternut hickory,Carya,cordiformis,Fillmore
+764,402.0,049,140,402,bitternut hickory,Carya,cordiformis,Goodhue
+765,402.0,053,24,402,bitternut hickory,Carya,cordiformis,Hennepin
+766,402.0,055,114,402,bitternut hickory,Carya,cordiformis,Houston
+767,402.0,059,22,402,bitternut hickory,Carya,cordiformis,Isanti
+768,402.0,063,4,402,bitternut hickory,Carya,cordiformis,Jackson
+769,402.0,065,19,402,bitternut hickory,Carya,cordiformis,Kanabec
+770,402.0,079,11,402,bitternut hickory,Carya,cordiformis,Le Sueur
+771,402.0,085,5,402,bitternut hickory,Carya,cordiformis,McLeod
+772,402.0,093,5,402,bitternut hickory,Carya,cordiformis,Meeker
+773,402.0,095,20,402,bitternut hickory,Carya,cordiformis,Mille Lacs
+774,402.0,099,9,402,bitternut hickory,Carya,cordiformis,Mower
+775,402.0,103,23,402,bitternut hickory,Carya,cordiformis,Nicollet
+776,402.0,109,158,402,bitternut hickory,Carya,cordiformis,Olmsted
+777,402.0,115,75,402,bitternut hickory,Carya,cordiformis,Pine
+778,402.0,131,27,402,bitternut hickory,Carya,cordiformis,Rice
+779,402.0,139,34,402,bitternut hickory,Carya,cordiformis,Scott
+780,402.0,143,34,402,bitternut hickory,Carya,cordiformis,Sibley
+781,402.0,147,5,402,bitternut hickory,Carya,cordiformis,Steele
+782,402.0,157,60,402,bitternut hickory,Carya,cordiformis,Wabasha
+783,402.0,161,3,402,bitternut hickory,Carya,cordiformis,Waseca
+784,402.0,163,24,402,bitternut hickory,Carya,cordiformis,Washington
+785,402.0,169,142,402,bitternut hickory,Carya,cordiformis,Winona
+786,402.0,171,6,402,bitternut hickory,Carya,cordiformis,Wright
+787,407.0,043,1,407,shagbark hickory,Carya,ovata,Faribault
+788,407.0,045,75,407,shagbark hickory,Carya,ovata,Fillmore
+789,407.0,049,1,407,shagbark hickory,Carya,ovata,Goodhue
+790,407.0,055,966,407,shagbark hickory,Carya,ovata,Houston
+791,407.0,099,2,407,shagbark hickory,Carya,ovata,Mower
+792,407.0,103,6,407,shagbark hickory,Carya,ovata,Nicollet
+793,407.0,109,7,407,shagbark hickory,Carya,ovata,Olmsted
+794,407.0,131,3,407,shagbark hickory,Carya,ovata,Rice
+795,407.0,139,2,407,shagbark hickory,Carya,ovata,Scott
+796,407.0,157,5,407,shagbark hickory,Carya,ovata,Wabasha
+797,407.0,169,474,407,shagbark hickory,Carya,ovata,Winona
+798,462.0,001,2,462,hackberry,Celtis,occidentalis,Aitkin
+799,462.0,003,4,462,hackberry,Celtis,occidentalis,Anoka
+800,462.0,007,3,462,hackberry,Celtis,occidentalis,Beltrami
+801,462.0,011,8,462,hackberry,Celtis,occidentalis,Big Stone
+802,462.0,013,128,462,hackberry,Celtis,occidentalis,Blue Earth
+803,462.0,015,10,462,hackberry,Celtis,occidentalis,Brown
+804,462.0,019,20,462,hackberry,Celtis,occidentalis,Carver
+805,462.0,023,3,462,hackberry,Celtis,occidentalis,Chippewa
+806,462.0,025,2,462,hackberry,Celtis,occidentalis,Chisago
+807,462.0,027,5,462,hackberry,Celtis,occidentalis,Clay
+808,462.0,033,4,462,hackberry,Celtis,occidentalis,Cottonwood
+809,462.0,037,32,462,hackberry,Celtis,occidentalis,Dakota
+810,462.0,039,10,462,hackberry,Celtis,occidentalis,Dodge
+811,462.0,041,1,462,hackberry,Celtis,occidentalis,Douglas
+812,462.0,043,59,462,hackberry,Celtis,occidentalis,Faribault
+813,462.0,045,106,462,hackberry,Celtis,occidentalis,Fillmore
+814,462.0,047,8,462,hackberry,Celtis,occidentalis,Freeborn
+815,462.0,049,162,462,hackberry,Celtis,occidentalis,Goodhue
+816,462.0,053,17,462,hackberry,Celtis,occidentalis,Hennepin
+817,462.0,055,342,462,hackberry,Celtis,occidentalis,Houston
+818,462.0,059,17,462,hackberry,Celtis,occidentalis,Isanti
+819,462.0,063,10,462,hackberry,Celtis,occidentalis,Jackson
+820,462.0,067,78,462,hackberry,Celtis,occidentalis,Kandiyohi
+821,462.0,073,77,462,hackberry,Celtis,occidentalis,Lac qui Parle
+822,462.0,079,29,462,hackberry,Celtis,occidentalis,Le Sueur
+823,462.0,085,49,462,hackberry,Celtis,occidentalis,McLeod
+824,462.0,091,19,462,hackberry,Celtis,occidentalis,Martin
+825,462.0,093,44,462,hackberry,Celtis,occidentalis,Meeker
+826,462.0,095,1,462,hackberry,Celtis,occidentalis,Mille Lacs
+827,462.0,097,3,462,hackberry,Celtis,occidentalis,Morrison
+828,462.0,101,40,462,hackberry,Celtis,occidentalis,Murray
+829,462.0,103,56,462,hackberry,Celtis,occidentalis,Nicollet
+830,462.0,107,1,462,hackberry,Celtis,occidentalis,Norman
+831,462.0,109,59,462,hackberry,Celtis,occidentalis,Olmsted
+832,462.0,111,12,462,hackberry,Celtis,occidentalis,Otter Tail
+833,462.0,119,11,462,hackberry,Celtis,occidentalis,Polk
+834,462.0,127,5,462,hackberry,Celtis,occidentalis,Redwood
+835,462.0,129,19,462,hackberry,Celtis,occidentalis,Renville
+836,462.0,131,47,462,hackberry,Celtis,occidentalis,Rice
+837,462.0,139,7,462,hackberry,Celtis,occidentalis,Scott
+838,462.0,141,5,462,hackberry,Celtis,occidentalis,Sherburne
+839,462.0,143,6,462,hackberry,Celtis,occidentalis,Sibley
+840,462.0,145,37,462,hackberry,Celtis,occidentalis,Stearns
+841,462.0,147,3,462,hackberry,Celtis,occidentalis,Steele
+842,462.0,149,13,462,hackberry,Celtis,occidentalis,Stevens
+843,462.0,151,119,462,hackberry,Celtis,occidentalis,Swift
+844,462.0,157,186,462,hackberry,Celtis,occidentalis,Wabasha
+845,462.0,161,7,462,hackberry,Celtis,occidentalis,Waseca
+846,462.0,163,10,462,hackberry,Celtis,occidentalis,Washington
+847,462.0,165,1,462,hackberry,Celtis,occidentalis,Watonwan
+848,462.0,169,204,462,hackberry,Celtis,occidentalis,Winona
+849,462.0,171,40,462,hackberry,Celtis,occidentalis,Wright
+850,462.0,173,38,462,hackberry,Celtis,occidentalis,Yellow Medicine
+851,491.0,013,2,491,flowering dogwood,Cornus,florida,Blue Earth
+852,491.0,037,2,491,flowering dogwood,Cornus,florida,Dakota
+853,500.0,001,11,500,hawthorn spp.,Crataegus,spp.,Aitkin
+854,500.0,005,15,500,hawthorn spp.,Crataegus,spp.,Becker
+855,500.0,007,3,500,hawthorn spp.,Crataegus,spp.,Beltrami
+856,500.0,009,16,500,hawthorn spp.,Crataegus,spp.,Benton
+857,500.0,017,4,500,hawthorn spp.,Crataegus,spp.,Carlton
+858,500.0,021,5,500,hawthorn spp.,Crataegus,spp.,Cass
+859,500.0,027,5,500,hawthorn spp.,Crataegus,spp.,Clay
+860,500.0,029,21,500,hawthorn spp.,Crataegus,spp.,Clearwater
+861,500.0,035,18,500,hawthorn spp.,Crataegus,spp.,Crow Wing
+862,500.0,039,1,500,hawthorn spp.,Crataegus,spp.,Dodge
+863,500.0,041,1,500,hawthorn spp.,Crataegus,spp.,Douglas
+864,500.0,043,9,500,hawthorn spp.,Crataegus,spp.,Faribault
+865,500.0,045,14,500,hawthorn spp.,Crataegus,spp.,Fillmore
+866,500.0,049,16,500,hawthorn spp.,Crataegus,spp.,Goodhue
+867,500.0,051,6,500,hawthorn spp.,Crataegus,spp.,Grant
+868,500.0,053,33,500,hawthorn spp.,Crataegus,spp.,Hennepin
+869,500.0,055,22,500,hawthorn spp.,Crataegus,spp.,Houston
+870,500.0,057,12,500,hawthorn spp.,Crataegus,spp.,Hubbard
+871,500.0,059,20,500,hawthorn spp.,Crataegus,spp.,Isanti
+872,500.0,061,15,500,hawthorn spp.,Crataegus,spp.,Itasca
+873,500.0,063,15,500,hawthorn spp.,Crataegus,spp.,Jackson
+874,500.0,065,13,500,hawthorn spp.,Crataegus,spp.,Kanabec
+875,500.0,071,6,500,hawthorn spp.,Crataegus,spp.,Koochiching
+876,500.0,085,6,500,hawthorn spp.,Crataegus,spp.,McLeod
+877,500.0,087,4,500,hawthorn spp.,Crataegus,spp.,Mahnomen
+878,500.0,089,4,500,hawthorn spp.,Crataegus,spp.,Marshall
+879,500.0,091,48,500,hawthorn spp.,Crataegus,spp.,Martin
+880,500.0,095,18,500,hawthorn spp.,Crataegus,spp.,Mille Lacs
+881,500.0,097,4,500,hawthorn spp.,Crataegus,spp.,Morrison
+882,500.0,099,6,500,hawthorn spp.,Crataegus,spp.,Mower
+883,500.0,107,16,500,hawthorn spp.,Crataegus,spp.,Norman
+884,500.0,109,108,500,hawthorn spp.,Crataegus,spp.,Olmsted
+885,500.0,111,42,500,hawthorn spp.,Crataegus,spp.,Otter Tail
+886,500.0,115,15,500,hawthorn spp.,Crataegus,spp.,Pine
+887,500.0,119,12,500,hawthorn spp.,Crataegus,spp.,Polk
+888,500.0,125,4,500,hawthorn spp.,Crataegus,spp.,Red Lake
+889,500.0,131,2,500,hawthorn spp.,Crataegus,spp.,Rice
+890,500.0,135,11,500,hawthorn spp.,Crataegus,spp.,Roseau
+891,500.0,137,12,500,hawthorn spp.,Crataegus,spp.,Saint Louis
+892,500.0,141,1,500,hawthorn spp.,Crataegus,spp.,Sherburne
+893,500.0,145,5,500,hawthorn spp.,Crataegus,spp.,Stearns
+894,500.0,147,2,500,hawthorn spp.,Crataegus,spp.,Steele
+895,500.0,153,31,500,hawthorn spp.,Crataegus,spp.,Todd
+896,500.0,157,2,500,hawthorn spp.,Crataegus,spp.,Wabasha
+897,500.0,159,26,500,hawthorn spp.,Crataegus,spp.,Wadena
+898,500.0,161,2,500,hawthorn spp.,Crataegus,spp.,Waseca
+899,500.0,165,68,500,hawthorn spp.,Crataegus,spp.,Watonwan
+900,500.0,169,25,500,hawthorn spp.,Crataegus,spp.,Winona
+901,501.0,137,1,501,cockspur hawthorn,Crataegus,crus-galli,Saint Louis
+902,531.0,139,1,531,American beech,Fagus,grandifolia,Scott
+903,541.0,001,14,541,white ash,Fraxinus,americana,Aitkin
+904,541.0,003,4,541,white ash,Fraxinus,americana,Anoka
+905,541.0,009,10,541,white ash,Fraxinus,americana,Benton
+906,541.0,013,6,541,white ash,Fraxinus,americana,Blue Earth
+907,541.0,021,21,541,white ash,Fraxinus,americana,Cass
+908,541.0,029,2,541,white ash,Fraxinus,americana,Clearwater
+909,541.0,031,1,541,white ash,Fraxinus,americana,Cook
+910,541.0,035,5,541,white ash,Fraxinus,americana,Crow Wing
+911,541.0,037,2,541,white ash,Fraxinus,americana,Dakota
+912,541.0,039,7,541,white ash,Fraxinus,americana,Dodge
+913,541.0,045,64,541,white ash,Fraxinus,americana,Fillmore
+914,541.0,049,15,541,white ash,Fraxinus,americana,Goodhue
+915,541.0,051,1,541,white ash,Fraxinus,americana,Grant
+916,541.0,053,4,541,white ash,Fraxinus,americana,Hennepin
+917,541.0,055,48,541,white ash,Fraxinus,americana,Houston
+918,541.0,059,2,541,white ash,Fraxinus,americana,Isanti
+919,541.0,061,3,541,white ash,Fraxinus,americana,Itasca
+920,541.0,065,13,541,white ash,Fraxinus,americana,Kanabec
+921,541.0,071,5,541,white ash,Fraxinus,americana,Koochiching
+922,541.0,081,12,541,white ash,Fraxinus,americana,Lincoln
+923,541.0,091,14,541,white ash,Fraxinus,americana,Martin
+924,541.0,095,4,541,white ash,Fraxinus,americana,Mille Lacs
+925,541.0,097,7,541,white ash,Fraxinus,americana,Morrison
+926,541.0,099,2,541,white ash,Fraxinus,americana,Mower
+927,541.0,103,4,541,white ash,Fraxinus,americana,Nicollet
+928,541.0,109,40,541,white ash,Fraxinus,americana,Olmsted
+929,541.0,111,1,541,white ash,Fraxinus,americana,Otter Tail
+930,541.0,115,30,541,white ash,Fraxinus,americana,Pine
+931,541.0,131,3,541,white ash,Fraxinus,americana,Rice
+932,541.0,137,1,541,white ash,Fraxinus,americana,Saint Louis
+933,541.0,143,1,541,white ash,Fraxinus,americana,Sibley
+934,541.0,145,4,541,white ash,Fraxinus,americana,Stearns
+935,541.0,157,21,541,white ash,Fraxinus,americana,Wabasha
+936,541.0,159,5,541,white ash,Fraxinus,americana,Wadena
+937,541.0,161,5,541,white ash,Fraxinus,americana,Waseca
+938,541.0,163,12,541,white ash,Fraxinus,americana,Washington
+939,541.0,169,4,541,white ash,Fraxinus,americana,Winona
+940,541.0,171,1,541,white ash,Fraxinus,americana,Wright
+941,543.0,001,8105,543,black ash,Fraxinus,nigra,Aitkin
+942,543.0,003,67,543,black ash,Fraxinus,nigra,Anoka
+943,543.0,005,1255,543,black ash,Fraxinus,nigra,Becker
+944,543.0,007,7134,543,black ash,Fraxinus,nigra,Beltrami
+945,543.0,009,152,543,black ash,Fraxinus,nigra,Benton
+946,543.0,011,9,543,black ash,Fraxinus,nigra,Big Stone
+947,543.0,013,16,543,black ash,Fraxinus,nigra,Blue Earth
+948,543.0,015,4,543,black ash,Fraxinus,nigra,Brown
+949,543.0,017,3466,543,black ash,Fraxinus,nigra,Carlton
+950,543.0,019,5,543,black ash,Fraxinus,nigra,Carver
+951,543.0,021,4719,543,black ash,Fraxinus,nigra,Cass
+952,543.0,025,323,543,black ash,Fraxinus,nigra,Chisago
+953,543.0,027,7,543,black ash,Fraxinus,nigra,Clay
+954,543.0,029,1951,543,black ash,Fraxinus,nigra,Clearwater
+955,543.0,031,1608,543,black ash,Fraxinus,nigra,Cook
+956,543.0,035,1921,543,black ash,Fraxinus,nigra,Crow Wing
+957,543.0,037,2,543,black ash,Fraxinus,nigra,Dakota
+958,543.0,039,20,543,black ash,Fraxinus,nigra,Dodge
+959,543.0,041,172,543,black ash,Fraxinus,nigra,Douglas
+960,543.0,045,35,543,black ash,Fraxinus,nigra,Fillmore
+961,543.0,049,95,543,black ash,Fraxinus,nigra,Goodhue
+962,543.0,051,2,543,black ash,Fraxinus,nigra,Grant
+963,543.0,053,34,543,black ash,Fraxinus,nigra,Hennepin
+964,543.0,055,19,543,black ash,Fraxinus,nigra,Houston
+965,543.0,057,566,543,black ash,Fraxinus,nigra,Hubbard
+966,543.0,059,404,543,black ash,Fraxinus,nigra,Isanti
+967,543.0,061,11718,543,black ash,Fraxinus,nigra,Itasca
+968,543.0,065,1065,543,black ash,Fraxinus,nigra,Kanabec
+969,543.0,067,12,543,black ash,Fraxinus,nigra,Kandiyohi
+970,543.0,069,110,543,black ash,Fraxinus,nigra,Kittson
+971,543.0,071,12390,543,black ash,Fraxinus,nigra,Koochiching
+972,543.0,075,3635,543,black ash,Fraxinus,nigra,Lake
+973,543.0,077,1858,543,black ash,Fraxinus,nigra,Lake of the Woods
+974,543.0,079,3,543,black ash,Fraxinus,nigra,Le Sueur
+975,543.0,087,647,543,black ash,Fraxinus,nigra,Mahnomen
+976,543.0,089,320,543,black ash,Fraxinus,nigra,Marshall
+977,543.0,095,1792,543,black ash,Fraxinus,nigra,Mille Lacs
+978,543.0,097,684,543,black ash,Fraxinus,nigra,Morrison
+979,543.0,103,2,543,black ash,Fraxinus,nigra,Nicollet
+980,543.0,107,46,543,black ash,Fraxinus,nigra,Norman
+981,543.0,109,32,543,black ash,Fraxinus,nigra,Olmsted
+982,543.0,111,875,543,black ash,Fraxinus,nigra,Otter Tail
+983,543.0,113,25,543,black ash,Fraxinus,nigra,Pennington
+984,543.0,115,2412,543,black ash,Fraxinus,nigra,Pine
+985,543.0,119,153,543,black ash,Fraxinus,nigra,Polk
+986,543.0,121,21,543,black ash,Fraxinus,nigra,Pope
+987,543.0,125,1,543,black ash,Fraxinus,nigra,Red Lake
+988,543.0,127,3,543,black ash,Fraxinus,nigra,Redwood
+989,543.0,131,12,543,black ash,Fraxinus,nigra,Rice
+990,543.0,135,1098,543,black ash,Fraxinus,nigra,Roseau
+991,543.0,137,13505,543,black ash,Fraxinus,nigra,Saint Louis
+992,543.0,139,4,543,black ash,Fraxinus,nigra,Scott
+993,543.0,141,15,543,black ash,Fraxinus,nigra,Sherburne
+994,543.0,143,19,543,black ash,Fraxinus,nigra,Sibley
+995,543.0,145,376,543,black ash,Fraxinus,nigra,Stearns
+996,543.0,149,18,543,black ash,Fraxinus,nigra,Stevens
+997,543.0,151,2,543,black ash,Fraxinus,nigra,Swift
+998,543.0,153,550,543,black ash,Fraxinus,nigra,Todd
+999,543.0,157,46,543,black ash,Fraxinus,nigra,Wabasha
+1000,543.0,159,276,543,black ash,Fraxinus,nigra,Wadena
+1001,543.0,161,6,543,black ash,Fraxinus,nigra,Waseca
+1002,543.0,163,27,543,black ash,Fraxinus,nigra,Washington
+1003,543.0,169,68,543,black ash,Fraxinus,nigra,Winona
+1004,543.0,171,36,543,black ash,Fraxinus,nigra,Wright
+1005,544.0,001,1475,544,green ash,Fraxinus,pennsylvanica,Aitkin
+1006,544.0,003,153,544,green ash,Fraxinus,pennsylvanica,Anoka
+1007,544.0,005,720,544,green ash,Fraxinus,pennsylvanica,Becker
+1008,544.0,007,1466,544,green ash,Fraxinus,pennsylvanica,Beltrami
+1009,544.0,009,196,544,green ash,Fraxinus,pennsylvanica,Benton
+1010,544.0,011,52,544,green ash,Fraxinus,pennsylvanica,Big Stone
+1011,544.0,013,162,544,green ash,Fraxinus,pennsylvanica,Blue Earth
+1012,544.0,015,129,544,green ash,Fraxinus,pennsylvanica,Brown
+1013,544.0,017,273,544,green ash,Fraxinus,pennsylvanica,Carlton
+1014,544.0,019,129,544,green ash,Fraxinus,pennsylvanica,Carver
+1015,544.0,021,1327,544,green ash,Fraxinus,pennsylvanica,Cass
+1016,544.0,023,68,544,green ash,Fraxinus,pennsylvanica,Chippewa
+1017,544.0,025,248,544,green ash,Fraxinus,pennsylvanica,Chisago
+1018,544.0,027,193,544,green ash,Fraxinus,pennsylvanica,Clay
+1019,544.0,029,626,544,green ash,Fraxinus,pennsylvanica,Clearwater
+1020,544.0,031,16,544,green ash,Fraxinus,pennsylvanica,Cook
+1021,544.0,033,164,544,green ash,Fraxinus,pennsylvanica,Cottonwood
+1022,544.0,035,513,544,green ash,Fraxinus,pennsylvanica,Crow Wing
+1023,544.0,037,164,544,green ash,Fraxinus,pennsylvanica,Dakota
+1024,544.0,039,50,544,green ash,Fraxinus,pennsylvanica,Dodge
+1025,544.0,041,334,544,green ash,Fraxinus,pennsylvanica,Douglas
+1026,544.0,043,65,544,green ash,Fraxinus,pennsylvanica,Faribault
+1027,544.0,045,126,544,green ash,Fraxinus,pennsylvanica,Fillmore
+1028,544.0,047,38,544,green ash,Fraxinus,pennsylvanica,Freeborn
+1029,544.0,049,191,544,green ash,Fraxinus,pennsylvanica,Goodhue
+1030,544.0,051,72,544,green ash,Fraxinus,pennsylvanica,Grant
+1031,544.0,053,207,544,green ash,Fraxinus,pennsylvanica,Hennepin
+1032,544.0,055,125,544,green ash,Fraxinus,pennsylvanica,Houston
+1033,544.0,057,339,544,green ash,Fraxinus,pennsylvanica,Hubbard
+1034,544.0,059,226,544,green ash,Fraxinus,pennsylvanica,Isanti
+1035,544.0,061,822,544,green ash,Fraxinus,pennsylvanica,Itasca
+1036,544.0,063,17,544,green ash,Fraxinus,pennsylvanica,Jackson
+1037,544.0,065,641,544,green ash,Fraxinus,pennsylvanica,Kanabec
+1038,544.0,067,392,544,green ash,Fraxinus,pennsylvanica,Kandiyohi
+1039,544.0,069,442,544,green ash,Fraxinus,pennsylvanica,Kittson
+1040,544.0,071,802,544,green ash,Fraxinus,pennsylvanica,Koochiching
+1041,544.0,073,169,544,green ash,Fraxinus,pennsylvanica,Lac qui Parle
+1042,544.0,075,75,544,green ash,Fraxinus,pennsylvanica,Lake
+1043,544.0,077,182,544,green ash,Fraxinus,pennsylvanica,Lake of the Woods
+1044,544.0,079,179,544,green ash,Fraxinus,pennsylvanica,Le Sueur
+1045,544.0,081,32,544,green ash,Fraxinus,pennsylvanica,Lincoln
+1046,544.0,083,44,544,green ash,Fraxinus,pennsylvanica,Lyon
+1047,544.0,085,62,544,green ash,Fraxinus,pennsylvanica,McLeod
+1048,544.0,087,349,544,green ash,Fraxinus,pennsylvanica,Mahnomen
+1049,544.0,089,331,544,green ash,Fraxinus,pennsylvanica,Marshall
+1050,544.0,091,88,544,green ash,Fraxinus,pennsylvanica,Martin
+1051,544.0,093,195,544,green ash,Fraxinus,pennsylvanica,Meeker
+1052,544.0,095,766,544,green ash,Fraxinus,pennsylvanica,Mille Lacs
+1053,544.0,097,517,544,green ash,Fraxinus,pennsylvanica,Morrison
+1054,544.0,099,38,544,green ash,Fraxinus,pennsylvanica,Mower
+1055,544.0,101,49,544,green ash,Fraxinus,pennsylvanica,Murray
+1056,544.0,103,91,544,green ash,Fraxinus,pennsylvanica,Nicollet
+1057,544.0,107,328,544,green ash,Fraxinus,pennsylvanica,Norman
+1058,544.0,109,83,544,green ash,Fraxinus,pennsylvanica,Olmsted
+1059,544.0,111,1084,544,green ash,Fraxinus,pennsylvanica,Otter Tail
+1060,544.0,113,61,544,green ash,Fraxinus,pennsylvanica,Pennington
+1061,544.0,115,719,544,green ash,Fraxinus,pennsylvanica,Pine
+1062,544.0,117,54,544,green ash,Fraxinus,pennsylvanica,Pipestone
+1063,544.0,119,469,544,green ash,Fraxinus,pennsylvanica,Polk
+1064,544.0,121,215,544,green ash,Fraxinus,pennsylvanica,Pope
+1065,544.0,125,96,544,green ash,Fraxinus,pennsylvanica,Red Lake
+1066,544.0,127,63,544,green ash,Fraxinus,pennsylvanica,Redwood
+1067,544.0,129,39,544,green ash,Fraxinus,pennsylvanica,Renville
+1068,544.0,131,241,544,green ash,Fraxinus,pennsylvanica,Rice
+1069,544.0,135,352,544,green ash,Fraxinus,pennsylvanica,Roseau
+1070,544.0,137,631,544,green ash,Fraxinus,pennsylvanica,Saint Louis
+1071,544.0,139,102,544,green ash,Fraxinus,pennsylvanica,Scott
+1072,544.0,141,144,544,green ash,Fraxinus,pennsylvanica,Sherburne
+1073,544.0,143,161,544,green ash,Fraxinus,pennsylvanica,Sibley
+1074,544.0,145,505,544,green ash,Fraxinus,pennsylvanica,Stearns
+1075,544.0,147,14,544,green ash,Fraxinus,pennsylvanica,Steele
+1076,544.0,149,40,544,green ash,Fraxinus,pennsylvanica,Stevens
+1077,544.0,151,150,544,green ash,Fraxinus,pennsylvanica,Swift
+1078,544.0,153,483,544,green ash,Fraxinus,pennsylvanica,Todd
+1079,544.0,155,4,544,green ash,Fraxinus,pennsylvanica,Traverse
+1080,544.0,157,140,544,green ash,Fraxinus,pennsylvanica,Wabasha
+1081,544.0,159,170,544,green ash,Fraxinus,pennsylvanica,Wadena
+1082,544.0,161,55,544,green ash,Fraxinus,pennsylvanica,Waseca
+1083,544.0,163,69,544,green ash,Fraxinus,pennsylvanica,Washington
+1084,544.0,165,140,544,green ash,Fraxinus,pennsylvanica,Watonwan
+1085,544.0,167,114,544,green ash,Fraxinus,pennsylvanica,Wilkin
+1086,544.0,169,121,544,green ash,Fraxinus,pennsylvanica,Winona
+1087,544.0,171,472,544,green ash,Fraxinus,pennsylvanica,Wright
+1088,544.0,173,10,544,green ash,Fraxinus,pennsylvanica,Yellow Medicine
+1089,552.0,013,3,552,honeylocust,Gleditsia,triacanthos,Blue Earth
+1090,571.0,013,11,571,Kentucky coffeetree,Gymnocladus,dioicus,Blue Earth
+1091,571.0,015,1,571,Kentucky coffeetree,Gymnocladus,dioicus,Brown
+1092,571.0,071,4,571,Kentucky coffeetree,Gymnocladus,dioicus,Koochiching
+1093,571.0,129,15,571,Kentucky coffeetree,Gymnocladus,dioicus,Renville
+1094,571.0,135,1,571,Kentucky coffeetree,Gymnocladus,dioicus,Roseau
+1095,601.0,001,56,601,butternut,Juglans,cinerea,Aitkin
+1096,601.0,009,2,601,butternut,Juglans,cinerea,Benton
+1097,601.0,013,3,601,butternut,Juglans,cinerea,Blue Earth
+1098,601.0,015,4,601,butternut,Juglans,cinerea,Brown
+1099,601.0,019,23,601,butternut,Juglans,cinerea,Carver
+1100,601.0,025,7,601,butternut,Juglans,cinerea,Chisago
+1101,601.0,035,73,601,butternut,Juglans,cinerea,Crow Wing
+1102,601.0,037,11,601,butternut,Juglans,cinerea,Dakota
+1103,601.0,039,34,601,butternut,Juglans,cinerea,Dodge
+1104,601.0,045,37,601,butternut,Juglans,cinerea,Fillmore
+1105,601.0,049,42,601,butternut,Juglans,cinerea,Goodhue
+1106,601.0,053,4,601,butternut,Juglans,cinerea,Hennepin
+1107,601.0,055,127,601,butternut,Juglans,cinerea,Houston
+1108,601.0,059,35,601,butternut,Juglans,cinerea,Isanti
+1109,601.0,061,2,601,butternut,Juglans,cinerea,Itasca
+1110,601.0,065,69,601,butternut,Juglans,cinerea,Kanabec
+1111,601.0,079,3,601,butternut,Juglans,cinerea,Le Sueur
+1112,601.0,085,16,601,butternut,Juglans,cinerea,McLeod
+1113,601.0,095,68,601,butternut,Juglans,cinerea,Mille Lacs
+1114,601.0,097,34,601,butternut,Juglans,cinerea,Morrison
+1115,601.0,103,4,601,butternut,Juglans,cinerea,Nicollet
+1116,601.0,109,7,601,butternut,Juglans,cinerea,Olmsted
+1117,601.0,115,47,601,butternut,Juglans,cinerea,Pine
+1118,601.0,131,2,601,butternut,Juglans,cinerea,Rice
+1119,601.0,139,3,601,butternut,Juglans,cinerea,Scott
+1120,601.0,143,10,601,butternut,Juglans,cinerea,Sibley
+1121,601.0,145,2,601,butternut,Juglans,cinerea,Stearns
+1122,601.0,157,94,601,butternut,Juglans,cinerea,Wabasha
+1123,601.0,161,6,601,butternut,Juglans,cinerea,Waseca
+1124,601.0,163,8,601,butternut,Juglans,cinerea,Washington
+1125,601.0,169,164,601,butternut,Juglans,cinerea,Winona
+1126,601.0,171,2,601,butternut,Juglans,cinerea,Wright
+1127,602.0,005,3,602,black walnut,Juglans,nigra,Becker
+1128,602.0,013,65,602,black walnut,Juglans,nigra,Blue Earth
+1129,602.0,015,1,602,black walnut,Juglans,nigra,Brown
+1130,602.0,037,7,602,black walnut,Juglans,nigra,Dakota
+1131,602.0,039,58,602,black walnut,Juglans,nigra,Dodge
+1132,602.0,043,4,602,black walnut,Juglans,nigra,Faribault
+1133,602.0,045,277,602,black walnut,Juglans,nigra,Fillmore
+1134,602.0,047,2,602,black walnut,Juglans,nigra,Freeborn
+1135,602.0,049,178,602,black walnut,Juglans,nigra,Goodhue
+1136,602.0,053,4,602,black walnut,Juglans,nigra,Hennepin
+1137,602.0,055,200,602,black walnut,Juglans,nigra,Houston
+1138,602.0,059,6,602,black walnut,Juglans,nigra,Isanti
+1139,602.0,061,1,602,black walnut,Juglans,nigra,Itasca
+1140,602.0,063,22,602,black walnut,Juglans,nigra,Jackson
+1141,602.0,067,18,602,black walnut,Juglans,nigra,Kandiyohi
+1142,602.0,079,4,602,black walnut,Juglans,nigra,Le Sueur
+1143,602.0,091,5,602,black walnut,Juglans,nigra,Martin
+1144,602.0,095,2,602,black walnut,Juglans,nigra,Mille Lacs
+1145,602.0,109,25,602,black walnut,Juglans,nigra,Olmsted
+1146,602.0,115,6,602,black walnut,Juglans,nigra,Pine
+1147,602.0,127,13,602,black walnut,Juglans,nigra,Redwood
+1148,602.0,129,1,602,black walnut,Juglans,nigra,Renville
+1149,602.0,139,7,602,black walnut,Juglans,nigra,Scott
+1150,602.0,143,11,602,black walnut,Juglans,nigra,Sibley
+1151,602.0,147,4,602,black walnut,Juglans,nigra,Steele
+1152,602.0,157,100,602,black walnut,Juglans,nigra,Wabasha
+1153,602.0,161,31,602,black walnut,Juglans,nigra,Waseca
+1154,602.0,163,19,602,black walnut,Juglans,nigra,Washington
+1155,602.0,169,153,602,black walnut,Juglans,nigra,Winona
+1156,602.0,171,2,602,black walnut,Juglans,nigra,Wright
+1157,660.0,003,3,660,apple spp.,Malus,spp.,Anoka
+1158,660.0,007,4,660,apple spp.,Malus,spp.,Beltrami
+1159,660.0,009,10,660,apple spp.,Malus,spp.,Benton
+1160,660.0,017,4,660,apple spp.,Malus,spp.,Carlton
+1161,660.0,021,1,660,apple spp.,Malus,spp.,Cass
+1162,660.0,029,1,660,apple spp.,Malus,spp.,Clearwater
+1163,660.0,045,8,660,apple spp.,Malus,spp.,Fillmore
+1164,660.0,049,4,660,apple spp.,Malus,spp.,Goodhue
+1165,660.0,053,3,660,apple spp.,Malus,spp.,Hennepin
+1166,660.0,055,56,660,apple spp.,Malus,spp.,Houston
+1167,660.0,063,3,660,apple spp.,Malus,spp.,Jackson
+1168,660.0,071,1,660,apple spp.,Malus,spp.,Koochiching
+1169,660.0,079,4,660,apple spp.,Malus,spp.,Le Sueur
+1170,660.0,087,1,660,apple spp.,Malus,spp.,Mahnomen
+1171,660.0,089,18,660,apple spp.,Malus,spp.,Marshall
+1172,660.0,097,4,660,apple spp.,Malus,spp.,Morrison
+1173,660.0,109,11,660,apple spp.,Malus,spp.,Olmsted
+1174,660.0,115,2,660,apple spp.,Malus,spp.,Pine
+1175,660.0,137,12,660,apple spp.,Malus,spp.,Saint Louis
+1176,660.0,139,2,660,apple spp.,Malus,spp.,Scott
+1177,660.0,141,4,660,apple spp.,Malus,spp.,Sherburne
+1178,660.0,153,1,660,apple spp.,Malus,spp.,Todd
+1179,660.0,157,9,660,apple spp.,Malus,spp.,Wabasha
+1180,660.0,159,2,660,apple spp.,Malus,spp.,Wadena
+1181,660.0,161,6,660,apple spp.,Malus,spp.,Waseca
+1182,660.0,167,2,660,apple spp.,Malus,spp.,Wilkin
+1183,660.0,169,30,660,apple spp.,Malus,spp.,Winona
+1184,660.0,171,4,660,apple spp.,Malus,spp.,Wright
+1185,681.0,003,2,681,white mulberry,Morus,alba,Anoka
+1186,681.0,015,8,681,white mulberry,Morus,alba,Brown
+1187,681.0,045,2,681,white mulberry,Morus,alba,Fillmore
+1188,681.0,055,2,681,white mulberry,Morus,alba,Houston
+1189,681.0,063,7,681,white mulberry,Morus,alba,Jackson
+1190,681.0,085,2,681,white mulberry,Morus,alba,McLeod
+1191,681.0,091,20,681,white mulberry,Morus,alba,Martin
+1192,681.0,151,8,681,white mulberry,Morus,alba,Swift
+1193,681.0,157,2,681,white mulberry,Morus,alba,Wabasha
+1194,681.0,169,4,681,white mulberry,Morus,alba,Winona
+1195,682.0,015,8,682,red mulberry,Morus,rubra,Brown
+1196,682.0,037,8,682,red mulberry,Morus,rubra,Dakota
+1197,682.0,043,5,682,red mulberry,Morus,rubra,Faribault
+1198,682.0,047,2,682,red mulberry,Morus,rubra,Freeborn
+1199,682.0,055,9,682,red mulberry,Morus,rubra,Houston
+1200,682.0,091,9,682,red mulberry,Morus,rubra,Martin
+1201,682.0,093,6,682,red mulberry,Morus,rubra,Meeker
+1202,682.0,129,1,682,red mulberry,Morus,rubra,Renville
+1203,682.0,143,6,682,red mulberry,Morus,rubra,Sibley
+1204,682.0,157,2,682,red mulberry,Morus,rubra,Wabasha
+1205,682.0,169,4,682,red mulberry,Morus,rubra,Winona
+1206,701.0,001,1151,701,eastern hophornbeam,Ostrya,virginiana,Aitkin
+1207,701.0,003,11,701,eastern hophornbeam,Ostrya,virginiana,Anoka
+1208,701.0,005,1188,701,eastern hophornbeam,Ostrya,virginiana,Becker
+1209,701.0,007,644,701,eastern hophornbeam,Ostrya,virginiana,Beltrami
+1210,701.0,009,31,701,eastern hophornbeam,Ostrya,virginiana,Benton
+1211,701.0,011,64,701,eastern hophornbeam,Ostrya,virginiana,Big Stone
+1212,701.0,013,231,701,eastern hophornbeam,Ostrya,virginiana,Blue Earth
+1213,701.0,015,66,701,eastern hophornbeam,Ostrya,virginiana,Brown
+1214,701.0,017,165,701,eastern hophornbeam,Ostrya,virginiana,Carlton
+1215,701.0,019,54,701,eastern hophornbeam,Ostrya,virginiana,Carver
+1216,701.0,021,669,701,eastern hophornbeam,Ostrya,virginiana,Cass
+1217,701.0,025,360,701,eastern hophornbeam,Ostrya,virginiana,Chisago
+1218,701.0,027,57,701,eastern hophornbeam,Ostrya,virginiana,Clay
+1219,701.0,029,427,701,eastern hophornbeam,Ostrya,virginiana,Clearwater
+1220,701.0,035,869,701,eastern hophornbeam,Ostrya,virginiana,Crow Wing
+1221,701.0,037,78,701,eastern hophornbeam,Ostrya,virginiana,Dakota
+1222,701.0,039,41,701,eastern hophornbeam,Ostrya,virginiana,Dodge
+1223,701.0,041,102,701,eastern hophornbeam,Ostrya,virginiana,Douglas
+1224,701.0,045,280,701,eastern hophornbeam,Ostrya,virginiana,Fillmore
+1225,701.0,047,13,701,eastern hophornbeam,Ostrya,virginiana,Freeborn
+1226,701.0,049,198,701,eastern hophornbeam,Ostrya,virginiana,Goodhue
+1227,701.0,053,144,701,eastern hophornbeam,Ostrya,virginiana,Hennepin
+1228,701.0,055,311,701,eastern hophornbeam,Ostrya,virginiana,Houston
+1229,701.0,057,240,701,eastern hophornbeam,Ostrya,virginiana,Hubbard
+1230,701.0,059,47,701,eastern hophornbeam,Ostrya,virginiana,Isanti
+1231,701.0,061,521,701,eastern hophornbeam,Ostrya,virginiana,Itasca
+1232,701.0,063,35,701,eastern hophornbeam,Ostrya,virginiana,Jackson
+1233,701.0,065,131,701,eastern hophornbeam,Ostrya,virginiana,Kanabec
+1234,701.0,067,395,701,eastern hophornbeam,Ostrya,virginiana,Kandiyohi
+1235,701.0,071,28,701,eastern hophornbeam,Ostrya,virginiana,Koochiching
+1236,701.0,075,128,701,eastern hophornbeam,Ostrya,virginiana,Lake
+1237,701.0,077,1,701,eastern hophornbeam,Ostrya,virginiana,Lake of the Woods
+1238,701.0,079,51,701,eastern hophornbeam,Ostrya,virginiana,Le Sueur
+1239,701.0,085,72,701,eastern hophornbeam,Ostrya,virginiana,McLeod
+1240,701.0,087,233,701,eastern hophornbeam,Ostrya,virginiana,Mahnomen
+1241,701.0,089,1,701,eastern hophornbeam,Ostrya,virginiana,Marshall
+1242,701.0,093,36,701,eastern hophornbeam,Ostrya,virginiana,Meeker
+1243,701.0,095,202,701,eastern hophornbeam,Ostrya,virginiana,Mille Lacs
+1244,701.0,097,483,701,eastern hophornbeam,Ostrya,virginiana,Morrison
+1245,701.0,099,4,701,eastern hophornbeam,Ostrya,virginiana,Mower
+1246,701.0,103,27,701,eastern hophornbeam,Ostrya,virginiana,Nicollet
+1247,701.0,107,25,701,eastern hophornbeam,Ostrya,virginiana,Norman
+1248,701.0,109,141,701,eastern hophornbeam,Ostrya,virginiana,Olmsted
+1249,701.0,111,762,701,eastern hophornbeam,Ostrya,virginiana,Otter Tail
+1250,701.0,113,7,701,eastern hophornbeam,Ostrya,virginiana,Pennington
+1251,701.0,115,629,701,eastern hophornbeam,Ostrya,virginiana,Pine
+1252,701.0,119,131,701,eastern hophornbeam,Ostrya,virginiana,Polk
+1253,701.0,121,51,701,eastern hophornbeam,Ostrya,virginiana,Pope
+1254,701.0,125,32,701,eastern hophornbeam,Ostrya,virginiana,Red Lake
+1255,701.0,127,13,701,eastern hophornbeam,Ostrya,virginiana,Redwood
+1256,701.0,131,109,701,eastern hophornbeam,Ostrya,virginiana,Rice
+1257,701.0,137,193,701,eastern hophornbeam,Ostrya,virginiana,Saint Louis
+1258,701.0,139,207,701,eastern hophornbeam,Ostrya,virginiana,Scott
+1259,701.0,141,94,701,eastern hophornbeam,Ostrya,virginiana,Sherburne
+1260,701.0,143,79,701,eastern hophornbeam,Ostrya,virginiana,Sibley
+1261,701.0,145,561,701,eastern hophornbeam,Ostrya,virginiana,Stearns
+1262,701.0,147,5,701,eastern hophornbeam,Ostrya,virginiana,Steele
+1263,701.0,153,683,701,eastern hophornbeam,Ostrya,virginiana,Todd
+1264,701.0,157,122,701,eastern hophornbeam,Ostrya,virginiana,Wabasha
+1265,701.0,159,48,701,eastern hophornbeam,Ostrya,virginiana,Wadena
+1266,701.0,161,4,701,eastern hophornbeam,Ostrya,virginiana,Waseca
+1267,701.0,163,67,701,eastern hophornbeam,Ostrya,virginiana,Washington
+1268,701.0,169,223,701,eastern hophornbeam,Ostrya,virginiana,Winona
+1269,701.0,171,237,701,eastern hophornbeam,Ostrya,virginiana,Wright
+1270,701.0,173,52,701,eastern hophornbeam,Ostrya,virginiana,Yellow Medicine
+1271,741.0,001,1414,741,balsam poplar,Populus,balsamifera,Aitkin
+1272,741.0,003,1,741,balsam poplar,Populus,balsamifera,Anoka
+1273,741.0,005,548,741,balsam poplar,Populus,balsamifera,Becker
+1274,741.0,007,7253,741,balsam poplar,Populus,balsamifera,Beltrami
+1275,741.0,017,837,741,balsam poplar,Populus,balsamifera,Carlton
+1276,741.0,021,1461,741,balsam poplar,Populus,balsamifera,Cass
+1277,741.0,027,18,741,balsam poplar,Populus,balsamifera,Clay
+1278,741.0,029,1837,741,balsam poplar,Populus,balsamifera,Clearwater
+1279,741.0,031,440,741,balsam poplar,Populus,balsamifera,Cook
+1280,741.0,035,92,741,balsam poplar,Populus,balsamifera,Crow Wing
+1281,741.0,041,76,741,balsam poplar,Populus,balsamifera,Douglas
+1282,741.0,049,2,741,balsam poplar,Populus,balsamifera,Goodhue
+1283,741.0,057,881,741,balsam poplar,Populus,balsamifera,Hubbard
+1284,741.0,061,6367,741,balsam poplar,Populus,balsamifera,Itasca
+1285,741.0,065,23,741,balsam poplar,Populus,balsamifera,Kanabec
+1286,741.0,069,796,741,balsam poplar,Populus,balsamifera,Kittson
+1287,741.0,071,8938,741,balsam poplar,Populus,balsamifera,Koochiching
+1288,741.0,075,1801,741,balsam poplar,Populus,balsamifera,Lake
+1289,741.0,077,4006,741,balsam poplar,Populus,balsamifera,Lake of the Woods
+1290,741.0,087,422,741,balsam poplar,Populus,balsamifera,Mahnomen
+1291,741.0,089,2041,741,balsam poplar,Populus,balsamifera,Marshall
+1292,741.0,095,20,741,balsam poplar,Populus,balsamifera,Mille Lacs
+1293,741.0,097,44,741,balsam poplar,Populus,balsamifera,Morrison
+1294,741.0,101,8,741,balsam poplar,Populus,balsamifera,Murray
+1295,741.0,107,52,741,balsam poplar,Populus,balsamifera,Norman
+1296,741.0,111,313,741,balsam poplar,Populus,balsamifera,Otter Tail
+1297,741.0,113,475,741,balsam poplar,Populus,balsamifera,Pennington
+1298,741.0,115,386,741,balsam poplar,Populus,balsamifera,Pine
+1299,741.0,119,341,741,balsam poplar,Populus,balsamifera,Polk
+1300,741.0,125,179,741,balsam poplar,Populus,balsamifera,Red Lake
+1301,741.0,135,3210,741,balsam poplar,Populus,balsamifera,Roseau
+1302,741.0,137,7935,741,balsam poplar,Populus,balsamifera,Saint Louis
+1303,741.0,145,36,741,balsam poplar,Populus,balsamifera,Stearns
+1304,741.0,153,127,741,balsam poplar,Populus,balsamifera,Todd
+1305,741.0,157,2,741,balsam poplar,Populus,balsamifera,Wabasha
+1306,741.0,159,170,741,balsam poplar,Populus,balsamifera,Wadena
+1307,742.0,003,3,742,eastern cottonwood,Populus,deltoides,Anoka
+1308,742.0,005,1,742,eastern cottonwood,Populus,deltoides,Becker
+1309,742.0,011,28,742,eastern cottonwood,Populus,deltoides,Big Stone
+1310,742.0,013,77,742,eastern cottonwood,Populus,deltoides,Blue Earth
+1311,742.0,015,35,742,eastern cottonwood,Populus,deltoides,Brown
+1312,742.0,017,8,742,eastern cottonwood,Populus,deltoides,Carlton
+1313,742.0,019,21,742,eastern cottonwood,Populus,deltoides,Carver
+1314,742.0,021,3,742,eastern cottonwood,Populus,deltoides,Cass
+1315,742.0,023,31,742,eastern cottonwood,Populus,deltoides,Chippewa
+1316,742.0,027,60,742,eastern cottonwood,Populus,deltoides,Clay
+1317,742.0,031,1,742,eastern cottonwood,Populus,deltoides,Cook
+1318,742.0,033,1,742,eastern cottonwood,Populus,deltoides,Cottonwood
+1319,742.0,035,31,742,eastern cottonwood,Populus,deltoides,Crow Wing
+1320,742.0,037,218,742,eastern cottonwood,Populus,deltoides,Dakota
+1321,742.0,039,10,742,eastern cottonwood,Populus,deltoides,Dodge
+1322,742.0,045,30,742,eastern cottonwood,Populus,deltoides,Fillmore
+1323,742.0,047,44,742,eastern cottonwood,Populus,deltoides,Freeborn
+1324,742.0,049,88,742,eastern cottonwood,Populus,deltoides,Goodhue
+1325,742.0,051,11,742,eastern cottonwood,Populus,deltoides,Grant
+1326,742.0,053,98,742,eastern cottonwood,Populus,deltoides,Hennepin
+1327,742.0,055,92,742,eastern cottonwood,Populus,deltoides,Houston
+1328,742.0,061,4,742,eastern cottonwood,Populus,deltoides,Itasca
+1329,742.0,063,7,742,eastern cottonwood,Populus,deltoides,Jackson
+1330,742.0,067,81,742,eastern cottonwood,Populus,deltoides,Kandiyohi
+1331,742.0,069,6,742,eastern cottonwood,Populus,deltoides,Kittson
+1332,742.0,071,4,742,eastern cottonwood,Populus,deltoides,Koochiching
+1333,742.0,073,32,742,eastern cottonwood,Populus,deltoides,Lac qui Parle
+1334,742.0,075,1,742,eastern cottonwood,Populus,deltoides,Lake
+1335,742.0,079,16,742,eastern cottonwood,Populus,deltoides,Le Sueur
+1336,742.0,083,46,742,eastern cottonwood,Populus,deltoides,Lyon
+1337,742.0,087,1,742,eastern cottonwood,Populus,deltoides,Mahnomen
+1338,742.0,089,39,742,eastern cottonwood,Populus,deltoides,Marshall
+1339,742.0,091,9,742,eastern cottonwood,Populus,deltoides,Martin
+1340,742.0,093,7,742,eastern cottonwood,Populus,deltoides,Meeker
+1341,742.0,095,4,742,eastern cottonwood,Populus,deltoides,Mille Lacs
+1342,742.0,097,4,742,eastern cottonwood,Populus,deltoides,Morrison
+1343,742.0,101,12,742,eastern cottonwood,Populus,deltoides,Murray
+1344,742.0,103,164,742,eastern cottonwood,Populus,deltoides,Nicollet
+1345,742.0,107,14,742,eastern cottonwood,Populus,deltoides,Norman
+1346,742.0,109,6,742,eastern cottonwood,Populus,deltoides,Olmsted
+1347,742.0,111,9,742,eastern cottonwood,Populus,deltoides,Otter Tail
+1348,742.0,113,9,742,eastern cottonwood,Populus,deltoides,Pennington
+1349,742.0,115,34,742,eastern cottonwood,Populus,deltoides,Pine
+1350,742.0,119,59,742,eastern cottonwood,Populus,deltoides,Polk
+1351,742.0,121,22,742,eastern cottonwood,Populus,deltoides,Pope
+1352,742.0,127,18,742,eastern cottonwood,Populus,deltoides,Redwood
+1353,742.0,129,193,742,eastern cottonwood,Populus,deltoides,Renville
+1354,742.0,131,16,742,eastern cottonwood,Populus,deltoides,Rice
+1355,742.0,137,5,742,eastern cottonwood,Populus,deltoides,Saint Louis
+1356,742.0,139,85,742,eastern cottonwood,Populus,deltoides,Scott
+1357,742.0,141,68,742,eastern cottonwood,Populus,deltoides,Sherburne
+1358,742.0,143,128,742,eastern cottonwood,Populus,deltoides,Sibley
+1359,742.0,145,9,742,eastern cottonwood,Populus,deltoides,Stearns
+1360,742.0,147,52,742,eastern cottonwood,Populus,deltoides,Steele
+1361,742.0,149,34,742,eastern cottonwood,Populus,deltoides,Stevens
+1362,742.0,151,18,742,eastern cottonwood,Populus,deltoides,Swift
+1363,742.0,153,247,742,eastern cottonwood,Populus,deltoides,Todd
+1364,742.0,157,101,742,eastern cottonwood,Populus,deltoides,Wabasha
+1365,742.0,159,25,742,eastern cottonwood,Populus,deltoides,Wadena
+1366,742.0,161,1,742,eastern cottonwood,Populus,deltoides,Waseca
+1367,742.0,163,31,742,eastern cottonwood,Populus,deltoides,Washington
+1368,742.0,165,1,742,eastern cottonwood,Populus,deltoides,Watonwan
+1369,742.0,167,11,742,eastern cottonwood,Populus,deltoides,Wilkin
+1370,742.0,169,136,742,eastern cottonwood,Populus,deltoides,Winona
+1371,742.0,171,4,742,eastern cottonwood,Populus,deltoides,Wright
+1372,742.0,173,17,742,eastern cottonwood,Populus,deltoides,Yellow Medicine
+1373,743.0,001,962,743,bigtooth aspen,Populus,grandidentata,Aitkin
+1374,743.0,003,7,743,bigtooth aspen,Populus,grandidentata,Anoka
+1375,743.0,005,983,743,bigtooth aspen,Populus,grandidentata,Becker
+1376,743.0,007,544,743,bigtooth aspen,Populus,grandidentata,Beltrami
+1377,743.0,009,2,743,bigtooth aspen,Populus,grandidentata,Benton
+1378,743.0,015,3,743,bigtooth aspen,Populus,grandidentata,Brown
+1379,743.0,017,249,743,bigtooth aspen,Populus,grandidentata,Carlton
+1380,743.0,021,2679,743,bigtooth aspen,Populus,grandidentata,Cass
+1381,743.0,025,64,743,bigtooth aspen,Populus,grandidentata,Chisago
+1382,743.0,029,508,743,bigtooth aspen,Populus,grandidentata,Clearwater
+1383,743.0,031,19,743,bigtooth aspen,Populus,grandidentata,Cook
+1384,743.0,035,1854,743,bigtooth aspen,Populus,grandidentata,Crow Wing
+1385,743.0,039,32,743,bigtooth aspen,Populus,grandidentata,Dodge
+1386,743.0,041,219,743,bigtooth aspen,Populus,grandidentata,Douglas
+1387,743.0,045,19,743,bigtooth aspen,Populus,grandidentata,Fillmore
+1388,743.0,049,44,743,bigtooth aspen,Populus,grandidentata,Goodhue
+1389,743.0,053,3,743,bigtooth aspen,Populus,grandidentata,Hennepin
+1390,743.0,055,92,743,bigtooth aspen,Populus,grandidentata,Houston
+1391,743.0,057,1639,743,bigtooth aspen,Populus,grandidentata,Hubbard
+1392,743.0,059,64,743,bigtooth aspen,Populus,grandidentata,Isanti
+1393,743.0,061,2447,743,bigtooth aspen,Populus,grandidentata,Itasca
+1394,743.0,065,150,743,bigtooth aspen,Populus,grandidentata,Kanabec
+1395,743.0,069,4,743,bigtooth aspen,Populus,grandidentata,Kittson
+1396,743.0,071,74,743,bigtooth aspen,Populus,grandidentata,Koochiching
+1397,743.0,075,170,743,bigtooth aspen,Populus,grandidentata,Lake
+1398,743.0,077,54,743,bigtooth aspen,Populus,grandidentata,Lake of the Woods
+1399,743.0,087,137,743,bigtooth aspen,Populus,grandidentata,Mahnomen
+1400,743.0,089,4,743,bigtooth aspen,Populus,grandidentata,Marshall
+1401,743.0,095,254,743,bigtooth aspen,Populus,grandidentata,Mille Lacs
+1402,743.0,097,772,743,bigtooth aspen,Populus,grandidentata,Morrison
+1403,743.0,111,411,743,bigtooth aspen,Populus,grandidentata,Otter Tail
+1404,743.0,115,1749,743,bigtooth aspen,Populus,grandidentata,Pine
+1405,743.0,135,2,743,bigtooth aspen,Populus,grandidentata,Roseau
+1406,743.0,137,3050,743,bigtooth aspen,Populus,grandidentata,Saint Louis
+1407,743.0,139,3,743,bigtooth aspen,Populus,grandidentata,Scott
+1408,743.0,141,34,743,bigtooth aspen,Populus,grandidentata,Sherburne
+1409,743.0,145,57,743,bigtooth aspen,Populus,grandidentata,Stearns
+1410,743.0,147,7,743,bigtooth aspen,Populus,grandidentata,Steele
+1411,743.0,153,345,743,bigtooth aspen,Populus,grandidentata,Todd
+1412,743.0,157,33,743,bigtooth aspen,Populus,grandidentata,Wabasha
+1413,743.0,159,110,743,bigtooth aspen,Populus,grandidentata,Wadena
+1414,743.0,163,1,743,bigtooth aspen,Populus,grandidentata,Washington
+1415,743.0,169,96,743,bigtooth aspen,Populus,grandidentata,Winona
+1416,743.0,171,8,743,bigtooth aspen,Populus,grandidentata,Wright
+1417,746.0,001,16970,746,quaking aspen,Populus,tremuloides,Aitkin
+1418,746.0,003,615,746,quaking aspen,Populus,tremuloides,Anoka
+1419,746.0,005,9241,746,quaking aspen,Populus,tremuloides,Becker
+1420,746.0,007,27011,746,quaking aspen,Populus,tremuloides,Beltrami
+1421,746.0,009,490,746,quaking aspen,Populus,tremuloides,Benton
+1422,746.0,013,52,746,quaking aspen,Populus,tremuloides,Blue Earth
+1423,746.0,017,10345,746,quaking aspen,Populus,tremuloides,Carlton
+1424,746.0,019,2,746,quaking aspen,Populus,tremuloides,Carver
+1425,746.0,021,27636,746,quaking aspen,Populus,tremuloides,Cass
+1426,746.0,023,4,746,quaking aspen,Populus,tremuloides,Chippewa
+1427,746.0,025,465,746,quaking aspen,Populus,tremuloides,Chisago
+1428,746.0,027,229,746,quaking aspen,Populus,tremuloides,Clay
+1429,746.0,029,9679,746,quaking aspen,Populus,tremuloides,Clearwater
+1430,746.0,031,13919,746,quaking aspen,Populus,tremuloides,Cook
+1431,746.0,035,8837,746,quaking aspen,Populus,tremuloides,Crow Wing
+1432,746.0,037,179,746,quaking aspen,Populus,tremuloides,Dakota
+1433,746.0,039,36,746,quaking aspen,Populus,tremuloides,Dodge
+1434,746.0,041,326,746,quaking aspen,Populus,tremuloides,Douglas
+1435,746.0,045,197,746,quaking aspen,Populus,tremuloides,Fillmore
+1436,746.0,049,332,746,quaking aspen,Populus,tremuloides,Goodhue
+1437,746.0,051,16,746,quaking aspen,Populus,tremuloides,Grant
+1438,746.0,053,30,746,quaking aspen,Populus,tremuloides,Hennepin
+1439,746.0,055,335,746,quaking aspen,Populus,tremuloides,Houston
+1440,746.0,057,15919,746,quaking aspen,Populus,tremuloides,Hubbard
+1441,746.0,059,563,746,quaking aspen,Populus,tremuloides,Isanti
+1442,746.0,061,42468,746,quaking aspen,Populus,tremuloides,Itasca
+1443,746.0,065,4232,746,quaking aspen,Populus,tremuloides,Kanabec
+1444,746.0,067,80,746,quaking aspen,Populus,tremuloides,Kandiyohi
+1445,746.0,069,5438,746,quaking aspen,Populus,tremuloides,Kittson
+1446,746.0,071,33009,746,quaking aspen,Populus,tremuloides,Koochiching
+1447,746.0,075,16684,746,quaking aspen,Populus,tremuloides,Lake
+1448,746.0,077,8920,746,quaking aspen,Populus,tremuloides,Lake of the Woods
+1449,746.0,085,10,746,quaking aspen,Populus,tremuloides,McLeod
+1450,746.0,087,3691,746,quaking aspen,Populus,tremuloides,Mahnomen
+1451,746.0,089,8359,746,quaking aspen,Populus,tremuloides,Marshall
+1452,746.0,093,34,746,quaking aspen,Populus,tremuloides,Meeker
+1453,746.0,095,2684,746,quaking aspen,Populus,tremuloides,Mille Lacs
+1454,746.0,097,4540,746,quaking aspen,Populus,tremuloides,Morrison
+1455,746.0,099,2,746,quaking aspen,Populus,tremuloides,Mower
+1456,746.0,103,2,746,quaking aspen,Populus,tremuloides,Nicollet
+1457,746.0,107,877,746,quaking aspen,Populus,tremuloides,Norman
+1458,746.0,109,187,746,quaking aspen,Populus,tremuloides,Olmsted
+1459,746.0,111,2350,746,quaking aspen,Populus,tremuloides,Otter Tail
+1460,746.0,113,2011,746,quaking aspen,Populus,tremuloides,Pennington
+1461,746.0,115,14964,746,quaking aspen,Populus,tremuloides,Pine
+1462,746.0,119,1651,746,quaking aspen,Populus,tremuloides,Polk
+1463,746.0,121,109,746,quaking aspen,Populus,tremuloides,Pope
+1464,746.0,123,100,746,quaking aspen,Populus,tremuloides,Ramsey
+1465,746.0,125,1556,746,quaking aspen,Populus,tremuloides,Red Lake
+1466,746.0,131,54,746,quaking aspen,Populus,tremuloides,Rice
+1467,746.0,135,8423,746,quaking aspen,Populus,tremuloides,Roseau
+1468,746.0,137,75692,746,quaking aspen,Populus,tremuloides,Saint Louis
+1469,746.0,139,92,746,quaking aspen,Populus,tremuloides,Scott
+1470,746.0,141,453,746,quaking aspen,Populus,tremuloides,Sherburne
+1471,746.0,143,11,746,quaking aspen,Populus,tremuloides,Sibley
+1472,746.0,145,363,746,quaking aspen,Populus,tremuloides,Stearns
+1473,746.0,147,46,746,quaking aspen,Populus,tremuloides,Steele
+1474,746.0,153,1833,746,quaking aspen,Populus,tremuloides,Todd
+1475,746.0,157,294,746,quaking aspen,Populus,tremuloides,Wabasha
+1476,746.0,159,2777,746,quaking aspen,Populus,tremuloides,Wadena
+1477,746.0,161,9,746,quaking aspen,Populus,tremuloides,Waseca
+1478,746.0,163,223,746,quaking aspen,Populus,tremuloides,Washington
+1479,746.0,169,315,746,quaking aspen,Populus,tremuloides,Winona
+1480,746.0,171,143,746,quaking aspen,Populus,tremuloides,Wright
+1481,753.0,073,13,753,Lombardy poplar,Populus,nigra,Lac qui Parle
+1482,753.0,089,59,753,Lombardy poplar,Populus,nigra,Marshall
+1483,753.0,111,12,753,Lombardy poplar,Populus,nigra,Otter Tail
+1484,760.0,005,2,760,cherry and plum spp.,Prunus,spp.,Becker
+1485,760.0,021,9,760,cherry and plum spp.,Prunus,spp.,Cass
+1486,760.0,031,2,760,cherry and plum spp.,Prunus,spp.,Cook
+1487,760.0,035,1,760,cherry and plum spp.,Prunus,spp.,Crow Wing
+1488,760.0,049,11,760,cherry and plum spp.,Prunus,spp.,Goodhue
+1489,760.0,067,2,760,cherry and plum spp.,Prunus,spp.,Kandiyohi
+1490,760.0,079,2,760,cherry and plum spp.,Prunus,spp.,Le Sueur
+1491,760.0,081,17,760,cherry and plum spp.,Prunus,spp.,Lincoln
+1492,760.0,097,1,760,cherry and plum spp.,Prunus,spp.,Morrison
+1493,760.0,113,12,760,cherry and plum spp.,Prunus,spp.,Pennington
+1494,760.0,119,14,760,cherry and plum spp.,Prunus,spp.,Polk
+1495,760.0,137,6,760,cherry and plum spp.,Prunus,spp.,Saint Louis
+1496,760.0,139,10,760,cherry and plum spp.,Prunus,spp.,Scott
+1497,760.0,157,6,760,cherry and plum spp.,Prunus,spp.,Wabasha
+1498,761.0,001,64,761,pin cherry,Prunus,pensylvanica,Aitkin
+1499,761.0,003,2,761,pin cherry,Prunus,pensylvanica,Anoka
+1500,761.0,005,35,761,pin cherry,Prunus,pensylvanica,Becker
+1501,761.0,007,69,761,pin cherry,Prunus,pensylvanica,Beltrami
+1502,761.0,017,37,761,pin cherry,Prunus,pensylvanica,Carlton
+1503,761.0,019,1,761,pin cherry,Prunus,pensylvanica,Carver
+1504,761.0,021,154,761,pin cherry,Prunus,pensylvanica,Cass
+1505,761.0,025,13,761,pin cherry,Prunus,pensylvanica,Chisago
+1506,761.0,029,29,761,pin cherry,Prunus,pensylvanica,Clearwater
+1507,761.0,031,235,761,pin cherry,Prunus,pensylvanica,Cook
+1508,761.0,035,23,761,pin cherry,Prunus,pensylvanica,Crow Wing
+1509,761.0,045,3,761,pin cherry,Prunus,pensylvanica,Fillmore
+1510,761.0,049,6,761,pin cherry,Prunus,pensylvanica,Goodhue
+1511,761.0,055,1,761,pin cherry,Prunus,pensylvanica,Houston
+1512,761.0,057,77,761,pin cherry,Prunus,pensylvanica,Hubbard
+1513,761.0,059,5,761,pin cherry,Prunus,pensylvanica,Isanti
+1514,761.0,061,141,761,pin cherry,Prunus,pensylvanica,Itasca
+1515,761.0,065,4,761,pin cherry,Prunus,pensylvanica,Kanabec
+1516,761.0,069,1,761,pin cherry,Prunus,pensylvanica,Kittson
+1517,761.0,071,28,761,pin cherry,Prunus,pensylvanica,Koochiching
+1518,761.0,075,184,761,pin cherry,Prunus,pensylvanica,Lake
+1519,761.0,077,7,761,pin cherry,Prunus,pensylvanica,Lake of the Woods
+1520,761.0,087,7,761,pin cherry,Prunus,pensylvanica,Mahnomen
+1521,761.0,089,1,761,pin cherry,Prunus,pensylvanica,Marshall
+1522,761.0,095,15,761,pin cherry,Prunus,pensylvanica,Mille Lacs
+1523,761.0,097,15,761,pin cherry,Prunus,pensylvanica,Morrison
+1524,761.0,103,20,761,pin cherry,Prunus,pensylvanica,Nicollet
+1525,761.0,111,6,761,pin cherry,Prunus,pensylvanica,Otter Tail
+1526,761.0,113,6,761,pin cherry,Prunus,pensylvanica,Pennington
+1527,761.0,115,45,761,pin cherry,Prunus,pensylvanica,Pine
+1528,761.0,125,1,761,pin cherry,Prunus,pensylvanica,Red Lake
+1529,761.0,135,8,761,pin cherry,Prunus,pensylvanica,Roseau
+1530,761.0,137,194,761,pin cherry,Prunus,pensylvanica,Saint Louis
+1531,761.0,141,2,761,pin cherry,Prunus,pensylvanica,Sherburne
+1532,761.0,143,2,761,pin cherry,Prunus,pensylvanica,Sibley
+1533,761.0,145,4,761,pin cherry,Prunus,pensylvanica,Stearns
+1534,761.0,147,1,761,pin cherry,Prunus,pensylvanica,Steele
+1535,761.0,153,4,761,pin cherry,Prunus,pensylvanica,Todd
+1536,761.0,157,2,761,pin cherry,Prunus,pensylvanica,Wabasha
+1537,761.0,159,20,761,pin cherry,Prunus,pensylvanica,Wadena
+1538,761.0,161,1,761,pin cherry,Prunus,pensylvanica,Waseca
+1539,761.0,171,10,761,pin cherry,Prunus,pensylvanica,Wright
+1540,762.0,001,30,762,black cherry,Prunus,serotina,Aitkin
+1541,762.0,003,142,762,black cherry,Prunus,serotina,Anoka
+1542,762.0,005,151,762,black cherry,Prunus,serotina,Becker
+1543,762.0,007,46,762,black cherry,Prunus,serotina,Beltrami
+1544,762.0,009,32,762,black cherry,Prunus,serotina,Benton
+1545,762.0,013,38,762,black cherry,Prunus,serotina,Blue Earth
+1546,762.0,017,16,762,black cherry,Prunus,serotina,Carlton
+1547,762.0,019,5,762,black cherry,Prunus,serotina,Carver
+1548,762.0,021,253,762,black cherry,Prunus,serotina,Cass
+1549,762.0,025,91,762,black cherry,Prunus,serotina,Chisago
+1550,762.0,027,6,762,black cherry,Prunus,serotina,Clay
+1551,762.0,029,67,762,black cherry,Prunus,serotina,Clearwater
+1552,762.0,031,21,762,black cherry,Prunus,serotina,Cook
+1553,762.0,035,121,762,black cherry,Prunus,serotina,Crow Wing
+1554,762.0,037,90,762,black cherry,Prunus,serotina,Dakota
+1555,762.0,039,53,762,black cherry,Prunus,serotina,Dodge
+1556,762.0,041,11,762,black cherry,Prunus,serotina,Douglas
+1557,762.0,043,10,762,black cherry,Prunus,serotina,Faribault
+1558,762.0,045,359,762,black cherry,Prunus,serotina,Fillmore
+1559,762.0,047,29,762,black cherry,Prunus,serotina,Freeborn
+1560,762.0,049,153,762,black cherry,Prunus,serotina,Goodhue
+1561,762.0,053,76,762,black cherry,Prunus,serotina,Hennepin
+1562,762.0,055,289,762,black cherry,Prunus,serotina,Houston
+1563,762.0,057,135,762,black cherry,Prunus,serotina,Hubbard
+1564,762.0,059,88,762,black cherry,Prunus,serotina,Isanti
+1565,762.0,061,39,762,black cherry,Prunus,serotina,Itasca
+1566,762.0,065,43,762,black cherry,Prunus,serotina,Kanabec
+1567,762.0,067,13,762,black cherry,Prunus,serotina,Kandiyohi
+1568,762.0,069,6,762,black cherry,Prunus,serotina,Kittson
+1569,762.0,071,40,762,black cherry,Prunus,serotina,Koochiching
+1570,762.0,075,74,762,black cherry,Prunus,serotina,Lake
+1571,762.0,077,1,762,black cherry,Prunus,serotina,Lake of the Woods
+1572,762.0,079,8,762,black cherry,Prunus,serotina,Le Sueur
+1573,762.0,085,28,762,black cherry,Prunus,serotina,McLeod
+1574,762.0,087,73,762,black cherry,Prunus,serotina,Mahnomen
+1575,762.0,089,19,762,black cherry,Prunus,serotina,Marshall
+1576,762.0,093,37,762,black cherry,Prunus,serotina,Meeker
+1577,762.0,095,23,762,black cherry,Prunus,serotina,Mille Lacs
+1578,762.0,097,123,762,black cherry,Prunus,serotina,Morrison
+1579,762.0,099,17,762,black cherry,Prunus,serotina,Mower
+1580,762.0,101,4,762,black cherry,Prunus,serotina,Murray
+1581,762.0,103,9,762,black cherry,Prunus,serotina,Nicollet
+1582,762.0,107,5,762,black cherry,Prunus,serotina,Norman
+1583,762.0,109,148,762,black cherry,Prunus,serotina,Olmsted
+1584,762.0,111,83,762,black cherry,Prunus,serotina,Otter Tail
+1585,762.0,113,2,762,black cherry,Prunus,serotina,Pennington
+1586,762.0,115,207,762,black cherry,Prunus,serotina,Pine
+1587,762.0,119,38,762,black cherry,Prunus,serotina,Polk
+1588,762.0,121,4,762,black cherry,Prunus,serotina,Pope
+1589,762.0,123,1,762,black cherry,Prunus,serotina,Ramsey
+1590,762.0,125,7,762,black cherry,Prunus,serotina,Red Lake
+1591,762.0,131,44,762,black cherry,Prunus,serotina,Rice
+1592,762.0,135,2,762,black cherry,Prunus,serotina,Roseau
+1593,762.0,137,40,762,black cherry,Prunus,serotina,Saint Louis
+1594,762.0,139,59,762,black cherry,Prunus,serotina,Scott
+1595,762.0,141,130,762,black cherry,Prunus,serotina,Sherburne
+1596,762.0,143,4,762,black cherry,Prunus,serotina,Sibley
+1597,762.0,145,66,762,black cherry,Prunus,serotina,Stearns
+1598,762.0,147,94,762,black cherry,Prunus,serotina,Steele
+1599,762.0,153,70,762,black cherry,Prunus,serotina,Todd
+1600,762.0,157,206,762,black cherry,Prunus,serotina,Wabasha
+1601,762.0,159,72,762,black cherry,Prunus,serotina,Wadena
+1602,762.0,161,1,762,black cherry,Prunus,serotina,Waseca
+1603,762.0,163,108,762,black cherry,Prunus,serotina,Washington
+1604,762.0,169,312,762,black cherry,Prunus,serotina,Winona
+1605,762.0,171,34,762,black cherry,Prunus,serotina,Wright
+1606,762.0,173,1,762,black cherry,Prunus,serotina,Yellow Medicine
+1607,763.0,001,191,763,chokecherry,Prunus,virginiana,Aitkin
+1608,763.0,003,7,763,chokecherry,Prunus,virginiana,Anoka
+1609,763.0,005,82,763,chokecherry,Prunus,virginiana,Becker
+1610,763.0,007,177,763,chokecherry,Prunus,virginiana,Beltrami
+1611,763.0,009,11,763,chokecherry,Prunus,virginiana,Benton
+1612,763.0,011,1,763,chokecherry,Prunus,virginiana,Big Stone
+1613,763.0,015,1,763,chokecherry,Prunus,virginiana,Brown
+1614,763.0,017,77,763,chokecherry,Prunus,virginiana,Carlton
+1615,763.0,019,1,763,chokecherry,Prunus,virginiana,Carver
+1616,763.0,021,320,763,chokecherry,Prunus,virginiana,Cass
+1617,763.0,025,3,763,chokecherry,Prunus,virginiana,Chisago
+1618,763.0,027,4,763,chokecherry,Prunus,virginiana,Clay
+1619,763.0,029,61,763,chokecherry,Prunus,virginiana,Clearwater
+1620,763.0,031,203,763,chokecherry,Prunus,virginiana,Cook
+1621,763.0,035,61,763,chokecherry,Prunus,virginiana,Crow Wing
+1622,763.0,037,14,763,chokecherry,Prunus,virginiana,Dakota
+1623,763.0,039,8,763,chokecherry,Prunus,virginiana,Dodge
+1624,763.0,041,2,763,chokecherry,Prunus,virginiana,Douglas
+1625,763.0,045,44,763,chokecherry,Prunus,virginiana,Fillmore
+1626,763.0,047,1,763,chokecherry,Prunus,virginiana,Freeborn
+1627,763.0,049,11,763,chokecherry,Prunus,virginiana,Goodhue
+1628,763.0,051,6,763,chokecherry,Prunus,virginiana,Grant
+1629,763.0,053,1,763,chokecherry,Prunus,virginiana,Hennepin
+1630,763.0,055,19,763,chokecherry,Prunus,virginiana,Houston
+1631,763.0,057,147,763,chokecherry,Prunus,virginiana,Hubbard
+1632,763.0,059,35,763,chokecherry,Prunus,virginiana,Isanti
+1633,763.0,061,252,763,chokecherry,Prunus,virginiana,Itasca
+1634,763.0,065,44,763,chokecherry,Prunus,virginiana,Kanabec
+1635,763.0,067,11,763,chokecherry,Prunus,virginiana,Kandiyohi
+1636,763.0,069,40,763,chokecherry,Prunus,virginiana,Kittson
+1637,763.0,071,164,763,chokecherry,Prunus,virginiana,Koochiching
+1638,763.0,073,2,763,chokecherry,Prunus,virginiana,Lac qui Parle
+1639,763.0,075,193,763,chokecherry,Prunus,virginiana,Lake
+1640,763.0,077,79,763,chokecherry,Prunus,virginiana,Lake of the Woods
+1641,763.0,079,1,763,chokecherry,Prunus,virginiana,Le Sueur
+1642,763.0,085,9,763,chokecherry,Prunus,virginiana,McLeod
+1643,763.0,087,45,763,chokecherry,Prunus,virginiana,Mahnomen
+1644,763.0,089,95,763,chokecherry,Prunus,virginiana,Marshall
+1645,763.0,091,7,763,chokecherry,Prunus,virginiana,Martin
+1646,763.0,093,10,763,chokecherry,Prunus,virginiana,Meeker
+1647,763.0,095,24,763,chokecherry,Prunus,virginiana,Mille Lacs
+1648,763.0,097,79,763,chokecherry,Prunus,virginiana,Morrison
+1649,763.0,107,20,763,chokecherry,Prunus,virginiana,Norman
+1650,763.0,109,15,763,chokecherry,Prunus,virginiana,Olmsted
+1651,763.0,111,48,763,chokecherry,Prunus,virginiana,Otter Tail
+1652,763.0,113,26,763,chokecherry,Prunus,virginiana,Pennington
+1653,763.0,115,88,763,chokecherry,Prunus,virginiana,Pine
+1654,763.0,119,45,763,chokecherry,Prunus,virginiana,Polk
+1655,763.0,121,2,763,chokecherry,Prunus,virginiana,Pope
+1656,763.0,125,6,763,chokecherry,Prunus,virginiana,Red Lake
+1657,763.0,131,12,763,chokecherry,Prunus,virginiana,Rice
+1658,763.0,135,95,763,chokecherry,Prunus,virginiana,Roseau
+1659,763.0,137,292,763,chokecherry,Prunus,virginiana,Saint Louis
+1660,763.0,139,5,763,chokecherry,Prunus,virginiana,Scott
+1661,763.0,141,10,763,chokecherry,Prunus,virginiana,Sherburne
+1662,763.0,145,12,763,chokecherry,Prunus,virginiana,Stearns
+1663,763.0,151,4,763,chokecherry,Prunus,virginiana,Swift
+1664,763.0,153,23,763,chokecherry,Prunus,virginiana,Todd
+1665,763.0,157,11,763,chokecherry,Prunus,virginiana,Wabasha
+1666,763.0,159,60,763,chokecherry,Prunus,virginiana,Wadena
+1667,763.0,161,2,763,chokecherry,Prunus,virginiana,Waseca
+1668,763.0,163,2,763,chokecherry,Prunus,virginiana,Washington
+1669,763.0,167,14,763,chokecherry,Prunus,virginiana,Wilkin
+1670,763.0,169,36,763,chokecherry,Prunus,virginiana,Winona
+1671,763.0,171,7,763,chokecherry,Prunus,virginiana,Wright
+1672,765.0,007,1,765,Canada plum,Prunus,nigra,Beltrami
+1673,765.0,071,6,765,Canada plum,Prunus,nigra,Koochiching
+1674,765.0,097,2,765,Canada plum,Prunus,nigra,Morrison
+1675,765.0,109,7,765,Canada plum,Prunus,nigra,Olmsted
+1676,765.0,135,2,765,Canada plum,Prunus,nigra,Roseau
+1677,766.0,003,2,766,American plum,Prunus,americana,Anoka
+1678,766.0,005,2,766,American plum,Prunus,americana,Becker
+1679,766.0,009,6,766,American plum,Prunus,americana,Benton
+1680,766.0,013,9,766,American plum,Prunus,americana,Blue Earth
+1681,766.0,015,2,766,American plum,Prunus,americana,Brown
+1682,766.0,019,24,766,American plum,Prunus,americana,Carver
+1683,766.0,033,1,766,American plum,Prunus,americana,Cottonwood
+1684,766.0,037,8,766,American plum,Prunus,americana,Dakota
+1685,766.0,041,3,766,American plum,Prunus,americana,Douglas
+1686,766.0,043,2,766,American plum,Prunus,americana,Faribault
+1687,766.0,045,27,766,American plum,Prunus,americana,Fillmore
+1688,766.0,049,11,766,American plum,Prunus,americana,Goodhue
+1689,766.0,055,27,766,American plum,Prunus,americana,Houston
+1690,766.0,059,1,766,American plum,Prunus,americana,Isanti
+1691,766.0,061,2,766,American plum,Prunus,americana,Itasca
+1692,766.0,063,2,766,American plum,Prunus,americana,Jackson
+1693,766.0,071,3,766,American plum,Prunus,americana,Koochiching
+1694,766.0,073,11,766,American plum,Prunus,americana,Lac qui Parle
+1695,766.0,075,3,766,American plum,Prunus,americana,Lake
+1696,766.0,085,1,766,American plum,Prunus,americana,McLeod
+1697,766.0,087,1,766,American plum,Prunus,americana,Mahnomen
+1698,766.0,095,1,766,American plum,Prunus,americana,Mille Lacs
+1699,766.0,097,11,766,American plum,Prunus,americana,Morrison
+1700,766.0,099,16,766,American plum,Prunus,americana,Mower
+1701,766.0,103,10,766,American plum,Prunus,americana,Nicollet
+1702,766.0,109,1,766,American plum,Prunus,americana,Olmsted
+1703,766.0,111,12,766,American plum,Prunus,americana,Otter Tail
+1704,766.0,115,24,766,American plum,Prunus,americana,Pine
+1705,766.0,125,2,766,American plum,Prunus,americana,Red Lake
+1706,766.0,129,28,766,American plum,Prunus,americana,Renville
+1707,766.0,137,2,766,American plum,Prunus,americana,Saint Louis
+1708,766.0,141,3,766,American plum,Prunus,americana,Sherburne
+1709,766.0,143,8,766,American plum,Prunus,americana,Sibley
+1710,766.0,147,10,766,American plum,Prunus,americana,Steele
+1711,766.0,151,4,766,American plum,Prunus,americana,Swift
+1712,766.0,153,6,766,American plum,Prunus,americana,Todd
+1713,766.0,157,18,766,American plum,Prunus,americana,Wabasha
+1714,766.0,163,19,766,American plum,Prunus,americana,Washington
+1715,766.0,165,32,766,American plum,Prunus,americana,Watonwan
+1716,766.0,169,24,766,American plum,Prunus,americana,Winona
+1717,766.0,171,11,766,American plum,Prunus,americana,Wright
+1718,802.0,001,56,802,white oak,Quercus,alba,Aitkin
+1719,802.0,003,120,802,white oak,Quercus,alba,Anoka
+1720,802.0,005,2,802,white oak,Quercus,alba,Becker
+1721,802.0,007,25,802,white oak,Quercus,alba,Beltrami
+1722,802.0,009,2,802,white oak,Quercus,alba,Benton
+1723,802.0,015,9,802,white oak,Quercus,alba,Brown
+1724,802.0,017,4,802,white oak,Quercus,alba,Carlton
+1725,802.0,019,1,802,white oak,Quercus,alba,Carver
+1726,802.0,021,85,802,white oak,Quercus,alba,Cass
+1727,802.0,025,147,802,white oak,Quercus,alba,Chisago
+1728,802.0,029,11,802,white oak,Quercus,alba,Clearwater
+1729,802.0,035,36,802,white oak,Quercus,alba,Crow Wing
+1730,802.0,037,53,802,white oak,Quercus,alba,Dakota
+1731,802.0,039,29,802,white oak,Quercus,alba,Dodge
+1732,802.0,041,4,802,white oak,Quercus,alba,Douglas
+1733,802.0,045,415,802,white oak,Quercus,alba,Fillmore
+1734,802.0,049,105,802,white oak,Quercus,alba,Goodhue
+1735,802.0,051,10,802,white oak,Quercus,alba,Grant
+1736,802.0,053,2,802,white oak,Quercus,alba,Hennepin
+1737,802.0,055,718,802,white oak,Quercus,alba,Houston
+1738,802.0,057,4,802,white oak,Quercus,alba,Hubbard
+1739,802.0,059,46,802,white oak,Quercus,alba,Isanti
+1740,802.0,061,10,802,white oak,Quercus,alba,Itasca
+1741,802.0,063,1,802,white oak,Quercus,alba,Jackson
+1742,802.0,065,97,802,white oak,Quercus,alba,Kanabec
+1743,802.0,067,4,802,white oak,Quercus,alba,Kandiyohi
+1744,802.0,071,4,802,white oak,Quercus,alba,Koochiching
+1745,802.0,085,1,802,white oak,Quercus,alba,McLeod
+1746,802.0,087,5,802,white oak,Quercus,alba,Mahnomen
+1747,802.0,095,29,802,white oak,Quercus,alba,Mille Lacs
+1748,802.0,097,38,802,white oak,Quercus,alba,Morrison
+1749,802.0,099,6,802,white oak,Quercus,alba,Mower
+1750,802.0,103,2,802,white oak,Quercus,alba,Nicollet
+1751,802.0,109,116,802,white oak,Quercus,alba,Olmsted
+1752,802.0,111,29,802,white oak,Quercus,alba,Otter Tail
+1753,802.0,113,1,802,white oak,Quercus,alba,Pennington
+1754,802.0,115,75,802,white oak,Quercus,alba,Pine
+1755,802.0,119,4,802,white oak,Quercus,alba,Polk
+1756,802.0,127,4,802,white oak,Quercus,alba,Redwood
+1757,802.0,129,2,802,white oak,Quercus,alba,Renville
+1758,802.0,131,9,802,white oak,Quercus,alba,Rice
+1759,802.0,135,2,802,white oak,Quercus,alba,Roseau
+1760,802.0,139,8,802,white oak,Quercus,alba,Scott
+1761,802.0,141,167,802,white oak,Quercus,alba,Sherburne
+1762,802.0,143,9,802,white oak,Quercus,alba,Sibley
+1763,802.0,145,24,802,white oak,Quercus,alba,Stearns
+1764,802.0,147,6,802,white oak,Quercus,alba,Steele
+1765,802.0,153,2,802,white oak,Quercus,alba,Todd
+1766,802.0,157,131,802,white oak,Quercus,alba,Wabasha
+1767,802.0,161,4,802,white oak,Quercus,alba,Waseca
+1768,802.0,163,137,802,white oak,Quercus,alba,Washington
+1769,802.0,169,569,802,white oak,Quercus,alba,Winona
+1770,802.0,171,31,802,white oak,Quercus,alba,Wright
+1771,804.0,021,8,804,swamp white oak,Quercus,bicolor,Cass
+1772,804.0,037,2,804,swamp white oak,Quercus,bicolor,Dakota
+1773,804.0,049,3,804,swamp white oak,Quercus,bicolor,Goodhue
+1774,804.0,055,6,804,swamp white oak,Quercus,bicolor,Houston
+1775,804.0,071,2,804,swamp white oak,Quercus,bicolor,Koochiching
+1776,804.0,091,2,804,swamp white oak,Quercus,bicolor,Martin
+1777,804.0,103,1,804,swamp white oak,Quercus,bicolor,Nicollet
+1778,804.0,157,2,804,swamp white oak,Quercus,bicolor,Wabasha
+1779,809.0,001,35,809,northern pin oak,Quercus,ellipsoidalis,Aitkin
+1780,809.0,003,265,809,northern pin oak,Quercus,ellipsoidalis,Anoka
+1781,809.0,005,60,809,northern pin oak,Quercus,ellipsoidalis,Becker
+1782,809.0,007,89,809,northern pin oak,Quercus,ellipsoidalis,Beltrami
+1783,809.0,009,60,809,northern pin oak,Quercus,ellipsoidalis,Benton
+1784,809.0,019,10,809,northern pin oak,Quercus,ellipsoidalis,Carver
+1785,809.0,021,458,809,northern pin oak,Quercus,ellipsoidalis,Cass
+1786,809.0,025,123,809,northern pin oak,Quercus,ellipsoidalis,Chisago
+1787,809.0,029,26,809,northern pin oak,Quercus,ellipsoidalis,Clearwater
+1788,809.0,035,470,809,northern pin oak,Quercus,ellipsoidalis,Crow Wing
+1789,809.0,037,37,809,northern pin oak,Quercus,ellipsoidalis,Dakota
+1790,809.0,039,1,809,northern pin oak,Quercus,ellipsoidalis,Dodge
+1791,809.0,041,1,809,northern pin oak,Quercus,ellipsoidalis,Douglas
+1792,809.0,045,20,809,northern pin oak,Quercus,ellipsoidalis,Fillmore
+1793,809.0,047,4,809,northern pin oak,Quercus,ellipsoidalis,Freeborn
+1794,809.0,049,70,809,northern pin oak,Quercus,ellipsoidalis,Goodhue
+1795,809.0,053,11,809,northern pin oak,Quercus,ellipsoidalis,Hennepin
+1796,809.0,055,83,809,northern pin oak,Quercus,ellipsoidalis,Houston
+1797,809.0,057,326,809,northern pin oak,Quercus,ellipsoidalis,Hubbard
+1798,809.0,059,273,809,northern pin oak,Quercus,ellipsoidalis,Isanti
+1799,809.0,061,25,809,northern pin oak,Quercus,ellipsoidalis,Itasca
+1800,809.0,065,4,809,northern pin oak,Quercus,ellipsoidalis,Kanabec
+1801,809.0,067,1,809,northern pin oak,Quercus,ellipsoidalis,Kandiyohi
+1802,809.0,087,25,809,northern pin oak,Quercus,ellipsoidalis,Mahnomen
+1803,809.0,095,14,809,northern pin oak,Quercus,ellipsoidalis,Mille Lacs
+1804,809.0,097,182,809,northern pin oak,Quercus,ellipsoidalis,Morrison
+1805,809.0,099,4,809,northern pin oak,Quercus,ellipsoidalis,Mower
+1806,809.0,103,2,809,northern pin oak,Quercus,ellipsoidalis,Nicollet
+1807,809.0,109,16,809,northern pin oak,Quercus,ellipsoidalis,Olmsted
+1808,809.0,111,196,809,northern pin oak,Quercus,ellipsoidalis,Otter Tail
+1809,809.0,115,70,809,northern pin oak,Quercus,ellipsoidalis,Pine
+1810,809.0,119,6,809,northern pin oak,Quercus,ellipsoidalis,Polk
+1811,809.0,123,3,809,northern pin oak,Quercus,ellipsoidalis,Ramsey
+1812,809.0,131,33,809,northern pin oak,Quercus,ellipsoidalis,Rice
+1813,809.0,137,199,809,northern pin oak,Quercus,ellipsoidalis,Saint Louis
+1814,809.0,139,27,809,northern pin oak,Quercus,ellipsoidalis,Scott
+1815,809.0,141,436,809,northern pin oak,Quercus,ellipsoidalis,Sherburne
+1816,809.0,145,31,809,northern pin oak,Quercus,ellipsoidalis,Stearns
+1817,809.0,147,13,809,northern pin oak,Quercus,ellipsoidalis,Steele
+1818,809.0,153,198,809,northern pin oak,Quercus,ellipsoidalis,Todd
+1819,809.0,157,57,809,northern pin oak,Quercus,ellipsoidalis,Wabasha
+1820,809.0,159,165,809,northern pin oak,Quercus,ellipsoidalis,Wadena
+1821,809.0,163,103,809,northern pin oak,Quercus,ellipsoidalis,Washington
+1822,809.0,169,146,809,northern pin oak,Quercus,ellipsoidalis,Winona
+1823,809.0,171,6,809,northern pin oak,Quercus,ellipsoidalis,Wright
+1824,822.0,095,1,822,overcup oak,Quercus,lyrata,Mille Lacs
+1825,823.0,001,1687,823,bur oak,Quercus,macrocarpa,Aitkin
+1826,823.0,003,93,823,bur oak,Quercus,macrocarpa,Anoka
+1827,823.0,005,3274,823,bur oak,Quercus,macrocarpa,Becker
+1828,823.0,007,2729,823,bur oak,Quercus,macrocarpa,Beltrami
+1829,823.0,009,260,823,bur oak,Quercus,macrocarpa,Benton
+1830,823.0,011,35,823,bur oak,Quercus,macrocarpa,Big Stone
+1831,823.0,013,164,823,bur oak,Quercus,macrocarpa,Blue Earth
+1832,823.0,015,64,823,bur oak,Quercus,macrocarpa,Brown
+1833,823.0,017,342,823,bur oak,Quercus,macrocarpa,Carlton
+1834,823.0,019,69,823,bur oak,Quercus,macrocarpa,Carver
+1835,823.0,021,3319,823,bur oak,Quercus,macrocarpa,Cass
+1836,823.0,025,348,823,bur oak,Quercus,macrocarpa,Chisago
+1837,823.0,027,701,823,bur oak,Quercus,macrocarpa,Clay
+1838,823.0,029,1525,823,bur oak,Quercus,macrocarpa,Clearwater
+1839,823.0,035,2284,823,bur oak,Quercus,macrocarpa,Crow Wing
+1840,823.0,037,159,823,bur oak,Quercus,macrocarpa,Dakota
+1841,823.0,039,45,823,bur oak,Quercus,macrocarpa,Dodge
+1842,823.0,041,460,823,bur oak,Quercus,macrocarpa,Douglas
+1843,823.0,043,44,823,bur oak,Quercus,macrocarpa,Faribault
+1844,823.0,045,527,823,bur oak,Quercus,macrocarpa,Fillmore
+1845,823.0,047,200,823,bur oak,Quercus,macrocarpa,Freeborn
+1846,823.0,049,470,823,bur oak,Quercus,macrocarpa,Goodhue
+1847,823.0,051,90,823,bur oak,Quercus,macrocarpa,Grant
+1848,823.0,053,31,823,bur oak,Quercus,macrocarpa,Hennepin
+1849,823.0,055,805,823,bur oak,Quercus,macrocarpa,Houston
+1850,823.0,057,2568,823,bur oak,Quercus,macrocarpa,Hubbard
+1851,823.0,059,240,823,bur oak,Quercus,macrocarpa,Isanti
+1852,823.0,061,965,823,bur oak,Quercus,macrocarpa,Itasca
+1853,823.0,063,50,823,bur oak,Quercus,macrocarpa,Jackson
+1854,823.0,065,915,823,bur oak,Quercus,macrocarpa,Kanabec
+1855,823.0,067,210,823,bur oak,Quercus,macrocarpa,Kandiyohi
+1856,823.0,069,478,823,bur oak,Quercus,macrocarpa,Kittson
+1857,823.0,071,361,823,bur oak,Quercus,macrocarpa,Koochiching
+1858,823.0,073,10,823,bur oak,Quercus,macrocarpa,Lac qui Parle
+1859,823.0,075,26,823,bur oak,Quercus,macrocarpa,Lake
+1860,823.0,077,95,823,bur oak,Quercus,macrocarpa,Lake of the Woods
+1861,823.0,079,67,823,bur oak,Quercus,macrocarpa,Le Sueur
+1862,823.0,085,20,823,bur oak,Quercus,macrocarpa,McLeod
+1863,823.0,087,1544,823,bur oak,Quercus,macrocarpa,Mahnomen
+1864,823.0,089,1326,823,bur oak,Quercus,macrocarpa,Marshall
+1865,823.0,091,25,823,bur oak,Quercus,macrocarpa,Martin
+1866,823.0,093,171,823,bur oak,Quercus,macrocarpa,Meeker
+1867,823.0,095,883,823,bur oak,Quercus,macrocarpa,Mille Lacs
+1868,823.0,097,1695,823,bur oak,Quercus,macrocarpa,Morrison
+1869,823.0,099,54,823,bur oak,Quercus,macrocarpa,Mower
+1870,823.0,101,17,823,bur oak,Quercus,macrocarpa,Murray
+1871,823.0,103,30,823,bur oak,Quercus,macrocarpa,Nicollet
+1872,823.0,107,193,823,bur oak,Quercus,macrocarpa,Norman
+1873,823.0,109,564,823,bur oak,Quercus,macrocarpa,Olmsted
+1874,823.0,111,1798,823,bur oak,Quercus,macrocarpa,Otter Tail
+1875,823.0,113,579,823,bur oak,Quercus,macrocarpa,Pennington
+1876,823.0,115,1195,823,bur oak,Quercus,macrocarpa,Pine
+1877,823.0,119,1046,823,bur oak,Quercus,macrocarpa,Polk
+1878,823.0,121,159,823,bur oak,Quercus,macrocarpa,Pope
+1879,823.0,123,8,823,bur oak,Quercus,macrocarpa,Ramsey
+1880,823.0,125,347,823,bur oak,Quercus,macrocarpa,Red Lake
+1881,823.0,127,57,823,bur oak,Quercus,macrocarpa,Redwood
+1882,823.0,129,74,823,bur oak,Quercus,macrocarpa,Renville
+1883,823.0,131,172,823,bur oak,Quercus,macrocarpa,Rice
+1884,823.0,135,920,823,bur oak,Quercus,macrocarpa,Roseau
+1885,823.0,137,173,823,bur oak,Quercus,macrocarpa,Saint Louis
+1886,823.0,139,75,823,bur oak,Quercus,macrocarpa,Scott
+1887,823.0,141,620,823,bur oak,Quercus,macrocarpa,Sherburne
+1888,823.0,143,34,823,bur oak,Quercus,macrocarpa,Sibley
+1889,823.0,145,336,823,bur oak,Quercus,macrocarpa,Stearns
+1890,823.0,147,96,823,bur oak,Quercus,macrocarpa,Steele
+1891,823.0,149,2,823,bur oak,Quercus,macrocarpa,Stevens
+1892,823.0,151,15,823,bur oak,Quercus,macrocarpa,Swift
+1893,823.0,153,1317,823,bur oak,Quercus,macrocarpa,Todd
+1894,823.0,155,8,823,bur oak,Quercus,macrocarpa,Traverse
+1895,823.0,157,591,823,bur oak,Quercus,macrocarpa,Wabasha
+1896,823.0,159,902,823,bur oak,Quercus,macrocarpa,Wadena
+1897,823.0,161,89,823,bur oak,Quercus,macrocarpa,Waseca
+1898,823.0,163,98,823,bur oak,Quercus,macrocarpa,Washington
+1899,823.0,169,823,823,bur oak,Quercus,macrocarpa,Winona
+1900,823.0,171,139,823,bur oak,Quercus,macrocarpa,Wright
+1901,823.0,173,31,823,bur oak,Quercus,macrocarpa,Yellow Medicine
+1902,830.0,045,1,830,pin oak,Quercus,palustris,Fillmore
+1903,832.0,057,1,832,chestnut oak,Quercus,prinus,Hubbard
+1904,833.0,001,2058,833,northern red oak,Quercus,rubra,Aitkin
+1905,833.0,003,315,833,northern red oak,Quercus,rubra,Anoka
+1906,833.0,005,1838,833,northern red oak,Quercus,rubra,Becker
+1907,833.0,007,722,833,northern red oak,Quercus,rubra,Beltrami
+1908,833.0,009,248,833,northern red oak,Quercus,rubra,Benton
+1909,833.0,013,72,833,northern red oak,Quercus,rubra,Blue Earth
+1910,833.0,015,182,833,northern red oak,Quercus,rubra,Brown
+1911,833.0,017,386,833,northern red oak,Quercus,rubra,Carlton
+1912,833.0,019,41,833,northern red oak,Quercus,rubra,Carver
+1913,833.0,021,3847,833,northern red oak,Quercus,rubra,Cass
+1914,833.0,025,500,833,northern red oak,Quercus,rubra,Chisago
+1915,833.0,027,18,833,northern red oak,Quercus,rubra,Clay
+1916,833.0,029,697,833,northern red oak,Quercus,rubra,Clearwater
+1917,833.0,035,4519,833,northern red oak,Quercus,rubra,Crow Wing
+1918,833.0,037,123,833,northern red oak,Quercus,rubra,Dakota
+1919,833.0,039,120,833,northern red oak,Quercus,rubra,Dodge
+1920,833.0,041,212,833,northern red oak,Quercus,rubra,Douglas
+1921,833.0,043,3,833,northern red oak,Quercus,rubra,Faribault
+1922,833.0,045,761,833,northern red oak,Quercus,rubra,Fillmore
+1923,833.0,047,62,833,northern red oak,Quercus,rubra,Freeborn
+1924,833.0,049,666,833,northern red oak,Quercus,rubra,Goodhue
+1925,833.0,051,26,833,northern red oak,Quercus,rubra,Grant
+1926,833.0,053,142,833,northern red oak,Quercus,rubra,Hennepin
+1927,833.0,055,1725,833,northern red oak,Quercus,rubra,Houston
+1928,833.0,057,1589,833,northern red oak,Quercus,rubra,Hubbard
+1929,833.0,059,447,833,northern red oak,Quercus,rubra,Isanti
+1930,833.0,061,1007,833,northern red oak,Quercus,rubra,Itasca
+1931,833.0,065,827,833,northern red oak,Quercus,rubra,Kanabec
+1932,833.0,067,19,833,northern red oak,Quercus,rubra,Kandiyohi
+1933,833.0,071,38,833,northern red oak,Quercus,rubra,Koochiching
+1934,833.0,075,64,833,northern red oak,Quercus,rubra,Lake
+1935,833.0,079,76,833,northern red oak,Quercus,rubra,Le Sueur
+1936,833.0,085,63,833,northern red oak,Quercus,rubra,McLeod
+1937,833.0,087,355,833,northern red oak,Quercus,rubra,Mahnomen
+1938,833.0,089,1,833,northern red oak,Quercus,rubra,Marshall
+1939,833.0,093,35,833,northern red oak,Quercus,rubra,Meeker
+1940,833.0,095,1131,833,northern red oak,Quercus,rubra,Mille Lacs
+1941,833.0,097,1973,833,northern red oak,Quercus,rubra,Morrison
+1942,833.0,099,6,833,northern red oak,Quercus,rubra,Mower
+1943,833.0,103,106,833,northern red oak,Quercus,rubra,Nicollet
+1944,833.0,109,418,833,northern red oak,Quercus,rubra,Olmsted
+1945,833.0,111,894,833,northern red oak,Quercus,rubra,Otter Tail
+1946,833.0,115,2187,833,northern red oak,Quercus,rubra,Pine
+1947,833.0,119,172,833,northern red oak,Quercus,rubra,Polk
+1948,833.0,123,7,833,northern red oak,Quercus,rubra,Ramsey
+1949,833.0,127,15,833,northern red oak,Quercus,rubra,Redwood
+1950,833.0,131,188,833,northern red oak,Quercus,rubra,Rice
+1951,833.0,135,4,833,northern red oak,Quercus,rubra,Roseau
+1952,833.0,137,706,833,northern red oak,Quercus,rubra,Saint Louis
+1953,833.0,139,95,833,northern red oak,Quercus,rubra,Scott
+1954,833.0,141,993,833,northern red oak,Quercus,rubra,Sherburne
+1955,833.0,143,37,833,northern red oak,Quercus,rubra,Sibley
+1956,833.0,145,573,833,northern red oak,Quercus,rubra,Stearns
+1957,833.0,147,19,833,northern red oak,Quercus,rubra,Steele
+1958,833.0,153,604,833,northern red oak,Quercus,rubra,Todd
+1959,833.0,157,817,833,northern red oak,Quercus,rubra,Wabasha
+1960,833.0,159,347,833,northern red oak,Quercus,rubra,Wadena
+1961,833.0,161,34,833,northern red oak,Quercus,rubra,Waseca
+1962,833.0,163,202,833,northern red oak,Quercus,rubra,Washington
+1963,833.0,169,1994,833,northern red oak,Quercus,rubra,Winona
+1964,833.0,171,104,833,northern red oak,Quercus,rubra,Wright
+1965,837.0,001,1,837,black oak,Quercus,velutina,Aitkin
+1966,837.0,019,1,837,black oak,Quercus,velutina,Carver
+1967,837.0,021,2,837,black oak,Quercus,velutina,Cass
+1968,837.0,045,46,837,black oak,Quercus,velutina,Fillmore
+1969,837.0,049,16,837,black oak,Quercus,velutina,Goodhue
+1970,837.0,055,84,837,black oak,Quercus,velutina,Houston
+1971,837.0,099,2,837,black oak,Quercus,velutina,Mower
+1972,837.0,109,8,837,black oak,Quercus,velutina,Olmsted
+1973,837.0,137,1,837,black oak,Quercus,velutina,Saint Louis
+1974,837.0,139,3,837,black oak,Quercus,velutina,Scott
+1975,837.0,143,1,837,black oak,Quercus,velutina,Sibley
+1976,837.0,157,69,837,black oak,Quercus,velutina,Wabasha
+1977,837.0,163,10,837,black oak,Quercus,velutina,Washington
+1978,837.0,169,104,837,black oak,Quercus,velutina,Winona
+1979,901.0,001,2,901,black locust,Robinia,pseudoacacia,Aitkin
+1980,901.0,021,1,901,black locust,Robinia,pseudoacacia,Cass
+1981,901.0,037,16,901,black locust,Robinia,pseudoacacia,Dakota
+1982,901.0,049,14,901,black locust,Robinia,pseudoacacia,Goodhue
+1983,901.0,055,50,901,black locust,Robinia,pseudoacacia,Houston
+1984,901.0,065,1,901,black locust,Robinia,pseudoacacia,Kanabec
+1985,901.0,085,6,901,black locust,Robinia,pseudoacacia,McLeod
+1986,901.0,137,1,901,black locust,Robinia,pseudoacacia,Saint Louis
+1987,901.0,147,1,901,black locust,Robinia,pseudoacacia,Steele
+1988,901.0,163,67,901,black locust,Robinia,pseudoacacia,Washington
+1989,901.0,169,5,901,black locust,Robinia,pseudoacacia,Winona
+1990,921.0,001,47,921,peachleaf willow,Salix,amygdaloides,Aitkin
+1991,921.0,005,7,921,peachleaf willow,Salix,amygdaloides,Becker
+1992,921.0,007,89,921,peachleaf willow,Salix,amygdaloides,Beltrami
+1993,921.0,009,17,921,peachleaf willow,Salix,amygdaloides,Benton
+1994,921.0,013,12,921,peachleaf willow,Salix,amygdaloides,Blue Earth
+1995,921.0,017,6,921,peachleaf willow,Salix,amygdaloides,Carlton
+1996,921.0,021,10,921,peachleaf willow,Salix,amygdaloides,Cass
+1997,921.0,023,5,921,peachleaf willow,Salix,amygdaloides,Chippewa
+1998,921.0,029,18,921,peachleaf willow,Salix,amygdaloides,Clearwater
+1999,921.0,031,59,921,peachleaf willow,Salix,amygdaloides,Cook
+2000,921.0,035,2,921,peachleaf willow,Salix,amygdaloides,Crow Wing

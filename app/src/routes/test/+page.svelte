@@ -1,54 +1,54 @@
 <script lang="ts">
-	import Datalist from '$components/Datalist.svelte';
 	import { minnesotaCounties } from '$data/geographic.js';
 	import { onMount } from 'svelte';
 	import * as d3 from 'd3';
 	import type { DSVRowArray } from 'd3';
 	import Autocomplete from '../../components/Autocomplete.svelte';
-	// import accessibleAutocomplete from 'accessible-autocomplete';
-	// import '@spectrum-web-components/button/sp-button.js';
 
-	const countries = ['France', 'Germany', 'United Kingdom'];
+	let county = $state('');
+	let treesByCounty = $state({});
+	let selectedCountyTrees = $derived.by(() => {
+		if (!treesByCounty || !county) {
+			return;
+		}
+		return treesByCounty.get(county);
+	});
+	let selectedCountyTreesByGenus = $derived.by(() => {
+		if (!treesByCounty || !county || !selectedCountyTrees) {
+			return;
+		}
+		const treeGroups = d3.group(selectedCountyTrees, (d) => d['Genus']);
 
-	// onMount(async () => {
-	// 	try {
-	// 		autoComplete = (await import('../../components/Autocomplete.svelte')).default;
-	// 		console.log(autoComplete);
-	// 	} catch (e) {
-	// 		// Handle errors if the dynamic route doesn't load:
-	// 		console.log(e);
-	// 	}
-	// });
-
-	let AutoComplete;
-
-	const autoComplete = () =>
-		import('../../components/autoComplete.svelte').then((module) => {
-			AutoComplete = module.default;
-		});
-
-	onMount(async () => {
-		console.log(autoComplete);
-		autoComplete();
+		console.log(Array.from(treeGroups));
+		return Array.from(treeGroups);
 	});
 
-	// onMount(async () => {
-	// 	const dataset: DSVRowArray<string> | undefined = await d3.csv(
-	// 		'/data/minnesotaTreeCountsByCounty.csv'
-	// 	);
+	const updateCounty = (value) => {
+		county = value;
+	};
 
-	// 	console.log(dataset[0]);
-	// 	// accessibleAutocomplete({
-	// 	// 	element: document.querySelector('#my-autocomplete-container'),
-	// 	// 	id: 'my-autocomplete', // To match it to the existing <label>.
-	// 	// 	source: countries
-	// 	// });
-	// });
+	onMount(async () => {
+		const trees: DSVRowArray<string> | undefined = await d3.csv(
+			'/data/minnesotaTreeCountsByCounty_withNames.csv'
+		);
+		treesByCounty = d3.group(trees, (d) => d.name);
+	});
 </script>
 
-<!-- <Datalist data={minnesotaCounties} label="counties" /> -->
-<!-- <svelte:component this={autoComplete} /> -->
-
-{#if AutoComplete}
-	<svelte:component this={AutoComplete} />
+<Autocomplete label="Your county" options={minnesotaCounties} handleChange={updateCounty} />
+{#if county}
+	<h2>Trees for {county} County</h2>
+	<p><em>Grouped by genus</em></p>
+	{#if selectedCountyTreesByGenus}
+		{#each selectedCountyTreesByGenus as tree}
+			<h3>{tree[0]}</h3>
+			<ul>
+				{#each tree[1] as treeSpecies}
+					<li>
+						{treeSpecies['Common Name']}
+					</li>
+				{/each}
+			</ul>
+		{/each}
+	{/if}
 {/if}
