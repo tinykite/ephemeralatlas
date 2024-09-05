@@ -1,13 +1,14 @@
 <script>
 	export let observations;
 	export let error;
+	export let data: PageData;
 </script>
 
 <main>
 	<h1>Filtered Observations</h1>
 	{#if error}
 		<p>{error}</p>
-	{:else if observations?.length > 0}
+	{:else if observations.length > 0}
 		<ul>
 			{#each observations as observation}
 				<li>
