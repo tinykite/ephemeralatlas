@@ -6,6 +6,7 @@
 	import type { DSVRowArray } from 'd3';
 	import Autocomplete from '../../components/Autocomplete.svelte';
 	import { licenseCodes } from '$lib/utils/consts';
+	import Waffle from '$components/Waffle.svelte';
 
 	let county = $state('');
 	let treesByCounty = $state({});
@@ -37,28 +38,6 @@
 		county = value;
 	};
 
-	const getForestPercent = (tree) => {
-		return d3.format('.0%')(tree / selectedCountyTreesByGenus.totalSum);
-	};
-
-	const fetchImage = async (treeData) => {
-		try {
-			const response = await fetch(
-				`https://api.inaturalist.org/v1/observations?verifiable=true&spam=false&taxon_id=${treeData.taxonId}&quality_grade=research&per_page=1&license_code=${licenseCodes}&place_id=38&order_by=votes`
-			);
-
-			if (!response.ok) {
-				throw new Error('Failed to fetch observations');
-			}
-
-			const observations = await response.json();
-
-			return { treeData, observations: observations.results[0] };
-		} catch (err) {
-			console.log(err);
-		}
-	};
-
 	onMount(async () => {
 		const trees: DSVRowArray<string> | undefined = await d3.csv(
 			'/data/minnesotaTreeCountsByCounty_withNames.csv'
@@ -70,46 +49,11 @@
 
 <Autocomplete label="Your county" options={minnesotaCounties} handleChange={updateCounty} />
 {#if county}
-	{#each selectedCountyTreesByGenus.trees as tree}
-		<h2>{tree[0]}</h2>
-		{getForestPercent(tree[1])}
-	{/each}
-	<!-- <div class="testBoxContainer">
-		{#await selectedImages}
-			<p>Loading images...</p>
-		{:then images}
-			{#if images && images.length > 0}
-				{#each images as image}
-					{#if image?.observations?.photos?.[0]?.url}
-						<div class="testBox">
-							<h3>{image.treeData.commonName}</h3>
-							<img class="test" src={formatUrl(image.observations.photos[0].url)} alt="Tree" />
-						</div>
-					{:else}
-						<p>No image available for {image.treeData.commonName}</p>
-					{/if}
-				{/each}
-			{:else}
-				<p>No images found for selected trees.</p>
-			{/if}
-		{:catch error}
-			<p>Error loading images: {error.message}</p>
-		{/await}
-	</div> -->
-	<!-- <h2>All Trees for {county} County</h2>
-	<p><em>Grouped by genus</em></p>
-	{#if selectedCountyTreesByGenus}
-		{#each selectedCountyTreesByGenus as tree}
-			<h3>{commonTreeNamesByGenus[tree[0]]}</h3>
-			<ul>
-				{#each tree[1] as treeSpecies}
-					<li>
-						{treeSpecies['Common Name']}
-					</li>
-				{/each}
-			</ul>
-		{/each}
-	{/if} -->
+	<Waffle
+		maxShapes="100"
+		trees={selectedCountyTreesByGenus.trees}
+		totalSum={selectedCountyTreesByGenus?.totalSum}
+	/>
 {/if}
 
 <style>
