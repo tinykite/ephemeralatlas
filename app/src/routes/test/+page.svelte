@@ -47,35 +47,38 @@
 	});
 </script>
 
-<Autocomplete label="Your county" options={minnesotaCounties} handleChange={updateCounty} />
-{#if county}
-	<Waffle
-		maxShapes="100"
-		trees={selectedCountyTreesByGenus.trees}
-		totalSum={selectedCountyTreesByGenus?.totalSum}
-	/>
-{/if}
+<div class="autoComplete">
+	<Autocomplete label="Your county" options={minnesotaCounties} handleChange={updateCounty} />
+</div>
+
+<div class="treeData">
+	{#if county}
+		<h3>Top trees in {county} county</h3>
+		<p class="treeData__description">
+			According to the <a href="https://research.fs.usda.gov/programs/fia"
+				>Forest Inventory and Analysis (FIA) program</a
+			> of the USDA Forest Service
+		</p>
+		<Waffle
+			maxShapes="100"
+			trees={selectedCountyTreesByGenus.trees}
+			totalSum={selectedCountyTreesByGenus?.totalSum}
+		/>
+	{/if}
+</div>
 
 <style>
-	.test {
-		width: 100%; /* Or you can set a specific width like 600px */
-		height: auto;
-		max-width: 100%;
-		display: block;
-		object-fit: cover;
+	.autoComplete {
+		max-width: 50%;
+		margin-inline: auto;
 	}
 
-	/* If you want the image to retain its aspect ratio and not exceed container width */
-
-	.testBox {
-		width: 50vw;
-		aspect-ratio: 1/ 1;
-		background: green;
+	.treeData {
+		margin-block-start: 4rem;
 	}
 
-	.testBoxContainer {
-		display: grid;
-		grid-template-columns: 1fr 1fr;
-		grid-auto-flow: dense;
+	.treeData__description {
+		margin-block-start: 0.25rem;
+		font-style: italic;
 	}
 </style>
