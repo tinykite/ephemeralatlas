@@ -67,6 +67,7 @@
 
 	.shape {
 		background: rgba(103, 163, 65, 0.25);
+		clip-path: polygon(0% 50%, 50% 50%, 0% 100%, 100% 100%, 50% 50%, 100% 50%, 50% 0%);
 		max-width: 100%;
 		aspect-ratio: 1 / 1;
 	}
