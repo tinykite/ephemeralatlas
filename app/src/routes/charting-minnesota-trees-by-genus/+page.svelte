@@ -48,22 +48,26 @@
 </script>
 
 <div class="autoComplete">
-	<Autocomplete label="Your county" options={minnesotaCounties} handleChange={updateCounty} />
+	<Autocomplete label="County" options={minnesotaCounties} handleChange={updateCounty} />
 </div>
 
 <div class="treeData">
 	{#if county}
-		<h3>Top trees in {county} county</h3>
+		<h3>Trees by prevalence in {county} county</h3>
 		<p class="treeData__description">
 			According to the <a href="https://research.fs.usda.gov/programs/fia"
 				>Forest Inventory and Analysis (FIA) program</a
 			> of the USDA Forest Service
 		</p>
-		<Waffle
-			maxShapes="100"
-			trees={selectedCountyTreesByGenus.trees}
-			totalSum={selectedCountyTreesByGenus?.totalSum}
-		/>
+		{#if county === 'Rock'}
+			<p>No results for Rock county. (Sorry!)</p>
+		{:else}
+			<Waffle
+				maxShapes="100"
+				trees={selectedCountyTreesByGenus.trees}
+				totalSum={selectedCountyTreesByGenus?.totalSum}
+			/>
+		{/if}
 	{/if}
 </div>
 
