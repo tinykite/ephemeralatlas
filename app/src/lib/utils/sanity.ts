@@ -24,7 +24,7 @@ export async function getPage(query: string): Promise<Post[]> {
 
 export async function getPosts(): Promise<Post[]> {
 	return await client.fetch(
-		groq`*[_type == "post" && defined(slug.current)] | order(_createdAt desc)`
+			groq`*[_type == "post" && defined(slug.current) && featured == true] | order(_createdAt desc)`
 	);
 }
 
