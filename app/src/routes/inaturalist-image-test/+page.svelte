@@ -1,7 +1,7 @@
 <script>
 	export let observations;
 	export let error;
-	export let data: PageData;
+	export let data;
 </script>
 
 <main>
