@@ -1,4 +1,9 @@
-<p class="article__text"><slot /></p>
+<script>
+	/** @type {{children?: import('svelte').Snippet}} */
+	let { children } = $props();
+</script>
+
+<p class="article__text">{@render children?.()}</p>
 
 <style>
 	.article__text {

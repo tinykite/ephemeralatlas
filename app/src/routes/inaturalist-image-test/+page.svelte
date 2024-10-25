@@ -1,7 +1,6 @@
 <script>
-	export let observations;
-	export let error;
-	export let data;
+	/** @type {{observations: any, error: any, data: any}} */
+	let { observations, error, data } = $props();
 </script>
 
 <main>

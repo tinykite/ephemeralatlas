@@ -1,6 +1,6 @@
 <script>
-	export let maxX;
-	export let maxY;
+	/** @type {{maxX: any, maxY: any}} */
+	let { maxX, maxY } = $props();
 
 	let halfmaxX = parseInt(maxX) / 2;
 	let halfmaxY = parseInt(maxY) / 2;

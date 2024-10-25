@@ -1,17 +1,27 @@
 <script lang="ts">
-	export let data: any;
-	export let label: string;
+	import { run } from 'svelte/legacy';
+
+	interface Props {
+		data: any;
+		label: string;
+	}
+
+	let { data, label }: Props = $props();
 
 	const dataList = data.reduce((accumulator, currentValue) => {
 		return accumulator.concat(currentValue.name);
 	}, []);
 
-	let selectedValue;
-	let selectedData;
-	let showInfo;
+	let selectedValue = $state();
+	let selectedData = $state();
+	let showInfo = $state();
 
-	$: showInfo = dataList.includes(selectedValue);
-	$: selectedData = data.find((value) => value.name === selectedValue);
+	run(() => {
+		showInfo = dataList.includes(selectedValue);
+	});
+	run(() => {
+		selectedData = data.find((value) => value.name === selectedValue);
+	});
 </script>
 
 <form>
@@ -19,7 +29,7 @@
 	<input list={label} bind:value={selectedValue} />
 	<datalist id={label}>
 		{#each data as option}
-			<option value={option.name} />
+			<option value={option.name}></option>
 		{/each}
 	</datalist>
 </form>

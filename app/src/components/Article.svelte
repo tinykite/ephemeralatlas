@@ -7,7 +7,11 @@
 	import Hero from './Hero.svelte';
 	import CentralizedText from './CentralizedText.svelte';
 	import CustomHeading from './CustomHeading.svelte';
-	export let data: any;
+	interface Props {
+		data: any;
+	}
+
+	let { data }: Props = $props();
 </script>
 
 <main class="wrapper">

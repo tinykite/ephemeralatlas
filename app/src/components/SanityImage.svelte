@@ -3,23 +3,22 @@
 	import { onMount } from 'svelte';
 	import { browser } from '$app/environment';
 
-	export let image;
-	export let maxWidth = 1200;
-	export let alt = undefined;
+	/** @type {{image: any, maxWidth?: number, alt?: any}} */
+	let { image, maxWidth = 1200, alt = undefined } = $props();
 
 	// Example image document ID: image-cc93b69600f5cd1abce97fd0d4aa71793dbbba76-1350x900-png
 	// Structure: image-${storedImgId}-${dimensions}-${format}
 
 	// If we split it by "-", the 3rd element are the dimensions (1350x900)
-	$: dimensions = image?.asset?._ref?.split('-')[2];
+	let dimensions = $derived(image?.asset?._ref?.split('-')[2]);
 	// If we split dimensions by "x", we get the width (1350) and height (900)
-	$: [width, height] = dimensions.split('x').map(Number);
+	let [width, height] = $derived(dimensions.split('x').map(Number));
 
-	$: aspectRatio = width / height;
+	let aspectRatio = $derived(width / height);
 
-	let imageRef;
+	let imageRef = $state();
 	// Once loaded, the image will transition to full opacity
-	let loaded = false;
+	let loaded = $state(false);
 
 	onMount(() => {
 		imageRef.onload = () => {

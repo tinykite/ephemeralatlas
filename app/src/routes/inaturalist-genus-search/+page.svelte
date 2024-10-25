@@ -1,8 +1,8 @@
 <script>
-	let userInput = ''; // Stores the user's input
+	let userInput = $state(''); // Stores the user's input
 	let genera = []; // Array of genera from user input
-	let taxonomyData = [];
-	let error = null;
+	let taxonomyData = $state([]);
+	let error = $state(null);
 
 	const formatUserList = () => {
 		genera = userInput
@@ -44,7 +44,7 @@
 	<form>
 		<label for="genera">Genera (separated by commas)</label>
 		<input id="genera" type="text" bind:value={userInput} />
-		<button on:click={formatUserList}>Fetch Taxonomy Data</button>
+		<button onclick={formatUserList}>Fetch Taxonomy Data</button>
 	</form>
 
 	{#if taxonomyData.length > 0}

@@ -6,11 +6,16 @@
 	import Nav from '../components/Nav.svelte';
 	import Footer from '$components/Footer.svelte';
 	import Article from '$components/Article.svelte';
+	interface Props {
+		children?: import('svelte').Snippet;
+	}
+
+	let { children }: Props = $props();
 </script>
 
 <Nav />
 <main class="wrapper">
-	<slot />
+	{@render children?.()}
 </main>
 <Footer />
 

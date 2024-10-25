@@ -3,12 +3,14 @@
 	import Illustration from '$components/Illustration.svelte';
 	import Hero from '$components/Hero.svelte';
 
-	export let data: any;
+	interface Props { [key: string]: any }
+
+	let { data, ...rest }: Props = $props();
 	const { posts } = data;
 	const latestPost = posts[0];
 	const archive = posts.slice(1, posts.length);
 
-	$$restProps;
+	rest;
 </script>
 
 <div class="latestArticle">

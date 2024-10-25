@@ -2,13 +2,16 @@
 	import * as d3 from 'd3';
 	import { commonTreeNamesByGenus } from '$data/trees';
 
-	export let shape;
-	export let padding;
-	export let maxShapes;
-	export let trees;
-	export let totalSum;
+	/** @type {{shape: any, padding: any, maxShapes: any, trees: any, totalSum: any}} */
+	let {
+		shape,
+		padding,
+		maxShapes,
+		trees,
+		totalSum
+	} = $props();
 
-	$: shapes = Array(parseInt(maxShapes));
+	let shapes = $derived(Array(parseInt(maxShapes)));
 
 	const formattedForestPercent = (tree) => {
 		const percent = d3.format('.0%')(tree / totalSum);
@@ -26,7 +29,7 @@
 		<div class="waffle__outerContainer">
 			<div class="waffle__innerContainer">
 				{#each shapes as _, i (i)}
-					<div class="shape" class:shape--filled={i >= minCellHighlight(tree)} />
+					<div class="shape" class:shape--filled={i >= minCellHighlight(tree)}></div>
 				{/each}
 			</div>
 

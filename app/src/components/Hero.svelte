@@ -2,8 +2,12 @@
 	import { urlFor } from '$lib/utils/image';
 	import Illustration from '$components/Illustration.svelte';
 
-	export let post: any;
-	export let showLink: boolean;
+	interface Props {
+		post: any;
+		showLink: boolean;
+	}
+
+	let { post, showLink }: Props = $props();
 </script>
 
 {#if post.mainIllustration}

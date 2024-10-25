@@ -1,9 +1,8 @@
 <script>
 	import { onMount } from 'svelte';
 	let accessibleAutocomplete;
-	export let label;
-	export let options;
-	export let handleChange;
+	/** @type {{label: any, options: any, handleChange: any}} */
+	let { label, options, handleChange } = $props();
 
 	const optionLabels = options.reduce((acc, curr) => {
 		return [...acc, curr.name];
@@ -29,7 +28,7 @@
 </script>
 
 <label class="label" for="my-autocomplete">{label}</label>
-<div id="my-autocomplete-container" />
+<div id="my-autocomplete-container"></div>
 
 <style>
 	.label {

@@ -1,7 +1,11 @@
 <script lang="ts">
-	export let name: String;
-	export let className = '';
 	import { mapleLeafGrid, sunTriptych } from '../illustrations/main';
+	interface Props {
+		name: String;
+		className?: string;
+	}
+
+	let { name, className = '' }: Props = $props();
 </script>
 
 <div class={!!className ? className : ''}>
