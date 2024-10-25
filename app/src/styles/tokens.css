@@ -5,12 +5,6 @@
  */
 
 :root {
-  --breakpoint-large: 64rem;
-  --breakpoint-medium: 48rem;
-  --breakpoint-small: 34rem;
-  --breakpoint-xlarge: 80rem;
-  --breakpoint-xsmall: 20rem;
-  --breakpoint-xxlarge: 90rem;
   --font-size-100: 1rem;
   --font-size-200: calc(18rem / 16);
   --font-size-300: calc(20rem /16);
