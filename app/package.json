@@ -22,7 +22,6 @@
 		"@portabletext/types": "^2.0.2",
 		"@sanity/types": "^3.7.1",
 		"@sveltejs/adapter-cloudflare": "^4.7.2",
-		"@sveltejs/kit": "^2.6.1",
 		"@types/prismjs": "^1.26.0",
 		"@typescript-eslint/eslint-plugin": "^8.8.0",
 		"@typescript-eslint/parser": "^8.8.0",
@@ -41,6 +40,7 @@
 	"dependencies": {
 		"@sanity/client": "^6.8.6",
 		"@sanity/image-url": "^1.0.2",
+		"@sveltejs/kit": "^2.7.3",
 		"@types/d3": "^7.4.3",
 		"accessible-autocomplete": "^3.0.0",
 		"classnames": "^2.3.2",
