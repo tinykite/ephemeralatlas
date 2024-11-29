@@ -24,21 +24,15 @@
 		grid-template-columns: 4.6875rem 1fr;
 		justify-content: space-between;
 		align-items: center;
-		margin: 2rem;
 	}
-	.navList {
-		font-size: 1rem;
-		font-family: 'Nimbus Mono PS', 'Courier New', monospace;
-	}
-
 	.navList {
 		display: flex;
 		justify-content: flex-end;
 		list-style: none;
 		margin: 0;
 		font-family: 'Nimbus Mono PS', 'Courier New', monospace;
+		font-size: 1rem;
 	}
-
 	.navList__link {
 		text-decoration: none;
 

@@ -70,7 +70,22 @@ h6 {
 .wrapper {
 	width: 85%;
 	max-width: 65rem;
-	margin: 0 auto;
+	margin-inline: auto;
+
+	& > :first-child {
+		margin-block-start: 2rem;
+	}
+
+
+	& > :not(:first-child) {
+		margin-block-start: 2.5rem;
+	}
+
+	@media (min-width: 45rem) {
+		& > :not(:first-child) {
+			margin-block-start: 3.375rem;
+		}
+	}
 }
 
 body {

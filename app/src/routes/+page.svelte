@@ -19,12 +19,12 @@
 	<Hero post={latestPost} showLink={true} />
 </div>
 
-<aside class="intro">
+<div class="intro">
 	<p class="intro__content">
 		Ephemeral Atlas is a creative exploration of storytelling, art, and culture from a queer &
 		disabled perspective.
 	</p>
-</aside>
+</div>
 
 <div class="archives">
 	<h2 class="archives__heading">Archives</h2>
@@ -70,13 +70,11 @@
 	.archives {
 		display: grid;
 		justify-items: center;
-		margin-block-start: var(--spacing-24);
 		margin-inline: var(--spacing-16);
 
 		@media (min-width: 45rem) {
 			justify-items: unset;
 			margin-inline: 0;
-			margin-block-start: var(--spacing-64);
 		}
 	}
 
@@ -156,12 +154,11 @@
 	}
 
 	.intro {
+		margin: 0;
+		padding: 0;
 		background-color: #ffb82e;
 		position: relative;
-
 		@media (min-width: 45rem) {
-			margin-block-start: var(--spacing-64);
-
 			&::before {
 				content: '';
 				display: block;
@@ -187,6 +184,7 @@
 	}
 
 	.intro__content {
+		margin: 0;
 		padding: var(--spacing-32);
 		font-family: var(--font-stack-subheadings);
 		text-align: center;
