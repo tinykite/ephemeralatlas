@@ -3,7 +3,9 @@
 	import Illustration from '$components/Illustration.svelte';
 	import Hero from '$components/Hero.svelte';
 
-	interface Props { [key: string]: any }
+	interface Props {
+		[key: string]: any;
+	}
 
 	let { data, ...rest }: Props = $props();
 	const { posts } = data;
@@ -19,8 +21,8 @@
 
 <aside class="intro">
 	<p class="intro__content">
-		Ephemeral Atlas is a creative exploration of art, nature, and herbalism from a queer & disabled
-		perspective.
+		Ephemeral Atlas is a creative exploration of storytelling, art, and culture from a queer &
+		disabled perspective.
 	</p>
 </aside>
 
