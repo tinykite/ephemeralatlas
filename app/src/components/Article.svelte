@@ -5,8 +5,9 @@
 	import ParagraphBlock from '$components/ParagraphBlock.svelte';
 	import ImageBlock from '$components/ImageBlock.svelte';
 	import Hero from './Hero.svelte';
-	import CentralizedText from './CentralizedText.svelte';
 	import CustomHeading from './CustomHeading.svelte';
+	import CenteredParagraphBlock from './CenteredParagraphBlock.svelte';
+	import Caption from './Caption.svelte';
 	interface Props {
 		data: any;
 	}
@@ -26,10 +27,11 @@
 				},
 				block: {
 					normal: ParagraphBlock,
-					textCenter: CentralizedText /* Svelte throws a compiler warning if this isn't defined */,
 					h1: CustomHeading,
 					h2: CustomHeading,
-					h3: CustomHeading
+					h3: CustomHeading,
+					caption: Caption,
+					centered: CenteredParagraphBlock
 				},
 				list: {
 					bullet: UnorderedListWrapper

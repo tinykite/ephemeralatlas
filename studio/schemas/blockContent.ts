@@ -29,6 +29,14 @@ export default defineType({
         {title: 'H3', value: 'h3'},
         {title: 'H4', value: 'h4'},
         {title: 'Quote', value: 'blockquote'},
+        {
+          title: 'Centered',
+          value: 'centered',
+        },
+        {
+          title: 'Caption',
+          value: 'caption',
+        },
       ],
       lists: [{title: 'Bullet', value: 'bullet'}],
       // Marks let you mark up inline text in the block editor.
@@ -38,13 +46,6 @@ export default defineType({
         decorators: [
           {title: 'Strong', value: 'strong'},
           {title: 'Emphasis', value: 'em'},
-          {
-            title: 'Centered',
-            value: 'center',
-            blockEditor: {
-              icon: () => 'C',
-            },
-          },
           
         ],
         // Annotations can be any object structure – e.g. a link or a footnote.
