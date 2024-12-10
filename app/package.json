@@ -18,7 +18,6 @@
 		"@cobalt-ui/cli": "^1.11.2",
 		"@cobalt-ui/plugin-css": "^1.7.4",
 		"@cobalt-ui/plugin-js": "^1.4.4",
-		"@portabletext/svelte": "^2.0.0",
 		"@portabletext/types": "^2.0.2",
 		"@sanity/types": "^3.7.1",
 		"@sveltejs/adapter-cloudflare": "^4.7.2",
@@ -33,11 +32,11 @@
 		"svelte-check": "^4.0.4",
 		"tslib": "^2.7.0",
 		"typescript": "^5.6.2",
-		"vite": "^5.4.8",
 		"vitest": "^2.1.2"
 	},
 	"type": "module",
 	"dependencies": {
+		"@eirikk/portabletext-2-svelte-5": "^0.1.0-alpha.2",
 		"@sanity/client": "^6.8.6",
 		"@sanity/image-url": "^1.0.2",
 		"@sveltejs/kit": "^2.7.3",
@@ -45,6 +44,8 @@
 		"accessible-autocomplete": "^3.0.0",
 		"classnames": "^2.3.2",
 		"d3": "^7.9.0",
-		"groq": "^3.20.1"
+		"groq": "^3.20.1",
+		"vite": "^6.0.3",
+		"@portabletext/svelte": "npm:@eirikk/portabletext-2-svelte-5@0.1.0-alpha.2"
 	}
 }
