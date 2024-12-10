@@ -38,6 +38,14 @@ export default defineType({
         decorators: [
           {title: 'Strong', value: 'strong'},
           {title: 'Emphasis', value: 'em'},
+          {
+            title: 'Centered',
+            value: 'center',
+            blockEditor: {
+              icon: () => 'C',
+            },
+          },
+          
         ],
         // Annotations can be any object structure – e.g. a link or a footnote.
         annotations: [
