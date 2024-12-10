@@ -15,5 +15,6 @@
 		font-size: 1rem;
 		font-style: italic;
 		text-align: center;
+		margin: 0;
 	}
 </style>
