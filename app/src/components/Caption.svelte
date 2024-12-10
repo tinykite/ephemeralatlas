@@ -16,8 +16,4 @@
 		font-style: italic;
 		text-align: center;
 	}
-
-	.article__text:first-of-type {
-		margin-block-start: 2.5rem;
-	}
 </style>
