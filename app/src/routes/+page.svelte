@@ -154,10 +154,15 @@
 	}
 
 	.intro {
-		margin: 0;
+		margin-block-start: 2.5rem;
 		padding: 0;
 		background-color: #ffb82e;
 		position: relative;
+
+		@media (min-width: 45rem) {
+			margin-block-start: 3.375rem;
+		}
+
 		@media (min-width: 45rem) {
 			&::before {
 				content: '';
