@@ -12,7 +12,7 @@
 	}
 
 	.article__text--caption {
-		font-size: 0.8rem;
+		font-size: 1rem;
 		font-style: italic;
 		text-align: center;
 	}

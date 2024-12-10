@@ -11,7 +11,7 @@
 		max-width: 60ch;
 	}
 
-	.article__text--center {
+	.article__text--centered {
 		text-align: center;
 	}
 
