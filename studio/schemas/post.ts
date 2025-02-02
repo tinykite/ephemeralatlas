@@ -50,6 +50,18 @@ export default defineType({
       },
     }),
     defineField({
+      name: 'graphicSize',
+      title: 'Graphic Size',
+      type: 'string',
+      options: {
+        list: [
+          {title: 'Square', value: 'square'},
+          {title: '4x6', value: '4x6'}
+        ]
+      },
+      initialValue: '4x6'
+    }),
+    defineField({
       name: 'categories',
       title: 'Categories',
       type: 'array',
@@ -76,6 +88,7 @@ export default defineType({
       title: 'Featured',
       type: 'boolean',
     }),
+    
   ],
 
   preview: {
