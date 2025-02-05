@@ -41,6 +41,7 @@
 			gap: 2rem;
 			align-items: center;
 			justify-content: center;
+			width: 100%;
 		}
 	}
 
