@@ -36,7 +36,8 @@
 <style>
 	.hero {
 		@media (min-width: 45rem) {
-			display: flex;
+			display: grid;
+			grid-template-columns: 50% 1fr;
 			gap: 2rem;
 			align-items: center;
 			justify-content: center;
@@ -69,12 +70,6 @@
 
 		@media (min-width: 45rem) {
 			max-width: 36ch;
-		}
-	}
-
-	.hero__graphic {
-		@media (min-width: 45rem) {
-			max-width: 50%;
 		}
 	}
 
