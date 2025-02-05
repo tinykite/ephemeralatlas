@@ -11,8 +11,6 @@
 	const { posts } = data;
 	const latestPost = posts[0];
 	const archive = posts.slice(1, posts.length);
-
-	console.log(latestPost);
 </script>
 
 <div class="latestArticle">
