@@ -7,23 +7,16 @@
 		[key: string]: any;
 	}
 
-	let { data, ...rest }: Props = $props();
+	let { data }: Props = $props();
 	const { posts } = data;
 	const latestPost = posts[0];
 	const archive = posts.slice(1, posts.length);
 
-	rest;
+	console.log(latestPost);
 </script>
 
 <div class="latestArticle">
 	<Hero post={latestPost} showLink={true} />
-</div>
-
-<div class="intro">
-	<p class="intro__content">
-		Ephemeral Atlas is a creative exploration of storytelling, art, and culture from a queer &
-		disabled perspective.
-	</p>
 </div>
 
 <div class="archives">
@@ -51,22 +44,25 @@
 				{/if}
 
 				<div class="articleList__text">
-					<a class="articleList__link" href={`/${post.slug.current}`}>
-						{post.title}
-					</a>
+					<p class="articleList__title">
+						<a class="articleList__link" href={`/${post.slug.current}`}>
+							{post.title}
+						</a>
+					</p>
 				</div>
 			</li>
 		{/each}
 	</ul>
 </div>
 
-<!-- In the process of being converted to design tokens -->
-<style>
-	.latestArticle {
-		text-align: center;
-		margin-block-end: var(--spacing-36) auto;
-	}
+<div class="intro">
+	<p class="intro__content">
+		Ephemeral Atlas is a creative exploration of storytelling, art, and culture from a queer &
+		disabled perspective.
+	</p>
+</div>
 
+<style>
 	.archives {
 		display: grid;
 		justify-items: center;
@@ -81,6 +77,11 @@
 	/* Should become a utility class */
 	.archives__heading {
 		margin: 0;
+	}
+
+	.latestArticle {
+		display: flex;
+		justify-content: center;
 	}
 
 	.articleList {

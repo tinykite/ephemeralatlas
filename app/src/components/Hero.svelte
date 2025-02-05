@@ -10,30 +10,37 @@
 	let { post, showLink }: Props = $props();
 </script>
 
-{#if post.mainIllustration}
-	<Illustration name={post.mainIllustration} className="article__illustration" />
-{:else if post.mainImage}
-	<img src={urlFor(post.mainImage).url()} alt={post.mainImage.alt} />
-{/if}
-<div class="hero__contentWrapper">
-	<h2 class="hero__title">
-		{#if showLink}
-			<a class="hero__link" href={`/${post.slug.current}`}>
-				{post.title}
-			</a>
-		{:else}
-			{post.title}
-		{/if}
-	</h2>
-	{#if post.description}
-		<p class="hero__description">{post.description}</p>
+<header class="hero">
+	{#if post.mainIllustration}
+		<Illustration name={post.mainIllustration} />
+	{:else if post.mainImage}
+		<img class="hero__graphic" src={urlFor(post.mainImage).url()} alt={post.mainImage.alt} />
 	{/if}
-</div>
+
+	<div class="hero__contentWrapper">
+		<h2 class="hero__title">
+			{#if showLink}
+				<a class="hero__link" href={`/${post.slug.current}`}>
+					{post.title}
+				</a>
+			{:else}
+				{post.title}
+			{/if}
+		</h2>
+		{#if post.description}
+			<p class="hero__description">{post.description}</p>
+		{/if}
+	</div>
+</header>
 
 <style>
-	.hero__contentWrapper {
-		max-width: 55rem;
-		margin-inline: auto;
+	.hero {
+		@media (min-width: 45rem) {
+			display: flex;
+			gap: 2rem;
+			align-items: center;
+			justify-content: center;
+		}
 	}
 
 	.hero__link {
@@ -46,21 +53,38 @@
 		}
 	}
 
+	.hero__title {
+		margin: 0;
+		font-size: var(--font-size-300);
+
+		@media (min-wdith: 45rem) {
+			font-size: var(--font-size-600);
+		}
+	}
+
 	.hero__description {
-		font-family: 'Courier New', Courier, monospace;
 		font-size: var(--font-size-200);
 		margin-block-start: 0.5rem;
-		margin-inline: auto;
-		max-width: 45rem;
+		font-style: italic;
+
+		@media (min-width: 45rem) {
+			max-width: 36ch;
+		}
 	}
 
-	.hero__title {
-		margin-block-start: var(--spacing-24);
-		margin-inline: var(--spacing-8);
+	.hero__graphic {
+		@media (min-width: 45rem) {
+			max-width: 50%;
+		}
 	}
 
-	.hero__title,
-	.hero__description {
+	.hero__contentWrapper {
+		margin-block-start: 1rem;
 		text-align: center;
+
+		@media (min-width: 45rem) {
+			text-align: left;
+			margin: 0;
+		}
 	}
 </style>
