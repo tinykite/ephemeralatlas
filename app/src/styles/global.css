@@ -174,12 +174,13 @@ body {
 }
 
 img {
+	max-height: 65vh;
 	max-width: 100%;
 	display: block;
 }
 
 svg, img {
-	max-height: 65vh;
+	width: 100%;
 	margin-inline: auto;
 }
 
