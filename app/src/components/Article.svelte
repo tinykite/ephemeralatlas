@@ -48,4 +48,15 @@
 		justify-items: center;
 		margin: 0;
 	}
+
+	:global(.article p:first-child::first-letter) {
+		@media (min-width: 45rem) {
+			float: left;
+			font-size: 6.25rem;
+			line-height: 4rem;
+			padding-top: 0.5rem;
+			padding-right: 8px;
+			padding-bottom: 8px;
+		}
+	}
 </style>
