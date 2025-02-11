@@ -47,6 +47,9 @@
 							{post.title}
 						</a>
 					</p>
+					<p class="articleList__description">
+						{post.description}
+					</p>
 				</div>
 			</li>
 		{/each}
@@ -103,8 +106,6 @@
 	}
 
 	.articleList__item {
-		margin: 0;
-
 		@media (min-width: 45rem) {
 			text-align: unset;
 		}
@@ -119,8 +120,8 @@
 	}
 
 	.articleList__link {
+		margin-block-start: 1.125rem;
 		display: block;
-		margin-block-start: var(--spacing-16);
 		padding-inline: var(--spacing-16);
 		text-decoration: none;
 		font-family: var(--font-stack-headings);
@@ -150,6 +151,21 @@
 
 	.articleList__link:hover {
 		text-decoration: underline;
+	}
+
+	.articleList__title {
+		margin-block-start: 1rem;
+	}
+
+	.articleList__description {
+		margin-block-start: 0.5rem;
+		font-size: var(--font-size-100);
+		font-style: italic;
+		text-align: center;
+
+		@media (min-width: 45rem) {
+			text-align: unset;
+		}
 	}
 
 	.intro {
