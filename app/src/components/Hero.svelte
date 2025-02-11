@@ -73,14 +73,13 @@
 
 	.hero__description,
 	.hero__eyebrow {
-		font-size: var(--font-size-100);
 		margin-block: 0;
 	}
 
 	.hero__description {
 		margin-inline: auto;
 		font-style: italic;
-
+		font-size: var(--font-size-100);
 		@media (min-width: 45rem) {
 			max-width: 36ch;
 		}
@@ -88,6 +87,8 @@
 
 	.hero__eyebrow {
 		text-transform: uppercase;
+		font-family: var(--font-stack-subheadings);
+		font-size: 0.85rem;
 	}
 
 	.hero__contentWrapper {
