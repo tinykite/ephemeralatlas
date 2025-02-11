@@ -1,8 +1,7 @@
 <footer>
 	View this website's source code on
 	<a href="https://github.com/tinykite/ephemeralatlas">GitHub</a> or
-	<a class="email" href="mailto:dakota@tinykitelab.com">Say Hello</a> | Find me on
-	<a href="https://www.instagram.com/tinykitelab/">Instagram</a>
+	<a class="email" href="mailto:dakota@tinykitelab.com">Say Hello</a>
 </footer>
 
 <style>
