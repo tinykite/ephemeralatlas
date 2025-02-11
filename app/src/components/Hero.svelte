@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { urlFor } from '$lib/utils/image';
 	import Illustration from '$components/Illustration.svelte';
+	import { format } from 'date-fns';
 
 	interface Props {
 		post: any;
@@ -8,6 +9,8 @@
 	}
 
 	let { post, showLink }: Props = $props();
+
+	const date = format(new Date(post.publishedAt), 'MMMM do, y');
 </script>
 
 <header class="hero">
@@ -34,6 +37,8 @@
 		{#if post.description}
 			<p class="hero__description">{post.description}</p>
 		{/if}
+
+		<p class="hero__date">{date}</p>
 	</div>
 </header>
 
@@ -88,7 +93,12 @@
 	.hero__eyebrow {
 		text-transform: uppercase;
 		font-family: var(--font-stack-subheadings);
-		font-size: 0.85rem;
+		font-size: 1rem;
+	}
+
+	.hero__date {
+		font-family: Avenir, sans-serif;
+		font-size: 1rem;
 	}
 
 	.hero__contentWrapper {
