@@ -30,7 +30,7 @@
 		justify-content: flex-end;
 		list-style: none;
 		margin: 0;
-		font-family: 'Nimbus Mono PS', 'Courier New', monospace;
+		font-family: var(--font-stack-subheadings);
 		font-size: 1rem;
 	}
 	.navList__link {
