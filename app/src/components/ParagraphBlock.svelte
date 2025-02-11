@@ -8,7 +8,7 @@
 <style>
 	.article__text {
 		width: 100%;
-		max-width: 60ch;
+		max-width: 50ch;
 	}
 
 	.article__text:first-of-type {
