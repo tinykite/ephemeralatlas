@@ -64,16 +64,20 @@
 	}
 
 	.hero__title {
-		margin: 0;
+		margin-block: 0.25rem 0.5rem;
 
 		@media (min-width: 45rem) {
 			font-size: var(--font-size-900);
 		}
 	}
 
-	.hero__description {
+	.hero__description,
+	.hero__eyebrow {
 		font-size: var(--font-size-100);
-		margin-block-start: 0.5rem;
+		margin-block: 0;
+	}
+
+	.hero__description {
 		margin-inline: auto;
 		font-style: italic;
 
@@ -84,13 +88,11 @@
 
 	.hero__eyebrow {
 		text-transform: uppercase;
-		font-size: var(--font-size-100);
 	}
 
 	.hero__contentWrapper {
 		margin-block-start: 1rem;
 		text-align: center;
-
 		@media (min-width: 45rem) {
 			margin: 0;
 		}
