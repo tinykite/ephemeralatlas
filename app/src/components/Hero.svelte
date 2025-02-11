@@ -38,7 +38,7 @@
 			<p class="hero__description">{post.description}</p>
 		{/if}
 
-		{#if post.date}
+		{#if post.publishedAt}
 			<p class="hero__date">{format(new Date(post.publishedAt), 'MMMM do, y')}</p>
 		{/if}
 	</div>
