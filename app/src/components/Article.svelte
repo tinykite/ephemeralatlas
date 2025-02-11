@@ -15,39 +15,37 @@
 	let { data }: Props = $props();
 </script>
 
-<main class="wrapper">
-	<article class="article">
-		<Hero post={data} showLink={false} />
-
-		<PortableText
-			value={data.body}
-			components={{
-				types: {
-					image: ImageBlock
-				},
-				block: {
-					normal: ParagraphBlock,
-					h1: CustomHeading,
-					h2: CustomHeading,
-					h3: CustomHeading,
-					caption: Caption,
-					centered: CenteredParagraphBlock
-				},
-				list: {
-					bullet: UnorderedListWrapper
-				},
-				listItem: {
-					bullet: UnorderedListItem,
-					checklist: UnorderedListItem
-				}
-			}}
-		/>
-	</article>
-</main>
+<Hero post={data} showLink={false} />
+<article class="article">
+	<PortableText
+		value={data.body}
+		components={{
+			types: {
+				image: ImageBlock
+			},
+			block: {
+				normal: ParagraphBlock,
+				h1: CustomHeading,
+				h2: CustomHeading,
+				h3: CustomHeading,
+				caption: Caption,
+				centered: CenteredParagraphBlock
+			},
+			list: {
+				bullet: UnorderedListWrapper
+			},
+			listItem: {
+				bullet: UnorderedListItem,
+				checklist: UnorderedListItem
+			}
+		}}
+	/>
+</article>
 
 <style>
 	.article {
 		display: grid;
 		justify-items: center;
+		margin: 0;
 	}
 </style>

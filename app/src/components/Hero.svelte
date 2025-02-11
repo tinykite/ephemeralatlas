@@ -18,6 +18,10 @@
 	{/if}
 
 	<div class="hero__contentWrapper">
+		{#if post.eyebrow}
+			<p class="hero__eyebrow">{post.eyebrow}</p>
+		{/if}
+
 		<h2 class="hero__title">
 			{#if showLink}
 				<a class="hero__link" href={`/${post.slug.current}`}>
@@ -37,8 +41,8 @@
 	.hero {
 		@media (min-width: 45rem) {
 			display: grid;
-			grid-template-columns: 50% 1fr;
-			gap: 2rem;
+			grid-template-columns: 60% 1fr;
+			gap: 1.5rem;
 			align-items: center;
 			justify-content: center;
 			width: 100%;
@@ -50,6 +54,10 @@
 		font-family: var(--font-stack-headings);
 		font-weight: 600;
 
+		@media (min-width: 45rem) {
+			font-size: var(--font-size-900);
+		}
+
 		&:hover {
 			text-decoration: underline;
 		}
@@ -57,16 +65,16 @@
 
 	.hero__title {
 		margin: 0;
-		font-size: var(--font-size-300);
 
-		@media (min-wdith: 45rem) {
-			font-size: var(--font-size-600);
+		@media (min-width: 45rem) {
+			font-size: var(--font-size-900);
 		}
 	}
 
 	.hero__description {
-		font-size: var(--font-size-200);
+		font-size: var(--font-size-100);
 		margin-block-start: 0.5rem;
+		margin-inline: auto;
 		font-style: italic;
 
 		@media (min-width: 45rem) {
@@ -74,12 +82,16 @@
 		}
 	}
 
+	.hero__eyebrow {
+		text-transform: uppercase;
+		font-size: var(--font-size-100);
+	}
+
 	.hero__contentWrapper {
 		margin-block-start: 1rem;
 		text-align: center;
 
 		@media (min-width: 45rem) {
-			text-align: left;
 			margin: 0;
 		}
 	}
