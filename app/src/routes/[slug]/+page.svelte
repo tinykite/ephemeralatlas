@@ -4,8 +4,7 @@
 		[key: string]: any;
 	}
 
-	let { data, ...rest }: Props = $props();
-	rest;
+	let { data }: Props = $props();
 </script>
 
 <Article {data} />

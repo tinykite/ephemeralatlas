@@ -10,14 +10,14 @@
 
 	let { post, showLink }: Props = $props();
 
-	const date = format(new Date(post.publishedAt), 'MMMM do, y');
+	const image = post.image || post.mainImage;
 </script>
 
 <header class="hero">
 	{#if post.mainIllustration}
 		<Illustration name={post.mainIllustration} />
-	{:else if post.mainImage}
-		<img class="hero__graphic" src={urlFor(post.mainImage).url()} alt={post.mainImage.alt} />
+	{:else if image}
+		<img class="hero__graphic" src={urlFor(image).url()} alt={image.alt} />
 	{/if}
 
 	<div class="hero__contentWrapper">
@@ -38,7 +38,9 @@
 			<p class="hero__description">{post.description}</p>
 		{/if}
 
-		<p class="hero__date">{date}</p>
+		{#if post.date}
+			<p class="hero__date">{format(new Date(post.publishedAt), 'MMMM do, y')}</p>
+		{/if}
 	</div>
 </header>
 
