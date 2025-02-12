@@ -13,48 +13,45 @@
 	const archive = posts.slice(1, posts.length);
 </script>
 
-<div class="latestArticle">
-	<Hero post={latestPost} showLink={true} />
-</div>
+<ul class="articleList">
+	<li class="articleList__item articleList__item--hero">
+		<Hero post={latestPost} showLink={true} />
+	</li>
 
-<div class="archives">
-	<h2 class="archives__heading">Archives</h2>
-	<ul class="articleList">
-		{#each archive as post, i}
-			<li class="articleList__item">
-				{#if post.mainIllustration}
-					<Illustration name={post.mainIllustration} />
-				{:else if post.mainImage}
-					<img
-						class="articleList__image"
-						loading="lazy"
-						src={urlFor(post.mainImage)
-							.width(600)
-							.height(400)
-							.quality(100)
-							.auto('format')
-							.fit('fill')
-							.url()}
-						alt={post.mainImage.alt}
-						width="600"
-						height="400"
-					/>
-				{/if}
+	{#each archive as post, i}
+		<li class="articleList__item">
+			{#if post.mainIllustration}
+				<Illustration name={post.mainIllustration} />
+			{:else if post.mainImage}
+				<img
+					class="articleList__image"
+					loading="lazy"
+					src={urlFor(post.mainImage)
+						.width(600)
+						.height(400)
+						.quality(100)
+						.auto('format')
+						.fit('fill')
+						.url()}
+					alt={post.mainImage.alt}
+					width="600"
+					height="400"
+				/>
+			{/if}
 
-				<div class="articleList__text">
-					<p class="articleList__title">
-						<a class="articleList__link" href={`/${post.slug.current}`}>
-							{post.title}
-						</a>
-					</p>
-					<p class="articleList__description">
-						{post.description}
-					</p>
-				</div>
-			</li>
-		{/each}
-	</ul>
-</div>
+			<div class="articleList__text">
+				<p class="articleList__title">
+					<a class="articleList__link" href={`/${post.slug.current}`}>
+						{post.title}
+					</a>
+				</p>
+				<p class="articleList__description">
+					{post.description}
+				</p>
+			</div>
+		</li>
+	{/each}
+</ul>
 
 <div class="intro">
 	<p class="intro__content">
@@ -64,32 +61,11 @@
 </div>
 
 <style>
-	.archives {
-		display: grid;
-		justify-items: center;
-		margin-inline: var(--spacing-16);
-
-		@media (min-width: 45rem) {
-			justify-items: unset;
-			margin-inline: 0;
-		}
-	}
-
-	/* Should become a utility class */
-	.archives__heading {
-		margin: 0;
-	}
-
-	.latestArticle {
-		display: flex;
-		justify-content: center;
-	}
-
 	.articleList {
 		display: grid;
 		list-style: none;
 		padding: 0;
-		margin-block-start: 1.5rem;
+		margin-block-start: var(--spacing-48);
 		margin-inline: auto;
 
 		@media (min-width: 45rem) {
@@ -103,6 +79,11 @@
 			grid-template-columns: 1fr 1fr 1fr;
 			column-gap: var(--spacing-52);
 		}
+	}
+
+	.articleList__item--hero {
+		grid-column: 1 / -1;
+		margin-block-end: var(--spacing-36);
 	}
 
 	.articleList__item {
