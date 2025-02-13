@@ -15,7 +15,7 @@
 
 <ul class="articleList">
 	<li class="articleList__item articleList__item--hero">
-		<Hero post={latestPost} showLink={true} />
+		<Hero content={latestPost} showLink={true} type="post" />
 	</li>
 
 	{#each archive as post, i}

@@ -15,10 +15,10 @@
 	let { data }: Props = $props();
 </script>
 
-<Hero post={data} showLink={false} />
+<Hero content={data.content} showLink={false} type={data.type} />
 <article class="article">
 	<PortableText
-		value={data.body}
+		value={data.content.body}
 		components={{
 			types: {
 				image: ImageBlock

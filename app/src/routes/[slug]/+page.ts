@@ -3,18 +3,30 @@ import type { PageLoad } from './$types';
 import { getPost, getPage } from '$lib/utils/sanity';
 
 export const load = (async ({ params }) => {
-	if (params.slug === 'about') {
-		const query = `*[_type == "page" && slug.current == "about"]`;
-        const pageData = await getPage(query) 
+	let type; 
 
-		if (pageData) {
-			return pageData[0]
+	if (params.slug === 'about') {
+		type = 'page'
+
+		const query = `*[_type == "page" && slug.current == "about"]`;
+        const content = await getPage(query) 
+
+		if (content) {
+			return {
+				type,
+				content: content[0]
+			}
 		}
 	}
 
 	else {
-		const post = await getPost(params.slug);
-		if (post) return post;
+		type = 'post'
+
+		const content = await getPost(params.slug);
+		if (content) return {
+			type,
+			content
+		}
 	}
 
 	throw error(404, 'Not found');

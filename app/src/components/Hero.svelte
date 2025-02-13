@@ -4,42 +4,45 @@
 	import { format } from 'date-fns';
 
 	interface Props {
-		post: any;
+		content: any;
 		showLink: boolean;
+		type: 'page' | 'post';
 	}
 
-	let { post, showLink }: Props = $props();
+	let { content, showLink, type }: Props = $props();
 
-	const image = post.image || post.mainImage;
+	console.log(content);
 </script>
 
 <header class="hero">
-	{#if post.mainIllustration}
-		<Illustration name={post.mainIllustration} />
-	{:else if image}
-		<img class="hero__graphic" src={urlFor(image).url()} alt={image.alt} />
+	{#if type === 'page'}
+		<img class="hero__graphic" src={urlFor(content.image).url()} alt={content.image.alt} />
+	{:else if type === 'post' && content.mainIllustration}
+		<Illustration name={content.mainIllustration} />
+	{:else if content.mainImage}
+		<img class="hero__graphic" src={urlFor(content.mainImage).url()} alt={content.mainImage.alt} />
 	{/if}
 
 	<div class="hero__contentWrapper">
-		{#if post.eyebrow}
-			<p class="hero__eyebrow">{post.eyebrow}</p>
+		{#if content.eyebrow}
+			<p class="hero__eyebrow">{content.eyebrow}</p>
 		{/if}
 
 		<h2 class="hero__title">
 			{#if showLink}
-				<a class="hero__link" href={`/${post.slug.current}`}>
-					{post.title}
+				<a class="hero__link" href={`/${content.slug.current}`}>
+					{content.title}
 				</a>
 			{:else}
-				{post.title}
+				{content.title}
 			{/if}
 		</h2>
-		{#if post.description}
-			<p class="hero__description">{post.description}</p>
+		{#if content.description}
+			<p class="hero__description">{content.description}</p>
 		{/if}
 
-		{#if post.publishedAt}
-			<p class="hero__date">{format(new Date(post.publishedAt), 'MMMM do, y')}</p>
+		{#if content.publishedAt}
+			<p class="hero__date">{format(new Date(content.publishedAt), 'MMMM do, y')}</p>
 		{/if}
 	</div>
 </header>
