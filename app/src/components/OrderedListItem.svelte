@@ -6,11 +6,4 @@
 	let { children }: Props = $props();
 </script>
 
-<ul class="list">{@render children?.()}</ul>
-
-<style>
-	.list {
-		width: 100%;
-		max-width: 60ch;
-	}
-</style>
+<ol class="list__item">{@render children?.()}</ol>

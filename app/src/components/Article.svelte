@@ -1,7 +1,8 @@
 <script lang="ts">
 	import { PortableText } from '@portabletext/svelte';
 	import UnorderedListItem from './UnorderedListItem.svelte';
-	import UnorderedListWrapper from './UnorderedListWrapper.svelte';
+	import OrderedListItem from './OrderedListItem.svelte';
+	import ListWrapper from './ListWrapper.svelte';
 	import ParagraphBlock from '$components/ParagraphBlock.svelte';
 	import ImageBlock from '$components/ImageBlock.svelte';
 	import Hero from './Hero.svelte';
@@ -32,11 +33,14 @@
 				centered: CenteredParagraphBlock
 			},
 			list: {
-				bullet: UnorderedListWrapper
+				bullet: ListWrapper,
+				number: ListWrapper
 			},
 			listItem: {
+				normal: UnorderedListItem,
 				bullet: UnorderedListItem,
-				checklist: UnorderedListItem
+				checklist: UnorderedListItem,
+				number: OrderedListItem
 			}
 		}}
 	/>
@@ -47,16 +51,9 @@
 		display: grid;
 		justify-items: center;
 		margin: 0;
-	}
+		margin-inline: auto;
 
-	:global(.article p:first-child::first-letter) {
-		@media (min-width: 45rem) {
-			float: left;
-			font-size: 6.25rem;
-			line-height: 4rem;
-			padding-top: 0.5rem;
-			padding-right: 8px;
-			padding-bottom: 8px;
-		}
+		width: 100%;
+		max-width: 60ch;
 	}
 </style>
