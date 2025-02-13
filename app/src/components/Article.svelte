@@ -54,6 +54,6 @@
 		margin-inline: auto;
 
 		width: 100%;
-		max-width: 60ch;
+		max-width: 65ch;
 	}
 </style>
