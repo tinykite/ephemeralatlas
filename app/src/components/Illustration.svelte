@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { mapleLeafGrid, sunTriptych } from '../illustrations/main';
+	import { mapleLeafGrid, sunTriptych, chicago } from '../illustrations/main';
 	interface Props {
 		name: String;
 	}
@@ -14,10 +14,8 @@
 	{#if name === 'sunTriptych'}
 		{@html sunTriptych}
 	{/if}
-	{#if name === 'test'}
-		<svg viewBox="0 0 1000 1000">
-			<rect width="1000" height="1000" fill="#EF8903" />
-		</svg>
+	{#if name === 'chicago'}
+		{@html chicago}
 	{/if}
 </div>
 
