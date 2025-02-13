@@ -7,3 +7,9 @@
 </script>
 
 <ul class="list">{@render children?.()}</ul>
+
+<style>
+	.list {
+		width: 100%;
+	}
+</style>
