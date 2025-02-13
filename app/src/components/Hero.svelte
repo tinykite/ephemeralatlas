@@ -10,8 +10,6 @@
 	}
 
 	let { content, showLink, type }: Props = $props();
-
-	console.log(content);
 </script>
 
 <header class="hero">
