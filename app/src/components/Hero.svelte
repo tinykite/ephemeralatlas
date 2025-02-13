@@ -63,7 +63,7 @@
 		font-weight: 600;
 
 		@media (min-width: 45rem) {
-			font-size: var(--font-size-900);
+			font-size: var(--font-size-800);
 		}
 
 		&:hover {
@@ -75,7 +75,7 @@
 		margin-block: 0.25rem 0.5rem;
 
 		@media (min-width: 45rem) {
-			font-size: var(--font-size-900);
+			font-size: var(--font-size-800);
 		}
 	}
 
