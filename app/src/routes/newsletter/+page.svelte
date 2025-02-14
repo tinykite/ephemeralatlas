@@ -1,74 +1,81 @@
 <script lang="ts">
-	import { enhance, applyAction } from '$app/forms';
-	import type { SvelteComponent } from 'svelte';
-	import { page } from '$app/stores';
-
-	type Form = {
-		email?: string;
-		error?: string;
-		success?: string;
-	};
-
-	let nav: HTMLElement;
-	let emailDialog: SvelteComponent;
-
-	// The $: beneath these variables is necessary to subscribe to a built-in store
-	// And trigger a re-render when the store updates.
-
-	let form: Form;
-	$: form = $page?.form;
-
-	let error: string | undefined;
-	$: error = $page?.form?.error;
-
-	let status: string | undefined;
-	$: status = $page?.form?.status;
+	/** @type {import('./$types').PageProps} */
+	let { form } = $props();
+	import FormError from '$components/FormError.svelte';
 </script>
 
-<h2>Newsletter</h2>
-<p>Subscrine to the Ephemeral Atlas newsletter to receive updates on new stories.</p>
-<form
-	class="form u-marginTop-sm"
-	id="alertForm"
-	method="POST"
-	use:enhance={() => {
-		status = 'loading';
-		return async ({ update, result }) => {
-			await update();
+<div class="newsletter">
+	<h2>Subscribe to the Newsletter</h2>
+	<p>Get new stories in your inbox. (It's free!)</p>
 
-			if (result.type === 'error') {
-				await applyAction(result);
-			}
-		};
-	}}
->
-	<label class="form__label" for="email">Email address</label>
-	<div class="form__input-group">
-		<input
-			id="email"
-			name="email"
-			type="email"
-			value={form?.email ?? ''}
-			class={classNames('form__input form__input--sm', {
-				'form__input--invalid': error
-			})}
-		/>
+	{#if form?.success}
+		<p>Successfully signed up!</p>
+	{:else}
+		<form class="form" method="POST" action="?/newsletterSignup">
+			<label class="form__label">
+				Name
+				<input class="form__input" name="name" type="name" />
+			</label>
 
-		<p class={classNames('form__errorMessage', { 'form__errorMessage--visible': error })}>
-			{error ? error : ''}
-		</p>
-	</div>
-
-	<div class="u-marginTop-xs u-marginAuto u-flex u-justifyContent-center">
-		<button class="form__button form__button--tertiary">
-			{#if status === 'loading'}
-				<span class="u-visuallyHidden">Loading</span>
-				<div class="form__dot" />
-				<div class="form__dot" />
-				<div class="form__dot" />
-			{:else}
-				Submit
+			<label class="form__label">
+				Email
+				<input class="form__input" name="email" type="email" />
+			</label>
+			{#if form?.missing}
+				<FormError message="Your email is required" />
 			{/if}
-		</button>
-	</div>
-</form>
+			{#if form?.invalid}
+				<FormError message="Your email is invalid" />
+			{/if}
+			{#if form?.error}
+				<FormError message="Whoops, something unexpected happened!" />
+			{/if}
+			<button class="form__button">Signup</button>
+		</form>
+	{/if}
+</div>
+
+<style>
+	.newsletter {
+		max-width: 60ch;
+		margin-inline: auto;
+		text-align: center;
+	}
+
+	.form {
+		display: grid;
+	}
+
+	.form__input,
+	.form__label,
+	.form__button {
+		display: block;
+		border-radius: 9999px;
+		font-family: var(--font-stack-subheadings);
+	}
+
+	.form__label {
+		text-align: left;
+	}
+
+	.form__input {
+		width: 100%;
+		padding: 0.5rem 1.25rem;
+		border: 1px solid #731963;
+		margin-block-end: 0.5rem;
+	}
+
+	.form__input,
+	.form__label {
+		margin-block-start: var(--spacing-16);
+	}
+	.form__button {
+		margin-block-start: var(--spacing-32);
+		color: white;
+		background: #731963;
+		border: none;
+		outline: transparent;
+		padding-block: 1rem;
+		cursor: pointer;
+	}
+</style>
