@@ -87,6 +87,7 @@
 	}
 
 	.articleList__item {
+		position: relative;
 		@media (min-width: 45rem) {
 			text-align: unset;
 		}
@@ -111,6 +112,15 @@
 		font-stretch: normal;
 		line-height: 1.4;
 		text-align: center;
+
+		&::before {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+		}
 
 		@media (min-width: 45rem) {
 			padding-inline: unset;

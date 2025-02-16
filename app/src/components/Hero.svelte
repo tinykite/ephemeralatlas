@@ -47,6 +47,7 @@
 
 <style>
 	.hero {
+		position: relative;
 		@media (min-width: 45rem) {
 			display: grid;
 			grid-template-columns: 60% 1fr;
@@ -68,6 +69,15 @@
 
 		&:hover {
 			text-decoration: underline;
+		}
+
+		&::before {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
 		}
 	}
 
