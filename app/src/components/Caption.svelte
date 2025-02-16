@@ -6,11 +6,6 @@
 <p class="article__text article__text--caption">{@render children?.()}</p>
 
 <style>
-	.article__text {
-		width: 100%;
-		max-width: 60ch;
-	}
-
 	.article__text--caption {
 		font-size: 1rem;
 		font-style: italic;

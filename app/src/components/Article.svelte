@@ -45,15 +45,3 @@
 		}}
 	/>
 </article>
-
-<style>
-	.article {
-		display: grid;
-		justify-items: center;
-		margin: 0;
-		margin-inline: auto;
-
-		width: 100%;
-		max-width: 70ch;
-	}
-</style>
