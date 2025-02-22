@@ -10,7 +10,7 @@
 
 	let ogImage = $derived.by(() => {
 		if (data.content.ogImage) {
-			return urlFor(data.content.ogImage).width(1200).url();
+			return urlFor(data.content.ogImage).width(1200).dpr(2).url();
 		}
 		return 'https://ephemeralatlas.com/og-image.png';
 	});
