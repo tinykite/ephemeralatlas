@@ -18,6 +18,9 @@
 
 <svelte:head>
 	<title>{data.content.title} - Ephemeral Atlas</title>
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content={`${data.content.title} - Ephemeral Atlas`} />
+	<meta property="og:description" content={data.content.description} />
 	<meta property="og:image" content={ogImage} />
 	<meta property="twitter:image" content={ogImage} />
 </svelte:head>

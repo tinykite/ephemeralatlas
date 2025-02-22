@@ -15,6 +15,9 @@
 
 <svelte:head>
 	<title>Ephemeral Atlas</title>
+	<meta property="og:type" content="website" />
+	<meta property="og:image" content="https://ephemeralatlas.com/og-image.png" />
+	<meta property="twitter:image" content="https://ephemeralatlas.com/og-image.png" />
 </svelte:head>
 
 <ul class="articleList">
