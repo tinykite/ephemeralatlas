@@ -13,6 +13,10 @@
 	const archive = posts.slice(1, posts.length);
 </script>
 
+<svelte:head>
+	<title>Ephemeral Atlas</title>
+</svelte:head>
+
 <ul class="articleList">
 	<li class="articleList__item articleList__item--hero">
 		<Hero content={latestPost} showLink={true} type="post" />

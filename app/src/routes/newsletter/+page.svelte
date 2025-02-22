@@ -4,6 +4,10 @@
 	import FormError from '$components/FormError.svelte';
 </script>
 
+<svelte:head>
+	<title>Newsletter — Ephemeral Atlas</title>
+</svelte:head>
+
 <div class="newsletter">
 	<h2>Subscribe to the Newsletter</h2>
 	<p>Get new stories in your inbox. (It's free!)</p>

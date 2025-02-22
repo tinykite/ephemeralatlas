@@ -13,6 +13,14 @@
 	let { children }: Props = $props();
 </script>
 
+<svelte:head>
+	<meta property="og:title" content="Ephemeral Atlas" />
+	<meta
+		property="og:description"
+		content="Ephemeral Atlas explores nature, art, and community from a queer and disabled perspective"
+	/></svelte:head
+>
+
 <main class="wrapper">
 	<Nav />
 	{@render children?.()}
