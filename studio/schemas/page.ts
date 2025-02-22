@@ -36,6 +36,24 @@ export default {
         ],
       },
       {
+        name: 'mainImage',
+        title: 'Image',
+        type: 'image',
+        options: {hotspot: true},
+        fields: [
+          {
+            name: 'alt',
+            type: 'string',
+            title: 'Alternative text',
+          },
+        ],
+      },
+      {
+        name: 'ogImage',
+        title: 'OG Image',
+        type: 'image',
+      },
+      {
         name: 'body',
         title: 'Body',
         type: 'blockContent',

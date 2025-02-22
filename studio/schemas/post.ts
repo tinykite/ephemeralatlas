@@ -61,6 +61,11 @@ export default defineType({
       },
       initialValue: '4x6'
     }),
+    {
+      name: 'ogImage',
+      title: 'OG Image',
+      type: 'image',
+    },
     defineField({
       name: 'categories',
       title: 'Categories',
