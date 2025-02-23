@@ -208,11 +208,15 @@ iframe + p {
 
 .article {
 	display: grid;
-	grid-template-columns: 1fr 65ch 1fr;
+	grid-template-columns: 1fr 1fr 1fr;
 	justify-items: center;
 	margin-block-start: 0;
 	margin-inline: auto;
 	width: 100%;
+
+	@media (min-width: 65ch) {
+		grid-template-columns: 1fr 65ch 1fr;
+	}
 }
 
 article * {
@@ -221,7 +225,7 @@ article * {
 
 .article__text {
 	width: 100%;
-	margin-block-start: 0;
+	margin: 0;
 }
 
 .article__text + .article__text  {
