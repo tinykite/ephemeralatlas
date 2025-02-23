@@ -6,6 +6,7 @@
 </script>
 
 <header class="header">
+	<a class="u-skipLink" href="#main">Skip to Main Content</a>
 	<Logo />
 	<nav class="nav">
 		<button class="button" aria-expanded={menuToggled} onclick={() => (menuToggled = !menuToggled)}>

@@ -15,6 +15,8 @@
 
 <main class="wrapper">
 	<Nav />
-	{@render children?.()}
+	<div id="main">
+		{@render children?.()}
+	</div>
 </main>
 <Footer />
