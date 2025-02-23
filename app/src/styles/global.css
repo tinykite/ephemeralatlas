@@ -71,21 +71,6 @@ h6 {
 	width: 85%;
 	max-width: 65rem;
 	margin-inline: auto;
-
-	& > :first-child {
-		margin-block-start: 2rem;
-	}
-
-
-	& > :not(:first-child) {
-		margin-block-start: 2.5rem;
-	}
-
-	@media (min-width: 45rem) {
-		& > :not(:first-child) {
-			margin-block-start: 3.375rem;
-		}
-	}
 }
 
 body {
@@ -200,17 +185,20 @@ iframe + p {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	justify-items: center;
-	margin-inline: auto;
 	width: 100%;
+	margin-inline: auto;
 
 	@media (min-width: 65ch) {
-		margin-block-start: 2rem;
 		grid-template-columns: 1fr 65ch 1fr;
 	}
 }
 
 article * {
-	grid-column: 2 / 2;
+	grid-column: 1 / -1;
+
+	@media (min-width: 65ch) {
+		grid-column: 2 / 2;
+	}
 }
 
 .article__text {

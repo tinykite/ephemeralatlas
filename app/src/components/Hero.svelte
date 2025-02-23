@@ -55,6 +55,11 @@
 			align-items: center;
 			justify-content: center;
 			width: 100%;
+			margin-block: var(--spacing-16);
+		}
+
+		@media (min-width: 60rem) {
+			margin-block: var(--spacing-60);
 		}
 	}
 

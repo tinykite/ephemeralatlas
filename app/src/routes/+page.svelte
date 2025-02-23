@@ -72,7 +72,7 @@
 		display: grid;
 		list-style: none;
 		padding: 0;
-		margin-block-start: var(--spacing-48);
+		margin-block-start: 0;
 		margin-inline: auto;
 
 		@media (min-width: 45rem) {
@@ -90,7 +90,6 @@
 
 	.articleList__item--hero {
 		grid-column: 1 / -1;
-		margin-block-end: var(--spacing-36);
 	}
 
 	.articleList__item {
