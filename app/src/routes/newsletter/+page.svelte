@@ -17,11 +17,6 @@
 	{:else}
 		<form class="form" method="POST" action="?/newsletterSignup">
 			<label class="form__label">
-				Name
-				<input class="form__input" name="name" type="name" />
-			</label>
-
-			<label class="form__label">
 				Email
 				<input class="form__input" name="email" type="email" />
 			</label>
