@@ -3,18 +3,21 @@
 
 	interface Props {
 		portableText: any;
+		gridImage: any;
 	}
 
-	let { portableText }: Props = $props();
-	let { value } = $derived(portableText);
+	let { portableText, gridImage }: Props = $props();
 </script>
 
-{#if value.asset}
+{#if portableText?.value}
 	<figure class="figure">
-		<SanityImage image={value} />
-		{#if value.caption}
-			<figcaption>{value.caption}</figcaption>
-		{/if}
+		<SanityImage alt={portableText.value.alt} asset={portableText.value.asset} />
+	</figure>
+{/if}
+
+{#if gridImage}
+	<figure class="figure figure--gridItem">
+		<SanityImage alt={gridImage.alt} asset={gridImage.image.asset} type="grid" />
 	</figure>
 {/if}
 

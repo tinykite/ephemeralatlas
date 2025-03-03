@@ -9,6 +9,8 @@
 	import CustomHeading from './CustomHeading.svelte';
 	import CenteredParagraphBlock from './CenteredParagraphBlock.svelte';
 	import Caption from './Caption.svelte';
+	import Youtube from './Youtube.svelte';
+	import ImageGrid from './ImageGrid.svelte';
 	interface Props {
 		data: any;
 	}
@@ -22,7 +24,9 @@
 		value={data.content.body}
 		components={{
 			types: {
-				image: ImageBlock
+				image: ImageBlock,
+				imageGrid: ImageGrid,
+				youtube: Youtube
 			},
 			block: {
 				normal: ParagraphBlock,

@@ -3,14 +3,14 @@
 	import { onMount } from 'svelte';
 	import { browser } from '$app/environment';
 
-	/** @type {{image: any, maxWidth?: number, alt?: any}} */
-	let { image, maxWidth = 1200, alt = undefined } = $props();
+	/** @type {{asset: any, maxWidth?: number, alt?: any, type?: string}} */
+	let { asset, maxWidth = 1200, alt, type } = $props();
 
 	// Example image document ID: image-cc93b69600f5cd1abce97fd0d4aa71793dbbba76-1350x900-png
 	// Structure: image-${storedImgId}-${dimensions}-${format}
 
 	// If we split it by "-", the 3rd element are the dimensions (1350x900)
-	let dimensions = $derived(image?.asset?._ref?.split('-')[2]);
+	let dimensions = $derived(asset?._ref?.split('-')[2]);
 	// If we split dimensions by "x", we get the width (1350) and height (900)
 	let [width, height] = $derived(dimensions.split('x').map(Number));
 
@@ -27,12 +27,14 @@
 	});
 </script>
 
-{#if browser && image}
+{#if browser && asset}
 	<img
 		loading="lazy"
-		src={urlFor(image).width(maxWidth).fit('fillmax').auto('format').url()}
-		alt={alt || image.alt || ''}
+		src={urlFor(asset).width(maxWidth).fit('fillmax').auto('format').url()}
+		{alt}
+		class="image"
 		class:loaded
+		class:image--grid={type === 'grid'}
 		bind:this={imageRef}
 		style="aspect-ratio: {aspectRatio};"
 	/>
