@@ -201,6 +201,7 @@ article * {
 .figure {
 	max-width: 100%;
 	height: auto;
+	justify-self: center;
 }
 
 .figure, .imageGrid {
