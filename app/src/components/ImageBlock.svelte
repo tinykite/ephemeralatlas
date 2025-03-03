@@ -20,9 +20,3 @@
 		<SanityImage alt={gridImage.alt} asset={gridImage.image.asset} type="grid" />
 	</figure>
 {/if}
-
-<style>
-	.figure {
-		margin-inline: auto;
-	}
-</style>
