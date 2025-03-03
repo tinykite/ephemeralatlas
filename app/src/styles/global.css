@@ -21,6 +21,7 @@ canvas,
 svg {
 	display: block;
 	max-width: 100%;
+	height: auto;
 }
 input,
 button,
@@ -169,12 +170,8 @@ pre {
 	margin-block-start: var(--spacing-16);
 }
 
-iframe {
-	margin: var(--spacing-16) auto 0;
-}
-
-iframe + p {
-	margin-block-start: var(--spacing-16);
+.video {
+	margin-block: var(--spacing-32);
 }
 
 .article {
@@ -199,13 +196,14 @@ article * {
 
 .article__text {
 	width: 100%;
-	margin: 0;
 }
 
-.article__text + .article__text  {
-	margin-block-start: 1rem;
-}
 .figure {
+	max-width: 100%;
+	height: auto;
+}
+
+.figure, .imageGrid {
 	margin-block: var(--spacing-36);
 	grid-column: 1 / -1;
 }
@@ -216,13 +214,12 @@ article * {
 }
 
 .image--grid {
-	margin-block: var(--spacing-36);
 	object-fit: cover;
 	height: 100%;
+	width: auto;
 }
 
 .imageGrid {
-	grid-column: 1 / -1;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	gap: var(--spacing-16);
@@ -230,10 +227,11 @@ article * {
 
 .video {
 	grid-column: 1 / -1;
-	aspect-ratio: 16 /9;
+	aspect-ratio: 16/9;
 	width: 100%;
 	height: auto;
 }
+
 
 .u-visually-hidden {
 	position: absolute;

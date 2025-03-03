@@ -44,6 +44,7 @@
 		@media (min-width: 50rem) {
 			grid-row: 1;
 			grid-column: 2 / -1;
+			justify-self: end;
 		}
 	}
 
@@ -65,7 +66,6 @@
 
 		@media (min-width: 50rem) {
 			display: flex;
-			justify-self: end;
 			text-align: left;
 		}
 	}
