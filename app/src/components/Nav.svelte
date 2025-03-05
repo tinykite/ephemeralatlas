@@ -18,7 +18,13 @@
 		<ul class="navList">
 			{#each navItems as navItem}
 				<li class="navList__item">
-					<a class="navList__link" href={navItem.url}>
+					<a
+						class="navList__link"
+						href={navItem.url}
+						onclick={() => {
+							menuToggled = !menuToggled;
+						}}
+					>
 						{navItem.name}
 					</a>
 				</li>
