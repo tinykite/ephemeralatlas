@@ -80,7 +80,7 @@
 			grid-template-columns: 1fr 1fr;
 			align-items: start;
 			max-width: 70rem;
-			column-gap: var(--spacing-24);
+			gap: var(--spacing-24);
 		}
 
 		@media (min-width: 70rem) {
