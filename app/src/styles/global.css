@@ -239,9 +239,11 @@ article * {
 }
 
 .image--grid {
-	object-fit: cover;
-	height: 100%;
-	width: auto;
+	@media (min-width: 50rem) {
+		height: 100%;
+		width: auto;
+		object-fit: cover;
+	}
 }
 
 .imageGrid {
