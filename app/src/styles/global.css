@@ -70,8 +70,9 @@ h6 {
 
 .wrapper {
 	width: 85%;
-	max-width: 65rem;
 	margin-inline: auto;
+
+		max-width: 65rem;
 }
 
 body {
@@ -95,7 +96,7 @@ pre {
 	font-family: var(--font-stack-body);
 	font-weight: normal;
 
-	@media (min-width: 31.25rem) {
+	@media (min-width: 50rem) {
 		font-size: var(--font-size-300);
 	}
 }
@@ -114,7 +115,7 @@ h2 {
 	font-size: var(--font-size-100);
 	margin-block-start: var(--spacing-36);
 
-	@media (min-width: 31.25rem) {
+	@media (min-width: 50rem) {
 		font-size: var(--font-size-500);
 	}
 }
@@ -177,7 +178,7 @@ pre {
 	width: 100%;
 	margin-inline: auto;
 
-	@media (min-width: 65ch) {
+	@media (min-width: 75ch) {
 		grid-template-columns: 1fr 65ch 1fr;
 	}
 }
@@ -185,7 +186,7 @@ pre {
 article * {
 	grid-column: 1 / -1;
 
-	@media (min-width: 65ch) {
+	@media (min-width: 75ch) {
 		grid-column: 2 / 2;
 	}
 }
@@ -235,10 +236,14 @@ article * {
 
 .figure--gridItem {
 	margin-block: 0;
-	grid-column: unset;
+
+	@media (min-width: 50rem) {
+		grid-column: unset;
+	}
 }
 
 .image--grid {
+
 	@media (min-width: 50rem) {
 		height: 100%;
 		width: auto;

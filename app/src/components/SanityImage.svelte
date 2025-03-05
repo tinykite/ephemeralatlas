@@ -16,7 +16,6 @@
 	const width = $derived(dimensions?.split('x')[0]);
 	const height = $derived(dimensions?.split('x')[1]);
 	const renderedWidth = $derived(parseInt(width) < maxWidth ? parseInt(width) : maxWidth);
-	let aspectRatio = $derived(width / height);
 
 	let imageRef = $state();
 	// Once loaded, the image will transition to full opacity
@@ -39,7 +38,7 @@
 		class:image--grid={type === 'grid'}
 		bind:this={imageRef}
 		width={renderedWidth}
-		style="aspect-ratio: {aspectRatio};"
+		style="aspect-ratio: {width} / {height};"
 	/>
 {/if}
 
