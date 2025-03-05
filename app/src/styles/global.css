@@ -247,9 +247,12 @@ article * {
 .imageGrid {
 	grid-column: 1 / -1;
 	display: grid;
-	grid-template-columns: 1fr 1fr;
 	gap: var(--spacing-16);
 	margin-block-start: var(--spacing-36);
+
+	@media (min-width: 50rem) {
+		grid-template-columns: 1fr 1fr;
+	}
 }
 
 .video {
