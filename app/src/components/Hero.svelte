@@ -47,6 +47,7 @@
 
 <style>
 	.hero {
+		margin: 0;
 		position: relative;
 		@media (min-width: 45rem) {
 			display: grid;
@@ -55,11 +56,11 @@
 			align-items: center;
 			justify-content: center;
 			width: 100%;
-			margin-block: var(--spacing-16);
+			margin-block-start: var(--spacing-16);
 		}
 
 		@media (min-width: 60rem) {
-			margin-block: var(--spacing-60);
+			margin-block-start: var(--spacing-60);
 		}
 	}
 

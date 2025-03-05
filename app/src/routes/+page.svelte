@@ -74,17 +74,18 @@
 		padding: 0;
 		margin-block-start: 0;
 		margin-inline: auto;
+		gap: var(--spacing-16);
 
 		@media (min-width: 45rem) {
 			grid-template-columns: 1fr 1fr;
 			align-items: start;
 			max-width: 70rem;
-			gap: var(--spacing-24);
+			column-gap: var(--spacing-24);
 		}
 
 		@media (min-width: 70rem) {
 			grid-template-columns: 1fr 1fr 1fr;
-			column-gap: var(--spacing-52);
+			gap: var(--spacing-52);
 		}
 	}
 
@@ -94,21 +95,13 @@
 
 	.articleList__item {
 		position: relative;
+		margin-block: 0;
 		@media (min-width: 45rem) {
 			text-align: unset;
 		}
 	}
 
-	.articleList__item:not(:first-of-type) {
-		margin-block-start: var(--spacing-32);
-
-		@media (min-width: 45rem) {
-			margin-block-start: unset;
-		}
-	}
-
 	.articleList__link {
-		margin-block-start: 1.125rem;
 		display: block;
 		padding-inline: var(--spacing-16);
 		text-decoration: none;
