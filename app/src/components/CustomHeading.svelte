@@ -19,11 +19,3 @@
 {:else}
 	<h4 class="article__subheading">{@render children?.()}</h4>
 {/if}
-
-<style>
-	.article__subheading {
-		width: 100%;
-		max-width: 35ch;
-		margin-block-start: var(--spacing-32);
-	}
-</style>

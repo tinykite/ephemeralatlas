@@ -190,6 +190,16 @@ article * {
 	}
 }
 
+.article__subheading {
+	width: 100%;
+	max-width: 35ch;
+	margin-block-start: var(--spacing-32);
+}
+
+.article__subheading + .article__text {
+	margin-block-start: 1rem;
+}
+
 .article__text {
 	margin: 0;
 	width: 100%;
