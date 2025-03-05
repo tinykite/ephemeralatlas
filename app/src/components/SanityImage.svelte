@@ -9,11 +9,13 @@
 	// Example image document ID: image-cc93b69600f5cd1abce97fd0d4aa71793dbbba76-1350x900-png
 	// Structure: image-${storedImgId}-${dimensions}-${format}
 
-	// If we split it by "-", the 3rd element are the dimensions (1350x900)
-	let dimensions = $derived(asset?._ref?.split('-')[2]);
-	// If we split dimensions by "x", we get the width (1350) and height (900)
-	let [width, height] = $derived(dimensions.split('x').map(Number));
-
+	const dimensions = $derived(asset?._ref?.split('-')[2]);
+	// const aspectRatio = $derived(
+	// 	parseInt(dimensions?.split('x')[1]) / parseInt(dimensions?.split('x')[0])
+	// );
+	const width = $derived(dimensions?.split('x')[0]);
+	const height = $derived(dimensions?.split('x')[1]);
+	const renderedWidth = $derived(parseInt(width) < maxWidth ? parseInt(width) : maxWidth);
 	let aspectRatio = $derived(width / height);
 
 	let imageRef = $state();
@@ -30,20 +32,20 @@
 {#if browser && asset}
 	<img
 		loading="lazy"
-		src={urlFor(asset).width(maxWidth).fit('fillmax').auto('format').url()}
+		src={urlFor(asset).width(renderedWidth).auto('format').url()}
 		{alt}
 		class="image"
 		class:loaded
 		class:image--grid={type === 'grid'}
 		bind:this={imageRef}
+		width={renderedWidth}
 		style="aspect-ratio: {aspectRatio};"
 	/>
 {/if}
 
-<!-- some optional effects to make image loading look nicer -->
 <style>
 	img {
-		object-fit: contain;
+		display: block;
 		opacity: 0;
 		transition: opacity 500ms ease-out;
 	}

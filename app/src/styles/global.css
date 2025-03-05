@@ -229,12 +229,8 @@ article * {
 }
 
 .figure {
-	max-width: 100%;
-	height: auto;
-	justify-self: center;
 	margin-inline: auto;
 	margin-block-start: var(--spacing-36);
-	grid-column: 1 / -1;
 }
 
 .figure--gridItem {
