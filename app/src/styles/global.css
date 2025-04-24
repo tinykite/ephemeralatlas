@@ -152,7 +152,6 @@ body {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	background-color: var(--c-background-color);
 	font-feature-settings: 'liga', 'kern';
 }
 
@@ -296,7 +295,7 @@ article * {
 
 .u-skipLink {
 	position: absolute;
-	top: calc(-100% + -1rem);
+	top: calc(-100% + -4rem);
 	left: 0;
 	background: black;
 	color: white;

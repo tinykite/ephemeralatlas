@@ -40,7 +40,11 @@
 		row-gap: 1rem;
 		align-items: center;
 		position: relative;
-		margin-block-start: var(--spacing-32);
+		margin-block-start: var(--spacing-16);
+
+		@media (min-width: 45rem) {
+			margin-block-start: var(--spacing-40);
+		}
 	}
 
 	.nav {

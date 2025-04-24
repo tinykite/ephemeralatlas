@@ -89,10 +89,6 @@
 
 	.hero__title {
 		margin-block: 0.25rem 0.5rem;
-
-		@media (min-width: 45rem) {
-			font-size: var(--font-size-800);
-		}
 	}
 
 	.hero__description,
