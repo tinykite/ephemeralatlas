@@ -14,6 +14,11 @@ body {
 	line-height: 1.5;
 	-webkit-font-smoothing: antialiased;
 }
+
+img {
+	object-fit: contain; /* Safari fix */
+}
+
 img,
 picture,
 video,
@@ -241,6 +246,7 @@ article * {
 .figure {
 	margin-inline: auto;
 	margin-block-start: var(--spacing-36);
+	grid-column: 1 / -1;
 }
 
 .figure--gridItem {
