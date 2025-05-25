@@ -2,6 +2,7 @@
 	import { urlFor } from '$lib/utils/image';
 	import Illustration from '$components/Illustration.svelte';
 	import Hero from '$components/Hero.svelte';
+	import { format } from 'date-fns';
 
 	interface Props {
 		[key: string]: any;
@@ -20,11 +21,15 @@
 	<meta property="twitter:image" content="https://ephemeralatlas.com/og-image.png" />
 </svelte:head>
 
-<ul class="articleList">
-	<li class="articleList__item articleList__item--hero">
-		<Hero content={latestPost} showLink={true} type="post" />
-	</li>
+<Hero content={latestPost} showLink={true} type="post" />
 
+<div class="intro">
+	<p class="intro__content">
+		Ephemeral Atlas is a creative exploration of storytelling, art, and culture.
+	</p>
+</div>
+
+<ul class="articleList">
 	{#each archive as post, i}
 		<li class="articleList__item">
 			{#if post.mainIllustration}
@@ -52,27 +57,21 @@
 						{post.title}
 					</a>
 				</p>
-				<p class="articleList__description">
-					{post.description}
-				</p>
+
+				{#if post.publishedAt}
+					<p class="articleList__date">{format(new Date(post.publishedAt), 'MMMM do, y')}</p>
+				{/if}
 			</div>
 		</li>
 	{/each}
 </ul>
-
-<div class="intro">
-	<p class="intro__content">
-		Ephemeral Atlas is a creative exploration of storytelling, art, and culture from a queer &
-		disabled perspective.
-	</p>
-</div>
 
 <style>
 	.articleList {
 		display: grid;
 		list-style: none;
 		padding: 0;
-		margin-block-start: 0;
+		margin-block-start: 3rem;
 		margin-inline: auto;
 		gap: var(--spacing-16);
 
@@ -85,12 +84,8 @@
 
 		@media (min-width: 70rem) {
 			grid-template-columns: 1fr 1fr 1fr;
-			gap: var(--spacing-52);
+			gap: var(--spacing-40);
 		}
-	}
-
-	.articleList__item--hero {
-		grid-column: 1 / -1;
 	}
 
 	.articleList__item {
@@ -144,18 +139,15 @@
 	}
 
 	.articleList__title {
-		margin-block-start: 1rem;
+		margin-block-start: var(--spacing-12);
+		font-size: 1.25rem;
 	}
 
-	.articleList__description {
+	.articleList__date {
+		font-size: 1rem;
 		margin-block-start: 0.5rem;
-		font-size: var(--font-size-100);
+		color: #757575;
 		font-style: italic;
-		text-align: center;
-
-		@media (min-width: 45rem) {
-			text-align: unset;
-		}
 	}
 
 	.intro {
